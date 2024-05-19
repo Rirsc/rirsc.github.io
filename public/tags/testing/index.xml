@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Testing on RIRSC</title>
+    <link>http://localhost:1313/tags/testing/</link>
+    <description>Recent content in Testing on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Mon, 11 May 2020 11:27:41 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Python unittest &#43; Meson</title>
+      <link>http://localhost:1313/posts/python-unittest-meson/</link>
+      <pubDate>Mon, 11 May 2020 11:27:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/python-unittest-meson/</guid>
+      <description><![CDATA[<p>Alright, I started writing some unit tests for <a href="https://gabmus.gitlab.io/gnome-feeds">Feeds</a> and I wanted to integrate them into meson, so that I can just run <code>meson test</code> or <code>ninja test</code> during build and have them run automagically.</p>
+<p>As an added bonus, they <em>should</em> also run when creating a flatpak package, so that I don&rsquo;t accidentally push a broken built to users.</p>
+<p>Here&rsquo;s the very simplistic way I accomplished this task:</p>
+<ul>
+<li>have your tests in a <code>tests</code> directory in the root of your project</li>
+<li>add this to your <code>meson.build</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>envdata <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">environment</span>()
+</span></span><span style="display:flex;"><span>python_paths <span style="color:#ff79c6">=</span> [<span style="color:#8be9fd;font-style:italic">join_paths</span>(meson.current_build_dir(), <span style="color:#f1fa8c">&#39;..&#39;</span>)]
+</span></span><span style="display:flex;"><span>envdata.append(<span style="color:#f1fa8c">&#39;PYTHONPATH&#39;</span>, python_paths)
+</span></span><span style="display:flex;"><span>envdata.append(<span style="color:#f1fa8c">&#39;TESTS_BUILDDIR&#39;</span>, meson.current_build_dir())
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">test</span>(
+</span></span><span style="display:flex;"><span>  <span style="color:#f1fa8c">&#39;unit-tests&#39;</span>,
+</span></span><span style="display:flex;"><span>  import(<span style="color:#f1fa8c">&#39;python&#39;</span>).find_installation(<span style="color:#f1fa8c">&#39;python3&#39;</span>),
+</span></span><span style="display:flex;"><span>  args: [<span style="color:#f1fa8c">&#39;-m&#39;</span>, <span style="color:#f1fa8c">&#39;unittest&#39;</span>, <span style="color:#f1fa8c">&#39;tests&#39;</span>],
+</span></span><span style="display:flex;"><span>  env: envdata
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>While this works locally, I&rsquo;m still having problems with running them during the flatpak build in GitLab CI, so I&rsquo;ll try to solve that as well and update this post accordingly.</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

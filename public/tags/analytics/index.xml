@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Analytics on RIRSC</title>
+    <link>http://localhost:1313/tags/analytics/</link>
+    <description>Recent content in Analytics on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Wed, 14 Aug 2019 19:40:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/analytics/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>On privacy conscious comments and analytics</title>
+      <link>http://localhost:1313/posts/on_comments_and_analytics/</link>
+      <pubDate>Wed, 14 Aug 2019 19:40:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/on_comments_and_analytics/</guid>
+      <description><![CDATA[<p>This blog is fairly new, and so I still have to set up everything. Comments are obviously a very important part of a blog, especially if you want any kind of feedback on the stuff you&rsquo;re doing.</p>
+<p>The lazy solution is pretty obvious: <a href="https://en.wikipedia.org/wiki/Disqus#Criticism,_privacy,_and_security_concerns"><em>Disqus</em> the privacy nightmare</a>.</p>
+<p>I like the wild idea of respecting my readers&rsquo; privacy, and so I started looking for alternative solutions.</p>
+<p>The one solution I chose to adopt is an open source comment platform called <a href="https://commento.io/"><strong>Commento</strong></a>. It works just like Disqus, except since it doesn&rsquo;t make money from violating people&rsquo;s privacy, you can&rsquo;t really use it for free.</p>
+<p>You can either choose to pay what you want for it (with a minimum of 3 USD) or host it yourself.</p>
+<p>I already pay for a VPS for <a href="https://techpills.technology">Tech Pills&rsquo; website</a>, but it&rsquo;s not subject to heavy load, so a service more running on it wouldn&rsquo;t really hurt.</p>
+<p>You can install Commento using <code>docker-compose</code>, which is very convenient. I made some changes to the <code>docker-compose.yml</code> file to better suit my needs, and put an nginx reverse proxy in front of it to add https into the mix.</p>
+<p>After writing some CSS to adapt it to the blog&rsquo;s theme, the new comment box is ready to roll.</p>
+<p>As a nice (unexpected) bonus, Commento also provides some basic analytics like total page views and number of comments. And that&rsquo;s all totally anonymous, it&rsquo;s just a faceless number that&rsquo;s not associated to any identity.</p>
+<p>And that&rsquo;s about it, if you&rsquo;re looking for a privacy respecting, open source, powerful comment platform, that&rsquo;s also pretty easy to install and offers some bonus analytics on top, Commento is the way to go.</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Yml on RIRSC</title>
+    <link>http://localhost:1313/tags/yml/</link>
+    <description>Recent content in Yml on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Sat, 31 Aug 2019 12:24:16 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/yml/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>GitLab CI/CD for Flatpak</title>
+      <link>http://localhost:1313/posts/gitlab-ci-cd-for-flatpak/</link>
+      <pubDate>Sat, 31 Aug 2019 12:24:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/gitlab-ci-cd-for-flatpak/</guid>
+      <description><![CDATA[<p>Thanks to <a href="https://gitlab.gnome.org/GNOME/Initiatives/wikis/DevOps-with-Flatpak">this document</a>, and a quick look at <a href="https://gitlab.gnome.org/GNOME/nautilus/tree/master">nautilus&rsquo;s git repo</a> I was able to automatically generate fresh flatpaks directly from GitLab by using the integrated CI/CD system.</p>
+<p>My current setup isn&rsquo;t perfect but it manages to automate flatpak builds. This is incredibly useful, as when people open issues and I try to fix them, I can just tell them to install the lastest flatpak from the CI/CD and test the fixes.</p>
+<p>Also, for power users and curious minds I imagine it could be compelling to be able to install the latest development snapshot without jumping through many hoops.</p>
+<p>Anyway, let&rsquo;s get down to business, here&rsquo;s the <code>.gitlab-ci.yml</code> file to let the magic happen:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ff79c6">include</span>: <span style="color:#f1fa8c">&#39;https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">variables</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">BUNDLE</span>: <span style="color:#f1fa8c">&#34;gfeeds.flatpak&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">flatpak</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">image</span>: <span style="color:#f1fa8c">&#39;registry.gitlab.gnome.org/gnome/gnome-runtime-images/gnome:3.32&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">variables</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">MANIFEST_PATH</span>: <span style="color:#f1fa8c">&#34;dist/flatpak/org.gabmus.gfeeds.json&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">MESON_ARGS</span>: <span style="color:#f1fa8c">&#34;-Dprofile=Devel&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">FLATPAK_MODULE</span>: <span style="color:#f1fa8c">&#34;gfeeds&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">RUNTIME_REPO</span>: <span style="color:#f1fa8c">&#34;https://flathub.org/repo/flathub.flatpakrepo&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">APP_ID</span>: <span style="color:#f1fa8c">&#34;org.gabmus.gfeeds&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">extends</span>: .flatpak
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">review</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">stage</span>: deploy
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">dependencies</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#f1fa8c">&#39;flatpak&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">extends</span>: <span style="color:#f1fa8c">&#39;.review&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">stop_review</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">stage</span>: deploy
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">extends</span>: <span style="color:#f1fa8c">&#39;.stop_review&#39;</span>
+</span></span></code></pre></div><p>Hope you find a good use for it.</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

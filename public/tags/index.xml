@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Tags on RIRSC</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Wed, 07 Feb 2024 07:32:14 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Gtk</title>
+      <link>http://localhost:1313/tags/gtk/</link>
+      <pubDate>Wed, 07 Feb 2024 07:32:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/gtk/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Gtk4</title>
+      <link>http://localhost:1313/tags/gtk4/</link>
+      <pubDate>Wed, 07 Feb 2024 07:32:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/gtk4/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Relm4</title>
+      <link>http://localhost:1313/tags/relm4/</link>
+      <pubDate>Wed, 07 Feb 2024 07:32:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/relm4/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Rust</title>
+      <link>http://localhost:1313/tags/rust/</link>
+      <pubDate>Wed, 07 Feb 2024 07:32:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/rust/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/terminal/</link>
+      <pubDate>Wed, 07 Feb 2024 07:32:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/terminal/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Amdgpu</title>
+      <link>http://localhost:1313/tags/amdgpu/</link>
+      <pubDate>Sat, 20 Jan 2024 08:42:01 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/amdgpu/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Gpu</title>
+      <link>http://localhost:1313/tags/gpu/</link>
+      <pubDate>Sat, 20 Jan 2024 08:42:01 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/gpu/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 20 Jan 2024 08:42:01 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Radeon</title>
+      <link>http://localhost:1313/tags/radeon/</link>
+      <pubDate>Sat, 20 Jan 2024 08:42:01 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/radeon/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Editor</title>
+      <link>http://localhost:1313/tags/editor/</link>
+      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/editor/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Neovim</title>
+      <link>http://localhost:1313/tags/neovim/</link>
+      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/neovim/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Nvpunk</title>
+      <link>http://localhost:1313/tags/nvpunk/</link>
+      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/nvpunk/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:1313/tags/vim/</link>
+      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/vim/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>App</title>
+      <link>http://localhost:1313/tags/app/</link>
+      <pubDate>Mon, 14 Feb 2022 11:31:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/app/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Blueprint</title>
+      <link>http://localhost:1313/tags/blueprint/</link>
+      <pubDate>Mon, 14 Feb 2022 11:31:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/blueprint/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Color</title>
+      <link>http://localhost:1313/tags/color/</link>
+      <pubDate>Mon, 14 Feb 2022 11:31:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/color/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Libadwaita</title>
+      <link>http://localhost:1313/tags/libadwaita/</link>
+      <pubDate>Mon, 14 Feb 2022 11:31:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/libadwaita/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Swatch</title>
+      <link>http://localhost:1313/tags/swatch/</link>
+      <pubDate>Mon, 14 Feb 2022 11:31:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/swatch/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Adblock</title>
+      <link>http://localhost:1313/tags/adblock/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/adblock/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/tags/tutorial/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Webkit</title>
+      <link>http://localhost:1313/tags/webkit/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/webkit/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Webkit2gtk</title>
+      <link>http://localhost:1313/tags/webkit2gtk/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/webkit2gtk/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Webkitgtk</title>
+      <link>http://localhost:1313/tags/webkitgtk/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/webkitgtk/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Webview</title>
+      <link>http://localhost:1313/tags/webview/</link>
+      <pubDate>Sat, 27 Nov 2021 19:08:53 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/webview/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Cpp</title>
+      <link>http://localhost:1313/tags/cpp/</link>
+      <pubDate>Sun, 21 Nov 2021 11:52:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/cpp/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Feeds</title>
+      <link>http://localhost:1313/tags/feeds/</link>
+      <pubDate>Sun, 21 Nov 2021 11:52:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/feeds/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Giara</title>
+      <link>http://localhost:1313/tags/giara/</link>
+      <pubDate>Sun, 21 Nov 2021 11:52:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/giara/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Hydrapaper</title>
+      <link>http://localhost:1313/tags/hydrapaper/</link>
+      <pubDate>Sun, 21 Nov 2021 11:52:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/hydrapaper/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Whatip</title>
+      <link>http://localhost:1313/tags/whatip/</link>
+      <pubDate>Sun, 21 Nov 2021 11:52:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/whatip/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Wed, 16 Jun 2021 10:24:30 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/blog/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Comments</title>
+      <link>http://localhost:1313/tags/comments/</link>
+      <pubDate>Wed, 16 Jun 2021 10:24:30 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/comments/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Meta</title>
+      <link>http://localhost:1313/tags/meta/</link>
+      <pubDate>Wed, 16 Jun 2021 10:24:30 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/meta/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Electronics</title>
+      <link>http://localhost:1313/tags/electronics/</link>
+      <pubDate>Tue, 09 Mar 2021 13:14:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/electronics/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Raspberrypi Pico</title>
+      <link>http://localhost:1313/tags/raspberrypi-pico/</link>
+      <pubDate>Tue, 09 Mar 2021 13:14:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/raspberrypi-pico/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Dbus</title>
+      <link>http://localhost:1313/tags/dbus/</link>
+      <pubDate>Sat, 02 Jan 2021 09:42:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/dbus/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Flatpak</title>
+      <link>http://localhost:1313/tags/flatpak/</link>
+      <pubDate>Sat, 02 Jan 2021 09:42:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/flatpak/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Gnome</title>
+      <link>http://localhost:1313/tags/gnome/</link>
+      <pubDate>Sat, 02 Jan 2021 09:42:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/gnome/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Meson</title>
+      <link>http://localhost:1313/tags/meson/</link>
+      <pubDate>Sat, 02 Jan 2021 09:42:43 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/meson/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Reddit</title>
+      <link>http://localhost:1313/tags/reddit/</link>
+      <pubDate>Fri, 30 Oct 2020 09:55:23 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/reddit/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>World</title>
+      <link>http://localhost:1313/tags/world/</link>
+      <pubDate>Fri, 30 Oct 2020 09:55:23 +0100</pubDate>
+      
+      <guid>http://localhost:1313/tags/world/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Button</title>
+      <link>http://localhost:1313/tags/button/</link>
+      <pubDate>Thu, 08 Oct 2020 11:39:57 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/button/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Eventhandler</title>
+      <link>http://localhost:1313/tags/eventhandler/</link>
+      <pubDate>Thu, 08 Oct 2020 11:39:57 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/eventhandler/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Gtk3</title>
+      <link>http://localhost:1313/tags/gtk3/</link>
+      <pubDate>Thu, 08 Oct 2020 11:39:57 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/gtk3/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Mouse</title>
+      <link>http://localhost:1313/tags/mouse/</link>
+      <pubDate>Thu, 08 Oct 2020 11:39:57 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/mouse/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Area</title>
+      <link>http://localhost:1313/tags/area/</link>
+      <pubDate>Sat, 03 Oct 2020 10:23:54 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/area/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Cairo</title>
+      <link>http://localhost:1313/tags/cairo/</link>
+      <pubDate>Sat, 03 Oct 2020 10:23:54 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/cairo/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Drawing</title>
+      <link>http://localhost:1313/tags/drawing/</link>
+      <pubDate>Sat, 03 Oct 2020 10:23:54 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/drawing/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Gtkdrawingarea</title>
+      <link>http://localhost:1313/tags/gtkdrawingarea/</link>
+      <pubDate>Sat, 03 Oct 2020 10:23:54 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/gtkdrawingarea/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Pixbuf</title>
+      <link>http://localhost:1313/tags/pixbuf/</link>
+      <pubDate>Sat, 03 Oct 2020 10:23:54 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/pixbuf/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Documentation</title>
+      <link>http://localhost:1313/tags/documentation/</link>
+      <pubDate>Mon, 31 Aug 2020 19:49:06 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/documentation/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Groff</title>
+      <link>http://localhost:1313/tags/groff/</link>
+      <pubDate>Mon, 31 Aug 2020 19:49:06 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/groff/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Man</title>
+      <link>http://localhost:1313/tags/man/</link>
+      <pubDate>Mon, 31 Aug 2020 19:49:06 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/man/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Manual</title>
+      <link>http://localhost:1313/tags/manual/</link>
+      <pubDate>Mon, 31 Aug 2020 19:49:06 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/manual/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Mon, 31 Aug 2020 19:49:06 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Pandoc</title>
+      <link>http://localhost:1313/tags/pandoc/</link>
+      <pubDate>Mon, 31 Aug 2020 19:49:06 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/pandoc/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 24 Aug 2020 09:19:02 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Website</title>
+      <link>http://localhost:1313/tags/website/</link>
+      <pubDate>Mon, 24 Aug 2020 09:19:02 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/website/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Ninja</title>
+      <link>http://localhost:1313/tags/ninja/</link>
+      <pubDate>Mon, 11 May 2020 11:27:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ninja/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/tags/test/</link>
+      <pubDate>Mon, 11 May 2020 11:27:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/test/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
+      <pubDate>Mon, 11 May 2020 11:27:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/testing/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Unit</title>
+      <link>http://localhost:1313/tags/unit/</link>
+      <pubDate>Mon, 11 May 2020 11:27:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/unit/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Unittest</title>
+      <link>http://localhost:1313/tags/unittest/</link>
+      <pubDate>Mon, 11 May 2020 11:27:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/unittest/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/tags/design/</link>
+      <pubDate>Wed, 11 Sep 2019 12:03:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/design/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Purism</title>
+      <link>http://localhost:1313/tags/purism/</link>
+      <pubDate>Wed, 11 Sep 2019 12:03:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/purism/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Update</title>
+      <link>http://localhost:1313/tags/update/</link>
+      <pubDate>Wed, 11 Sep 2019 12:03:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/update/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Cd</title>
+      <link>http://localhost:1313/tags/cd/</link>
+      <pubDate>Sat, 31 Aug 2019 12:24:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cd/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Ci</title>
+      <link>http://localhost:1313/tags/ci/</link>
+      <pubDate>Sat, 31 Aug 2019 12:24:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ci/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Gitlab</title>
+      <link>http://localhost:1313/tags/gitlab/</link>
+      <pubDate>Sat, 31 Aug 2019 12:24:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gitlab/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Yml</title>
+      <link>http://localhost:1313/tags/yml/</link>
+      <pubDate>Sat, 31 Aug 2019 12:24:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/yml/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Arch</title>
+      <link>http://localhost:1313/tags/arch/</link>
+      <pubDate>Sat, 31 Aug 2019 09:04:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/arch/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Mesa</title>
+      <link>http://localhost:1313/tags/mesa/</link>
+      <pubDate>Sat, 31 Aug 2019 09:04:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mesa/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Vulkan</title>
+      <link>http://localhost:1313/tags/vulkan/</link>
+      <pubDate>Sat, 31 Aug 2019 09:04:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/vulkan/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Roadmap</title>
+      <link>http://localhost:1313/tags/roadmap/</link>
+      <pubDate>Fri, 23 Aug 2019 11:51:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/roadmap/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Analytics</title>
+      <link>http://localhost:1313/tags/analytics/</link>
+      <pubDate>Wed, 14 Aug 2019 19:40:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/analytics/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Commento</title>
+      <link>http://localhost:1313/tags/commento/</link>
+      <pubDate>Wed, 14 Aug 2019 19:40:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/commento/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

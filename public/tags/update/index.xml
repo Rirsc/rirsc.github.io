@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Update on RIRSC</title>
+    <link>http://localhost:1313/tags/update/</link>
+    <description>Recent content in Update on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Wed, 11 Sep 2019 12:03:41 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/update/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Feeds moved to World and design overhaul</title>
+      <link>http://localhost:1313/posts/feeds-moved-to-world-and-design-overhaul/</link>
+      <pubDate>Wed, 11 Sep 2019 12:03:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feeds-moved-to-world-and-design-overhaul/</guid>
+      <description><![CDATA[<p>It finally happened, Feeds is now part of the <a href="https://gitlab.gnome.org/World">World</a> group! <a href="https://gitlab.gnome.org/World/gfeeds">Here&rsquo;s the new repository</a>! But don&rsquo;t worry, I&rsquo;ll keep up with the existing GitLab mirror.</p>
+<p>This doesn&rsquo;t change too much in terms of development, but it surely makes the app more discoverable. It also provides <a href="https://world.pages.gitlab.gnome.org/gfeeds/">this very nice new URL for Feeds&rsquo; website</a> which is under gnome&rsquo;s domain name (that&rsquo;s pretty cool, uh?).</p>
+<p>As for Feeds&rsquo; development, lately I&rsquo;ve begun a process of small cleanups here and there, and most importantly design changes.</p>
+<p><img src="/images/post_pics/Feeds-moved-to-World-and-design-overhaul/feeds-next-window.avif" alt="Feeds&rsquo; new UI"></p>
+<p>Thanks to the help of <a href="https://gitlab.gnome.org/bertob">Tobias Bernard</a>, <a href="https://gitlab.gnome.org/exalm">Alexander Mikhaylenko</a> and some other awesome people from the <a href="https://matrix.to/#/!nrNOrVsRZxzaDdspgs:talk.puri.sm?via=talk.puri.sm&amp;via=matrix.org&amp;via=librem.one">libhandy community</a>, I brought Feeds back in line with the <a href="https://developer.gnome.org/hig/stable/">GNOME HIG</a>. These are small changes, but surely needed ones to have a more consistent desktop experience.</p>
+<p>Some of the features I had planned, detailed in some of my previous posts in this blog, still haven&rsquo;t made it, tho. To be fair, some of them require a decent amount of work, and I&rsquo;d be nice if someone wanted to help with implementing them.</p>
+<p>That&rsquo;s why I&rsquo;ll try to cleanup the code more, using Glade templates where possible, splitting different classes in different files and uncluttering the logic a bit. It&rsquo;s probably one of the most boring things you could do, but if I want people to contribute, it has to happen.</p>
+<p>That&rsquo;s it for now, stay tuned.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Feeds 0.8: naming change and how to deal with Flatpak</title>
+      <link>http://localhost:1313/posts/feeds-0-8-naming-change-and-how-to-deal-with-flatpak/</link>
+      <pubDate>Tue, 03 Sep 2019 16:34:14 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feeds-0-8-naming-change-and-how-to-deal-with-flatpak/</guid>
+      <description><![CDATA[<p><a href="https://flathub.org/apps/details/org.gabmus.gfeeds">Feeds version 0.8 is coming</a>. This release have been a little overdue, since I finally decided to change the name of the app from <code>gnome-feeds</code> to just <code>gfeeds</code>. This has to do with the use of the GNOME name, and besides even GNOME apps don&rsquo;t use the <em>GNOME</em> prefix in their names.</p>
+<p>Someone criticized the name <code>gfeeds</code>, because it&rsquo;s kind of dumb to have GNOME/GTK app names to start with a <em>g</em>, similarly to how dumb it is to have KDE apps start with a <em>k</em>. But here&rsquo;s the catch: the <em>g</em> in <code>gfeeds</code> stands for <em>Gabriele</em>, <em>I pulled a sneaky on you</em>.</p>
+<p>Anyway, the new name should have no problems whatsoever, and besides I learned how to transition to a new appid on Flathub.</p>
+<p>It&rsquo;s not as seamless as you would think, but it&rsquo;s easy enough. You&rsquo;ll have to re-submit your app as if it was a new one, and specify that it&rsquo;s just an appid change. There&rsquo;s some infrastructure in place to transition from one appid to another automagically, and it involves <a href="https://github.com/flathub/org.gabmus.gnome-feeds">a little extra json file</a> in the old repo. <a href="https://github.com/flathub/flathub/pull/1141">Here you can see my PR for the new appid</a> and the whole discussion around it. Hope it helps.</p>
+<p>As for new stuff, let&rsquo;s see what we have:</p>
+<ul>
+<li>More stability, broken feeds are automatically removed and error messages will be shown in an upcoming version (already in <code>master</code>).</li>
+<li>OPML file association. Now you can just open your OPMLs from your file manager and have them imported in Feeds.</li>
+<li>If you&rsquo;re offline, feeds won&rsquo;t be refreshed. Instead, an infobar will tell you that you&rsquo;re offline. Saved articles are still accessible.</li>
+<li>CPU utilization is now lower, having removed some unnecessary busy waits from the code.</li>
+</ul>
+<p>That&rsquo;s it for now. Again, still a lot of work to do, but little by little Feeds is coming together pretty well.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Feeds 0.7 and more features to come</title>
+      <link>http://localhost:1313/posts/feeds-0-7-and-more-features-to-come/</link>
+      <pubDate>Fri, 23 Aug 2019 11:51:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feeds-0-7-and-more-features-to-come/</guid>
+      <description><![CDATA[<p><a href="https://flathub.org/apps/details/org.gabmus.gnome-feeds">Feeds version 0.7 should be out soon</a> with all the features detailed in <a href="/2019/08/20/Feeds-saving-articles-offline-and-marking-stuff-as-read/">this post</a>.</p>
+<p>The code starts to feel a little more complex, and it would probably use another small refactoring, but that&rsquo;s not too important right now.</p>
+<p>Let&rsquo;s lay out a new roadmap, with the features I implemented, and some new ones I want to add:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <del>Read and unread articles</del></li>
+<li><input disabled="" type="checkbox"> Keeping history of older articles locally (still not sure if I actually want this or not)</li>
+<li><input disabled="" type="checkbox"> Adblocking</li>
+<li><input checked="" disabled="" type="checkbox"> <del>Saving articles</del></li>
+<li><input disabled="" type="checkbox"> Suggestions</li>
+<li><input disabled="" type="checkbox"> Integration with GNOME Online Accounts</li>
+<li><input disabled="" type="checkbox"> <a href="https://gitlab.gnome.org/GabMus/gnome-feeds/issues/4">Integration with TTRSS</a></li>
+<li><input disabled="" type="checkbox"> Ability to open rss links and OPML files</li>
+<li><input disabled="" type="checkbox"> <em>Offline mode</em> with a banner indicating that the system is offline</li>
+</ul>
+<p>There&rsquo;s still some work to do. Of course any help is welcome and appreciated.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Feeds: saving articles offline and marking stuff as read</title>
+      <link>http://localhost:1313/posts/feeds-saving-articles-offline-and-marking-stuff-as-read/</link>
+      <pubDate>Tue, 20 Aug 2019 10:26:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feeds-saving-articles-offline-and-marking-stuff-as-read/</guid>
+      <description><![CDATA[<h2 id="recap">Recap</h2>
+<p><a href="https://gabmus.gitlab.io/2019/08/12/feeds-0-6-and-roadmap-md/">In a previous post</a> I layed out a roadmap for my feed reader application <a href="https://flathub.org/apps/details/org.gabmus.gnome-feeds"><strong>Feeds</strong></a>. Here&rsquo;s a little update on how things are going.</p>
+<p>Alright, first I want to thank <a href="https://gitlab.com/etamuk">@Etamuk</a> again. He&rsquo;s being very active with the German translation, and any time I make a commit, soon after I already see he has opened a merge request with the updated translation. That&rsquo;s just impressive, and I&rsquo;m truly greatful for his awesome contributions!</p>
+<p>But now let&rsquo;s get down to business with the new features.</p>
+<h2 id="saving-articles">Saving articles</h2>
+<p><img src="/images/post_pics/Feeds-saving-articles-offline-and-marking-stuff-as-read/save_article.avif" alt=""></p>
+<p>Every article now has a right click or longpress popover that contains two buttons. The first one is a <em>Save</em> button. You can use it to save or <del>unsave</del> delete an article.</p>
+<p>Once an article is saved, its content is downloaded and available offline. This allows easy consultation whenever you want and also provides an alternative to browser bookmarks or online &ldquo;read it later&rdquo; services.</p>
+<h2 id="read-and-unread">Read and unread</h2>
+<p><img src="/images/post_pics/Feeds-saving-articles-offline-and-marking-stuff-as-read/read_unread.avif" alt=""></p>
+<p>A feature that I should have implemented from the beginning made its way into Feeds just now. Articles you read, are marked as read.</p>
+<p>The marking was made in the laziest way possible: it just changes the article opacity to 50%. But in my opinion it works alright. Of course you can manually set an article as read or unread by using the dedicated button in the right click or longpress popover.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>Maybe these sound like easy things to implement, but to be honest due to the structure of the application, and to the way things work to minimize disk usage and make the whole thing more dynamic and faster overall, to implement these features I had to touch up almost every little piece of the application.</p>
+<p>It was worth it in the end, and I&rsquo;m happy of what I accomplished. Hope you like it too when it comes out. I&rsquo;m thinking of doing a 0.7 release. I don&rsquo;t have the feeling that Feeds is worth a 1.0 at the moment. Maybe I need someone to test it out and see how things are working.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Feeds 0.6 and future roadmap</title>
+      <link>http://localhost:1313/posts/feeds-0-6-and-roadmap-md/</link>
+      <pubDate>Mon, 12 Aug 2019 09:51:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feeds-0-6-and-roadmap-md/</guid>
+      <description><![CDATA[<p><a href="https://flathub.org/apps/details/org.gabmus.gnome-feeds">Feeds version 0.6 is out</a> with two important changes:</p>
+<ul>
+<li>German translation thanks to <a href="https://gitlab.com/etamuk">@Etamuk</a></li>
+<li>Concurrent feeds refresh</li>
+</ul>
+<p>About the translation, I know when a project starts becoming interesting, people want to contribute. And translations are in my experience one of the indication of people really getting passionate.</p>
+<p>I am really flattered by this contribution and it really means a lot to see this project getting some love.</p>
+<p>Moving on to the more technical stuff, concurrent refresh or parallel refresh.</p>
+<p>It was surprisingly easy to implement, and that really shows how important having a modular and well-thought-out code structure is.</p>
+<p>You see, the feed download and object creation (along with the creation of all the feed items) happens asynchronously already, but adding that feed, and all of its articles to the active lists doesn&rsquo;t. There is this wonderful function <code>GLib.idle_add(function, *args)</code> that makes this whole process so easy and elegant. This function does no more than telling the main thread to run <code>function(*args)</code> whenever it can, no rush (although to a human it&rsquo;s almost instantaneous). With this method the GUI thread doesn&rsquo;t get interrupted and the UI doesn&rsquo;t freeze, but the function is still ran synchronously to it, avoiding any problems of mutual exclusion to precious variables.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6272a4"># https://gitlab.com/gabmus/gnome-feeds/blob/0.6/gfeeds/feeds_manager.py#L139</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">FeedsManager</span>(metaclass<span style="color:#ff79c6">=</span>Singleton):
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># ...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">refresh</span>(self, <span style="color:#ff79c6">*</span>args):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># ...</span>
+</span></span><span style="display:flex;"><span>        threads_pool <span style="color:#ff79c6">=</span> []
+</span></span><span style="display:flex;"><span>        threads_alive <span style="color:#ff79c6">=</span> []
+</span></span><span style="display:flex;"><span>        MAX_THREADS <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>confman<span style="color:#ff79c6">.</span>conf[<span style="color:#f1fa8c">&#39;max_refresh_threads&#39;</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">for</span> f_link <span style="color:#ff79c6">in</span> self<span style="color:#ff79c6">.</span>confman<span style="color:#ff79c6">.</span>conf[<span style="color:#f1fa8c">&#39;feeds&#39;</span>]:
+</span></span><span style="display:flex;"><span>            t <span style="color:#ff79c6">=</span> threading<span style="color:#ff79c6">.</span>Thread(
+</span></span><span style="display:flex;"><span>                group <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">None</span>,
+</span></span><span style="display:flex;"><span>                target <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>_add_feed_async_worker,
+</span></span><span style="display:flex;"><span>                name <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">None</span>,
+</span></span><span style="display:flex;"><span>                args <span style="color:#ff79c6">=</span> (f_link, <span style="color:#ff79c6">True</span>)
+</span></span><span style="display:flex;"><span>            )
+</span></span><span style="display:flex;"><span>            threads_pool<span style="color:#ff79c6">.</span>append(t)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">while</span> <span style="color:#8be9fd;font-style:italic">len</span>(threads_pool) <span style="color:#ff79c6">&gt;</span> <span style="color:#bd93f9">0</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">if</span> <span style="color:#8be9fd;font-style:italic">len</span>(threads_alive) <span style="color:#ff79c6">&lt;</span> MAX_THREADS:
+</span></span><span style="display:flex;"><span>                t <span style="color:#ff79c6">=</span> threads_pool<span style="color:#ff79c6">.</span>pop(<span style="color:#bd93f9">0</span>)
+</span></span><span style="display:flex;"><span>                t<span style="color:#ff79c6">.</span>start()
+</span></span><span style="display:flex;"><span>                threads_alive<span style="color:#ff79c6">.</span>append(t)
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">for</span> i, t <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">enumerate</span>(threads_alive):
+</span></span><span style="display:flex;"><span>                <span style="color:#ff79c6">if</span> <span style="color:#ff79c6">not</span> t<span style="color:#ff79c6">.</span>is_alive():
+</span></span><span style="display:flex;"><span>                    threads_alive<span style="color:#ff79c6">.</span>pop(i)
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">while</span> t<span style="color:#ff79c6">.</span>is_alive():
+</span></span><span style="display:flex;"><span>                <span style="color:#ff79c6">while</span> Gtk<span style="color:#ff79c6">.</span>events_pending():
+</span></span><span style="display:flex;"><span>                    Gtk<span style="color:#ff79c6">.</span>main_iteration()
+</span></span></code></pre></div><p>This is the wonderful code that manages the parallel refresh. It&rsquo;s fairly straight forward, it keeps a pool of threads to run, and runs n of them at a time, where n is the maximum number of threads set by the user (defaults to a very mild 2).</p>
+<p>Apart from making the refresh process faster by itself, it also reduces the impact of problems like one feed taking longer than the others to download or parse. It&rsquo;s not a likely occurrence, but if and when it happens, it doesn&rsquo;t injure the user experience too much. That&rsquo;s because the slow feed is being processed in its own thread, but the whole refresh operation doesn&rsquo;t have to wait on it.</p>
+<p>Moving on, I wanted to lay out a roadmap of where I want Feeds to go in the future.</p>
+<ul>
+<li><strong>Read and unread articles</strong>: currently Feeds doesn&rsquo;t keep track of your actions, and if you did or didn&rsquo;t read an article. This would require some strcuture, like the serialization and deserialization of articles to a skinnier, more targeted data structure (probably something like tsv or json, but the latter is more likely)</li>
+<li><strong>Keeping history of older articles locally</strong>: rss feeds typically don&rsquo;t contain the whole archive, mostly because the resulting file would be huge and unwieldy. But people may want to be able to re-read articles they saw some time prior. That&rsquo;s why there needs to be an option to store them up to the user&rsquo;s preference. Again, this needs serialization/deserialization as described in the bullet point above</li>
+<li><strong>Adblocking</strong>: this speaks for itself. Modern websites are a mess, disabling JavaScript helps, but it&rsquo;s neither a soltion nor a silver bullet</li>
+<li><strong>Saving articles</strong>: kinda like bookmarks, but not quite. Let&rsquo;s say you add this awesome blog to your feeds, and you read a super interesting article about how to make feeds refreshing concurrent with just a bunch of lines of code. You surely want to save that! I mean, it could be useful someday right? That&rsquo;s a likely usecase for me. Also, you&rsquo;d wanna keep it offline as well, just in case you need it when you&rsquo;re on a plane or something</li>
+<li><strong>Suggestions</strong>: many online news readers give you suggestions on what to follow. It&rsquo;s an interesing feature and I&rsquo;d want to add that. People are so addicted and accustomed to social media websites that this is what they expect news consumption to be.</li>
+<li><strong>Integration with GNOME Online Accounts</strong>: mostly to be able to sync with services like Nextcloud News. Would be a hell of a feature.</li>
+</ul>
+<p>And that&rsquo;s it folks. This is the list of what I&rsquo;d want to accomplish with Feeds. Not all of these features are easy, and some are prone to make the whole app slower, and that&rsquo;s one thing I 100% want to avoid.</p>
+]]></description>
+      
+        <media:thumbnail url="https://gitlab.com/gabmus/gnome-feeds/raw/0.6/data/icons/org.gabmus.gnome-feeds.svg" />
+      
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Purism on RIRSC</title>
+    <link>http://localhost:1313/tags/purism/</link>
+    <description>Recent content in Purism on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Wed, 11 Sep 2019 12:03:41 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/purism/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Feeds moved to World and design overhaul</title>
+      <link>http://localhost:1313/posts/feeds-moved-to-world-and-design-overhaul/</link>
+      <pubDate>Wed, 11 Sep 2019 12:03:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feeds-moved-to-world-and-design-overhaul/</guid>
+      <description><![CDATA[<p>It finally happened, Feeds is now part of the <a href="https://gitlab.gnome.org/World">World</a> group! <a href="https://gitlab.gnome.org/World/gfeeds">Here&rsquo;s the new repository</a>! But don&rsquo;t worry, I&rsquo;ll keep up with the existing GitLab mirror.</p>
+<p>This doesn&rsquo;t change too much in terms of development, but it surely makes the app more discoverable. It also provides <a href="https://world.pages.gitlab.gnome.org/gfeeds/">this very nice new URL for Feeds&rsquo; website</a> which is under gnome&rsquo;s domain name (that&rsquo;s pretty cool, uh?).</p>
+<p>As for Feeds&rsquo; development, lately I&rsquo;ve begun a process of small cleanups here and there, and most importantly design changes.</p>
+<p><img src="/images/post_pics/Feeds-moved-to-World-and-design-overhaul/feeds-next-window.avif" alt="Feeds&rsquo; new UI"></p>
+<p>Thanks to the help of <a href="https://gitlab.gnome.org/bertob">Tobias Bernard</a>, <a href="https://gitlab.gnome.org/exalm">Alexander Mikhaylenko</a> and some other awesome people from the <a href="https://matrix.to/#/!nrNOrVsRZxzaDdspgs:talk.puri.sm?via=talk.puri.sm&amp;via=matrix.org&amp;via=librem.one">libhandy community</a>, I brought Feeds back in line with the <a href="https://developer.gnome.org/hig/stable/">GNOME HIG</a>. These are small changes, but surely needed ones to have a more consistent desktop experience.</p>
+<p>Some of the features I had planned, detailed in some of my previous posts in this blog, still haven&rsquo;t made it, tho. To be fair, some of them require a decent amount of work, and I&rsquo;d be nice if someone wanted to help with implementing them.</p>
+<p>That&rsquo;s why I&rsquo;ll try to cleanup the code more, using Glade templates where possible, splitting different classes in different files and uncluttering the logic a bit. It&rsquo;s probably one of the most boring things you could do, but if I want people to contribute, it has to happen.</p>
+<p>That&rsquo;s it for now, stay tuned.</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

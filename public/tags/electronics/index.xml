@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Electronics on RIRSC</title>
+    <link>http://localhost:1313/tags/electronics/</link>
+    <description>Recent content in Electronics on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Tue, 09 Mar 2021 13:14:27 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/electronics/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>Raspberry Pi Pico pinout in your terminal</title>
+      <link>http://localhost:1313/posts/raspberry_pi_pico_pinout_in_your_terminal/</link>
+      <pubDate>Tue, 09 Mar 2021 13:14:27 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/raspberry_pi_pico_pinout_in_your_terminal/</guid>
+      <description><![CDATA[<p>I&rsquo;m playing around with the new <a href="https://www.raspberrypi.org/products/raspberry-pi-pico">Raspberry Pi Pico</a>, and I quickly realized that I&rsquo;d really love to have a quick pinout reference in my terminal.</p>
+<p>I thought of making a man page, but I would have lost the color (I don&rsquo;t know how to use arbitrary colors in groff), so I just created a simple text file with ascii escape sequences for colors and called it a day. It works, and it&rsquo;s pretty!</p>
+<p>I&rsquo;m uploading it here for your convenience (and mine as well), you should be able to grab it from your *NIX box by just typing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>curl https://gabmus.org/pico_pinout
+</span></span></code></pre></div><p>If you want to save it in a file, just add <code>&gt; some_file_name</code> to the above.</p>
+]]></description>
+      
+        <media:thumbnail url="http://localhost:1313/images/post_pics/Raspberry_Pi_Pico_pinout_in_your_terminal/screenshot.avif" />
+      
+    </item>
+    
+    
+  </channel>
+</rss>

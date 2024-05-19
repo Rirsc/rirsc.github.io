@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Gpu on RIRSC</title>
+    <link>http://localhost:1313/tags/gpu/</link>
+    <description>Recent content in Gpu on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
+    <lastBuildDate>Sat, 20 Jan 2024 08:42:01 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/gpu/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    
+    
+    <item>
+      <title>RDNA3 Fan Control in Linux - Why are my GPU fans not spinning under load?</title>
+      <link>http://localhost:1313/posts/rdna3_fan_control_in_linux/</link>
+      <pubDate>Sat, 20 Jan 2024 08:42:01 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/rdna3_fan_control_in_linux/</guid>
+      <description><![CDATA[<p>I&rsquo;ve recently upgraded my GPU from a <a href="/posts/early-adopter-experience-with-the-new-radeon-rx-5700-xt-on-arch-linux/">5700XT</a> to a 7800XT, and of course using a new GPU close to launch on Linux would reveal some paper cuts.</p>
+<p>Turns out my GPU fans weren&rsquo;t spinning, even under load. It helps that it&rsquo;s winter and I have some very effective case fans, but it didn&rsquo;t really make sense that at 88°C junction temperature the fans wouldn&rsquo;t spin.</p>
+<p>First, you might think of reaching for <a href="https://gitlab.com/corectrl/corectrl">CoreCtrl</a> to tweak the fan curve, but you&rsquo;ll be disappointed to find no fan control settings for your new GPU.</p>
+<p>Turns out RDNA3 GPUs, unlike previous Radeon cards, don&rsquo;t have manual fan control at the firmware level. What they do have is manual fan curve control.</p>
+<p>The funny thing is that for whatever reason the default fan curve (at least for my particular card) looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ cat /sys/class/drm/card1/device/gpu_od/fan_ctrl/fan_curve
+</span></span><span style="display:flex;"><span>OD_FAN_CURVE:
+</span></span><span style="display:flex;"><span>0: 0C 0%
+</span></span><span style="display:flex;"><span>1: 0C 0%
+</span></span><span style="display:flex;"><span>2: 0C 0%
+</span></span><span style="display:flex;"><span>3: 0C 0%
+</span></span><span style="display:flex;"><span>4: 0C 0%
+</span></span><span style="display:flex;"><span>OD_RANGE:
+</span></span><span style="display:flex;"><span>FAN_CURVE(hotspot temp): 25C 100C
+</span></span><span style="display:flex;"><span>FAN_CURVE(fan speed): 15% 100%
+</span></span></code></pre></div><p>Basically 0% at any temperature, which shouldn&rsquo;t really even be allowed if you look at the valid ranges just below.</p>
+<p>After scouring the internet I managed to find how to actually tweak these values, and I made a simple script to set my custom fan curve. The syntax is <code>node_index temperature fan_speed_percent</code>, and finally <code>c</code> as in &ldquo;commit&rdquo; to confirm the settings.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ff79c6">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6"></span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">if</span> <span style="color:#ff79c6">[[</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$USER</span><span style="color:#f1fa8c">&#34;</span> !<span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;root&#34;</span> <span style="color:#ff79c6">]]</span>; <span style="color:#ff79c6">then</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;You need to run this as root&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">exit</span> <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># you might need to adjust this, in my case it&#39;s card1,</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># for you it might be card0 or something else entirely</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">cd</span> /sys/class/drm/card1/device/gpu_od/fan_ctrl
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;0 30 20&#34;</span> &gt; fan_curve
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;1 50 25&#34;</span> &gt; fan_curve
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;2 60 50&#34;</span> &gt; fan_curve
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;3 70 60&#34;</span> &gt; fan_curve
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;4 80 100&#34;</span> &gt; fan_curve
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;c&#34;</span> &gt; fan_curve
+</span></span></code></pre></div>]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Early adopter experience with the new Radeon RX 5700XT on Arch Linux</title>
+      <link>http://localhost:1313/posts/early-adopter-experience-with-the-new-radeon-rx-5700-xt-on-arch-linux/</link>
+      <pubDate>Sat, 31 Aug 2019 09:04:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/early-adopter-experience-with-the-new-radeon-rx-5700-xt-on-arch-linux/</guid>
+      <description><![CDATA[<p>So I recently got myself a shiny new AMD Radeon RX 5700 XT GPU (that&rsquo;s a mouthful).</p>
+<p>Let&rsquo;s see how it does on Linux.</p>
+<h2 id="installation">Installation</h2>
+<p>First, I use Arch (btw) and that makes things a lot easier, at least for now. As of writing this, Navi support is still not in the mainline kernel, but it should come with Linux 5.3.</p>
+<p>Because of the AUR and many other fun things, this isn&rsquo;t much of a problem in Arch.</p>
+<p>Don&rsquo;t be surprised when you install the GPU in your PC and don&rsquo;t see Xorg or anything resembling a GUI popping up.</p>
+<p>First, you need to add a new repo to your system. Put the following in <code>/etc/pacman.conf</code>, just above the <code>[core]</code> repository:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[mesa-git]
+</span></span><span style="display:flex;"><span>Server = https://pkgbuild.com/~lcarlier/$repo/$arch
+</span></span><span style="display:flex;"><span>SigLevel = Optional
+</span></span></code></pre></div><p>Now, let&rsquo;s install some packages:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -Sy amdvlk clang-git libclc-git libdrm-git llvm-git llvm-libs-git mesa-git opencl-mesa-git vulkan-mesa-layer-git vulkan-radeon-git xf86-video-amdgpu-git lib32-mesa-git lib32-mesa-git lib32-vulkan-radeon-git lib32-vulkan-mesa-layer-git
+</span></span></code></pre></div><p>This will cover most of the stuff needed to make the GPU work correctly.</p>
+<p>Now we need the new kernel modules. For this, you have two routes: install <code>amdgpu-dkms</code> from the AUR, <strong>or</strong> install <code>linux-git</code> from the AUR. I personally suggest you to go with <code>linux-git</code> as the dkms driver is not official as far as I know and doesn&rsquo;t cover all the stuff that&rsquo;s needed to make the GPU work 100% (like sensors support).</p>
+<p>Whatever route you choose, there&rsquo;s still one more thing you need to install from the AUR: the <code>linux-firmware-agd5f-radeon-navi10</code> package. This is a package I made myself containing <a href="https://people.freedesktop.org/~agd5f/radeon_ucode/navi10/">the latest firmware for Navi 10 GPUs right from the driver developer</a>.</p>
+<p>So, to summarize, here&rsquo;s a copy-paste command you can run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yay -S linux-git linux-firmware-agd5f-radeon-navi10
+</span></span></code></pre></div><p>Quick note, I tried installing <code>mesa-aco-git</code>, even just to give it a try, but unfortunately I wasn&rsquo;t able to get Xorg (or Wayland for that matter) running with it. Maybe in the future, we&rsquo;ll see.</p>
+<h2 id="gaming-performance">Gaming performance</h2>
+<p>First, all of the games I&rsquo;m gonna talk about were ran at 1440p. They were all tested in GNOME Wayland, and the ones showing problems were also tested in GNOME Xorg and XFCE.</p>
+<p>So, performance is of course great, especially in native games. Here&rsquo;s a list of games I maxed out without any hiccup or visible problem:</p>
+<ul>
+<li><strong>Rocket League</strong></li>
+<li><strong>Dark Souls 3</strong></li>
+<li><strong>Road Redemption</strong></li>
+<li><strong>CS:GO</strong></li>
+<li><strong>DOOM 2016</strong></li>
+<li><strong>The Witcher 3</strong></li>
+<li><strong>Fallout 4</strong> (except for a mouse problem unrelated to the GPU)</li>
+<li><strong>Tabletop Simulator</strong></li>
+<li><strong>For The King</strong></li>
+<li><strong>Keep Talking and Nobody Explodes</strong></li>
+<li><strong>Xonotic</strong></li>
+</ul>
+<p>Small note on The Witcher 3: it runs pretty much flawlessly, but I experienced some occasional frame rate drops, especially early on when I loaded the game. This usually goes away after 10 minutes or so of gameplay.</p>
+<p>I had various problems with other games, and pretty weird ones, too. I think they&rsquo;re worth documenting.</p>
+<h3 id="important-update">IMPORTANT UPDATE</h3>
+<p>The games that are crossed out below don&rsquo;t actually have anything wrong with them. I am just dumb enough to have used the <strong>non git versions of the mesa 32 bit libraries</strong>. I updated the install command above, just to make sure nobody gets the same problems.</p>
+<ul>
+<li><del><strong>Distance</strong>: the game launches, but performance is terrible (2 fps in the menu at 1440p). Obviously there&rsquo;s something wrong, as the game is far from being <em>that</em> heavy.</del></li>
+<li><del><strong>Screencheat</strong>: about 7 fps in game, 12 or so in the menu. Very similar to the problem with Distance.</del></li>
+<li><del><strong>Hover: Revolt of Gamers</strong>: As above, performance is unexplainably terrible even in the main menu.</del></li>
+<li><strong>Rise of the Tomb Raider</strong>: game seems to work fine, launches and the menu is perfectly responsive, but 5 seconds or so after I get in game, the whole game freezes into an unrecoverable state.</li>
+<li><strong>Quake Champions</strong>: Similar to Rise of the Tomb Raider, menu works perfectly, almost instant freeze as soon as I get in game. But Quake Champions is far from being a technically well engineered game.</li>
+<li><strong>Enter the Gungeon</strong>: Perfectly playable, but some of the graphics show some small amount of glitches.</li>
+<li><strong>No Man&rsquo;s Sky</strong>: Games works almost perfectly, but the framerate drops heavily inside menus.</li>
+</ul>
+<p><del>An interesting fact: in the games I&rsquo;ve tested, where the framerate is unexplainably low, <code>sensors</code> shows the power draw of the GPU to be stuck at 30W (same as idle). Other games that give no problems like The Witcher 3 manage to raise the power draw between 150W and 300W. I later confirmed that (of course) the clock speeds (monitored via <code>sudo watch cat /sys/kernel/debug/dri/0/amdgpu_pm_info</code>) are directly proportional to the power draw.</del></p>
+<p><del>This probably shows something&rsquo;s wrong with the driver. It made me wonder if I could force a clock speed on the GPU manually to see if those games work fine. I didn&rsquo;t want to go that route since it would kinda count as an overclock and I&rsquo;m still not confident enough in my abilities or in the driver&rsquo;s.</del></p>
+<p>What I did try to do was force the higher pstates (power states) on the GPU to see if that would work. Of course, it doesn&rsquo;t. Following the <a href="https://wiki.archlinux.org/index.php/AMDGPU#Overclocking">AMDGPU page on the Arch Wiki</a> I tried these commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo -i <span style="color:#6272a4"># better be root for this</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;manual&#34;</span> &gt; /sys/class/drm/card0/device/power_dpm_force_performance_level
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;2&#34;</span> &gt; /sys/class/drm/card0/device/pp_dpm_mclk <span style="color:#6272a4"># set highest pstate 2 on the memory</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;5 6 7&#34;</span> &gt; /sys/class/drm/card0/device/pp_dpm_sclk <span style="color:#6272a4"># set higher pstates 5, 6 and 7 on the actual gpu</span>
+</span></span></code></pre></div><p>This didn&rsquo;t work at all, and showed some rather interesting errors in dmesg, similar to this one: <code>Failed to send message 0x20, response 0xfffffffb param 0x5</code>. Of course searching for these messages gave me zero results.</p>
+<p><strong>About OpenCL</strong>: Unsurprisingly Clover doesn&rsquo;t work, <del>but so doesn&rsquo;t the AMDGPU-PRO OpenCL implementation. Still need to investigate that further, I didn&rsquo;t get into much detail with OpenCL. Will do soon after I have these more serious problems sorted out.</del> OpenCL now works using the <code>opencl-amdgpu-pro-pal</code> package from AUR.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>It&rsquo;s not an entirely bad thing to be an early adopter. I mean, I am starting to understand how the driver works (kinda?) and digging into lower level stuff with the kernel and the GPU than I&rsquo;ve ever had.</p>
+<p>This said, there&rsquo;s still much I don&rsquo;t understand. I am willing to learn and help. If you have more experience with this stuff and want to add your voice to the conversation, don&rsquo;t hesitate to comment or contact me personally.</p>
+<p>Will keep this blog updated with any news regarding making this GPU work.</p>
+]]></description>
+      
+        <media:thumbnail url="http://localhost:1313/images/post_pics/Early-adopter-experience-with-the-new-Radeon-RX-5700-XT-on-Arch-Linux/navi.avif" />
+      
+    </item>
+    
+    
+  </channel>
+</rss>

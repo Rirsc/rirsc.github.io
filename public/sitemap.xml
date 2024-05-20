@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/command_line_options_with_relm4/</loc>
+    <loc>http://localhost:1313/posts/240207_command_line_options_with_relm4/</loc>
     <lastmod>2024-02-07T07:32:14+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gtk/</loc>
@@ -41,7 +41,7 @@
     <loc>http://localhost:1313/tags/radeon/</loc>
     <lastmod>2024-01-20T08:42:01+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rdna3_fan_control_in_linux/</loc>
+    <loc>http://localhost:1313/posts/240120_rdna3_fan_control_in_linux/</loc>
     <lastmod>2024-01-20T08:42:01+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/editor/</loc>

@@ -5,16 +5,16 @@
     <description>Recent content in Radeon on RIRSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
-    <lastBuildDate>Sat, 20 Jan 2024 08:42:01 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/radeon/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.svg</icon>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Sat, 20 Jan 2024 08:42:01 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/radeon/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
     
     
     <item>
       <title>RDNA3 Fan Control in Linux - Why are my GPU fans not spinning under load?</title>
-      <link>http://localhost:1313/posts/rdna3_fan_control_in_linux/</link>
+      <link>http://localhost:1313/posts/240120_rdna3_fan_control_in_linux/</link>
       <pubDate>Sat, 20 Jan 2024 08:42:01 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/rdna3_fan_control_in_linux/</guid>
+      <guid>http://localhost:1313/posts/240120_rdna3_fan_control_in_linux/</guid>
       <description><![CDATA[<p>I&rsquo;ve recently upgraded my GPU from a <a href="/posts/early-adopter-experience-with-the-new-radeon-rx-5700-xt-on-arch-linux/">5700XT</a> to a 7800XT, and of course using a new GPU close to launch on Linux would reveal some paper cuts.</p>
 <p>Turns out my GPU fans weren&rsquo;t spinning, even under load. It helps that it&rsquo;s winter and I have some very effective case fans, but it didn&rsquo;t really make sense that at 88°C junction temperature the fans wouldn&rsquo;t spin.</p>
 <p>First, you might think of reaching for <a href="https://gitlab.com/corectrl/corectrl">CoreCtrl</a> to tweak the fan curve, but you&rsquo;ll be disappointed to find no fan control settings for your new GPU.</p>

@@ -5,7 +5,7 @@ title = "RIRSC"
 theme = "hugo-ficurinia"
 
 author = "Ricardo López"
-copyright = "Ricardo López - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
+copyright = "Ricardo López"
 
 paginate = 5
 summaryLength = 30
@@ -13,24 +13,100 @@ summaryLength = 30
 [params]
     description = "Ricardo López's blog about programming and other cool stuff"
     author = "Ricardo López"
-    logo = "/logo.svg"
-    favicon = "/favicon.png"
-    faviconIco = "/favicon.ico"
+
+    # It's best to put these icons in the "static" folder of your site
+    logo = "Rirsc_Logo.svg"
+    logoAltText = "Logo"
+    favicon = "Rirsc_Favicon.png"
+    faviconIco = "Rirsc_Favicon.ico"
     appletouch = "/apple-touch-icon.png"
-    svgicon = "/logo.svg"
+    svgicon = "/Rirsc_Logo.svg"
     icon512 = "/android-chrome-512x512.png"
-    # commento = "https://cloud.techpills.technology:54321/js/commento.js"
-    cactusCommentsSiteName = ""
-    cactusCommentsServerName = "cactus.chat"
-    cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
-    
+
     imageInArticlePreview = true
+    fitImageInArticlePreview = false
 
-    enableShareOnFediverse = true
+    articleSummary = true
 
-    enableRelatedArticles = true
-    relatedArticlesNum = 2 
-    forceRedirect = true
+    showTags = false  # show the Tags menu item; default true
+    showRss = false  # show the link for the RSS feed; default true
+
+    # maximum width of the site content, css syntax
+    contentWidth = "1000px"
+
+    paperCards = false  # enable paper card style; default false
+    buttonTags = false  # enable button tag style; default false
+    tagsInArticlePreview = false  # enable tags list in the article preview card
+    gridView = false  # show post list as a grid. goes well with paperCards
+    bigArticleTitle = false  # makes the title in the single article view bigger
+    navtype = "standard"  # changes the style of the pagination, available styles are: "standard", "circles"
+    enableShadow = false  # shows a shadow around some elements
+    menuStyle = "standard"  # changes the style of the main site navigation menu, available styles are: "standard", "buttons"
+    inputStyle = "standard" # changes the style of inputs (like the searchbar), available styles are: "standard", "buttons"
+
+    enableSearch = false  # enable search page
+    searchbarEverywhere = false  # if the searchbar should be shown in every page; requires enableSearch
+    searchMenuLink = false  # add a search link to the navigation menu; requires enableSearch
+    mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
+
+    enableFeatured = false  # enable a particular view for articles marked as featured (featured: true in the article frontmatter)
+
+    underlineTitleLinks = false  # show an underline also for links that are titles
+
+    # enable comments support with commento using the script from your server
+    #commento = "https://example.com/js/commento.js"
+
+    # enable comments support with cactus comments (cactus.chat)
+    #cactusCommentsSiteName = "example.com"
+    #cactusCommentsServerName = "cactus.chat"
+    #cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
+
+    # enable analytics using Plausible
+    # plausibleScriptUrl = "https://something.com/..."
+    # plausibleDomain = "example.com"
+
+    # enable analytics using Umami
+    #umamiScriptUrl = "https://something.com/..."
+    #umamiWebsiteId = "example-tracking-code"
+
+    #enableShareOnFediverse = false  # enable a button at the end of an article to share it on the fediverse
+    #tocBeforeImage = false  # show the table of contents before the main article image; default false
+
+    # WARNING: deprecated! Use [[menu.icons]] instead, look below
+    # links = [
+    #     ["GitLab", "https://gitlab.com/gabmus"],
+    #     ["GNOME", "https://gitlab.gnome.org/gabmus"],
+    #     ["YouTube", "https://youtube.com/TechPillsNet"]
+    # ]
+
+    # you can customize all of the colors in this theme
+    # Colors are defined in data/colors.yml
+
+    # alternative sidebar layout
+    enableSidebarLayout = false
+    tocInSidebar = false  # if the sidebar is enbabled, show the TOC in the sidebar
+
+    # redirect to baseURL if current URL host doesn't match
+    # useful if deploying in gitlab pages with custom domain and don't want
+    # the username.gitlab.io/website url to persist
+    # this requires you to set baseURL (see above)
+    forceRedirect = false
+
+    enableFooterColumns = false  # activates footer columns, as described below
+    enableJumbotron = false  # enables jumbotron, as described below
+    # related articles will be selected randomly based on tags and shown at
+    # the bottom of the article, after the comments
+    enableRelatedArticles = false
+    relatedArticlesNum = 2  # how many related articles to show
+    randomRelated = false  # sorts related articles in random order (randomized at built time)   
+
+    infiniteScrolling = false  # activates infinite scrolling instead of regular pagination
+    # this section is necessary if you want infinite scrolling
+    # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
+    #[outputs]
+    #    home = ["HTML", "JSON"]
+    #```
+
 
 [markup]
     [markup.highlight]
@@ -45,29 +121,30 @@ summaryLength = 30
         ordered = false
         startLevel = 1
 
-[menu]
-    [[menu.main]]
-        identifier = "archguide"
-        name = "Arch guide"
-        url = "/archguide"
-        weight = 99
-    [[menu.icons]]
-        identifier = "gitlab"
-        name = "GitLab"
-        url = "https://gitlab.com/gabmus"
-        weight = 10
-    [[menu.icons]]
-        identifier = "gnome"
-        name = "GNOME GitLab"
-        url = "https://gitlab.gnome.org/gabmus"
-        weight = 20
-    [[menu.icons]]
-        identifier = "youtube"
-        name = "YouTube"
-        url = "https://youtube.com/TechPillsNet"
-        weight = 30
-    [[menu.icons]]
-        identifier = "mastodon"
-        name = "Mastodon"
-        url = "https://fosstodon.org/@gabmus"
-        weight = 40
+#[menu]
+#    [[menu.main]]
+#        identifier = "archguide"
+#        name = "Arch guide"
+#        url = "/archguide"
+#        weight = 99
+#    [[menu.icons]]
+#        identifier = "gitlab"
+#        name = "GitLab"
+#        url = "https://gitlab.com/gabmus"
+#        weight = 10
+#    [[menu.icons]]
+#        identifier = "gnome"
+#        name = "GNOME GitLab"
+#        url = "https://gitlab.gnome.org/gabmus"
+#        weight = 20
+#    [[menu.icons]]
+#        identifier = "youtube"
+#        name = "YouTube"
+#        url = "https://youtube.com/TechPillsNet"
+#        weight = 30
+#    [[menu.icons]]
+#        identifier = "mastodon"
+#        name = "Mastodon"
+#        url = "https://fosstodon.org/@gabmus"
+#        weight = 40
+

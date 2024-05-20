@@ -2,11 +2,11 @@
     {{- partial "inject/header-before.html" . -}}
     <div class="titleAndSearchContainer">
         <div id="titleContainer">
-            {{ if not (.Site.Params.logoRightOfTitle | default false) }}
+{{/*              {{ if not (.Site.Params.logoRightOfTitle | default false) }}
                 <a class="unstyledLink" href="/">
                     <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                 </a>
-            {{ end }}
+            {{ end }}  */}}
             <div class="rightOfLogo">
                 <div class="titleAndHamburger">
                     <h1>

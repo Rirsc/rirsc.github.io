@@ -211,6 +211,7 @@ footer {
 }
 
 article, .articlePreview {
+    margin-bottom: 5em;
     img {
         margin: auto;
         display: block;
@@ -385,7 +386,7 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 
 .card {
     display: block;
-    padding-bottom: $margin;
+   /*  padding-bottom: $margin;  */
 
     {{ if (.Site.Params.paperCards | default false) }}
         background-color: var(--default_hl_bg);
@@ -405,9 +406,9 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 }
 
 .postlist {
-    display: grid;
+   /*  display: grid;
     grid-gap: $margin;
-    margin-bottom: $margin;
+    margin-bottom: $margin; */
     grid-template-columns: 1fr;
     &.gridView {
         grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
@@ -630,6 +631,7 @@ header {
     margin-bottom: $margin;
     .rightOfLogo {
         width: 100%;
+        display: flex;
         .titleAndHamburger {
             display: flex;
             flex-direction: row;
@@ -639,7 +641,7 @@ header {
         }
     }
     nav:not(#TableOfContents) {
-        font-size: .9em;
+        font-size: 1.3em;
         ul {
             li {
                 {{ if eq .Site.Params.menuStyle "buttons" }}
@@ -665,13 +667,15 @@ header {
                         padding: #{$margin/2} $margin;
                     }
                 {{ else }}
-                    border-right: 1px solid var(--default_accent);
-                    &:last-child {
-                        border-right: none;
-                    }
+                    /*&:first-child {
+                         padding-left: 0px;
+                        margin-left: 0px;
+                        color: blue;
+                    } */
                     a {
                         padding: 2px $margin;
-                        color: var(--default_accent);
+                        color: var(--default_accent); 
+                        padding-left: 0px;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -931,6 +935,7 @@ header.jumbotronContainer {
         }
         #main-nav a, .nerdlink:hover {
             color: var(--default_fg) !important;
+            
         }
         .nerdlink span {
             color: var(--default_fg) !important;
@@ -1150,7 +1155,7 @@ header.jumbotronContainer {
             display: none;
         }
         #wide_nav {
-            display: block;
+            display: flex;
         }
     }
 
@@ -1199,7 +1204,7 @@ header.jumbotronContainer {
                         }
                     }
                     #wide_nav {
-                        display: none;
+                        display: flex;
                     }
                     .sidebarToc {
                         display: block;

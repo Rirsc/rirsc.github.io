@@ -1,4 +1,5 @@
-<div>
+{{ if  eq .Ctx.Paginator.PageNumber 1 }}
+<div style="margin-bottom:5em">
     <h3>
     Ey stranger. Ricardo here, welcome to my abode :)
 
@@ -12,6 +13,7 @@
     Enjoy!
     </h3>
 </div>
+{{ end }}
 
 {{ $allPostsList := .AllPostsList }}
 {{ $postsList := $allPostsList }}

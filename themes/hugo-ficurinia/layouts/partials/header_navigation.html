@@ -2,8 +2,11 @@
     {{ if (.Site.Params.mobileHamburgerNav | default false) }}
         <input type="checkbox" id="main-nav-toggler" />
     {{ end }}
+    <div>RIRSC</div>
+    <div>
     <ul id="main-nav">
         {{/*  <li><a href="/">{{ i18n "home" }}</a></li>  */}}
+        <li><a href="/">{{ i18n "home" }}</a></li>
         {{ if (.Site.Params.showPostsLink | default true) }}
             <li><a href="/posts/">{{ i18n "posts" }}</a></li>
         {{ end }}
@@ -27,4 +30,5 @@
             <li><a href="/search/">{{ i18n "search" }}</a></li>
         {{ end }}
     </ul>
+    </div>
 </nav>

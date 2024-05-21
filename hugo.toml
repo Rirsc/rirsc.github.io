@@ -35,7 +35,7 @@ summaryLength = 30
     contentWidth = "1000px"
 
     paperCards = false  # enable paper card style; default false
-    buttonTags = false  # enable button tag style; default false
+    buttonTags = true  # enable button tag style; default false
     tagsInArticlePreview = false  # enable tags list in the article preview card
     gridView = false  # show post list as a grid. goes well with paperCards
     bigArticleTitle = false  # makes the title in the single article view bigger
@@ -120,7 +120,10 @@ summaryLength = 30
         endLevel = 5
         ordered = false
         startLevel = 1
-
+    # For embeding iframes
+    [markup.goldmark.renderer]
+        unsafe = true
+        
 #[menu]
 #    [[menu.main]]
 #        identifier = "archguide"

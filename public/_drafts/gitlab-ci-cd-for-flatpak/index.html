@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="" lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta name="robots" content="noai, noimageai">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+    <link
+    rel="icon"
+    href='Rirsc_Favicon.png'
+/>
+<link
+    rel="shortcut icon"
+    href='Rirsc_Favicon.ico'
+    type="image/x-icon"
+/>
+<link
+    rel="apple-touch-icon"
+    href='/apple-touch-icon.png'
+/>
+
+    <link
+        rel="icon"
+        href='/Rirsc_Logo.svg'
+        type="image/svg+xml"
+    />
+
+<title>
+        
+            GitLab CI/CD for Flatpak  &ndash;
+        
+        RIRSC
+    </title>
+
+    
+    <link href="/symbols-nerd-font/symbols-nerd-font.css" rel="stylesheet" integrity="sha512-lydow8GLOLlYNOtHlksNCmGWWCBsbIEtikXpHzfWqx78HLlyQZHOzyLwPpKol4Th6aCwLUXOfODVYgwrd3nwKQ=="/>
+    <link href="/jetbrains-mono/jetbrains-mono.css" rel="stylesheet" integrity="sha512-tJxlgL6v1Y7kFf+qB8SloaAMKnOAw6WouknxXtIjkBux9Y/9aX81EUWOJO8c/3l98DmjG8brr4to7zaez606Fg=="/>
+
+    
+    
+    <link type="text/css" rel="stylesheet" href=http://localhost:1313/css/styles.3217d7f6d6efcea71a8418ab7d5fbaaa7d56f3db2505d31f60d464bca29ba8a6f3f368c2adcfcb69f8fed84990ed311d621a8421df5d2019ab5c40c033e174c0.css integrity="sha512-MhfX9tbvzqcahBirfV&#43;6qn1W89slBdMfYNRkvKKbqKbz82jCrc/Lafj&#43;2EmQ7TEdYhqEId9dIBmrXEDAM&#43;F0wA==" />
+<meta name="author" content="Ricardo López" />
+
+    
+        <meta name="keywords" content='cd, ci, flatpak, gitlab, gnome, tutorial, yml' />
+    
+    
+        <meta name="description" content="ent, and a quick look at nautilus&amp;rsquo;s git repo I was able to automatically generate fresh flatpaks directly from GitLab by using the integrated CI/CD system.
+My current setup isn&amp;rsquo;t perfect but it manages to automate flatpak builds. This is incredibly useful, as when people open issues and I try to fix them, I can just tell them to install the lastest flatpak from the CI/CD and test the fixes.
+Also, for power users and curious minds I imagine it could be compelling to be able to install the latest development snapshot without jumping through many hoops.
+Anyway, let&amp;rsquo;s get down to business, here&amp;rsquo;s the .gitlab-ci.yml file to let the magic happen:
+include: &amp;#39;https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml&amp;#39; variables: BUNDLE: &amp;#34;gfeeds.flatpak&amp;#34; flatpak: image: &amp;#39;registry.gitlab.gnome.org/gnome/gnome-runtime-images/gnome:3.32&amp;#39; variables: MANIFEST_PATH: &amp;#34;dist/flatpak/org.gabmus.gfeeds.json&amp;#34; MESON_ARGS: &amp;#34;-Dprofile=Devel&amp;#34; FLATPAK_MODULE: &amp;#34;gfeeds&amp;#34; RUNTIME_REPO: &amp;#34;https://flathub.org/repo/flathub.flatpakrepo&amp;#34; APP_ID: &amp;#34;org.gabmus.gfeeds&amp;#34; extends: .flatpak review: stage: deploy dependencies: - &amp;#39;flatpak&amp;#39; extends: &amp;#39;.review&amp;#39; stop_review: stage: deploy extends: &amp;#39;.stop_review&amp;#39; Hope you find a good use for it." />
+    
+
+<meta property="og:site_name"
+    content='RIRSC' />
+
+    <meta property="og:title" content="GitLab CI/CD for Flatpak" />
+    <meta property="og:type" content="article" />
+    
+    <meta
+        property="article:author" content="Ricardo López" />
+    <meta
+        property="article:published_time"
+        content='2019-08-31T12:24:16Z&#43;0000' />
+    
+        
+            <meta property="article:tag" content="cd" />
+        
+            <meta property="article:tag" content="ci" />
+        
+            <meta property="article:tag" content="flatpak" />
+        
+            <meta property="article:tag" content="gitlab" />
+        
+            <meta property="article:tag" content="gnome" />
+        
+            <meta property="article:tag" content="tutorial" />
+        
+            <meta property="article:tag" content="yml" />
+        
+    
+    <meta property="og:url" content="http://localhost:1313/_drafts/gitlab-ci-cd-for-flatpak/" />
+    
+    
+    <meta property="og:image"
+        content="http://localhost:1313/android-chrome-512x512.png" />
+    
+        <meta property="og:description" content="Thanks to this document, and a quick look at nautilus&amp;rsquo;s git repo I was able to automatically generate fresh flatpaks directly from GitLab by using the int" />
+    
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain"
+      content='localhost:1313'
+/>
+<meta property="twitter:url" content="http://localhost:1313/_drafts/gitlab-ci-cd-for-flatpak/" />
+
+
+    <meta name="twitter:title" content="GitLab CI/CD for Flatpak" />
+    
+    
+    
+    <meta name="twitter:image"
+        content="http://localhost:1313/android-chrome-512x512.png" />
+    
+        <meta name="twitter:description" content="Thanks to this document, and a quick look at nautilus&amp;rsquo;s git repo I was able to automatically generate fresh flatpaks directly from GitLab by using the int" />
+    
+
+<link rel="manifest" href="/manifest/index.json" />
+</head>
+
+
+<body>
+        <div id="baseContainer"><header class="">
+<div class="titleAndSearchContainer">
+        <div id="titleContainer">
+                
+
+            
+            <div class="rightOfLogo">
+                
+                
+                <div id="wide_nav"><nav>
+    
+    <div>RIRSC</div>
+    <div>
+    <ul id="main-nav">
+        
+        <li><a href="/">Home</a></li>
+        
+            <li><a href="/posts/">Posts</a></li>
+        
+        
+        
+        
+        
+            <li><a href="http://localhost:1313/pages/about/">
+                About
+            </a></li>
+        
+        
+        
+        
+    </ul>
+    </div>
+</nav>
+</div>
+            </div>
+            
+
+
+        </div>
+        
+    </div>
+
+    
+
+    
+</header>
+<div id="contentContainer">
+                <div id="content">
+                    <main>
+<article class="card single">
+    
+        <h1>GitLab CI/CD for Flatpak</h1>
+    
+    
+        <p class="date">
+            <span title='Date'> </span>
+    2019-08-31
+
+</p>
+    
+    
+    
+    
+    <div><p>Thanks to <a href="https://gitlab.gnome.org/GNOME/Initiatives/wikis/DevOps-with-Flatpak">this document</a>, and a quick look at <a href="https://gitlab.gnome.org/GNOME/nautilus/tree/master">nautilus&rsquo;s git repo</a> I was able to automatically generate fresh flatpaks directly from GitLab by using the integrated CI/CD system.</p>
+<p>My current setup isn&rsquo;t perfect but it manages to automate flatpak builds. This is incredibly useful, as when people open issues and I try to fix them, I can just tell them to install the lastest flatpak from the CI/CD and test the fixes.</p>
+<p>Also, for power users and curious minds I imagine it could be compelling to be able to install the latest development snapshot without jumping through many hoops.</p>
+<p>Anyway, let&rsquo;s get down to business, here&rsquo;s the <code>.gitlab-ci.yml</code> file to let the magic happen:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ff79c6">include</span>: <span style="color:#f1fa8c">&#39;https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">variables</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">BUNDLE</span>: <span style="color:#f1fa8c">&#34;gfeeds.flatpak&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">flatpak</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">image</span>: <span style="color:#f1fa8c">&#39;registry.gitlab.gnome.org/gnome/gnome-runtime-images/gnome:3.32&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">variables</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">MANIFEST_PATH</span>: <span style="color:#f1fa8c">&#34;dist/flatpak/org.gabmus.gfeeds.json&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">MESON_ARGS</span>: <span style="color:#f1fa8c">&#34;-Dprofile=Devel&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">FLATPAK_MODULE</span>: <span style="color:#f1fa8c">&#34;gfeeds&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">RUNTIME_REPO</span>: <span style="color:#f1fa8c">&#34;https://flathub.org/repo/flathub.flatpakrepo&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">APP_ID</span>: <span style="color:#f1fa8c">&#34;org.gabmus.gfeeds&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">extends</span>: .flatpak
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">review</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">stage</span>: deploy
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">dependencies</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#f1fa8c">&#39;flatpak&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">extends</span>: <span style="color:#f1fa8c">&#39;.review&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">stop_review</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">stage</span>: deploy
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">extends</span>: <span style="color:#f1fa8c">&#39;.stop_review&#39;</span>
+</span></span></code></pre></div><p>Hope you find a good use for it.</p>
+</div>
+</article>
+
+    <hr />
+    <p class="articleTagsContainer">
+        <span> </span>
+        <strong>Tags:</strong>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/cd/">#cd</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/ci/">#ci</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/flatpak/">#flatpak</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/gitlab/">#gitlab</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/gnome/">#gnome</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/tutorial/">#tutorial</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/yml/">#yml</a>
+        
+    </p>
+
+
+
+
+
+
+                    </main><footer>
+    <hr />
+
+<p><small>
+        2024 &copy; Ricardo López
+    </small></p>
+    <p><small>
+
+    </small></p>
+</footer>
+</div>
+            </div>
+        </div>
+
+
+</body>
+</html>

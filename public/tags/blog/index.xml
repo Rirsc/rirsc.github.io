@@ -5,74 +5,7 @@
     <description>Recent content in Blog on RIRSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Ricardo López</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 10:24:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
-    
-    
-    <item>
-      <title>Switching to Cactus Comments</title>
-      <link>http://localhost:1313/posts/switching_to_cactus_comments/</link>
-      <pubDate>Wed, 16 Jun 2021 10:24:30 +0200</pubDate>
-      
-      <guid>http://localhost:1313/posts/switching_to_cactus_comments/</guid>
-      <description><![CDATA[<p>I&rsquo;ve been using Commento for a while for comments (without much adoption to be honest), and while I really love the project, and the simplicity of its approach, there&rsquo;s always been one unavoidable thing I never really liked too much: if you want to comment, you have to register to my commento instance.</p>
-<p>That&rsquo;s less than ideal, considering that if I did have lots of people who wanted to comment, that&rsquo;d have been quite a strain on my humble home server, where my commento instance is hosted.</p>
-<p>Today I found <a href="https://karmanyaah.malhotra.cc/tech/2021/06/website-things/">this post</a> on Mastodon (feel free to <a href="https://linuxrocks.online/@gabmus">follow me there</a> by the way) by Karmanyaah Malhotra about how he reworked his website recently. I always enjoy reading about other people&rsquo;s websites, so I quickly read through it, just to find out about this comment system called <a href="https://cactus.chat">Cactus Comments</a>.</p>
-<p>Cactus Comments uses <a href="https://matrix.org/">Matrix</a> to create a federated comment section on your website. If you have a Matrix account on any instance, you can comment on Cactus! Heck you can even use a full-fledged Matrix client to do so! That&rsquo;s just great.</p>
-<p>It&rsquo;s free to use and self hostable as well, so there&rsquo;s really not much of an excuse not to try it out. Plus if you already have a Matrix account you&rsquo;re already halfway there.</p>
-<p>I integrated it in my <a href="https://gitlab.com/gabmus/hugo-ficurinia">Ficurinia Hugo theme</a> without much effort, so there&rsquo;s another bonus point.</p>
-<p>And that&rsquo;s it, I&rsquo;m really happy about this new comment system, it&rsquo;s one less service running on my home server and due to its decentralized and federated nature it will hopefully encourage more people to leave interesting comments and get a conversation going!</p>
-]]></description>
-      
-        <media:thumbnail url="http://localhost:1313/images/post_pics/Switching_to_Cactus_Comments/cactus.avif" />
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Back to Hugo and on static site generators and custom themes</title>
-      <link>http://localhost:1313/posts/back-to-hugo/</link>
-      <pubDate>Mon, 24 Aug 2020 09:19:02 +0200</pubDate>
-      
-      <guid>http://localhost:1313/posts/back-to-hugo/</guid>
-      <description><![CDATA[<p>As you can see, this website is kinda different. I remade it, just because why not.</p>
-<p>I was previously using Hexo with a nice theme called cactus (properly altered to match my preference), but at some point I got tired of that as well.</p>
-<p>I wanted to create something simple and straight forward. This is the kind of website without too many bells and whistles. Just a blog, period.</p>
-<p>The initial idea of static site generators kinda goes well with this concept, but I don&rsquo;t exactly know when or how things changed. Maybe people liked these tools so much they tried to make them more general purpose, or they just wanted to use them for different things. Doesn&rsquo;t matter, point is that these generators, once simple and easy ways to make a decent blog without the burden and subsequent psychological trauma of a LAMP stack, are now bloated and messy.</p>
-<p>Well, to be fair it&rsquo;s not really an issue with the generators themselves, but with the themes. It&rsquo;s the theme that has the responsibility for how the content is meant to be laid out, what is allowed and how you should do things. Honestly calling them themes is an understatement. If the generator is the skeleton, the <em>theme</em> is muscles, flesh and nervous system. The so called generator is useless without one.</p>
-<p>Making themes is one of those things that I don&rsquo;t like to do. I didn&rsquo;t like it when I was a kid playing around with Wordpress and Joomla, and I don&rsquo;t like it now. I&rsquo;d rather make a plain website instead. But that&rsquo;s not feasible for a blog because of pagination, tags, RSS feed and whatever else that doesn&rsquo;t come to mind right now.</p>
-<p>But at some point I just said, well F it, let&rsquo;s do it. It&rsquo;s a thing I&rsquo;ll do once and basically forget it, and the gain I get from it is a website I actually like and that I can easily customize and change around whenever I feel like it.</p>
-<p>I decided to use Hugo since it seems to be the most popular static site generator at this point in time. I&rsquo;m not new to it, and I somewhat knew my way around it (or so I thought) since I already modified another theme for <a href="https://techpills.technology">the latest iteration of the Tech Pills website</a>. After watching some YouTube tutorials and digging through <a href="https://gohugo.io/documentation/">the lackluster documentation</a> what came out was a new theme I decided to call <a href="https://gitlab.com/gabmus/hugo-ficurinia">Ficurinia</a>.</p>
-<p>The name choice was pretty easy. This theme is inspired by the theme I was using before with Hexo called cactus. This being sort of a grittier version of cactus (if not a more personal vision on the same idea) I decided to call it after the Sicilian word for Indian fig aka prickly pear, <em>Ficurinia</em>.</p>
-<p>I&rsquo;m happy to have made this theme. It&rsquo;s simple, no weird layouts or messy animations, no javascript, and it works on mobile without any modification or special rules. Heck it even looks pretty damn good in the links command line browser.</p>
-<p>So this is my new home now. Hope you like it.</p>
-]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>On privacy conscious comments and analytics</title>
-      <link>http://localhost:1313/posts/on_comments_and_analytics/</link>
-      <pubDate>Wed, 14 Aug 2019 19:40:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/on_comments_and_analytics/</guid>
-      <description><![CDATA[<p>This blog is fairly new, and so I still have to set up everything. Comments are obviously a very important part of a blog, especially if you want any kind of feedback on the stuff you&rsquo;re doing.</p>
-<p>The lazy solution is pretty obvious: <a href="https://en.wikipedia.org/wiki/Disqus#Criticism,_privacy,_and_security_concerns"><em>Disqus</em> the privacy nightmare</a>.</p>
-<p>I like the wild idea of respecting my readers&rsquo; privacy, and so I started looking for alternative solutions.</p>
-<p>The one solution I chose to adopt is an open source comment platform called <a href="https://commento.io/"><strong>Commento</strong></a>. It works just like Disqus, except since it doesn&rsquo;t make money from violating people&rsquo;s privacy, you can&rsquo;t really use it for free.</p>
-<p>You can either choose to pay what you want for it (with a minimum of 3 USD) or host it yourself.</p>
-<p>I already pay for a VPS for <a href="https://techpills.technology">Tech Pills&rsquo; website</a>, but it&rsquo;s not subject to heavy load, so a service more running on it wouldn&rsquo;t really hurt.</p>
-<p>You can install Commento using <code>docker-compose</code>, which is very convenient. I made some changes to the <code>docker-compose.yml</code> file to better suit my needs, and put an nginx reverse proxy in front of it to add https into the mix.</p>
-<p>After writing some CSS to adapt it to the blog&rsquo;s theme, the new comment box is ready to roll.</p>
-<p>As a nice (unexpected) bonus, Commento also provides some basic analytics like total page views and number of comments. And that&rsquo;s all totally anonymous, it&rsquo;s just a faceless number that&rsquo;s not associated to any identity.</p>
-<p>And that&rsquo;s about it, if you&rsquo;re looking for a privacy respecting, open source, powerful comment platform, that&rsquo;s also pretty easy to install and offers some bonus analytics on top, Commento is the way to go.</p>
-]]></description>
-      
-    </item>
-    
+    <copyright>Ricardo López</copyright><atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
     
   </channel>
 </rss>

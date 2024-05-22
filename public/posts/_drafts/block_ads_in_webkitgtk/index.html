@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html class="" lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta name="robots" content="noai, noimageai">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+    <link
+    rel="icon"
+    href='Rirsc_Favicon.png'
+/>
+<link
+    rel="shortcut icon"
+    href='Rirsc_Favicon.ico'
+    type="image/x-icon"
+/>
+<link
+    rel="apple-touch-icon"
+    href='/apple-touch-icon.png'
+/>
+
+    <link
+        rel="icon"
+        href='/Rirsc_Logo.svg'
+        type="image/svg+xml"
+    />
+
+<title>
+        
+            Block ads in WebKitGtk  &ndash;
+        
+        RIRSC
+    </title>
+
+    
+    <link href="/symbols-nerd-font/symbols-nerd-font.css" rel="stylesheet" integrity="sha512-lydow8GLOLlYNOtHlksNCmGWWCBsbIEtikXpHzfWqx78HLlyQZHOzyLwPpKol4Th6aCwLUXOfODVYgwrd3nwKQ=="/>
+    <link href="/jetbrains-mono/jetbrains-mono.css" rel="stylesheet" integrity="sha512-tJxlgL6v1Y7kFf+qB8SloaAMKnOAw6WouknxXtIjkBux9Y/9aX81EUWOJO8c/3l98DmjG8brr4to7zaez606Fg=="/>
+
+    
+    
+    <link type="text/css" rel="stylesheet" href=http://localhost:1313/css/styles.3217d7f6d6efcea71a8418ab7d5fbaaa7d56f3db2505d31f60d464bca29ba8a6f3f368c2adcfcb69f8fed84990ed311d621a8421df5d2019ab5c40c033e174c0.css integrity="sha512-MhfX9tbvzqcahBirfV&#43;6qn1W89slBdMfYNRkvKKbqKbz82jCrc/Lafj&#43;2EmQ7TEdYhqEId9dIBmrXEDAM&#43;F0wA==" />
+<meta name="author" content="Ricardo López" />
+
+    
+        <meta name="keywords" content='adblock, gtk, python, tutorial, webkit, webkit2gtk, webkitgtk, webview' />
+    
+    
+        <meta name="description" content="ested features (and for a good reason) in Feeds has always been ad blocking.
+I never came around to implement it, mostly because I couldn&amp;rsquo;t find a guide or any similar resource, except for GNOME Web&amp;rsquo;s source code, and that&amp;rsquo;s not exactly easy to navigate. At least, it isn&amp;rsquo;t for me.
+Today I decided to come back to it, and I found that it&amp;rsquo;s actually a rather easy task! That&amp;rsquo;s why I wanted to document this process, in hope that someone might find it useful one day.
+First off, you&amp;rsquo;ll need one or more blocklists, in JSON format. I used EasyList, in particular here&amp;rsquo;s the link to the JSON block list. Blocklists should be updated frequently, so it&amp;rsquo;s advisable to have some sort of mechanism to download and update them at runtime automatically.
+Let&amp;rsquo;s now jump to the code, which will be Python in this case, but hopefully can be easily adapted to other languages.
+I&amp;rsquo;ll use some closures for convenience.
+# have a function that downloads text def download_text(url: str) -&amp;gt; str: # ... # create the filter store somewhere in your code, ideally you should # only have one in your application my_filter_store = WebKit2." />
+    
+
+<meta property="og:site_name"
+    content='RIRSC' />
+
+    <meta property="og:title" content="Block ads in WebKitGtk" />
+    <meta property="og:type" content="article" />
+    
+    <meta
+        property="article:author" content="Ricardo López" />
+    <meta
+        property="article:published_time"
+        content='2021-11-27T19:08:53Z&#43;0100' />
+    
+        
+            <meta property="article:tag" content="adblock" />
+        
+            <meta property="article:tag" content="gtk" />
+        
+            <meta property="article:tag" content="python" />
+        
+            <meta property="article:tag" content="tutorial" />
+        
+            <meta property="article:tag" content="webkit" />
+        
+            <meta property="article:tag" content="webkit2gtk" />
+        
+            <meta property="article:tag" content="webkitgtk" />
+        
+            <meta property="article:tag" content="webview" />
+        
+    
+    <meta property="og:url" content="http://localhost:1313/posts/_drafts/block_ads_in_webkitgtk/" />
+    
+    
+        
+            
+        
+    
+    <meta property="og:image"
+        content="http://localhost:1313/images/post_pics/Block_ads_in_WebKitGtk/block_ads_webkit.avif" />
+    
+        <meta property="og:description" content="One of the most requested features (and for a good reason) in Feeds has always been ad blocking.
+I never came around to implement it, mostly because I couldn&amp;rs" />
+    
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain"
+      content='localhost:1313'
+/>
+<meta property="twitter:url" content="http://localhost:1313/posts/_drafts/block_ads_in_webkitgtk/" />
+
+
+    <meta name="twitter:title" content="Block ads in WebKitGtk" />
+    
+    
+    
+        
+            
+        
+    
+    <meta name="twitter:image"
+        content="http://localhost:1313/images/post_pics/Block_ads_in_WebKitGtk/block_ads_webkit.avif" />
+    
+        <meta name="twitter:description" content="One of the most requested features (and for a good reason) in Feeds has always been ad blocking.
+I never came around to implement it, mostly because I couldn&amp;rs" />
+    
+
+<link rel="manifest" href="/manifest/index.json" />
+</head>
+
+
+<body>
+        <div id="baseContainer"><header class="">
+<div class="titleAndSearchContainer">
+        <div id="titleContainer">
+                
+
+            
+            <div class="rightOfLogo">
+                
+                
+                <div id="wide_nav"><nav>
+    
+    <div>RIRSC</div>
+    <div>
+    <ul id="main-nav">
+        
+        <li><a href="/">Home</a></li>
+        
+            <li><a href="/posts/">Posts</a></li>
+        
+        
+        
+        
+        
+            <li><a href="http://localhost:1313/pages/about/">
+                About
+            </a></li>
+        
+        
+        
+        
+    </ul>
+    </div>
+</nav>
+</div>
+            </div>
+            
+
+
+        </div>
+        
+    </div>
+
+    
+
+    
+</header>
+<div id="contentContainer">
+                <div id="content">
+                    <main>
+<article class="card single">
+    
+        <h1>Block ads in WebKitGtk</h1>
+    
+    
+        <p class="date">
+            <span title='Date'> </span>
+    2021-11-27
+
+</p>
+    
+    
+    
+        <figure style="margin: 0">
+            
+                <img src="/images/post_pics/Block_ads_in_WebKitGtk/block_ads_webkit.avif" alt="" />
+            
+            
+        </figure>
+    
+    
+    <div><p>One of the most requested features (and for a good reason) in Feeds has always been ad blocking.</p>
+<p>I never came around to implement it, mostly because I couldn&rsquo;t find a guide or any similar resource, except for <a href="https://gitlab.gnome.org/GNOME/Epiphany">GNOME Web&rsquo;s source code</a>, and that&rsquo;s not exactly easy to navigate. At least, it isn&rsquo;t for me.</p>
+<p>Today I decided to come back to it, and I found that it&rsquo;s actually a rather easy task! That&rsquo;s why I wanted to document this process, in hope that someone might find it useful one day.</p>
+<p>First off, you&rsquo;ll need one or more <strong>blocklists</strong>, in JSON format. I used <a href="https://easylist.to/">EasyList</a>, in particular <a href="https://easylist-downloads.adblockplus.org/easylist_min_content_blocker.json">here&rsquo;s the link to the JSON block list</a>. Blocklists should be updated frequently, so it&rsquo;s advisable to have some sort of mechanism to download and update them at runtime automatically.</p>
+<p>Let&rsquo;s now jump to the code, which will be Python in this case, but hopefully can be easily adapted to other languages.</p>
+<p>I&rsquo;ll use some closures for convenience.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#6272a4"># have a function that downloads text</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">download_text</span>(url: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># ...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># create the filter store somewhere in your code, ideally you should</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># only have one in your application</span>
+</span></span><span style="display:flex;"><span>my_filter_store <span style="color:#ff79c6">=</span> WebKit2<span style="color:#ff79c6">.</span>UserContentFilterStore<span style="color:#ff79c6">.</span>new(<span style="color:#f1fa8c">&#39;some/cache/path&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># a name that will be used to save/retrieve blocklists from the store</span>
+</span></span><span style="display:flex;"><span>BLOCKLIST_ID <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;blocklist&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">apply_adblock</span>(
+</span></span><span style="display:flex;"><span>        webview: WebKit2<span style="color:#ff79c6">.</span>WebView,
+</span></span><span style="display:flex;"><span>        filter_store: WebKit2<span style="color:#ff79c6">.</span>UserContentFilterStore,
+</span></span><span style="display:flex;"><span>        blocklist_url: <span style="color:#8be9fd;font-style:italic">str</span>
+</span></span><span style="display:flex;"><span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#ff79c6">None</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># 0: Retrieve the WebKit2.UserContentManager from the WebView</span>
+</span></span><span style="display:flex;"><span>    content_manager <span style="color:#ff79c6">=</span> webview<span style="color:#ff79c6">.</span>get_user_content_manager()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">save_blocklist_cb</span>(caller, res, <span style="color:#ff79c6">*</span>args):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 6: Once saving is done we can retrieve the newly created</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    WebKit2.UserContentFilter with save_finish and finally add th</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    filter to the WebKit2.UserContentManager</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">filter</span> <span style="color:#ff79c6">=</span> filter_store<span style="color:#ff79c6">.</span>save_finish(res)
+</span></span><span style="display:flex;"><span>            content_manager<span style="color:#ff79c6">.</span>add_filter(<span style="color:#8be9fd;font-style:italic">filter</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">except</span> GLib<span style="color:#ff79c6">.</span>Error:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Error saving blocklist&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">download_blocklist_cb</span>(blocklist: <span style="color:#8be9fd;font-style:italic">str</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 5: Now that we have the blocklist (as a string containing a json),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    we&#39;ll need to convert it to GLib.Bytes, then save it in the store.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    Yes, we need to save it even if we want to refresh it every time,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    this is just the way this works.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    This is also async and when it&#39;s done it will call continue on to</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    save_blocklist_cb</span>
+</span></span><span style="display:flex;"><span>        filter_store<span style="color:#ff79c6">.</span>save(
+</span></span><span style="display:flex;"><span>            BLOCKLIST_ID, GLib<span style="color:#ff79c6">.</span>Bytes<span style="color:#ff79c6">.</span>new(blocklist<span style="color:#ff79c6">.</span>encode()), <span style="color:#ff79c6">None</span>,
+</span></span><span style="display:flex;"><span>            save_blocklist_cb
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">download_blocklist</span>():
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 4: Download the blocklist and continue on to download_blocklist_cb</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>            res <span style="color:#ff79c6">=</span> download_text(blocklist_url)
+</span></span><span style="display:flex;"><span>            GLib<span style="color:#ff79c6">.</span>idle_add(download_blocklist_cb, res)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">except</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Error downloading the blocklist&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">filter_load_cb</span>(caller, res, <span style="color:#ff79c6">*</span>args):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 2: load_finish will either succeed, and return a</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    WebKit2.UserContentFilter object or raise a GLib.Error in case</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    it cannot find the blocklist in the store (ie: on the first run)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">filter</span> <span style="color:#ff79c6">=</span> filter_store<span style="color:#ff79c6">.</span>load_finish(res)
+</span></span><span style="display:flex;"><span>            content_manager<span style="color:#ff79c6">.</span>add_filter(<span style="color:#8be9fd;font-style:italic">filter</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">except</span> GLib<span style="color:#ff79c6">.</span>Error:
+</span></span><span style="display:flex;"><span>            <span style="color:#6272a4"># 3: If loading the blocklist from the store fails, download the</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#6272a4">#    blocklist (async to avoid blocking of course) and save it</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;blocklist store not found, downloading...&#39;</span>)
+</span></span><span style="display:flex;"><span>            Thread(target<span style="color:#ff79c6">=</span>download_blocklist, daemon<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>)<span style="color:#ff79c6">.</span>start()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># 1: try to load the blocklist from the store, this is async and will call</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">#    filter_load_cb when it&#39;s done</span>
+</span></span><span style="display:flex;"><span>    filter_store<span style="color:#ff79c6">.</span>load(BLOCKLIST_ID, <span style="color:#ff79c6">None</span>, filter_load_cb, <span style="color:#ff79c6">None</span>)
+</span></span></code></pre></div><p>I decided to comment the example code above instead of writing disconnected descriptions here, hopefully it makes sense.</p>
+<p>This said, if you want to look at the actual code that I&rsquo;m using in Feeds, <a href="https://gitlab.gnome.org/World/gfeeds/-/blob/0a3d3da66d7d4ede155db24fb0f83f03b47f5489/gfeeds/webview.py#L78">you can find it here</a> (this is a snapshot to today&rsquo;s current latest commit, in the future you may want to look at newer code). It contains some logic to automatically refresh or even remove the blocklist.</p>
+<p>Let me know what you think in the comments, and feel free to point out any errors, or if something is unclear.</p>
+</div>
+</article>
+
+    <hr />
+    <p class="articleTagsContainer">
+        <span> </span>
+        <strong>Tags:</strong>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/adblock/">#adblock</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/gtk/">#gtk</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/python/">#python</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/tutorial/">#tutorial</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/webkit/">#webkit</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/webkit2gtk/">#webkit2gtk</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/webkitgtk/">#webkitgtk</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/webview/">#webview</a>
+        
+    </p>
+
+
+
+
+
+
+                    </main><footer>
+    <hr />
+
+<p><small>
+        2024 &copy; Ricardo López
+    </small></p>
+    <p><small>
+
+    </small></p>
+</footer>
+</div>
+            </div>
+        </div>
+
+
+</body>
+</html>

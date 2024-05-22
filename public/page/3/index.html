@@ -146,200 +146,229 @@
 
 
 
-
-
-
     
 
 
 
+<div class="postlist " id="postlist">
+    <article class="card postlistitem">
+    <div>
+        <h2>
+            <a href="http://localhost:1313/_drafts/raspberry_pi_pico_pinout_in_your_terminal/">Raspberry Pi Pico pinout in your terminal</a>
+        </h2>
+        <p class="date">
+            <span title='Date'> </span>
+    2021-03-09
 
-    <div class="list-group-item">
-        <h3><a href="http://localhost:1313/posts/giara_is_a_reddit_app_for_linux/">Giara is a reddit app for Linux</a></h3>
-        <p>I am a quite avid reddit user. Like it or not, reddit is a very central place where communities for stuff that I care about tend to aggregate.</p>
-<p>For the longest time, I have felt the need for a reddit app on my Linux desktop, and I waited and kept waiting for one that would finally allow me to break free of using the web version.</p>
-<p>Some honorable mentions are due to projects like the now seemingly abandoned <a href="https://github.com/samdroid-apps/something-for-reddit">Something for reddit</a> and the terminal app <a href="https://gitlab.com/ajak/tuir/">Tuir</a>.</p>
-<p>Unfortunately they were not what I was looking for.</p>
-<p>At some point I just decided to start scratching this itch of mine, and so my quest began.</p>
-<p><img src="/images/post_pics/Giara_is_a_reddit_app_for_Linux/screenshot.avif" alt="Screenshot of Giara"></p>
-<p>And this is how Giara got to be!</p>
-<p>At this current stage Giara is already usable, with most of the main features you&rsquo;d expect from a reddit app to work.</p>
-<p><img src="/images/post_pics/Giara_is_a_reddit_app_for_Linux/screenshot2.avif" alt="Screenshot of a comment tree"></p>
-<p>Many people, including some familiar faces, stepped up and helped me in the development process, and I have already received some contributions.</p>
-<p>It&rsquo;s not 100% done, tho. It still needs to reach feature parity with the reddit web client, as features like awards, polls, galleries and private messages are still to be implemented. I&rsquo;m also working on improving performance, as the app tends to be slower than I would prefer sometimes. All of these missing features and improvements are up next in my to-do list.</p>
-<p>The app has also been recently moved to the <a href="https://gitlab.gnome.org/World">World group in GNOME&rsquo;s GitLab</a>, and I&rsquo;m incredibly happy for it! The next step now is to add support for the <a href="https://l10n.gnome.org/"><em>Damned Lies</em></a> translation platform, so that it can be even easier to contribute new translations to the project.</p>
-<p>As always any help and contribution is highly appreciated!</p>
-<p>You can find the repo on <a href="https://gitlab.gnome.org/World/giara">GNOME&rsquo;s GitLab</a> and you can download the latest stable version of Giara from <a href="https://flathub.org/apps/details/org.gabmus.giara">Flathub</a>. You may also want to take a look at <a href="https://giara.gabmus.org">Giara&rsquo;s website</a>.</p>
+
+        </p>
+        
+            
+                <a class="unstyledLink" href="http://localhost:1313/_drafts/raspberry_pi_pico_pinout_in_your_terminal/">
+                    
+                        <img src="/images/post_pics/Raspberry_Pi_Pico_pinout_in_your_terminal/screenshot.avif" alt="" />
+                    
+                </a>
+            
+        
+        
+            <div class="articlePreview">
+                <p>
+                    
+                        I&rsquo;m playing around with the new Raspberry Pi Pico, and I quickly realized that I&rsquo;d really love to have a quick pinout reference in my terminal.
+I thought of making a man page, but I would have lost the color (I don&rsquo;t know how to use arbitrary colors in groff), so I just created a simple text file with ascii escape sequences for colors and called it a day. It works, and it&rsquo;s pretty!
+I&rsquo;m uploading it here for your convenience (and mine as well), you should be able to grab it from your *NIX box by just typing:
+curl https://gabmus.org/pico_pinout If you want to save it in a file, just add &gt; some_file_name to the above.
+                    
+                </p>
+                <p><a href="http://localhost:1313/_drafts/raspberry_pi_pico_pinout_in_your_terminal/">Continue reading </a></p>
+            </div>
+        
+    </div>
+    <hr />
+</article>
+<article class="card postlistitem">
+    <div>
+        <h2>
+            <a href="http://localhost:1313/_drafts/making-a-dbus-daemon/">Making a D-Bus Daemon with Python and Flatpak</a>
+        </h2>
+        <p class="date">
+            <span title='Date'> </span>
+    2021-01-02
+
+
+        </p>
+        
+            
+        
+        
+            <div class="articlePreview">
+                <p>
+                    
+                        I learned most of this stuff from this awesome series of articles by Larry Price. Give it a read, it&rsquo;s worth it.
+Why D-Bus daemons are quite useful tools. What would you need them for? Well, I decided to add one to HydraPaper to do two jobs:
+change the wallpaper periodically listen for monitor configuration changes and adapt to it, so that when you plug or unplug a monitor, the wallpaper doesn&rsquo;t get all messed up There could be other reasons, like provide an always active &ldquo;server&rdquo; component to your application, or if you need to send notifications to the user even when your main app isn&rsquo;t running.
+Of course possibilities are limitless, it&rsquo;s just another way to create software. Using D-Bus to create this daemon allows your graphical application to communicate with the main application in an easy and predictable way.
+If you want to read more about D-Bus, I suggest you give a look at this nicely written article by Patrick Louis.
+How Now what languages are we gonna use? Ha! Trick question! If you know me (or can read the title) you know we&rsquo;ll be using Python. Besides I&rsquo;m pretty sure you can use whatever language you prefer, but today that&rsquo;s what we&rsquo;re gonna use.
+Before we begin, it&rsquo;s good practice to choose a unique id for our daemon using the reverse domain name notation. For the HydraPaper Daemon I chose org.gabmus.hydrapaper.Daemon. It&rsquo;s important that your name is unique, so it&rsquo;s a good practice to name it something like ext.yourPersonalHandle.yourApplicationName.Daemon. Another good idea is if you have a registered domain like I do for gabmus.org, to just use that, followed by the name of your app and some other indication that this service will be a daemon. You can read more about valid names here.
+Once you have decided this id, just put it in a constant, along with the same but separated by slashes as if it was a path, like this:
+UID = &#39;org.gabmus.myapp.Daemon&#39; UID_AS_PATH = &#39;/org/gabmus/myapp/Daemon&#39; # notice the leading slash Let&rsquo;s now start with the basics: we need a class extending dbus.service.Object. This will be our D-Bus Object, and some of the methods inside of it will be exposed as D-Bus methods.
+import dbus import dbus.service # yes, you need to import this as well UID = &#39;org.gabmus.hydrapaper.Daemon&#39; UID_AS_PATH = &#39;/org/gabmus/hydrapaper/Daemon&#39; class MyappDaemon(dbus.service.Object): def __init__(self, bus_name): super().__init__( bus_name, UID_AS_PATH ) Now before moving on, I decided to include the final part here: bootstrapping our main loop and all of the things we need to get this bad boy running, so that you can actually try things out and see what&rsquo;s going on instead of just blindly copy-pasting.
+You&rsquo;ll need these additional imports:
+from dbus.mainloop.glib import DBusGMainLoop from gi.repository import GLib Let&rsquo;s move to the bottom of the file and create a main function, just to do things cleanly:
+def main(): DBusGMainLoop(set_as_default=True) try: bus_name = dbus.service.BusName( UID, bus=dbus.SessionBus(), do_not_queue=True ) except dbus.exceptions.NameExistsException: print(f&#39;Service with id {UID} is already running&#39;) exit(1) loop = GLib.MainLoop() daemon = MyappDaemon(bus_name) try: loop.run() except KeyboardInterrupt: print(&#39;KeyboardInterrupt received&#39;) except Exception as e: print(&#39;Unhandled exception: `{}`&#39;.format(str(e))) finally: loop.quit() if __name__ == &#39;__main__&#39;: main() Alright, let&rsquo;s resume from where we left.
+We have a D-Bus object, and the thing can run doing nothing now, awesome.
+Let&rsquo;s give this object a method we can invoke from outside.
+To do this we&rsquo;ll create a method in our class and decorate it with @dbus.service.method. This decorator takes some parameters:
+dbus_interface: the interface we want this method to be attached to (interfaces are another nesting level for D-Bus, honestly I think they&rsquo;re overkill for this kind of use, so we&rsquo;re just going to use our previously declared UID as the interface, it&rsquo;s gonna work). in_signature: what kind of parameters our method requires out_signature: what kind of output our method returns For the signatures, you can read more about data types you can use in this documentation page.
+Let&rsquo;s create a simple hello method that takes a string and returns another string.
+class MyappDaemon(dbus.service.Object): # ... @dbus.service.method( dbus_interface=UID, in_signature=&#39;s&#39;, out_signature=&#39;s&#39; ) def hello(self, your_name: str) -&gt; str: return f&#39;Hi there, {your_name}!&#39; That&rsquo;s it! Easy, wasn&rsquo;t it?
+Now if like me you want to have some action to run every x seconds or something, you can just use the standard threads and sleep model of Python, not much else you need as far as D-Bus goes.
+Now, let&rsquo;s see what we need to do to package this new Daemon in a Flatpak and have it being recognized by the system as proper and activatable D-Bus service.
+Plumbing First off, we&rsquo;ll be using meson, so I assume you already are using it for your base application.
+Assuming we have our daemon inside a sub-folder called myapp_daemon. For packages reasons I suggest you call the actual daemon Python file something like myappd.in.py. Notice the trailing d, it means daemon. Another thing: make sure to give this file executable permissions! (chmod +x myapp_daemon/myappd.in.py)
+At the beginning of myappd.in.py we&rsquo;re going to insert our shebang like this:
+#!@PYTHON@ In our main meson.build file, the one in the root of the project, let&rsquo;s put the following somewhere you feel is appropriate (skip anything that is already there of course):
+prefix = get_option(&#39;prefix&#39;) datadir = get_option(&#39;datadir&#39;) libexecdir = join_paths(prefix, get_option(&#39;libexecdir&#39;)) etcdir = get_option(&#39;sysconfdir&#39;) dbus_service_dir = dependency( &#39;dbus-1&#39; ).get_pkgconfig_variable( &#39;session_bus_services_dir&#39;, define_variable: [&#39;datadir&#39;, join_paths(prefix, datadir)] ) python = import(&#39;python&#39;) py_installation = python.find_installation(&#39;python3&#39;) if not py_installation.found() error(&#39;No valid python3 binary found&#39;) endif subdir(&#39;myapp_daemon&#39;) subdir(&#39;data&#39;) Now, let&rsquo;s create myapp_daemon/meson.build, and put this inside:
+daemon_conf = configuration_data() daemon_conf.set(&#39;PYTHON&#39;, py_installation.path()) configure_file( input: meson.project_name() + &#39;d.in.py&#39;, output: meson.project_name() + &#39;d&#39;, install: true, install_dir: libexecdir, configuration: daemon_conf ) That&rsquo;s it for the daemon itself, but we still need some other files to let Flatpak (or your host operating system for that matter if you install this with a regular package manager) recognize this as an activatable service.
+Note: an activatable service means a service that will be started automagically as soon as an application tries to connect to it.
+For this, I like to work inside of a new folder called data inside the project root.
+Inside data let&rsquo;s create:
+org.gabmus.myapp.Daemon.desktop.in containing:
+[Desktop Entry] Name=org.gabmus.myapp.Daemon Comment=Daemon for myapp Icon=org.gabmus.myapp.Daemon Exec=@libexecdir@/myappd X-GNOME-Autostart-Delay=10 StartupNotify=false NoDisplay=true Type=Application org.gabmus.myapp.Daemon.service.in containing:
+[D-BUS Service] Name=org.gabmus.myapp.Daemon Exec=@libexecdir@/myappd meson.build (if it exists already, just add to it) containing:
+data_conf = configuration_data() data_conf.set(&#39;libexecdir&#39;, libexecdir) configure_file( input: &#39;org.gabmus.myapp.Daemon.desktop.in&#39;, output: &#39;org.gabmus.myapp.Daemon.desktop&#39;, configuration: data_conf, install: true, install_dir: join_paths(etcdir, &#39;xdg&#39;, &#39;autostart&#39;) ) configure_file( input: &#39;org.gabmus.myapp.Daemon.service.in&#39;, output: &#39;org.gabmus.myapp.Daemon.service&#39;, configuration: data_conf, install: true, install_dir: dbus_service_dir ) Finally, we need to tell Flatpak that the org.gabmus.myapp.Daemon name is owned by our application. To do this let&rsquo;s add the following to our Flatpak manifest, inside the finish-args array:
+&#34;--own-name=org.gabmus.myapp&#34;, &#34;--own-name=org.gabmus.myapp.Daemon&#34; Great! Now in theory everything should be in place, of course let me know if anything is broken or doesn&rsquo;t work, the comment section is there to be used!
+For the final section of this small tutorial, let&rsquo;s see how to call the method we created.
+Summon the daemon For this last section, I&rsquo;ll just leave you with some very brief example code in Python, hopefully it&rsquo;s easy enough to follow:
+import dbus def summon_hello(name): try: bus = dbus.SessionBus() obj = bus.get_object( &#39;org.gabmus.myapp.Daemon&#39;, &#39;/org/gabmus/myapp/Daemon&#39; ) interface = dbus.Interface( obj, dbus_interface=&#39;org.gabmus.myapp.Daemon&#39; ) return interface.hello(name) except dbus.exceptions.DBusException: print(&#39;Failed to communicate with `org.gabmus.myapp.Daemon`!&#39;) return &#39;&#39; Hope you can find this tutorial useful. Mind you, I&rsquo;m not an expert in this matter, I just did this and failed to find a single tutorial summarizing all of what I needed, so I decided to make one myself.
+If you find that anything doesn&rsquo;t work as expected (maybe I missed a step or two?) please let me know in the comments, or contact me directly by using one of the contacts you can find in the About page.
+                    
+                </p>
+                <p><a href="http://localhost:1313/_drafts/making-a-dbus-daemon/">Continue reading </a></p>
+            </div>
+        
+    </div>
+    <hr />
+</article>
+<article class="card postlistitem">
+    <div>
+        <h2>
+            <a href="http://localhost:1313/_drafts/giara_is_a_reddit_app_for_linux/">Giara is a reddit app for Linux</a>
+        </h2>
+        <p class="date">
+            <span title='Date'> </span>
+    2020-10-30
+
+
+        </p>
+        
+            
+        
+        
+            <div class="articlePreview">
+                <p>
+                    
+                        I am a quite avid reddit user. Like it or not, reddit is a very central place where communities for stuff that I care about tend to aggregate.
+For the longest time, I have felt the need for a reddit app on my Linux desktop, and I waited and kept waiting for one that would finally allow me to break free of using the web version.
+Some honorable mentions are due to projects like the now seemingly abandoned Something for reddit and the terminal app Tuir.
+Unfortunately they were not what I was looking for.
+At some point I just decided to start scratching this itch of mine, and so my quest began.
+And this is how Giara got to be!
+At this current stage Giara is already usable, with most of the main features you&rsquo;d expect from a reddit app to work.
+Many people, including some familiar faces, stepped up and helped me in the development process, and I have already received some contributions.
+It&rsquo;s not 100% done, tho. It still needs to reach feature parity with the reddit web client, as features like awards, polls, galleries and private messages are still to be implemented. I&rsquo;m also working on improving performance, as the app tends to be slower than I would prefer sometimes. All of these missing features and improvements are up next in my to-do list.
+The app has also been recently moved to the World group in GNOME&rsquo;s GitLab, and I&rsquo;m incredibly happy for it! The next step now is to add support for the Damned Lies translation platform, so that it can be even easier to contribute new translations to the project.
+As always any help and contribution is highly appreciated!
+You can find the repo on GNOME&rsquo;s GitLab and you can download the latest stable version of Giara from Flathub. You may also want to take a look at Giara&rsquo;s website.
+                    
+                </p>
+                <p><a href="http://localhost:1313/_drafts/giara_is_a_reddit_app_for_linux/">Continue reading </a></p>
+            </div>
+        
+    </div>
+    <hr />
+</article>
+<article class="card postlistitem">
+    <div>
+        <h2>
+            <a href="http://localhost:1313/_drafts/map_mouse_back_and_forward_buttons_in_your_gtk_app/">Map Mouse Back and Forward Buttons in Your GTK App</a>
+        </h2>
+        <p class="date">
+            <span title='Date'> </span>
+    2020-10-08
+
+
+        </p>
+        
+            
+        
+        
+            <div class="articlePreview">
+                <p>
+                    
+                        The back and forward buttons on your mouse are incredibly useful, at least for me. I use them all the time!
+I couldn&rsquo;t find a proper way to map it on my app until I asked on the GTK Matrix chatroom, there baedert sent me a couple of links to how he did it in his app corebird.
+I translated the code to Python and decided to make a blog post to archive the procedure.
+First, here&rsquo;s a function that creates the &ldquo;gesture&rdquo; and assigns it to a widget and a callback function
+def add_mouse_button_accel(widget, function): gesture = Gtk.GestureMultiPress.new(widget) gesture.set_button(0) gesture.set_propagation_phase(Gtk.PropagationPhase.CAPTURE) gesture.connect(&#39;pressed&#39;, function) return gesture As you may have noticed, this function returns the created gesture. You may think there is no need for it and ideally you&rsquo;d be right.
+There&rsquo;s just a small issue: due to something that I could only identify as a bug in GTK, you need to keep the Gtk.GestureMultiPress object around, otherwise it gets destroyed and the button clicks are no longer registered.
+Once the gesture is returned, you can assign it to something that stays in memory (or you can modify this function and do something like widget.mouse_accel_gesture = gesture and be done with it).
+As for the function associated with the mouse click, here&rsquo;s a template you can use:
+def on_mouse_event(gesture, n_press, x, y): btn = gesture.get_current_button() if btn == 8: # Handle the Back button here elif btn == 9: # Handle the Forward button here There you go, hope it helps. If you have any trouble feel free to leave a comment or contact me (contact info can be found in the about page)
+                    
+                </p>
+                <p><a href="http://localhost:1313/_drafts/map_mouse_back_and_forward_buttons_in_your_gtk_app/">Continue reading </a></p>
+            </div>
+        
+    </div>
+    <hr />
+</article>
+<article class="card postlistitem">
+    <div>
+        <h2>
+            <a href="http://localhost:1313/_drafts/create_an_auto-resizing_image_widget_with_gtk3_and_python/">Create an auto resizing image widget with GTK3 and Python</a>
+        </h2>
+        <p class="date">
+            <span title='Date'> </span>
+    2020-10-03
+
+
+        </p>
+        
+            
+        
+        
+            <div class="articlePreview">
+                <p>
+                    
+                        One of the most common things you might wanna do with images, that is making them automatically resize to adapt to the available space they have, is not possible with Gtk.Image.
+So after some hacking, I seem to have found a solution that works:
+from gi.repository import Gtk, GdkPixbuf, Gdk class PictureView(Gtk.DrawingArea): def __init__(self, path, *args, **kwargs): super().__init__(*args, **kwargs) self.path = path self.pixbuf = GdkPixbuf.Pixbuf.new_from_file(self.path) self.img_surface = Gdk.cairo_surface_create_from_pixbuf( self.pixbuf, 1, None ) def get_useful_height(self): aw = self.get_allocated_width() pw = self.pixbuf.get_width() ph = self.pixbuf.get_height() return aw/pw * ph def get_scale_factor(self): return self.get_allocated_width() / self.pixbuf.get_width() def do_draw(self, context): sf = self.get_scale_factor() context.scale(sf, sf) context.set_source_surface(self.img_surface, 0, 0) context.paint() height = self.get_useful_height(self.get_allocated_width()) self.set_size_request(-1, height) This code is actually simpler than I imagined, and that&rsquo;s a good thing. Let&rsquo;s see what&rsquo;s going on here.
+I&rsquo;m doing all of this in a self contained class I unoriginally called PictureView, of course you can rename it to your liking. It takes a path to a picture as an argument.
+I&rsquo;m subclassing Gtk.DrawingArea to be able to draw arbitrary stuff with cairo.
+The first thing is creating a base GdkPixbuf.Pixbuf to store the original image, create a cairo surface from that image and then tell the widget what to do inside the do_draw method.
+This will in turn find out the size at which it wants to be rendered.
+For the width, I want all of it, or in other words all of the allocated width that the widget has.
+As for the height, I simply calculate the target height (indicated as allocated_height in the formula below) by solving a simple proportion between the picture width and the allocated width:
+pixbuf_width / allocated_width = pixbuf_height / allocated_height Once I have this useful data, I set the widget size request with the new values I found (I leave the width as -1 so that it doesn&rsquo;t change).
+Then, I scale the whole cairo context with the scale method, calculating the scale factor as widget_width / pixbuf_width, and finally set the cairo context source to the image surface I created in the constructor.
+Oh, and don&rsquo;t forget to call cairo.paint() as well.
+All in all this is pretty straight forward, but you need to know what you&rsquo;re doing, and I certainly did not up to about a couple of hour ago.
+Hopefully if you need to do this, you will find this blog post and avoid wasting two hours of your time trying to figure this out from sparse C code floating around the internet.
+As a final note, I&rsquo;m being told that in GTK4 GtkPicture is able to do this, but since I&rsquo;m still stuck with GTK3 (as you probably are as well if you&rsquo;re reading this), this is the best solution I could find.
+                    
+                </p>
+                <p><a href="http://localhost:1313/_drafts/create_an_auto-resizing_image_widget_with_gtk3_and_python/">Continue reading </a></p>
+            </div>
+        
+    </div>
+    <hr />
+</article>
 
     </div>
-
-    <div class="list-group-item">
-        <h3><a href="http://localhost:1313/posts/map_mouse_back_and_forward_buttons_in_your_gtk_app/">Map Mouse Back and Forward Buttons in Your GTK App</a></h3>
-        <p>The back and forward buttons on your mouse are incredibly useful, at least for me. I use them all the time!</p>
-<p>I couldn&rsquo;t find a proper way to map it on my app until I asked on the GTK Matrix chatroom, there <a href="https://github.com/baedert">baedert</a> sent me a couple of links to how he did it in his app corebird.</p>
-<p>I translated the code to Python and decided to make a blog post to archive the procedure.</p>
-<p>First, here&rsquo;s a function that creates the &ldquo;gesture&rdquo; and assigns it to a widget and a callback function</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">add_mouse_button_accel</span>(widget, function):
-</span></span><span style="display:flex;"><span>    gesture <span style="color:#ff79c6">=</span> Gtk<span style="color:#ff79c6">.</span>GestureMultiPress<span style="color:#ff79c6">.</span>new(widget)
-</span></span><span style="display:flex;"><span>    gesture<span style="color:#ff79c6">.</span>set_button(<span style="color:#bd93f9">0</span>)
-</span></span><span style="display:flex;"><span>    gesture<span style="color:#ff79c6">.</span>set_propagation_phase(Gtk<span style="color:#ff79c6">.</span>PropagationPhase<span style="color:#ff79c6">.</span>CAPTURE)
-</span></span><span style="display:flex;"><span>    gesture<span style="color:#ff79c6">.</span>connect(<span style="color:#f1fa8c">&#39;pressed&#39;</span>, function)
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">return</span> gesture
-</span></span></code></pre></div><p>As you may have noticed, this function returns the created gesture. You may think there is no need for it and ideally you&rsquo;d be right.</p>
-<p>There&rsquo;s just a small issue: due to something that I could only identify as a bug in GTK, you need to keep the <code>Gtk.GestureMultiPress</code> object around, otherwise it gets destroyed and the button clicks are no longer registered.</p>
-<p>Once the gesture is returned, you can assign it to something that stays in memory (or you can modify this function and do something like <code>widget.mouse_accel_gesture = gesture</code> and be done with it).</p>
-<p>As for the function associated with the mouse click, here&rsquo;s a template you can use:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">on_mouse_event</span>(gesture, n_press, x, y):
-</span></span><span style="display:flex;"><span>    btn <span style="color:#ff79c6">=</span> gesture<span style="color:#ff79c6">.</span>get_current_button()
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> btn <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">8</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># Handle the Back button here</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">elif</span> btn <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">9</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># Handle the Forward button here</span>
-</span></span></code></pre></div><p>There you go, hope it helps. If you have any trouble feel free to leave a comment or contact me (contact info can be found <a href="/pages/about">in the about page</a>)</p>
-
-    </div>
-
-    <div class="list-group-item">
-        <h3><a href="http://localhost:1313/posts/create_an_auto-resizing_image_widget_with_gtk3_and_python/">Create an auto resizing image widget with GTK3 and Python</a></h3>
-        <p>One of the most common things you might wanna do with images, that is making them automatically resize to adapt to the available space they have, is not possible with <code>Gtk.Image</code>.</p>
-<p>So after some hacking, I seem to have found a solution that works:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">from</span> gi.repository <span style="color:#ff79c6">import</span> Gtk, GdkPixbuf, Gdk
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">PictureView</span>(Gtk<span style="color:#ff79c6">.</span>DrawingArea):
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> __init__(self, path, <span style="color:#ff79c6">*</span>args, <span style="color:#ff79c6">**</span>kwargs):
-</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">super</span>()<span style="color:#ff79c6">.</span>__init__(<span style="color:#ff79c6">*</span>args, <span style="color:#ff79c6">**</span>kwargs)
-</span></span><span style="display:flex;"><span>        self<span style="color:#ff79c6">.</span>path <span style="color:#ff79c6">=</span> path
-</span></span><span style="display:flex;"><span>        self<span style="color:#ff79c6">.</span>pixbuf <span style="color:#ff79c6">=</span> GdkPixbuf<span style="color:#ff79c6">.</span>Pixbuf<span style="color:#ff79c6">.</span>new_from_file(self<span style="color:#ff79c6">.</span>path)
-</span></span><span style="display:flex;"><span>        self<span style="color:#ff79c6">.</span>img_surface <span style="color:#ff79c6">=</span> Gdk<span style="color:#ff79c6">.</span>cairo_surface_create_from_pixbuf(
-</span></span><span style="display:flex;"><span>            self<span style="color:#ff79c6">.</span>pixbuf, <span style="color:#bd93f9">1</span>, <span style="color:#ff79c6">None</span>
-</span></span><span style="display:flex;"><span>        )
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">get_useful_height</span>(self):
-</span></span><span style="display:flex;"><span>        aw <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>get_allocated_width()
-</span></span><span style="display:flex;"><span>        pw <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>pixbuf<span style="color:#ff79c6">.</span>get_width()
-</span></span><span style="display:flex;"><span>        ph <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>pixbuf<span style="color:#ff79c6">.</span>get_height()
-</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> aw<span style="color:#ff79c6">/</span>pw <span style="color:#ff79c6">*</span> ph
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">get_scale_factor</span>(self):
-</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> self<span style="color:#ff79c6">.</span>get_allocated_width() <span style="color:#ff79c6">/</span> self<span style="color:#ff79c6">.</span>pixbuf<span style="color:#ff79c6">.</span>get_width()
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">do_draw</span>(self, context):
-</span></span><span style="display:flex;"><span>        sf <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>get_scale_factor()
-</span></span><span style="display:flex;"><span>        context<span style="color:#ff79c6">.</span>scale(sf, sf)
-</span></span><span style="display:flex;"><span>        context<span style="color:#ff79c6">.</span>set_source_surface(self<span style="color:#ff79c6">.</span>img_surface, <span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">0</span>)
-</span></span><span style="display:flex;"><span>        context<span style="color:#ff79c6">.</span>paint()
-</span></span><span style="display:flex;"><span>        height <span style="color:#ff79c6">=</span> self<span style="color:#ff79c6">.</span>get_useful_height(self<span style="color:#ff79c6">.</span>get_allocated_width())
-</span></span><span style="display:flex;"><span>        self<span style="color:#ff79c6">.</span>set_size_request(<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>, height)
-</span></span></code></pre></div><p>This code is actually simpler than I imagined, and that&rsquo;s a good thing. Let&rsquo;s see what&rsquo;s going on here.</p>
-<p>I&rsquo;m doing all of this in a self contained class I unoriginally called <em>PictureView</em>, of course you can rename it to your liking. It takes a path to a picture as an argument.</p>
-<p>I&rsquo;m subclassing <code>Gtk.DrawingArea</code> to be able to draw arbitrary stuff with cairo.</p>
-<p>The first thing is creating a base <code>GdkPixbuf.Pixbuf</code> to store the original image, create a cairo surface from that image and then tell the widget what to do inside the <code>do_draw</code> method.</p>
-<p>This will in turn find out the size at which it wants to be rendered.</p>
-<p>For the width, I want all of it, or in other words all of the allocated width that the widget has.</p>
-<p>As for the height, I simply calculate the target height (indicated as <code>allocated_height</code> in the formula below) by solving a simple proportion between the picture width and the allocated width:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>pixbuf_width / allocated_width = pixbuf_height / allocated_height
-</span></span></code></pre></div><p>Once I have this useful data, I set the widget size request with the new values I found (I leave the width as -1 so that it doesn&rsquo;t change).</p>
-<p>Then, I scale the whole cairo context with the <code>scale</code> method, calculating the scale factor as <code>widget_width / pixbuf_width</code>, and finally set the cairo context source to the image surface I created in the constructor.</p>
-<p>Oh, and don&rsquo;t forget to call <code>cairo.paint()</code> as well.</p>
-<p>All in all this is pretty straight forward, but you need to know what you&rsquo;re doing, and I certainly did not up to about a couple of hour ago.</p>
-<p>Hopefully if you need to do this, you will find this blog post and avoid wasting two hours of your time trying to figure this out from sparse C code floating around the internet.</p>
-<hr>
-<p>As a final note, I&rsquo;m being told that in GTK4 GtkPicture is able to do this, but since I&rsquo;m still stuck with GTK3 (as you probably are as well if you&rsquo;re reading this), this is the best solution I could find.</p>
-
-    </div>
-
-    <div class="list-group-item">
-        <h3><a href="http://localhost:1313/posts/man_pages_with_markdown_and_pandoc/">Man pages with Markdown and Pandoc</a></h3>
-        <p>Man pages are awesome. They genuinely are. In any *nix system you can just get documentation on your programs or even some programming things (namely a lot of C stuff, this was very useful in University) <strong>offline</strong> by just using a tiny simple command.</p>
-<p>Of course writing man pages is a different thing. They are written in <em>groff</em>. I am not a fan of it, although I know people who do enjoy using it.</p>
-<h3 id="markdown--pandoc">Markdown ❤ Pandoc</h3>
-<p>Of course the obvious thing to do is write your docs in <strong>Markdown</strong>, since it&rsquo;s the best simple markup language out there. Fortunately, it&rsquo;s very easy to convert Markdown to groff, and consequently into a man page.</p>
-<p>And of course you can just use <a href="https://pandoc.org/">Pandoc</a> to do that. It&rsquo;s as simple and straight forward as you can imagine, it&rsquo;s just one command away:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pandoc --standalone --to man mymanpage.1.md -o mymanpage.1
-</span></span></code></pre></div><p>It&rsquo;s actually not the first time I&rsquo;ve done something like this. The first was with <a href="https://gitlab.com/gabmus/glorious-man-pages">the handy manuals I wrote for the Glorious GMMK keyboard and Model O mouse</a>. Most of the fancy things you&rsquo;d wanna tweak with these peripherals are done with weird key combinations, and having the paper manuals or even worse PDF copies of those around isn&rsquo;t very practical. So of course I wrote man pages for those.</p>
-<p>If you know Markdown, the syntax you have to use is of course very simple, but if you wanna do it right, you may want to know about a couple of dialect forms of Markdown:</p>
-<h3 id="definition-lists">Definition lists</h3>
-<p><a href="https://pandoc.org/MANUAL.html#definition-lists">Definition lists</a> are perfect for describing particular commands or arguments in your man page, and they get rendered just as you think they would in a man page. They are not part of the original Markdown spec, but Pandoc supports them no problem.</p>
-<p>They&rsquo;re really easy to use, here&rsquo;s an example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#f1fa8c">`-h, --help`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>:   Shows the help message
-</span></span></code></pre></div><p>The backticks are optional but they help escaping weird characters and besides they mark a section that is effectively code.</p>
-<h3 id="metadata-blocks">Metadata blocks</h3>
-<p><a href="https://pandoc.org/MANUAL.html#metadata-blocks">Metadata blocks</a> are also useful to show the title of the man page. Definitely one of those small touches that you might want to have in your man page, as every proper one has them.</p>
-<p>Again, the syntax is fairly straight forward. You want to have this at the beginning of your file and looking something like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>% mymanual(1) Version 0.9.99 | Example manual for this blog post
-</span></span></code></pre></div><h3 id="example">Example</h3>
-<p>Finally I want to include an example Markdown man page I recently made for <a href="https://hydrapaper.gabmus.org">HydraPaper</a>, so that you can get a better grasp of what a full file could look like. Of course you can also find this file in HydraPaper&rsquo;s repository if you&rsquo;re interested.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>% HydraPaper(1) | General Commands Manual
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>NAME
-</span></span><span style="display:flex;"><span>====
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>HydraPaper - Wallpaper manager with multi monitor support
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>SYNOPSIS
-</span></span><span style="display:flex;"><span>========
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">`hydrapaper [-h] [-c WALLPAPER_PATH [WALLPAPER_PATH ...]] [-m WALLPAPER_MODES [WALLPAPER_MODES ...]] [-r] [-l]`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>DESCRIPTION
-</span></span><span style="display:flex;"><span>===========
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>HydraPaper is a wallpaper manager, specifically designed to work around the lack of functionality of many desktop environments to set a different wallpaper for each monitor in a multi monitor setup. It accomplishes this by scaling and merging different wallpapers into a single one and setting it as spanned.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>It currently supports various desktop environments, including GNOME, MATE, Cinnamon and Budgie. Experimental support is included for the sway window manager.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>OPTIONS
-</span></span><span style="display:flex;"><span>=======
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">`-h, --help`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>:   Show the help message and exit
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">`-c, --cli WALLPAPER_PATHS...`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>:   Set wallpapers from the command line
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">`-m, --modes WALLPAPER_MODES...`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>:   Specify the modes for the wallpapers (`zoom`, <span style="color:#f1fa8c">`center_black`</span>, <span style="color:#f1fa8c">`center_blur`</span>, <span style="color:#f1fa8c">`fit_black`</span>, <span style="color:#f1fa8c">`fit_blur`</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">`-r, --random`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>:   Set wallpapers randomly
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">`-l, --lockscreen`</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>:   Set lockscreen wallpapers instead of desktop ones (for supported desktop environments)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>BUGS
-</span></span><span style="display:flex;"><span>====
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Bugs can be reported and filed at https://gitlab.gnome.org/gabmus/hydrapaper/issues
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>If you are not using the flatpak version of HydraPaper, or if you are using an otherwise out of date or downstream version of it, please make sure that the bug you want to report hasn&#39;t been already fixed or otherwise caused by a downstream patch.
-</span></span></code></pre></div>
-    </div>
-
-    <div class="list-group-item">
-        <h3><a href="http://localhost:1313/posts/back-to-hugo/">Back to Hugo and on static site generators and custom themes</a></h3>
-        <p>As you can see, this website is kinda different. I remade it, just because why not.</p>
-<p>I was previously using Hexo with a nice theme called cactus (properly altered to match my preference), but at some point I got tired of that as well.</p>
-<p>I wanted to create something simple and straight forward. This is the kind of website without too many bells and whistles. Just a blog, period.</p>
-<p>The initial idea of static site generators kinda goes well with this concept, but I don&rsquo;t exactly know when or how things changed. Maybe people liked these tools so much they tried to make them more general purpose, or they just wanted to use them for different things. Doesn&rsquo;t matter, point is that these generators, once simple and easy ways to make a decent blog without the burden and subsequent psychological trauma of a LAMP stack, are now bloated and messy.</p>
-<p>Well, to be fair it&rsquo;s not really an issue with the generators themselves, but with the themes. It&rsquo;s the theme that has the responsibility for how the content is meant to be laid out, what is allowed and how you should do things. Honestly calling them themes is an understatement. If the generator is the skeleton, the <em>theme</em> is muscles, flesh and nervous system. The so called generator is useless without one.</p>
-<p>Making themes is one of those things that I don&rsquo;t like to do. I didn&rsquo;t like it when I was a kid playing around with Wordpress and Joomla, and I don&rsquo;t like it now. I&rsquo;d rather make a plain website instead. But that&rsquo;s not feasible for a blog because of pagination, tags, RSS feed and whatever else that doesn&rsquo;t come to mind right now.</p>
-<p>But at some point I just said, well F it, let&rsquo;s do it. It&rsquo;s a thing I&rsquo;ll do once and basically forget it, and the gain I get from it is a website I actually like and that I can easily customize and change around whenever I feel like it.</p>
-<p>I decided to use Hugo since it seems to be the most popular static site generator at this point in time. I&rsquo;m not new to it, and I somewhat knew my way around it (or so I thought) since I already modified another theme for <a href="https://techpills.technology">the latest iteration of the Tech Pills website</a>. After watching some YouTube tutorials and digging through <a href="https://gohugo.io/documentation/">the lackluster documentation</a> what came out was a new theme I decided to call <a href="https://gitlab.com/gabmus/hugo-ficurinia">Ficurinia</a>.</p>
-<p>The name choice was pretty easy. This theme is inspired by the theme I was using before with Hexo called cactus. This being sort of a grittier version of cactus (if not a more personal vision on the same idea) I decided to call it after the Sicilian word for Indian fig aka prickly pear, <em>Ficurinia</em>.</p>
-<p>I&rsquo;m happy to have made this theme. It&rsquo;s simple, no weird layouts or messy animations, no javascript, and it works on mobile without any modification or special rules. Heck it even looks pretty damn good in the links command line browser.</p>
-<p>So this is my new home now. Hope you like it.</p>
-
-    </div>
-
-<div id="getNextBtnContainer"></div>
+    <div id="getNextBtnContainer"></div>
 
 
     

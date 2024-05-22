@@ -11,10 +11,10 @@
     
     <item>
       <title>Nvpunk: A Modern Neovim Distribution with Batteries Included</title>
-      <link>http://localhost:1313/posts/nvpunk_a_modern_neovim_distribution_with_batteries_included/</link>
+      <link>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</link>
       <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/nvpunk_a_modern_neovim_distribution_with_batteries_included/</guid>
+      <guid>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</guid>
       <description><![CDATA[<p>I&rsquo;ve been using <a href="https://neovim.io">neovim</a> for a while now, and for me, it&rsquo;s the single best text editor out there.</p>
 <p>But it&rsquo;s got a big problem: it&rsquo;s a bit of a hassle, and you have to know what you&rsquo;re doing. There&rsquo;s a wide ecosystem of plugins that integrate into each other, most of them requiring custom configuration code to work. It took a while, but I managed to put together a pretty good config.</p>
 <p>Over time this config, that was initially living in my dotfiles repo, grew larger and more complex. So came the refactorings, then the generalizations, modularization, custom settings systems&hellip;</p>

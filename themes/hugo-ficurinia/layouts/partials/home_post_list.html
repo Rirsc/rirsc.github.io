@@ -19,7 +19,7 @@
 
 
 {{ $allPostsList := .AllPostsList }}
-{{ $postsList := $allPostsList }}
+{{ $postsList := where $allPostsList "Section" "posts" }}
 {{ $featuredPostsList := slice }}
 {{ $pagination := slice }}
 {{ if site.Params.enableFeatured | default false }}
@@ -34,11 +34,12 @@
 {{ end }}
 
 {{/* pagination */}}
-{{ range $pagination }}
-    <div class="list-group-item">
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        {{ .Content | markdownify }}
-    </div>
-{{ end }}
+<div class="postlist {{ if site.Params.gridView }}gridView{{ end }}" id="postlist">
+    {{ range $pagination }}
+    {{ if eq .Section "posts" }}
+    {{- partial "article_card.html" . -}}
+    {{ end }}
+    {{ end }}
+</div>
 <div id="getNextBtnContainer"></div>
 {{- partial "paginator.html" .Ctx -}}

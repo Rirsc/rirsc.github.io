@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="" lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta name="robots" content="noai, noimageai">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+    <link
+    rel="icon"
+    href='Rirsc_Favicon.png'
+/>
+<link
+    rel="shortcut icon"
+    href='Rirsc_Favicon.ico'
+    type="image/x-icon"
+/>
+<link
+    rel="apple-touch-icon"
+    href='/apple-touch-icon.png'
+/>
+
+    <link
+        rel="icon"
+        href='/Rirsc_Logo.svg'
+        type="image/svg+xml"
+    />
+
+<title>
+        
+            Making a D-Bus Daemon with Python and Flatpak  &ndash;
+        
+        RIRSC
+    </title>
+
+    
+    <link href="/symbols-nerd-font/symbols-nerd-font.css" rel="stylesheet" integrity="sha512-lydow8GLOLlYNOtHlksNCmGWWCBsbIEtikXpHzfWqx78HLlyQZHOzyLwPpKol4Th6aCwLUXOfODVYgwrd3nwKQ=="/>
+    <link href="/jetbrains-mono/jetbrains-mono.css" rel="stylesheet" integrity="sha512-tJxlgL6v1Y7kFf+qB8SloaAMKnOAw6WouknxXtIjkBux9Y/9aX81EUWOJO8c/3l98DmjG8brr4to7zaez606Fg=="/>
+
+    
+    
+    <link type="text/css" rel="stylesheet" href=http://localhost:1313/css/styles.3217d7f6d6efcea71a8418ab7d5fbaaa7d56f3db2505d31f60d464bca29ba8a6f3f368c2adcfcb69f8fed84990ed311d621a8421df5d2019ab5c40c033e174c0.css integrity="sha512-MhfX9tbvzqcahBirfV&#43;6qn1W89slBdMfYNRkvKKbqKbz82jCrc/Lafj&#43;2EmQ7TEdYhqEId9dIBmrXEDAM&#43;F0wA==" />
+<meta name="author" content="Ricardo López" />
+
+    
+        <meta name="keywords" content='dbus, flatpak, gnome, gtk, hydrapaper, meson, python, tutorial' />
+    
+    
+        <meta name="description" content="is stuff from this awesome series of articles by Larry Price. Give it a read, it&amp;rsquo;s worth it.
+Why D-Bus daemons are quite useful tools. What would you need them for? Well, I decided to add one to HydraPaper to do two jobs:
+change the wallpaper periodically listen for monitor configuration changes and adapt to it, so that when you plug or unplug a monitor, the wallpaper doesn&amp;rsquo;t get all messed up There could be other reasons, like provide an always active &amp;ldquo;server&amp;rdquo; component to your application, or if you need to send notifications to the user even when your main app isn&amp;rsquo;t running.
+Of course possibilities are limitless, it&amp;rsquo;s just another way to create software. Using D-Bus to create this daemon allows your graphical application to communicate with the main application in an easy and predictable way.
+If you want to read more about D-Bus, I suggest you give a look at this nicely written article by Patrick Louis.
+How Now what languages are we gonna use? Ha! Trick question! If you know me (or can read the title) you know we&amp;rsquo;ll be using Python. Besides I&amp;rsquo;m pretty sure you can use whatever language you prefer, but today that&amp;rsquo;s what we&amp;rsquo;re gonna use." />
+    
+
+<meta property="og:site_name"
+    content='RIRSC' />
+
+    <meta property="og:title" content="Making a D-Bus Daemon with Python and Flatpak" />
+    <meta property="og:type" content="article" />
+    
+    <meta
+        property="article:author" content="Ricardo López" />
+    <meta
+        property="article:published_time"
+        content='2021-01-02T09:42:43Z&#43;0100' />
+    
+        
+            <meta property="article:tag" content="dbus" />
+        
+            <meta property="article:tag" content="flatpak" />
+        
+            <meta property="article:tag" content="gnome" />
+        
+            <meta property="article:tag" content="gtk" />
+        
+            <meta property="article:tag" content="hydrapaper" />
+        
+            <meta property="article:tag" content="meson" />
+        
+            <meta property="article:tag" content="python" />
+        
+            <meta property="article:tag" content="tutorial" />
+        
+    
+    <meta property="og:url" content="http://localhost:1313/posts/_drafts/making-a-dbus-daemon/" />
+    
+    
+    <meta property="og:image"
+        content="http://localhost:1313/android-chrome-512x512.png" />
+    
+        <meta property="og:description" content="I learned most of this stuff from this awesome series of articles by Larry Price. Give it a read, it&amp;rsquo;s worth it.
+Why D-Bus daemons are quite useful tools." />
+    
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain"
+      content='localhost:1313'
+/>
+<meta property="twitter:url" content="http://localhost:1313/posts/_drafts/making-a-dbus-daemon/" />
+
+
+    <meta name="twitter:title" content="Making a D-Bus Daemon with Python and Flatpak" />
+    
+    
+    
+    <meta name="twitter:image"
+        content="http://localhost:1313/android-chrome-512x512.png" />
+    
+        <meta name="twitter:description" content="I learned most of this stuff from this awesome series of articles by Larry Price. Give it a read, it&amp;rsquo;s worth it.
+Why D-Bus daemons are quite useful tools." />
+    
+
+<link rel="manifest" href="/manifest/index.json" />
+</head>
+
+
+<body>
+        <div id="baseContainer"><header class="">
+<div class="titleAndSearchContainer">
+        <div id="titleContainer">
+                
+
+            
+            <div class="rightOfLogo">
+                
+                
+                <div id="wide_nav"><nav>
+    
+    <div>RIRSC</div>
+    <div>
+    <ul id="main-nav">
+        
+        <li><a href="/">Home</a></li>
+        
+            <li><a href="/posts/">Posts</a></li>
+        
+        
+        
+        
+        
+            <li><a href="http://localhost:1313/pages/about/">
+                About
+            </a></li>
+        
+        
+        
+        
+    </ul>
+    </div>
+</nav>
+</div>
+            </div>
+            
+
+
+        </div>
+        
+    </div>
+
+    
+
+    
+</header>
+<div id="contentContainer">
+                <div id="content">
+                    <main>
+<article class="card single">
+    
+        <h1>Making a D-Bus Daemon with Python and Flatpak</h1>
+    
+    
+        <p class="date">
+            <span title='Date'> </span>
+    2021-01-02
+
+</p>
+    
+    
+    
+    
+    <div><p><em>I learned most of this stuff from <a href="https://larry-price.com/blog/categories/dbus/">this awesome series of articles by Larry Price</a>. Give it a read, it&rsquo;s worth it.</em></p>
+<h2 id="why">Why</h2>
+<p>D-Bus daemons are quite useful tools. What would you need them for? Well, I decided to add one to <a href="https://hydrapaper.gabmus.org">HydraPaper</a> to do two jobs:</p>
+<ol>
+<li>change the wallpaper periodically</li>
+<li>listen for monitor configuration changes and adapt to it, so that when you plug or unplug a monitor, the wallpaper doesn&rsquo;t get all messed up</li>
+</ol>
+<p>There could be other reasons, like provide an always active &ldquo;server&rdquo; component to your application, or if you need to send notifications to the user even when your main app isn&rsquo;t running.</p>
+<p>Of course possibilities are limitless, it&rsquo;s just another way to create software. <strong>Using D-Bus to create this daemon allows your graphical application to communicate with the main application in an easy and predictable way</strong>.</p>
+<p>If you want to read more about D-Bus, I suggest you give a look at <a href="https://venam.nixers.net/blog/unix/2020/07/06/dbus-polkit.html">this nicely written article by Patrick Louis</a>.</p>
+<h2 id="how">How</h2>
+<p>Now what languages are we gonna use? Ha! Trick question! If you know me (or can read the title) you know we&rsquo;ll be using Python. Besides I&rsquo;m pretty sure you can use whatever language you prefer, but today that&rsquo;s what we&rsquo;re gonna use.</p>
+<p>Before we begin, it&rsquo;s good practice to choose a unique id for our daemon using the <a href="https://en.wikipedia.org/wiki/Reverse_domain_name_notation">reverse domain name notation</a>. For the HydraPaper Daemon I chose <code>org.gabmus.hydrapaper.Daemon</code>. It&rsquo;s important that your name is unique, so it&rsquo;s a good practice to name it something like <code>ext.yourPersonalHandle.yourApplicationName.Daemon</code>. Another good idea is if you have a registered domain like I do for <code>gabmus.org</code>, to just use that, followed by the name of your app and some other indication that this service will be a daemon. <a href="https://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names">You can read more about valid names here</a>.</p>
+<p>Once you have decided this id, just put it in a constant, along with the same but separated by slashes as if it was a path, like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>UID         <span style="color:#ff79c6">=</span>  <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>UID_AS_PATH <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;/org/gabmus/myapp/Daemon&#39;</span>  <span style="color:#6272a4"># notice the leading slash</span>
+</span></span></code></pre></div><p>Let&rsquo;s now start with the basics: we need a class extending <code>dbus.service.Object</code>. This will be our <strong>D-Bus Object</strong>, and some of the methods inside of it will be exposed as <strong>D-Bus methods</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> dbus
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">import</span> dbus.service  <span style="color:#6272a4"># yes, you need to import this as well</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>UID         <span style="color:#ff79c6">=</span>  <span style="color:#f1fa8c">&#39;org.gabmus.hydrapaper.Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>UID_AS_PATH <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;/org/gabmus/hydrapaper/Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">MyappDaemon</span>(dbus<span style="color:#ff79c6">.</span>service<span style="color:#ff79c6">.</span>Object):
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> __init__(self, bus_name):
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">super</span>()<span style="color:#ff79c6">.</span>__init__(
+</span></span><span style="display:flex;"><span>            bus_name, UID_AS_PATH
+</span></span><span style="display:flex;"><span>        )
+</span></span></code></pre></div><p>Now before moving on, I decided to include the final part here: bootstrapping our main loop and all of the things we need to get this bad boy running, so that you can actually try things out and see what&rsquo;s going on instead of just blindly copy-pasting.</p>
+<p>You&rsquo;ll need these additional imports:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">from</span> dbus.mainloop.glib <span style="color:#ff79c6">import</span> DBusGMainLoop
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">from</span> gi.repository <span style="color:#ff79c6">import</span> GLib
+</span></span></code></pre></div><p>Let&rsquo;s move <strong>to the bottom of the file</strong> and create a main function, just to do things cleanly:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">main</span>():
+</span></span><span style="display:flex;"><span>    DBusGMainLoop(set_as_default<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>        bus_name <span style="color:#ff79c6">=</span> dbus<span style="color:#ff79c6">.</span>service<span style="color:#ff79c6">.</span>BusName(
+</span></span><span style="display:flex;"><span>            UID, bus<span style="color:#ff79c6">=</span>dbus<span style="color:#ff79c6">.</span>SessionBus(), do_not_queue<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> dbus<span style="color:#ff79c6">.</span>exceptions<span style="color:#ff79c6">.</span>NameExistsException:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">f</span><span style="color:#f1fa8c">&#39;Service with id </span><span style="color:#f1fa8c">{</span>UID<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c"> is already running&#39;</span>)
+</span></span><span style="display:flex;"><span>        exit(<span style="color:#bd93f9">1</span>)
+</span></span><span style="display:flex;"><span>    loop <span style="color:#ff79c6">=</span> GLib<span style="color:#ff79c6">.</span>MainLoop()
+</span></span><span style="display:flex;"><span>    daemon <span style="color:#ff79c6">=</span> MyappDaemon(bus_name)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>        loop<span style="color:#ff79c6">.</span>run()
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> KeyboardInterrupt:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;KeyboardInterrupt received&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> Exception <span style="color:#ff79c6">as</span> e:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Unhandled exception: `</span><span style="color:#f1fa8c">{}</span><span style="color:#f1fa8c">`&#39;</span><span style="color:#ff79c6">.</span>format(<span style="color:#8be9fd;font-style:italic">str</span>(e)))
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">finally</span>:
+</span></span><span style="display:flex;"><span>        loop<span style="color:#ff79c6">.</span>quit()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>Alright, let&rsquo;s resume from where we left.</p>
+<p>We have a D-Bus object, and the thing can run doing nothing now, awesome.</p>
+<p>Let&rsquo;s give this object a method we can invoke from outside.</p>
+<p>To do this we&rsquo;ll create a method in our class and decorate it with <code>@dbus.service.method</code>. This decorator takes some parameters:</p>
+<ul>
+<li><code>dbus_interface</code>: the interface we want this method to be attached to (interfaces are another nesting level for D-Bus, honestly I think they&rsquo;re overkill for this kind of use, so we&rsquo;re just going to use our previously declared <code>UID</code> as the interface, it&rsquo;s gonna work).</li>
+<li><code>in_signature</code>: what kind of parameters our method requires</li>
+<li><code>out_signature</code>: what kind of output our method returns</li>
+</ul>
+<p>For the signatures, you can read more about data types you can use <a href="https://dbus.freedesktop.org/doc/dbus-python/tutorial.html#data-types">in this documentation page</a>.</p>
+<p>Let&rsquo;s create a simple <code>hello</code> method that takes a string and returns another string.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">MyappDaemon</span>(dbus<span style="color:#ff79c6">.</span>service<span style="color:#ff79c6">.</span>Object):
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># ...</span>
+</span></span><span style="display:flex;"><span>    @dbus.service.method(
+</span></span><span style="display:flex;"><span>        dbus_interface<span style="color:#ff79c6">=</span>UID,
+</span></span><span style="display:flex;"><span>        in_signature<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;s&#39;</span>, out_signature<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;s&#39;</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">hello</span>(self, your_name: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">f</span><span style="color:#f1fa8c">&#39;Hi there, </span><span style="color:#f1fa8c">{</span>your_name<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">!&#39;</span>
+</span></span></code></pre></div><p>That&rsquo;s it! Easy, wasn&rsquo;t it?</p>
+<p>Now if like me you want to have some action to run every x seconds or something, you can just use the standard threads and sleep model of Python, not much else you need as far as D-Bus goes.</p>
+<p>Now, let&rsquo;s see what we need to do to package this new Daemon in a Flatpak and have it being recognized by the system as proper and activatable D-Bus service.</p>
+<h2 id="plumbing">Plumbing</h2>
+<p>First off, we&rsquo;ll be using meson, so I assume you already are using it for your base application.</p>
+<p>Assuming we have our daemon inside a sub-folder called <code>myapp_daemon</code>. For packages reasons I suggest you call the actual daemon Python file something like <code>myappd.in.py</code>. Notice the trailing <code>d</code>, it means daemon. Another thing: <strong>make sure to give this file executable permissions!</strong> (<code>chmod +x myapp_daemon/myappd.in.py</code>)</p>
+<p>At the beginning of <code>myappd.in.py</code> we&rsquo;re going to insert our shebang like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6272a4">#!@PYTHON@</span>
+</span></span></code></pre></div><p>In our main <code>meson.build</code> file, the one in the root of the project, let&rsquo;s put the following somewhere you feel is appropriate (skip anything that is already there of course):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>prefix <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;prefix&#39;</span>)
+</span></span><span style="display:flex;"><span>datadir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;datadir&#39;</span>)
+</span></span><span style="display:flex;"><span>libexecdir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">join_paths</span>(prefix, <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;libexecdir&#39;</span>))
+</span></span><span style="display:flex;"><span>etcdir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;sysconfdir&#39;</span>)
+</span></span><span style="display:flex;"><span>dbus_service_dir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">dependency</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#39;dbus-1&#39;</span>
+</span></span><span style="display:flex;"><span>).get_pkgconfig_variable(
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#39;session_bus_services_dir&#39;</span>,
+</span></span><span style="display:flex;"><span>    define_variable: [<span style="color:#f1fa8c">&#39;datadir&#39;</span>, <span style="color:#8be9fd;font-style:italic">join_paths</span>(prefix, datadir)]
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>python <span style="color:#ff79c6">=</span> import(<span style="color:#f1fa8c">&#39;python&#39;</span>)
+</span></span><span style="display:flex;"><span>py_installation <span style="color:#ff79c6">=</span> python.find_installation(<span style="color:#f1fa8c">&#39;python3&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">if</span> <span style="color:#ff79c6">not</span> py_installation.found()
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">error</span>(<span style="color:#f1fa8c">&#39;No valid python3 binary found&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">endif</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">subdir</span>(<span style="color:#f1fa8c">&#39;myapp_daemon&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">subdir</span>(<span style="color:#f1fa8c">&#39;data&#39;</span>)
+</span></span></code></pre></div><p>Now, let&rsquo;s create <code>myapp_daemon/meson.build</code>, and put this inside:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>daemon_conf <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">configuration_data</span>()
+</span></span><span style="display:flex;"><span>daemon_conf.set(<span style="color:#f1fa8c">&#39;PYTHON&#39;</span>, py_installation.path())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">configure_file</span>(
+</span></span><span style="display:flex;"><span>    input: meson.project_name() <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#39;d.in.py&#39;</span>,
+</span></span><span style="display:flex;"><span>    output: meson.project_name() <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#39;d&#39;</span>,
+</span></span><span style="display:flex;"><span>    install: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    install_dir: libexecdir,
+</span></span><span style="display:flex;"><span>    configuration: daemon_conf
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>That&rsquo;s it for the daemon itself, but we still need some other files to let Flatpak (or your host operating system for that matter if you install this with a regular package manager) recognize this as an activatable service.</p>
+<p><em>Note: an activatable service means a service that will be started automagically as soon as an application tries to connect to it.</em></p>
+<p>For this, I like to work inside of a new folder called <code>data</code> inside the project root.</p>
+<p>Inside <code>data</code> let&rsquo;s create:</p>
+<p><code>org.gabmus.myapp.Daemon.desktop.in</code> containing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-desktop" data-lang="desktop"><span style="display:flex;"><span><span style="color:#ff79c6">[Desktop Entry]</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Name</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">org.gabmus.myapp.Daemon</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Comment</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">Daemon for myapp</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Icon</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">org.gabmus.myapp.Daemon</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Exec</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">@libexecdir@/myappd</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">X-GNOME-Autostart-Delay</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">StartupNotify</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">NoDisplay</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">Application</span>
+</span></span></code></pre></div><p><code>org.gabmus.myapp.Daemon.service.in</code> containing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-desktop" data-lang="desktop"><span style="display:flex;"><span><span style="color:#ff79c6">[D-BUS Service]</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Name</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">org.gabmus.myapp.Daemon</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Exec</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">@libexecdir@/myappd</span>
+</span></span></code></pre></div><p><code>meson.build</code> (if it exists already, just add to it) containing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>data_conf <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">configuration_data</span>()
+</span></span><span style="display:flex;"><span>data_conf.set(<span style="color:#f1fa8c">&#39;libexecdir&#39;</span>, libexecdir)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">configure_file</span>(
+</span></span><span style="display:flex;"><span>    input: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.desktop.in&#39;</span>,
+</span></span><span style="display:flex;"><span>    output: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.desktop&#39;</span>,
+</span></span><span style="display:flex;"><span>    configuration: data_conf,
+</span></span><span style="display:flex;"><span>    install: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    install_dir: <span style="color:#8be9fd;font-style:italic">join_paths</span>(etcdir, <span style="color:#f1fa8c">&#39;xdg&#39;</span>, <span style="color:#f1fa8c">&#39;autostart&#39;</span>)
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">configure_file</span>(
+</span></span><span style="display:flex;"><span>    input: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.service.in&#39;</span>,
+</span></span><span style="display:flex;"><span>    output: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.service&#39;</span>,
+</span></span><span style="display:flex;"><span>    configuration: data_conf,
+</span></span><span style="display:flex;"><span>    install: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    install_dir: dbus_service_dir
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>Finally, we need to tell Flatpak that the <code>org.gabmus.myapp.Daemon</code> name is owned by our application. To do this let&rsquo;s add the following to our Flatpak manifest, inside the <code>finish-args</code> array:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#f1fa8c">&#34;--own-name=org.gabmus.myapp&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#34;--own-name=org.gabmus.myapp.Daemon&#34;</span>
+</span></span></code></pre></div><p>Great! Now in theory everything should be in place, of course let me know if anything is broken or doesn&rsquo;t work, the comment section is there to be used!</p>
+<p>For the final section of this small tutorial, let&rsquo;s see how to call the method we created.</p>
+<h2 id="summon-the-daemon">Summon the daemon</h2>
+<p>For this last section, I&rsquo;ll just leave you with some very brief example code in Python, hopefully it&rsquo;s easy enough to follow:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> dbus
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">summon_hello</span>(name):
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>        bus <span style="color:#ff79c6">=</span> dbus<span style="color:#ff79c6">.</span>SessionBus()
+</span></span><span style="display:flex;"><span>        obj <span style="color:#ff79c6">=</span> bus<span style="color:#ff79c6">.</span>get_object(
+</span></span><span style="display:flex;"><span>            <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon&#39;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f1fa8c">&#39;/org/gabmus/myapp/Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        interface <span style="color:#ff79c6">=</span> dbus<span style="color:#ff79c6">.</span>Interface(
+</span></span><span style="display:flex;"><span>            obj, dbus_interface<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> interface<span style="color:#ff79c6">.</span>hello(name)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> dbus<span style="color:#ff79c6">.</span>exceptions<span style="color:#ff79c6">.</span>DBusException:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Failed to communicate with `org.gabmus.myapp.Daemon`!&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#39;&#39;</span>
+</span></span></code></pre></div><hr>
+<p>Hope you can find this tutorial useful. Mind you, I&rsquo;m not an expert in this matter, I just did this and failed to find a single tutorial summarizing all of what I needed, so I decided to make one myself.</p>
+<p>If you find that anything doesn&rsquo;t work as expected (maybe I missed a step or two?) please let me know in the comments, or contact me directly by using one of the contacts you can find <a href="/pages/about">in the About page</a>.</p>
+</div>
+</article>
+
+    <hr />
+    <p class="articleTagsContainer">
+        <span> </span>
+        <strong>Tags:</strong>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/dbus/">#dbus</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/flatpak/">#flatpak</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/gnome/">#gnome</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/gtk/">#gtk</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/hydrapaper/">#hydrapaper</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/meson/">#meson</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/python/">#python</a>
+        
+            <a
+                
+                class="buttonTag"
+                
+                href="/tags/tutorial/">#tutorial</a>
+        
+    </p>
+
+
+
+
+
+
+                    </main><footer>
+    <hr />
+
+<p><small>
+        2024 &copy; Ricardo López
+    </small></p>
+    <p><small>
+
+    </small></p>
+</footer>
+</div>
+            </div>
+        </div>
+
+
+</body>
+</html>

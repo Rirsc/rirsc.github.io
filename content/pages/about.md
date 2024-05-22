@@ -3,6 +3,7 @@ title: About
 date: 2019-08-11 10:14:48
 comments: false
 norss: true
+type: misc
 ---
 
 # This human
@@ -32,7 +33,7 @@ No trackers, no ads. Privacy policy: not collecting or retaining any data at all
 > I want my webpage to be static, minimalist, energy-efficient and fast.
 > 
 - This website has no tracking or analytics.
-- Based on [Humans.txt](https://humanstxt.org/), it has, of course, its own humans.txt
+- Based on [Humans.txt](https://humanstxt.org/), it has, of course, its own [humans.txt](/humans.txt)
 - No JavaScript
 - [Designed to last](https://jeffhuang.com/designed_to_last/) - Although I need to add a rule to show when a link is pointing outside of this site…
 - [Manual until it hurts](https://indieweb.org/manual_until_it_hurts)

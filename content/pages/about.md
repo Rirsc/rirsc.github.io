@@ -15,8 +15,6 @@ More about my 3D professional portfolio [here](http://rirsc.xyz).
 
 My main interests are music ([gigs](https://www.notion.so/Web-2-0-Gigs-bc40454f5f0743b0a9d37f6144834c5a?pvs=21)), [boardgames](https://www.notion.so/Web-2-0-Boardgames-d5ee67fee6774c9ab560fa8aa550bb67?pvs=21) and rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
-# Contact
-
 # This website
 
 This site is a digital sandbox. My [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/). 

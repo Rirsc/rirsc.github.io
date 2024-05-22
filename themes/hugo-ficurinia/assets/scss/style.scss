@@ -18,6 +18,9 @@ $light_accent:     {{ $colors.light.accent     | default "#db5793" }};
 $light_sidebar_bg: {{ $colors.light.sidebar.bg | default "#e6e6e6" }};
 $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
 
+
+    
+    
 :root {
     --dark_bg:          #{$dark_bg};
     --dark_hl_bg:       #{$dark_hl_bg};
@@ -110,11 +113,6 @@ $mono_font_mult:  {{ .Site.Params.monoFontSizeMultiplier  | default 1.0 }};
     $shadow: 0 0 0 0 transparent;
 {{ end }}
 
-::selection, ::-moz-selection {
-    background: var(--default_accent);
-    color: var(--default_fg);
-}
-
 body, html {
     font-family: $symbols_font, $main_font, monospace;
     font-size: $base_font_size * $main_font_mult;
@@ -122,11 +120,24 @@ body, html {
     padding: 0;
     background-color: var(--default_bg);
     color: var(--default_fg);
+
+    ::selection, {
+        color: var(--default_bg);
+        background: var(--default_accent);
+    }
+    
+    ::-moz-selection {
+        color: var(--default_bg);
+        background: var(--default_accent);
+    }
+    
+
 }
 
 body {
     min-height: 100vh;
 }
+
 
 
     /* 
@@ -658,6 +669,7 @@ header {
     }
     nav:not(#TableOfContents) {
         font-size: 1.3em;
+
         ul {
             li {
                 {{ if eq .Site.Params.menuStyle "buttons" }}
@@ -683,11 +695,12 @@ header {
                         padding: #{$margin/2} $margin;
                     }
                 {{ else }}
+                
                     /*&:first-child {
                          padding-left: 0px;
                         margin-left: 0px;
                         color: blue;
-                    } */
+                    } */                    
                     a {
                         padding: 2px $margin;
                         color: var(--default_accent); 
@@ -898,7 +911,7 @@ input, textarea, textarea.cactus-editor-textarea {
                     {{ if eq .Site.Params.navtype "circles" }}
                         border-radius: $border_radius;
                     {{ end }}
-                    border: 2px solid var(--default_stroke);
+                    border: 200px solid var(--default_stroke);
                     background-color: var(--default_hl_bg);
                     flex-direction: column;
                     li {
@@ -1268,6 +1281,5 @@ header.jumbotronContainer {
 input {
     transition: .15s border ease-in-out;
 }
-
 
 

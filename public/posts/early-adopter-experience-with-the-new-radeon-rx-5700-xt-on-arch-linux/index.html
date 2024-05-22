@@ -48,7 +48,13 @@
     
         <meta name="description" content="self a shiny new AMD Radeon RX 5700 XT GPU (that&amp;rsquo;s a mouthful).
 Let&amp;rsquo;s see how it does on Linux.
-Installation First, I use Arch (btw) and that makes things a lot easier, at least for now." />
+Installation First, I use Arch (btw) and that makes things a lot easier, at least for now. As of writing this, Navi support is still not in the mainline kernel, but it should come with Linux 5.3.
+Because of the AUR and many other fun things, this isn&amp;rsquo;t much of a problem in Arch.
+Don&amp;rsquo;t be surprised when you install the GPU in your PC and don&amp;rsquo;t see Xorg or anything resembling a GUI popping up.
+First, you need to add a new repo to your system. Put the following in /etc/pacman.conf, just above the [core] repository:
+[mesa-git] Server = https://pkgbuild.com/~lcarlier/$repo/$arch SigLevel = Optional Now, let&amp;rsquo;s install some packages:
+sudo pacman -Sy amdvlk clang-git libclc-git libdrm-git llvm-git llvm-libs-git mesa-git opencl-mesa-git vulkan-mesa-layer-git vulkan-radeon-git xf86-video-amdgpu-git lib32-mesa-git lib32-mesa-git lib32-vulkan-radeon-git lib32-vulkan-mesa-layer-git This will cover most of the stuff needed to make the GPU work correctly.
+Now we need the new kernel modules. For this, you have two routes: install amdgpu-dkms from the AUR, or install linux-git from the AUR. I personally suggest you to go with linux-git as the dkms driver is not official as far as I know and doesn&amp;rsquo;t cover all the stuff that&amp;rsquo;s needed to make the GPU work 100% (like sensors support)." />
     
 
 <meta property="og:site_name"

@@ -6,8 +6,6 @@ tags:
 date: 2024-05-21T07:32:14+01:00
 ---
 
-# Markdown Syntax Guide
-
 ## 1. Headlines
 
 # H1 - This is a level 1 heading
@@ -145,8 +143,9 @@ You can use emoji like :smiley: :+1: :sparkles:
 ## 17. Embedded Media
 
 ### YouTube Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-
+<div>
+<iframe width=100% height="315" src="https://www.youtube.com/embed/BCAGgwaPiaE?si=DeB6y7J4brncmiCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### Bandcamp Song
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>

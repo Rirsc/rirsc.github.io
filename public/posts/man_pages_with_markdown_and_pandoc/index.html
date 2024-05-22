@@ -46,7 +46,11 @@
         <meta name="keywords" content='documentation, groff, man, manual, markdown, pandoc' />
     
     
-        <meta name="description" content="e. They genuinely are. In any *nix system you can just get documentation on your programs or even some programming things (namely a lot of C stuff, this was very useful in University) offline by just using a tiny simple command." />
+        <meta name="description" content="e. They genuinely are. In any *nix system you can just get documentation on your programs or even some programming things (namely a lot of C stuff, this was very useful in University) offline by just using a tiny simple command.
+Of course writing man pages is a different thing. They are written in groff. I am not a fan of it, although I know people who do enjoy using it.
+Markdown ❤ Pandoc Of course the obvious thing to do is write your docs in Markdown, since it&amp;rsquo;s the best simple markup language out there. Fortunately, it&amp;rsquo;s very easy to convert Markdown to groff, and consequently into a man page.
+And of course you can just use Pandoc to do that. It&amp;rsquo;s as simple and straight forward as you can imagine, it&amp;rsquo;s just one command away:
+pandoc --standalone --to man mymanpage.1.md -o mymanpage.1 It&amp;rsquo;s actually not the first time I&amp;rsquo;ve done something like this. The first was with the handy manuals I wrote for the Glorious GMMK keyboard and Model O mouse. Most of the fancy things you&amp;rsquo;d wanna tweak with these peripherals are done with weird key combinations, and having the paper manuals or even worse PDF copies of those around isn&amp;rsquo;t very practical." />
     
 
 <meta property="og:site_name"

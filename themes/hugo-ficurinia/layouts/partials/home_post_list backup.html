@@ -34,11 +34,10 @@
 {{ end }}
 
 {{/* pagination */}}
+<div class="postlist {{ if site.Params.gridView }}gridView{{ end }}" id="postlist">
 {{ range $pagination }}
-    <div class="list-group-item">
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        {{ .Content | markdownify }}
-    </div>
+    {{- partial "article_card.html" . -}}
 {{ end }}
+</div>
 <div id="getNextBtnContainer"></div>
 {{- partial "paginator.html" .Ctx -}}

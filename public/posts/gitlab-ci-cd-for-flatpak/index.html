@@ -47,7 +47,10 @@
     
     
         <meta name="description" content="ent, and a quick look at nautilus&amp;rsquo;s git repo I was able to automatically generate fresh flatpaks directly from GitLab by using the integrated CI/CD system.
-My current setup isn&amp;rsquo;t perfect but it manages to automate flatpak builds." />
+My current setup isn&amp;rsquo;t perfect but it manages to automate flatpak builds. This is incredibly useful, as when people open issues and I try to fix them, I can just tell them to install the lastest flatpak from the CI/CD and test the fixes.
+Also, for power users and curious minds I imagine it could be compelling to be able to install the latest development snapshot without jumping through many hoops.
+Anyway, let&amp;rsquo;s get down to business, here&amp;rsquo;s the .gitlab-ci.yml file to let the magic happen:
+include: &amp;#39;https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml&amp;#39; variables: BUNDLE: &amp;#34;gfeeds.flatpak&amp;#34; flatpak: image: &amp;#39;registry.gitlab.gnome.org/gnome/gnome-runtime-images/gnome:3.32&amp;#39; variables: MANIFEST_PATH: &amp;#34;dist/flatpak/org.gabmus.gfeeds.json&amp;#34; MESON_ARGS: &amp;#34;-Dprofile=Devel&amp;#34; FLATPAK_MODULE: &amp;#34;gfeeds&amp;#34; RUNTIME_REPO: &amp;#34;https://flathub.org/repo/flathub.flatpakrepo&amp;#34; APP_ID: &amp;#34;org.gabmus.gfeeds&amp;#34; extends: .flatpak review: stage: deploy dependencies: - &amp;#39;flatpak&amp;#39; extends: &amp;#39;.review&amp;#39; stop_review: stage: deploy extends: &amp;#39;.stop_review&amp;#39; Hope you find a good use for it." />
     
 
 <meta property="og:site_name"

@@ -146,176 +146,333 @@
 
 
 
+
+
+
     
 
 
 
-<div class="postlist " id="postlist">
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/posts/block_ads_in_webkitgtk/">Block ads in WebKitGtk</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-11-27
 
+    <div class="list-group-item">
+        <h3><a href="http://localhost:1313/posts/block_ads_in_webkitgtk/">Block ads in WebKitGtk</a></h3>
+        <p>One of the most requested features (and for a good reason) in Feeds has always been ad blocking.</p>
+<p>I never came around to implement it, mostly because I couldn&rsquo;t find a guide or any similar resource, except for <a href="https://gitlab.gnome.org/GNOME/Epiphany">GNOME Web&rsquo;s source code</a>, and that&rsquo;s not exactly easy to navigate. At least, it isn&rsquo;t for me.</p>
+<p>Today I decided to come back to it, and I found that it&rsquo;s actually a rather easy task! That&rsquo;s why I wanted to document this process, in hope that someone might find it useful one day.</p>
+<p>First off, you&rsquo;ll need one or more <strong>blocklists</strong>, in JSON format. I used <a href="https://easylist.to/">EasyList</a>, in particular <a href="https://easylist-downloads.adblockplus.org/easylist_min_content_blocker.json">here&rsquo;s the link to the JSON block list</a>. Blocklists should be updated frequently, so it&rsquo;s advisable to have some sort of mechanism to download and update them at runtime automatically.</p>
+<p>Let&rsquo;s now jump to the code, which will be Python in this case, but hopefully can be easily adapted to other languages.</p>
+<p>I&rsquo;ll use some closures for convenience.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#6272a4"># have a function that downloads text</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">download_text</span>(url: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># ...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># create the filter store somewhere in your code, ideally you should</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># only have one in your application</span>
+</span></span><span style="display:flex;"><span>my_filter_store <span style="color:#ff79c6">=</span> WebKit2<span style="color:#ff79c6">.</span>UserContentFilterStore<span style="color:#ff79c6">.</span>new(<span style="color:#f1fa8c">&#39;some/cache/path&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># a name that will be used to save/retrieve blocklists from the store</span>
+</span></span><span style="display:flex;"><span>BLOCKLIST_ID <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;blocklist&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">apply_adblock</span>(
+</span></span><span style="display:flex;"><span>        webview: WebKit2<span style="color:#ff79c6">.</span>WebView,
+</span></span><span style="display:flex;"><span>        filter_store: WebKit2<span style="color:#ff79c6">.</span>UserContentFilterStore,
+</span></span><span style="display:flex;"><span>        blocklist_url: <span style="color:#8be9fd;font-style:italic">str</span>
+</span></span><span style="display:flex;"><span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#ff79c6">None</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># 0: Retrieve the WebKit2.UserContentManager from the WebView</span>
+</span></span><span style="display:flex;"><span>    content_manager <span style="color:#ff79c6">=</span> webview<span style="color:#ff79c6">.</span>get_user_content_manager()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">save_blocklist_cb</span>(caller, res, <span style="color:#ff79c6">*</span>args):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 6: Once saving is done we can retrieve the newly created</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    WebKit2.UserContentFilter with save_finish and finally add th</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    filter to the WebKit2.UserContentManager</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">filter</span> <span style="color:#ff79c6">=</span> filter_store<span style="color:#ff79c6">.</span>save_finish(res)
+</span></span><span style="display:flex;"><span>            content_manager<span style="color:#ff79c6">.</span>add_filter(<span style="color:#8be9fd;font-style:italic">filter</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">except</span> GLib<span style="color:#ff79c6">.</span>Error:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Error saving blocklist&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">download_blocklist_cb</span>(blocklist: <span style="color:#8be9fd;font-style:italic">str</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 5: Now that we have the blocklist (as a string containing a json),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    we&#39;ll need to convert it to GLib.Bytes, then save it in the store.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    Yes, we need to save it even if we want to refresh it every time,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    this is just the way this works.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    This is also async and when it&#39;s done it will call continue on to</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    save_blocklist_cb</span>
+</span></span><span style="display:flex;"><span>        filter_store<span style="color:#ff79c6">.</span>save(
+</span></span><span style="display:flex;"><span>            BLOCKLIST_ID, GLib<span style="color:#ff79c6">.</span>Bytes<span style="color:#ff79c6">.</span>new(blocklist<span style="color:#ff79c6">.</span>encode()), <span style="color:#ff79c6">None</span>,
+</span></span><span style="display:flex;"><span>            save_blocklist_cb
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">download_blocklist</span>():
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 4: Download the blocklist and continue on to download_blocklist_cb</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>            res <span style="color:#ff79c6">=</span> download_text(blocklist_url)
+</span></span><span style="display:flex;"><span>            GLib<span style="color:#ff79c6">.</span>idle_add(download_blocklist_cb, res)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">except</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Error downloading the blocklist&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">filter_load_cb</span>(caller, res, <span style="color:#ff79c6">*</span>args):
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4"># 2: load_finish will either succeed, and return a</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    WebKit2.UserContentFilter object or raise a GLib.Error in case</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#6272a4">#    it cannot find the blocklist in the store (ie: on the first run)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">filter</span> <span style="color:#ff79c6">=</span> filter_store<span style="color:#ff79c6">.</span>load_finish(res)
+</span></span><span style="display:flex;"><span>            content_manager<span style="color:#ff79c6">.</span>add_filter(<span style="color:#8be9fd;font-style:italic">filter</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">except</span> GLib<span style="color:#ff79c6">.</span>Error:
+</span></span><span style="display:flex;"><span>            <span style="color:#6272a4"># 3: If loading the blocklist from the store fails, download the</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#6272a4">#    blocklist (async to avoid blocking of course) and save it</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;blocklist store not found, downloading...&#39;</span>)
+</span></span><span style="display:flex;"><span>            Thread(target<span style="color:#ff79c6">=</span>download_blocklist, daemon<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>)<span style="color:#ff79c6">.</span>start()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># 1: try to load the blocklist from the store, this is async and will call</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4">#    filter_load_cb when it&#39;s done</span>
+</span></span><span style="display:flex;"><span>    filter_store<span style="color:#ff79c6">.</span>load(BLOCKLIST_ID, <span style="color:#ff79c6">None</span>, filter_load_cb, <span style="color:#ff79c6">None</span>)
+</span></span></code></pre></div><p>I decided to comment the example code above instead of writing disconnected descriptions here, hopefully it makes sense.</p>
+<p>This said, if you want to look at the actual code that I&rsquo;m using in Feeds, <a href="https://gitlab.gnome.org/World/gfeeds/-/blob/0a3d3da66d7d4ede155db24fb0f83f03b47f5489/gfeeds/webview.py#L78">you can find it here</a> (this is a snapshot to today&rsquo;s current latest commit, in the future you may want to look at newer code). It contains some logic to automatically refresh or even remove the blocklist.</p>
+<p>Let me know what you think in the comments, and feel free to point out any errors, or if something is unclear.</p>
 
-        </p>
-        
-            
-                <a class="unstyledLink" href="http://localhost:1313/posts/block_ads_in_webkitgtk/">
-                    
-                        <img src="/images/post_pics/Block_ads_in_WebKitGtk/block_ads_webkit.avif" alt="" />
-                    
-                </a>
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        One of the most requested features (and for a good reason) in Feeds has always been ad blocking.
-I never came around to implement it, mostly because I couldn&rsquo;t find a guide or any similar resource, except for GNOME Web&rsquo;s source code, and that&rsquo;s not exactly easy to navigate.
-                    
-                </p>
-                <p><a href="http://localhost:1313/posts/block_ads_in_webkitgtk/">Continue reading </a></p>
-            </div>
-        
     </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/posts/gtk4_libadwaita_and_the_new_feeds/">Gtk4, LibAdwaita and the new Feeds</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-11-21
 
+    <div class="list-group-item">
+        <h3><a href="http://localhost:1313/posts/gtk4_libadwaita_and_the_new_feeds/">Gtk4, LibAdwaita and the new Feeds</a></h3>
+        <p>So, something big is coming for my news reader app <a href="https://gfeeds.gabmus.org">Feeds</a>.</p>
+<p>Most of this year, as far as personal projects go, I spent at close contact with Gtk4, <a href="https://gitlab.gnome.org/gnome/libadwaita">libadwaita</a> and the awesome people over at the various matrix chat rooms.</p>
+<p>I&rsquo;ve spent this time porting <a href="https://whatip.gabmus.org">What IP</a>, <a href="https://hydrapaper.gabmus.org">HydraPaper</a> and <a href="https://giara.gabmus.org">Giara</a> to Gtk4+libadwaita.</p>
+<p><img src="/images/post_pics/Gtk4_LibAdwaita_and_the_new_Feeds/whatip_hydrapaper_giara.avif" alt="What IP, HydraPaper and Giara at their latest iteration, side by side"></p>
+<p>I&rsquo;m really happy of the results, and I&rsquo;m even happier with how this new stack is shaping up.</p>
+<p>The porting process for the most part has been relatively painless across the board, with only minor changes (albeit, many of them) needed for the actual porting. Along with the updated stack, I&rsquo;ve been able to introduce new features and improvements, for the most part thanks to the new widgets available in libadwaita making my life a lot easier.</p>
+<p>What IP being the simpler of the bunch didn&rsquo;t really change much from its original iteration, except for some code cleanups. But hey, the theme is different and it looks amazing!</p>
+<p>HydraPaper also stayed pretty much the same, with the exception of a new wallpaper folder selector (that you can see in the image above) in the form of a brand new widget, the mighty Flap! It&rsquo;s a sidebar that can open above other widgets, mostly a glorified overlay, but with extra bells and whistles. On a regular monitor you can open it with the usual button on the headerbar, the same that opened a Popover before, but on a touchscreen you can swipe to open it! Plus, compared to the previous Popover implementation, the new Flap is part of the main window, meaning it can scale to fill the entire vertical space of the window, making this selector/filter much easier to interact with thanks to the increased size.</p>
+<p>Giara being one of the more complex apps, received a lot more work and attention. First off, the post views have been re-implemented using ListView, a brand new (still somewhat janky) widget in Gtk4 that allows for better optimized lists, where rows get recycled instead of adding up, with performance quickly grinding to a halt. This change required a lot of work, since my usual terrible implementation of ListBox is 100% incompatible with the way ListView works. But with a lot of help and elbow grease, I managed to land it, making the whole experience of mindlessly scrolling through reddit a little less frustrating (hopefully). Also, thanks to another awesome widget, AdwCarousel, I was able to add support for image galleries. And they support touch gestures, too! Along with these changes, I also added an internal fullscreen image viewer, very much inspired by the one in telegram-desktop.</p>
+<hr>
+<p>But let&rsquo;s jump to the actual reason why I&rsquo;m writing this post, <em>The new Feeds</em>.</p>
+<p><img src="/images/post_pics/Gtk4_LibAdwaita_and_the_new_Feeds/feeds.avif" alt="What the new Feeds will look like"></p>
+<p>You see, I wanted to start porting Feeds to Gtk4 sooner than it ended up happening. Unfortunately, I wasn&rsquo;t able to up until recently. The reason being WebKit. WebKit support for Gtk4 has been broken for a while, and just recently (not all that recently, tho) it got to a point where it was usable enough for me to start the port. At the time of writing this, you still need to enable Gtk4 support in WebKit by using custom build flags, making development possible by building WebKit myself (which, by the way, takes <em>a lot</em> of time), but at the same time making distribution unfeasible. Flatpak being the main way I distribute my apps, it could work in theory, but having a 1GB+ bundle for a simple news reader isn&rsquo;t really a great user experience, so for now I&rsquo;m holding off this release, waiting for it to become available in the GNOME runtime.</p>
+<p>But let&rsquo;s move on to what&rsquo;s actually new in Feeds.</p>
+<p>First of all, from a user facing perspective, The whole look of the app is quite different. Apart from the new Adwaita theme in libadwaita, the article list uses the new <code>navigation-sidebar</code> style class, with cool rounded corners for the rows and no separators between them, but still providing enough visual separation. Label sizes in the rows have also been tweaked slightly.</p>
+<p>Oh, and of course, I added article pictures! The code is based on the custom picture widget I made for Giara, and let me tell you: they make any article that more interesting!</p>
+<p>As for visual changes, another big one is the new filter view, again based on the Flap widget.</p>
+<p><img src="/images/post_pics/Gtk4_LibAdwaita_and_the_new_Feeds/feeds_filters.avif" alt=""></p>
+<p>It&rsquo;s a similar story to HydraPaper, the old Popover implementation was hard to use and unintuitive. A sidebar is a much more common pattern, plus the added vertical size makes it easier to find the feed you wanna look at.</p>
+<p>As for the articles list, you may think ListView would be perfect here as well, and that&rsquo;s what I thought as well. Unfortunately due to some technical issues with how ListView row selection and activation work at this current time, while it does work, it&rsquo;s not really all that convenient. I added the ListView to Feeds, and you can enable it in the preferences, in the advanced section, but I kept the ListBox around as a default, and I also changed its API so that it&rsquo;s the same as the ListView implementation. You can switch between one or the other and try them out for yourself, hopefully at some point I can get rid of the ListBox and have the ListView be the default.</p>
+<p>With all the nice changes and cool things this port brought with it, I decided to tackle one of the most annoying issues I&rsquo;ve had with Feeds: the actual feed parsing.</p>
+<p>Up until recently I&rsquo;ve been using the very popular <a href="https://github.com/kurtmckee/feedparser/">feedparser</a> python library, but I&rsquo;ve always been dissatisfied with both its performance and its weird quirks. I came to the conclusion that it&rsquo;s not the kind of library I was looking for.</p>
+<p>I tried searching for alternatives, and I broadened my search to any language, but unfortunately I couldn&rsquo;t find something I really liked.</p>
+<p>So I decided to write my own! And for the best performance I wrote it in&hellip; C++! Maybe some of you were expecting Rust? Maybe one day, but I don&rsquo;t really know Rust right now 😕</p>
+<p>This new library is called <a href="https://gitlab.com/gabmus/syndication-domination">Sydndication Domination</a> or syndom for short (it&rsquo;s a bit cheesy, I know). Syndom is tailor made for Feeds, but of course it can be used for any application.</p>
+<p>It&rsquo;s based around an awesome XML parser for C++ called <a href="https://pugixml.org/">pugixml</a>, if you ever need to parse XML I suggest you take a look at it. Syndom is able to parse an RSS or Atom file and extract all the useful information a news reader would need, and most importantly, <em>it</em> does the heavy lifting of trying all the different places a certain information can be found in. It can also parse Opml files for importing feeds, as well as Html files for extracting other useful information from, say a blog post, like the featured image, the feed URL, the title or the description.</p>
+<p>The whole thing comes together inside Feeds with python bindings, created using another library called <a href="https://github.com/pybind/pybind11/">pybind11</a>.</p>
+<p>Honestly this has probably been the biggest change to ever come to Feeds. The performance difference is enormous, it&rsquo;s like night and day, and I couldn&rsquo;t be happier about it.</p>
+<p>So that&rsquo;s all I wanted you to know, hopefully I can release Feeds sooner rather than later as I really, <em>really</em> want people to use this new version rather than the crusty old one.</p>
+<p>If you want to try it for yourself <a href="https://cloud.disroot.org/s/2Dj94NxWn6HRAZC">you can download a recent snapshot I made manually from this link</a>. Please do let me know what you think in the comments or <a href="https://matrix.to/#/#org.gabmus:matrix.org">in the matrix room</a> if you prefer. And feel free to report any bugs you encounter along the way!</p>
 
-        </p>
-        
-            
-                <a class="unstyledLink" href="http://localhost:1313/posts/gtk4_libadwaita_and_the_new_feeds/">
-                    
-                        <img src="/images/post_pics/Gtk4_LibAdwaita_and_the_new_Feeds/feeds.avif" alt="" />
-                    
-                </a>
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        So, something big is coming for my news reader app Feeds.
-Most of this year, as far as personal projects go, I spent at close contact with Gtk4, libadwaita and the awesome people over at the various matrix chat rooms.
-                    
-                </p>
-                <p><a href="http://localhost:1313/posts/gtk4_libadwaita_and_the_new_feeds/">Continue reading </a></p>
-            </div>
-        
     </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/posts/switching_to_cactus_comments/">Switching to Cactus Comments</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-06-16
 
+    <div class="list-group-item">
+        <h3><a href="http://localhost:1313/posts/switching_to_cactus_comments/">Switching to Cactus Comments</a></h3>
+        <p>I&rsquo;ve been using Commento for a while for comments (without much adoption to be honest), and while I really love the project, and the simplicity of its approach, there&rsquo;s always been one unavoidable thing I never really liked too much: if you want to comment, you have to register to my commento instance.</p>
+<p>That&rsquo;s less than ideal, considering that if I did have lots of people who wanted to comment, that&rsquo;d have been quite a strain on my humble home server, where my commento instance is hosted.</p>
+<p>Today I found <a href="https://karmanyaah.malhotra.cc/tech/2021/06/website-things/">this post</a> on Mastodon (feel free to <a href="https://linuxrocks.online/@gabmus">follow me there</a> by the way) by Karmanyaah Malhotra about how he reworked his website recently. I always enjoy reading about other people&rsquo;s websites, so I quickly read through it, just to find out about this comment system called <a href="https://cactus.chat">Cactus Comments</a>.</p>
+<p>Cactus Comments uses <a href="https://matrix.org/">Matrix</a> to create a federated comment section on your website. If you have a Matrix account on any instance, you can comment on Cactus! Heck you can even use a full-fledged Matrix client to do so! That&rsquo;s just great.</p>
+<p>It&rsquo;s free to use and self hostable as well, so there&rsquo;s really not much of an excuse not to try it out. Plus if you already have a Matrix account you&rsquo;re already halfway there.</p>
+<p>I integrated it in my <a href="https://gitlab.com/gabmus/hugo-ficurinia">Ficurinia Hugo theme</a> without much effort, so there&rsquo;s another bonus point.</p>
+<p>And that&rsquo;s it, I&rsquo;m really happy about this new comment system, it&rsquo;s one less service running on my home server and due to its decentralized and federated nature it will hopefully encourage more people to leave interesting comments and get a conversation going!</p>
 
-        </p>
-        
-            
-                <a class="unstyledLink" href="http://localhost:1313/posts/switching_to_cactus_comments/">
-                    
-                        <img src="/images/post_pics/Switching_to_Cactus_Comments/cactus.avif" alt="" />
-                    
-                </a>
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        I&rsquo;ve been using Commento for a while for comments (without much adoption to be honest), and while I really love the project, and the simplicity of its approach, there&rsquo;s always been one unavoidable thing I never really liked too much: if you want to comment, you have to register to my commento instance.
-                    
-                </p>
-                <p><a href="http://localhost:1313/posts/switching_to_cactus_comments/">Continue reading </a></p>
-            </div>
-        
     </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/posts/raspberry_pi_pico_pinout_in_your_terminal/">Raspberry Pi Pico pinout in your terminal</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-03-09
 
+    <div class="list-group-item">
+        <h3><a href="http://localhost:1313/posts/raspberry_pi_pico_pinout_in_your_terminal/">Raspberry Pi Pico pinout in your terminal</a></h3>
+        <p>I&rsquo;m playing around with the new <a href="https://www.raspberrypi.org/products/raspberry-pi-pico">Raspberry Pi Pico</a>, and I quickly realized that I&rsquo;d really love to have a quick pinout reference in my terminal.</p>
+<p>I thought of making a man page, but I would have lost the color (I don&rsquo;t know how to use arbitrary colors in groff), so I just created a simple text file with ascii escape sequences for colors and called it a day. It works, and it&rsquo;s pretty!</p>
+<p>I&rsquo;m uploading it here for your convenience (and mine as well), you should be able to grab it from your *NIX box by just typing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>curl https://gabmus.org/pico_pinout
+</span></span></code></pre></div><p>If you want to save it in a file, just add <code>&gt; some_file_name</code> to the above.</p>
 
-        </p>
-        
-            
-                <a class="unstyledLink" href="http://localhost:1313/posts/raspberry_pi_pico_pinout_in_your_terminal/">
-                    
-                        <img src="/images/post_pics/Raspberry_Pi_Pico_pinout_in_your_terminal/screenshot.avif" alt="" />
-                    
-                </a>
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        I&rsquo;m playing around with the new Raspberry Pi Pico, and I quickly realized that I&rsquo;d really love to have a quick pinout reference in my terminal.
-I thought of making a man page, but I would have lost the color (I don&rsquo;t know how to use arbitrary colors in groff), so I just created a simple text file with ascii escape sequences for colors and called it a day.
-                    
-                </p>
-                <p><a href="http://localhost:1313/posts/raspberry_pi_pico_pinout_in_your_terminal/">Continue reading </a></p>
-            </div>
-        
     </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/posts/making-a-dbus-daemon/">Making a D-Bus Daemon with Python and Flatpak</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-01-02
 
+    <div class="list-group-item">
+        <h3><a href="http://localhost:1313/posts/making-a-dbus-daemon/">Making a D-Bus Daemon with Python and Flatpak</a></h3>
+        <p><em>I learned most of this stuff from <a href="https://larry-price.com/blog/categories/dbus/">this awesome series of articles by Larry Price</a>. Give it a read, it&rsquo;s worth it.</em></p>
+<h2 id="why">Why</h2>
+<p>D-Bus daemons are quite useful tools. What would you need them for? Well, I decided to add one to <a href="https://hydrapaper.gabmus.org">HydraPaper</a> to do two jobs:</p>
+<ol>
+<li>change the wallpaper periodically</li>
+<li>listen for monitor configuration changes and adapt to it, so that when you plug or unplug a monitor, the wallpaper doesn&rsquo;t get all messed up</li>
+</ol>
+<p>There could be other reasons, like provide an always active &ldquo;server&rdquo; component to your application, or if you need to send notifications to the user even when your main app isn&rsquo;t running.</p>
+<p>Of course possibilities are limitless, it&rsquo;s just another way to create software. <strong>Using D-Bus to create this daemon allows your graphical application to communicate with the main application in an easy and predictable way</strong>.</p>
+<p>If you want to read more about D-Bus, I suggest you give a look at <a href="https://venam.nixers.net/blog/unix/2020/07/06/dbus-polkit.html">this nicely written article by Patrick Louis</a>.</p>
+<h2 id="how">How</h2>
+<p>Now what languages are we gonna use? Ha! Trick question! If you know me (or can read the title) you know we&rsquo;ll be using Python. Besides I&rsquo;m pretty sure you can use whatever language you prefer, but today that&rsquo;s what we&rsquo;re gonna use.</p>
+<p>Before we begin, it&rsquo;s good practice to choose a unique id for our daemon using the <a href="https://en.wikipedia.org/wiki/Reverse_domain_name_notation">reverse domain name notation</a>. For the HydraPaper Daemon I chose <code>org.gabmus.hydrapaper.Daemon</code>. It&rsquo;s important that your name is unique, so it&rsquo;s a good practice to name it something like <code>ext.yourPersonalHandle.yourApplicationName.Daemon</code>. Another good idea is if you have a registered domain like I do for <code>gabmus.org</code>, to just use that, followed by the name of your app and some other indication that this service will be a daemon. <a href="https://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names">You can read more about valid names here</a>.</p>
+<p>Once you have decided this id, just put it in a constant, along with the same but separated by slashes as if it was a path, like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>UID         <span style="color:#ff79c6">=</span>  <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>UID_AS_PATH <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;/org/gabmus/myapp/Daemon&#39;</span>  <span style="color:#6272a4"># notice the leading slash</span>
+</span></span></code></pre></div><p>Let&rsquo;s now start with the basics: we need a class extending <code>dbus.service.Object</code>. This will be our <strong>D-Bus Object</strong>, and some of the methods inside of it will be exposed as <strong>D-Bus methods</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> dbus
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">import</span> dbus.service  <span style="color:#6272a4"># yes, you need to import this as well</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>UID         <span style="color:#ff79c6">=</span>  <span style="color:#f1fa8c">&#39;org.gabmus.hydrapaper.Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>UID_AS_PATH <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;/org/gabmus/hydrapaper/Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">MyappDaemon</span>(dbus<span style="color:#ff79c6">.</span>service<span style="color:#ff79c6">.</span>Object):
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> __init__(self, bus_name):
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">super</span>()<span style="color:#ff79c6">.</span>__init__(
+</span></span><span style="display:flex;"><span>            bus_name, UID_AS_PATH
+</span></span><span style="display:flex;"><span>        )
+</span></span></code></pre></div><p>Now before moving on, I decided to include the final part here: bootstrapping our main loop and all of the things we need to get this bad boy running, so that you can actually try things out and see what&rsquo;s going on instead of just blindly copy-pasting.</p>
+<p>You&rsquo;ll need these additional imports:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">from</span> dbus.mainloop.glib <span style="color:#ff79c6">import</span> DBusGMainLoop
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">from</span> gi.repository <span style="color:#ff79c6">import</span> GLib
+</span></span></code></pre></div><p>Let&rsquo;s move <strong>to the bottom of the file</strong> and create a main function, just to do things cleanly:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">main</span>():
+</span></span><span style="display:flex;"><span>    DBusGMainLoop(set_as_default<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>        bus_name <span style="color:#ff79c6">=</span> dbus<span style="color:#ff79c6">.</span>service<span style="color:#ff79c6">.</span>BusName(
+</span></span><span style="display:flex;"><span>            UID, bus<span style="color:#ff79c6">=</span>dbus<span style="color:#ff79c6">.</span>SessionBus(), do_not_queue<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> dbus<span style="color:#ff79c6">.</span>exceptions<span style="color:#ff79c6">.</span>NameExistsException:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">f</span><span style="color:#f1fa8c">&#39;Service with id </span><span style="color:#f1fa8c">{</span>UID<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c"> is already running&#39;</span>)
+</span></span><span style="display:flex;"><span>        exit(<span style="color:#bd93f9">1</span>)
+</span></span><span style="display:flex;"><span>    loop <span style="color:#ff79c6">=</span> GLib<span style="color:#ff79c6">.</span>MainLoop()
+</span></span><span style="display:flex;"><span>    daemon <span style="color:#ff79c6">=</span> MyappDaemon(bus_name)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>        loop<span style="color:#ff79c6">.</span>run()
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> KeyboardInterrupt:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;KeyboardInterrupt received&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> Exception <span style="color:#ff79c6">as</span> e:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Unhandled exception: `</span><span style="color:#f1fa8c">{}</span><span style="color:#f1fa8c">`&#39;</span><span style="color:#ff79c6">.</span>format(<span style="color:#8be9fd;font-style:italic">str</span>(e)))
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">finally</span>:
+</span></span><span style="display:flex;"><span>        loop<span style="color:#ff79c6">.</span>quit()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>Alright, let&rsquo;s resume from where we left.</p>
+<p>We have a D-Bus object, and the thing can run doing nothing now, awesome.</p>
+<p>Let&rsquo;s give this object a method we can invoke from outside.</p>
+<p>To do this we&rsquo;ll create a method in our class and decorate it with <code>@dbus.service.method</code>. This decorator takes some parameters:</p>
+<ul>
+<li><code>dbus_interface</code>: the interface we want this method to be attached to (interfaces are another nesting level for D-Bus, honestly I think they&rsquo;re overkill for this kind of use, so we&rsquo;re just going to use our previously declared <code>UID</code> as the interface, it&rsquo;s gonna work).</li>
+<li><code>in_signature</code>: what kind of parameters our method requires</li>
+<li><code>out_signature</code>: what kind of output our method returns</li>
+</ul>
+<p>For the signatures, you can read more about data types you can use <a href="https://dbus.freedesktop.org/doc/dbus-python/tutorial.html#data-types">in this documentation page</a>.</p>
+<p>Let&rsquo;s create a simple <code>hello</code> method that takes a string and returns another string.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">class</span> <span style="color:#50fa7b">MyappDaemon</span>(dbus<span style="color:#ff79c6">.</span>service<span style="color:#ff79c6">.</span>Object):
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># ...</span>
+</span></span><span style="display:flex;"><span>    @dbus.service.method(
+</span></span><span style="display:flex;"><span>        dbus_interface<span style="color:#ff79c6">=</span>UID,
+</span></span><span style="display:flex;"><span>        in_signature<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;s&#39;</span>, out_signature<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;s&#39;</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">hello</span>(self, your_name: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">f</span><span style="color:#f1fa8c">&#39;Hi there, </span><span style="color:#f1fa8c">{</span>your_name<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">!&#39;</span>
+</span></span></code></pre></div><p>That&rsquo;s it! Easy, wasn&rsquo;t it?</p>
+<p>Now if like me you want to have some action to run every x seconds or something, you can just use the standard threads and sleep model of Python, not much else you need as far as D-Bus goes.</p>
+<p>Now, let&rsquo;s see what we need to do to package this new Daemon in a Flatpak and have it being recognized by the system as proper and activatable D-Bus service.</p>
+<h2 id="plumbing">Plumbing</h2>
+<p>First off, we&rsquo;ll be using meson, so I assume you already are using it for your base application.</p>
+<p>Assuming we have our daemon inside a sub-folder called <code>myapp_daemon</code>. For packages reasons I suggest you call the actual daemon Python file something like <code>myappd.in.py</code>. Notice the trailing <code>d</code>, it means daemon. Another thing: <strong>make sure to give this file executable permissions!</strong> (<code>chmod +x myapp_daemon/myappd.in.py</code>)</p>
+<p>At the beginning of <code>myappd.in.py</code> we&rsquo;re going to insert our shebang like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#6272a4">#!@PYTHON@</span>
+</span></span></code></pre></div><p>In our main <code>meson.build</code> file, the one in the root of the project, let&rsquo;s put the following somewhere you feel is appropriate (skip anything that is already there of course):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>prefix <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;prefix&#39;</span>)
+</span></span><span style="display:flex;"><span>datadir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;datadir&#39;</span>)
+</span></span><span style="display:flex;"><span>libexecdir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">join_paths</span>(prefix, <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;libexecdir&#39;</span>))
+</span></span><span style="display:flex;"><span>etcdir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">get_option</span>(<span style="color:#f1fa8c">&#39;sysconfdir&#39;</span>)
+</span></span><span style="display:flex;"><span>dbus_service_dir <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">dependency</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#39;dbus-1&#39;</span>
+</span></span><span style="display:flex;"><span>).get_pkgconfig_variable(
+</span></span><span style="display:flex;"><span>    <span style="color:#f1fa8c">&#39;session_bus_services_dir&#39;</span>,
+</span></span><span style="display:flex;"><span>    define_variable: [<span style="color:#f1fa8c">&#39;datadir&#39;</span>, <span style="color:#8be9fd;font-style:italic">join_paths</span>(prefix, datadir)]
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>python <span style="color:#ff79c6">=</span> import(<span style="color:#f1fa8c">&#39;python&#39;</span>)
+</span></span><span style="display:flex;"><span>py_installation <span style="color:#ff79c6">=</span> python.find_installation(<span style="color:#f1fa8c">&#39;python3&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">if</span> <span style="color:#ff79c6">not</span> py_installation.found()
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">error</span>(<span style="color:#f1fa8c">&#39;No valid python3 binary found&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">endif</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">subdir</span>(<span style="color:#f1fa8c">&#39;myapp_daemon&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">subdir</span>(<span style="color:#f1fa8c">&#39;data&#39;</span>)
+</span></span></code></pre></div><p>Now, let&rsquo;s create <code>myapp_daemon/meson.build</code>, and put this inside:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>daemon_conf <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">configuration_data</span>()
+</span></span><span style="display:flex;"><span>daemon_conf.set(<span style="color:#f1fa8c">&#39;PYTHON&#39;</span>, py_installation.path())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">configure_file</span>(
+</span></span><span style="display:flex;"><span>    input: meson.project_name() <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#39;d.in.py&#39;</span>,
+</span></span><span style="display:flex;"><span>    output: meson.project_name() <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#39;d&#39;</span>,
+</span></span><span style="display:flex;"><span>    install: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    install_dir: libexecdir,
+</span></span><span style="display:flex;"><span>    configuration: daemon_conf
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>That&rsquo;s it for the daemon itself, but we still need some other files to let Flatpak (or your host operating system for that matter if you install this with a regular package manager) recognize this as an activatable service.</p>
+<p><em>Note: an activatable service means a service that will be started automagically as soon as an application tries to connect to it.</em></p>
+<p>For this, I like to work inside of a new folder called <code>data</code> inside the project root.</p>
+<p>Inside <code>data</code> let&rsquo;s create:</p>
+<p><code>org.gabmus.myapp.Daemon.desktop.in</code> containing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-desktop" data-lang="desktop"><span style="display:flex;"><span><span style="color:#ff79c6">[Desktop Entry]</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Name</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">org.gabmus.myapp.Daemon</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Comment</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">Daemon for myapp</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Icon</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">org.gabmus.myapp.Daemon</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Exec</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">@libexecdir@/myappd</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">X-GNOME-Autostart-Delay</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">StartupNotify</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">NoDisplay</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">Application</span>
+</span></span></code></pre></div><p><code>org.gabmus.myapp.Daemon.service.in</code> containing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-desktop" data-lang="desktop"><span style="display:flex;"><span><span style="color:#ff79c6">[D-BUS Service]</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Name</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">org.gabmus.myapp.Daemon</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">Exec</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">@libexecdir@/myappd</span>
+</span></span></code></pre></div><p><code>meson.build</code> (if it exists already, just add to it) containing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-meson" data-lang="meson"><span style="display:flex;"><span>data_conf <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">configuration_data</span>()
+</span></span><span style="display:flex;"><span>data_conf.set(<span style="color:#f1fa8c">&#39;libexecdir&#39;</span>, libexecdir)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">configure_file</span>(
+</span></span><span style="display:flex;"><span>    input: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.desktop.in&#39;</span>,
+</span></span><span style="display:flex;"><span>    output: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.desktop&#39;</span>,
+</span></span><span style="display:flex;"><span>    configuration: data_conf,
+</span></span><span style="display:flex;"><span>    install: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    install_dir: <span style="color:#8be9fd;font-style:italic">join_paths</span>(etcdir, <span style="color:#f1fa8c">&#39;xdg&#39;</span>, <span style="color:#f1fa8c">&#39;autostart&#39;</span>)
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">configure_file</span>(
+</span></span><span style="display:flex;"><span>    input: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.service.in&#39;</span>,
+</span></span><span style="display:flex;"><span>    output: <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon.service&#39;</span>,
+</span></span><span style="display:flex;"><span>    configuration: data_conf,
+</span></span><span style="display:flex;"><span>    install: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    install_dir: dbus_service_dir
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>Finally, we need to tell Flatpak that the <code>org.gabmus.myapp.Daemon</code> name is owned by our application. To do this let&rsquo;s add the following to our Flatpak manifest, inside the <code>finish-args</code> array:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#f1fa8c">&#34;--own-name=org.gabmus.myapp&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#34;--own-name=org.gabmus.myapp.Daemon&#34;</span>
+</span></span></code></pre></div><p>Great! Now in theory everything should be in place, of course let me know if anything is broken or doesn&rsquo;t work, the comment section is there to be used!</p>
+<p>For the final section of this small tutorial, let&rsquo;s see how to call the method we created.</p>
+<h2 id="summon-the-daemon">Summon the daemon</h2>
+<p>For this last section, I&rsquo;ll just leave you with some very brief example code in Python, hopefully it&rsquo;s easy enough to follow:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> dbus
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">summon_hello</span>(name):
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">try</span>:
+</span></span><span style="display:flex;"><span>        bus <span style="color:#ff79c6">=</span> dbus<span style="color:#ff79c6">.</span>SessionBus()
+</span></span><span style="display:flex;"><span>        obj <span style="color:#ff79c6">=</span> bus<span style="color:#ff79c6">.</span>get_object(
+</span></span><span style="display:flex;"><span>            <span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon&#39;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f1fa8c">&#39;/org/gabmus/myapp/Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        interface <span style="color:#ff79c6">=</span> dbus<span style="color:#ff79c6">.</span>Interface(
+</span></span><span style="display:flex;"><span>            obj, dbus_interface<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;org.gabmus.myapp.Daemon&#39;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> interface<span style="color:#ff79c6">.</span>hello(name)
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">except</span> dbus<span style="color:#ff79c6">.</span>exceptions<span style="color:#ff79c6">.</span>DBusException:
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#39;Failed to communicate with `org.gabmus.myapp.Daemon`!&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#39;&#39;</span>
+</span></span></code></pre></div><hr>
+<p>Hope you can find this tutorial useful. Mind you, I&rsquo;m not an expert in this matter, I just did this and failed to find a single tutorial summarizing all of what I needed, so I decided to make one myself.</p>
+<p>If you find that anything doesn&rsquo;t work as expected (maybe I missed a step or two?) please let me know in the comments, or contact me directly by using one of the contacts you can find <a href="/pages/about">in the About page</a>.</p>
 
-        </p>
-        
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        I learned most of this stuff from this awesome series of articles by Larry Price. Give it a read, it&rsquo;s worth it.
-Why D-Bus daemons are quite useful tools. What would you need them for?
-                    
-                </p>
-                <p><a href="http://localhost:1313/posts/making-a-dbus-daemon/">Continue reading </a></p>
-            </div>
-        
     </div>
-    <hr />
-</article>
 
-</div>
 <div id="getNextBtnContainer"></div>
 
 

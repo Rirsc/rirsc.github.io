@@ -8,7 +8,7 @@ author = "Ricardo López"
 copyright = "Ricardo López"
 
 paginate = 5
-summaryLength = 30
+summaryLength = 200
 
 [params]
     description = "Ricardo López's blog about programming and other cool stuff"

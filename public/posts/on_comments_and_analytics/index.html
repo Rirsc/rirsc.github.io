@@ -46,7 +46,14 @@
         <meta name="keywords" content='analytics, blog, commento, comments, meta' />
     
     
-        <meta name="description" content="new, and so I still have to set up everything. Comments are obviously a very important part of a blog, especially if you want any kind of feedback on the stuff you&amp;rsquo;re doing." />
+        <meta name="description" content="new, and so I still have to set up everything. Comments are obviously a very important part of a blog, especially if you want any kind of feedback on the stuff you&amp;rsquo;re doing.
+The lazy solution is pretty obvious: Disqus the privacy nightmare.
+I like the wild idea of respecting my readers&amp;rsquo; privacy, and so I started looking for alternative solutions.
+The one solution I chose to adopt is an open source comment platform called Commento. It works just like Disqus, except since it doesn&amp;rsquo;t make money from violating people&amp;rsquo;s privacy, you can&amp;rsquo;t really use it for free.
+You can either choose to pay what you want for it (with a minimum of 3 USD) or host it yourself.
+I already pay for a VPS for Tech Pills&amp;rsquo; website, but it&amp;rsquo;s not subject to heavy load, so a service more running on it wouldn&amp;rsquo;t really hurt.
+You can install Commento using docker-compose, which is very convenient. I made some changes to the docker-compose.yml file to better suit my needs, and put an nginx reverse proxy in front of it to add https into the mix.
+After writing some CSS to adapt it to the blog&amp;rsquo;s theme, the new comment box is ready to roll." />
     
 
 <meta property="og:site_name"

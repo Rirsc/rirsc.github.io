@@ -47,7 +47,11 @@
     
     
         <meta name="description" content=" out with two important changes:
-German translation thanks to @Etamuk Concurrent feeds refresh About the translation, I know when a project starts becoming interesting, people want to contribute." />
+German translation thanks to @Etamuk Concurrent feeds refresh About the translation, I know when a project starts becoming interesting, people want to contribute. And translations are in my experience one of the indication of people really getting passionate.
+I am really flattered by this contribution and it really means a lot to see this project getting some love.
+Moving on to the more technical stuff, concurrent refresh or parallel refresh.
+It was surprisingly easy to implement, and that really shows how important having a modular and well-thought-out code structure is.
+You see, the feed download and object creation (along with the creation of all the feed items) happens asynchronously already, but adding that feed, and all of its articles to the active lists doesn&amp;rsquo;t. There is this wonderful function GLib.idle_add(function, *args) that makes this whole process so easy and elegant. This function does no more than telling the main thread to run function(*args) whenever it can, no rush (although to a human it&amp;rsquo;s almost instantaneous). With this method the GUI thread doesn&amp;rsquo;t get interrupted and the UI doesn&amp;rsquo;t freeze, but the function is still ran synchronously to it, avoiding any problems of mutual exclusion to precious variables." />
     
 
 <meta property="og:site_name"

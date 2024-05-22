@@ -47,7 +47,12 @@
     
     
         <meta name="description" content="ested features (and for a good reason) in Feeds has always been ad blocking.
-I never came around to implement it, mostly because I couldn&amp;rsquo;t find a guide or any similar resource, except for GNOME Web&amp;rsquo;s source code, and that&amp;rsquo;s not exactly easy to navigate." />
+I never came around to implement it, mostly because I couldn&amp;rsquo;t find a guide or any similar resource, except for GNOME Web&amp;rsquo;s source code, and that&amp;rsquo;s not exactly easy to navigate. At least, it isn&amp;rsquo;t for me.
+Today I decided to come back to it, and I found that it&amp;rsquo;s actually a rather easy task! That&amp;rsquo;s why I wanted to document this process, in hope that someone might find it useful one day.
+First off, you&amp;rsquo;ll need one or more blocklists, in JSON format. I used EasyList, in particular here&amp;rsquo;s the link to the JSON block list. Blocklists should be updated frequently, so it&amp;rsquo;s advisable to have some sort of mechanism to download and update them at runtime automatically.
+Let&amp;rsquo;s now jump to the code, which will be Python in this case, but hopefully can be easily adapted to other languages.
+I&amp;rsquo;ll use some closures for convenience.
+# have a function that downloads text def download_text(url: str) -&amp;gt; str: # ... # create the filter store somewhere in your code, ideally you should # only have one in your application my_filter_store = WebKit2." />
     
 
 <meta property="og:site_name"

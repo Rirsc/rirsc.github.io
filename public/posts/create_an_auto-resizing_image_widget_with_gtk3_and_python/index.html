@@ -46,7 +46,12 @@
         <meta name="keywords" content='area, cairo, drawing, gtk, gtk3, gtkdrawingarea, pixbuf, python' />
     
     
-        <meta name="description" content="on things you might wanna do with images, that is making them automatically resize to adapt to the available space they have, is not possible with Gtk." />
+        <meta name="description" content="on things you might wanna do with images, that is making them automatically resize to adapt to the available space they have, is not possible with Gtk.Image.
+So after some hacking, I seem to have found a solution that works:
+from gi.repository import Gtk, GdkPixbuf, Gdk class PictureView(Gtk.DrawingArea): def __init__(self, path, *args, **kwargs): super().__init__(*args, **kwargs) self.path = path self.pixbuf = GdkPixbuf.Pixbuf.new_from_file(self.path) self.img_surface = Gdk.cairo_surface_create_from_pixbuf( self.pixbuf, 1, None ) def get_useful_height(self): aw = self.get_allocated_width() pw = self.pixbuf.get_width() ph = self.pixbuf.get_height() return aw/pw * ph def get_scale_factor(self): return self.get_allocated_width() / self.pixbuf.get_width() def do_draw(self, context): sf = self.get_scale_factor() context.scale(sf, sf) context.set_source_surface(self.img_surface, 0, 0) context.paint() height = self.get_useful_height(self.get_allocated_width()) self.set_size_request(-1, height) This code is actually simpler than I imagined, and that&amp;rsquo;s a good thing. Let&amp;rsquo;s see what&amp;rsquo;s going on here.
+I&amp;rsquo;m doing all of this in a self contained class I unoriginally called PictureView, of course you can rename it to your liking. It takes a path to a picture as an argument.
+I&amp;rsquo;m subclassing Gtk.DrawingArea to be able to draw arbitrary stuff with cairo.
+The first thing is creating a base GdkPixbuf.Pixbuf to store the original image, create a cairo surface from that image and then tell the widget what to do inside the do_draw method." />
     
 
 <meta property="og:site_name"

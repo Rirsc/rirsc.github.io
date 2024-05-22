@@ -46,7 +46,10 @@
         <meta name="keywords" content='gtk, meson, ninja, python, test, testing, unit, unittest' />
     
     
-        <meta name="description" content="riting some unit tests for Feeds and I wanted to integrate them into meson, so that I can just run meson test or ninja test during build and have them run automagically." />
+        <meta name="description" content="riting some unit tests for Feeds and I wanted to integrate them into meson, so that I can just run meson test or ninja test during build and have them run automagically.
+As an added bonus, they should also run when creating a flatpak package, so that I don&amp;rsquo;t accidentally push a broken built to users.
+Here&amp;rsquo;s the very simplistic way I accomplished this task:
+have your tests in a tests directory in the root of your project add this to your meson.build envdata = environment() python_paths = [join_paths(meson.current_build_dir(), &amp;#39;..&amp;#39;)] envdata.append(&amp;#39;PYTHONPATH&amp;#39;, python_paths) envdata.append(&amp;#39;TESTS_BUILDDIR&amp;#39;, meson.current_build_dir()) test( &amp;#39;unit-tests&amp;#39;, import(&amp;#39;python&amp;#39;).find_installation(&amp;#39;python3&amp;#39;), args: [&amp;#39;-m&amp;#39;, &amp;#39;unittest&amp;#39;, &amp;#39;tests&amp;#39;], env: envdata ) While this works locally, I&amp;rsquo;m still having problems with running them during the flatpak build in GitLab CI, so I&amp;rsquo;ll try to solve that as well and update this post accordingly." />
     
 
 <meta property="og:site_name"

@@ -5,44 +5,7 @@
     <description>Recent content in Badcamp on RIRSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Ricardo López</copyright>
-    <lastBuildDate>Wed, 22 May 2024 08:32:14 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/badcamp/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
-    
-    
-    <item>
-      <title>Picture and text</title>
-      <link>http://localhost:1313/posts/240522_picture-and-text/</link>
-      <pubDate>Wed, 22 May 2024 08:32:14 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/240522_picture-and-text/</guid>
-      <description><![CDATA[<p><img src="../images/post_pics/Feeds-moved-to-World-and-design-overhaul/feeds-next-window.png" alt="alt text"></p>
-<p>This is my comment to this amazing song posted up there. Nothing more, nothing less. Yet so nice.
-And another text down here because and fairly sure you were asking for most content from myself, right?
-Yes, I knew it. Even another sentence.
-Oh wow.</p>
-]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Bandcamp and text</title>
-      <link>http://localhost:1313/posts/240522_bandcamp-and-text/</link>
-      <pubDate>Wed, 22 May 2024 07:32:14 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/240522_bandcamp-and-text/</guid>
-      <description><![CDATA[<div style="display: flex; justify-content: center;">
-<iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
-</div>
-<p>This is my comment to this amazing song posted up there. Nothing more, nothing less. Yet so nice.
-And another text down here because and fairly sure you were asking for most content from myself, right?
-Yes, I knew it. Even another sentence.
-Oh wow.</p>
-]]></description>
-      
-    </item>
-    
+    <copyright>Ricardo López</copyright><atom:link href="http://localhost:1313/tags/badcamp/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
     
   </channel>
 </rss>

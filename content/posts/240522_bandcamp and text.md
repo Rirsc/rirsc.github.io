@@ -1,7 +1,7 @@
 ---
 title: Bandcamp and text
 tags:
-  - badcamp
+  - bandcamp
   - terminal
 date: 2024-05-22T07:32:14+01:00
 ---

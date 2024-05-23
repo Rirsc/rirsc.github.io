@@ -3,14 +3,13 @@ title: About
 date: 2019-08-11 10:14:48
 comments: false
 norss: true
-type: misc
 ---
 
 # This human
 
 Hello outsider.
 
-I’m Ricardo López Cabañero, an Industrial Design Engineer mostly focused on 3D digital and interactive works.
+I’m Ricardo López Cabañero, Industrial Design Engineer mostly focused on 3D digital and interactive works.
 
 More about my 3D professional portfolio [here](http://rirsc.xyz).
 
@@ -28,7 +27,7 @@ Static website etc
 
 No trackers, no ads. Privacy policy: not collecting or retaining any data at all.
 
-## Important info
+# Important info
 
 > I want my webpage to be static, minimalist, energy-efficient and fast.
 > 
@@ -41,7 +40,7 @@ No trackers, no ads. Privacy policy: not collecting or retaining any data at all
 - Permacomputing, frugal computing, Solarpunk, artisan engineering…
     - I am already aware of the amount of work I still have to put in here to achieve a better a more lightweight site. I will do my best.
 
-## Dogmas
+# Dogmas
 
 - [RSS Clubs is cool](https://daverupert.com/rss-club/)
 - This [handmade](https://gossipsweb.net/) club is cool too

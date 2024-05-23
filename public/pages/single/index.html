@@ -42,7 +42,7 @@
 
     
     
-        <meta name="description" content="" />
+        <meta name="description" content=" }}{{ .Content }}" />
     
 
 <meta property="og:site_name"
@@ -63,7 +63,7 @@
     <meta property="og:image"
         content="http://localhost:1313/android-chrome-512x512.png" />
     
-        <meta property="og:description" content="ARE YOU THERE" />
+        <meta property="og:description" content="YES OR NOT{{ .Title }}{{ .Content }}" />
     
 
 <meta name="twitter:card" content="summary_large_image" />
@@ -80,7 +80,7 @@
     <meta name="twitter:image"
         content="http://localhost:1313/android-chrome-512x512.png" />
     
-        <meta name="twitter:description" content="ARE YOU THERE" />
+        <meta name="twitter:description" content="YES OR NOT{{ .Title }}{{ .Content }}" />
     
 
 <link rel="manifest" href="/manifest/index.json" />
@@ -155,7 +155,9 @@
     
     
     
-    <div>ARE YOU THERE</div>
+    <div>YES OR NOT
+<h1>{{ .Title }}</h1>
+<div>{{ .Content }}</div></div>
 </article>
 
 

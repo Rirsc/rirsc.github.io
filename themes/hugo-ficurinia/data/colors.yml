@@ -8,7 +8,6 @@ dark:
   stroke: '#5da66b'  # stroke/border color used mostly in the icon menu tooltip
 
   accent: '#edb6ab'  # pervasive accent color
-  selection: '#db5793'
   
   sidebar:
     bg: '#34363b'  # sidebar background

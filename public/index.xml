@@ -46,11 +46,116 @@ Oh wow.</p>
     
     
     <item>
-      <title>Test Style</title>
-      <link>http://localhost:1313/pages/test-style/</link>
-      <pubDate>Tue, 21 May 2024 07:32:14 +0100</pubDate>
+      <title>Nvpunk: A Modern Neovim Distribution with Batteries Included</title>
+      <link>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</link>
+      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
       
-      <guid>http://localhost:1313/pages/test-style/</guid>
+      <guid>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</guid>
+      <description><![CDATA[<p>I&rsquo;ve been using <a href="https://neovim.io"
+ target="_blank" rel="noopener" >
+
+
+
+neovim&#8599</a>
+
+
+
+
+
+ for a while now, and for me, it&rsquo;s the single best text editor out there.</p>
+<p>But it&rsquo;s got a big problem: it&rsquo;s a bit of a hassle, and you have to know what you&rsquo;re doing. There&rsquo;s a wide ecosystem of plugins that integrate into each other, most of them requiring custom configuration code to work. It took a while, but I managed to put together a pretty good config.</p>
+<p>Over time this config, that was initially living in my dotfiles repo, grew larger and more complex. So came the refactorings, then the generalizations, modularization, custom settings systems&hellip;</p>
+<p>It outgrew its role as a humble user config, it became its own thing. At some point I had to give it its own repo, and along with it, a proper name: <strong>Nvpunk</strong>.</p>
+<p><img src="/images/post_pics/nvpunk_a_modern_neovim_distribution_with_batteries_included/greeter.jpg" alt="Screenshot of Nvpunk’s greeter"></p>
+<p>Yeah, that sounds about right.</p>
+<hr>
+<p>Romantic storytelling aside, let me tell you what Nvpunk is: a complete, out of the box and ready to go neovim distribution.</p>
+<p>In other words, it&rsquo;s a fully featured neovim configuration you can use without having to learn how to select, install and manage plugins, and maintain the configuration glue that holds it all together.</p>
+<p>Some highlights of what&rsquo;s included:</p>
+<ul>
+<li>LSP support with completions, snippets, diagnostics and formatting</li>
+<li>DAP support for debugging with a familiar UI</li>
+<li>Advanced syntax highlighting with TreeSitter</li>
+<li>Interactive file tree with git support</li>
+<li>Code outline panel</li>
+<li>Fancy greeter with customizable header graphics</li>
+<li>Theme chooser with a selection of popular preconfigured themes</li>
+<li>Categorized right click menu to access some useful features</li>
+</ul>
+<p>I&rsquo;ve been heavily inspired by other projects like <a href="https://www.lunarvim.org/"
+ target="_blank" rel="noopener" >
+
+
+
+LunarVim&#8599</a>
+
+
+
+
+
+, <a href="https://nvchad.com/"
+ target="_blank" rel="noopener" >
+
+
+
+NvChad&#8599</a>
+
+
+
+
+
+ and <a href="https://astronvim.github.io/"
+ target="_blank" rel="noopener" >
+
+
+
+AstroNvim&#8599</a>
+
+
+
+
+
+, with the difference that Nvpunk tries to offer a ready to go experience, while these distros give you more of a base to build on yourself, still requiring manual configuration to be effective.</p>
+<p>Nvpunk still offers some degree of custom configuration, but it&rsquo;s more tailored towards advanced users that know what they&rsquo;re doing, and it&rsquo;s very much optional.</p>
+<p>Most of the things you may want to change are configurable via a UI preferences menu, accessible from the greeter.</p>
+<p>I understand that Nvpunk may not be for everyone: some may call it bloated, and typically (neo)vim fans like to roll their own config anyway (just like I did), but that&rsquo;s fine. Nvpunk is mostly targeted at people that are looking for a good, feature-rich text editor, but that don&rsquo;t have the time, interest or knowledge to maintain their own config.</p>
+<p>You can find out more on <a href="https://nvpunk.gabmus.org"
+ target="_blank" rel="noopener" >
+
+
+
+Nvpunk&rsquo;s website&#8599</a>
+
+
+
+
+
+ and on the <a href="https://gitlab.com/gabmus/nvpunk"
+ target="_blank" rel="noopener" >
+
+
+
+GitLab repository&#8599</a>
+
+
+
+
+
+.</p>
+]]></description>
+      
+        <media:thumbnail url="http://localhost:1313/images/post_pics/nvpunk_a_modern_neovim_distribution_with_batteries_included/cover.jpg" />
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Test style</title>
+      <link>http://localhost:1313/posts/210101_test-style/</link>
+      <pubDate>Fri, 01 Jan 2021 07:32:14 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/210101_test-style/</guid>
       <description><![CDATA[<h2 id="1-headlines">1. Headlines</h2>
 <h1 id="h1---this-is-a-level-1-heading">H1 - This is a level 1 heading</h1>
 <h2 id="h2---this-is-a-level-2-heading">H2 - This is a level 2 heading</h2>
@@ -94,26 +199,19 @@ Oh wow.</p>
 </ul>
 <h2 id="4-links">4. Links</h2>
 <ul>
-<li><a href="https://www.openai.com"
+<li><a href="https://rirsc.xyz"
  target="_blank" rel="noopener" >
 
 
 
-OpenAI&#8599</a>
-
-
-
-
-
-
-
+External Link&#8599</a>
 
 
 
 
 
 </li>
-<li><a href="./path/to/file.md"
+<li><a href="/pages/about"
 >
 
 
@@ -124,17 +222,11 @@ Relative link to a file</a>
 
 
 
-
-
-
-
-
-
-
 </li>
 </ul>
 <h2 id="5-images">5. Images</h2>
-<p><img src="https://via.placeholder.com/150" alt="Alt text" title="Optional title"></p>
+<p><img src="/images/posts/240522_picture%20and%20text/240522_picture%20and%20text.webp" alt="alt text" title="Optional title">
+<em>This is the caption</em></p>
 <h2 id="6-blockquotes">6. Blockquotes</h2>
 <blockquote>
 <p>This is a blockquote.</p>
@@ -208,7 +300,7 @@ Relative link to a file</a>
 <li>\escaped backslash\</li>
 </ul>
 <h2 id="12-footnotes">12. Footnotes</h2>
-<p>Here is a footnote reference<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Here is a footnote reference <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <h2 id="13-definition-lists">13. Definition Lists</h2>
 <dl>
 <dt>Term</dt>
@@ -219,7 +311,7 @@ Relative link to a file</a>
 <h2 id="14-emojis">14. Emojis</h2>
 <p>You can use emojis in your Markdown:</p>
 <ul>
-<li>:smile:</li>
+<li>:smiley:</li>
 <li>:thumbsup:</li>
 <li>:sparkles:</li>
 </ul>
@@ -245,10 +337,13 @@ $$</p>
 <iframe width=100% height="315" src="https://www.youtube.com/embed/BCAGgwaPiaE?si=DeB6y7J4brncmiCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <h3 id="bandcamp-song">Bandcamp Song</h3>
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
+</div>
 <h3 id="spotify-song">Spotify Song</h3>
-<iframe src="https://open.spotify.com/embed/track/TRACK_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<div class="footnotes" role="doc-endnotes">
+<div style="display: flex; justify-content: center;">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/50UMCVCUJPAG1JMq2yfjEE?utm_source=generator" width="700px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
@@ -257,153 +352,6 @@ $$</p>
 </ol>
 </div>
 ]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Nvpunk: A Modern Neovim Distribution with Batteries Included</title>
-      <link>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</link>
-      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</guid>
-      <description><![CDATA[<p>I&rsquo;ve been using <a href="https://neovim.io"
- target="_blank" rel="noopener" >
-
-
-
-neovim&#8599</a>
-
-
-
-
-
-
-
-
-
-
-
-
- for a while now, and for me, it&rsquo;s the single best text editor out there.</p>
-<p>But it&rsquo;s got a big problem: it&rsquo;s a bit of a hassle, and you have to know what you&rsquo;re doing. There&rsquo;s a wide ecosystem of plugins that integrate into each other, most of them requiring custom configuration code to work. It took a while, but I managed to put together a pretty good config.</p>
-<p>Over time this config, that was initially living in my dotfiles repo, grew larger and more complex. So came the refactorings, then the generalizations, modularization, custom settings systems&hellip;</p>
-<p>It outgrew its role as a humble user config, it became its own thing. At some point I had to give it its own repo, and along with it, a proper name: <strong>Nvpunk</strong>.</p>
-<p><img src="/images/post_pics/nvpunk_a_modern_neovim_distribution_with_batteries_included/greeter.jpg" alt="Screenshot of Nvpunk’s greeter"></p>
-<p>Yeah, that sounds about right.</p>
-<hr>
-<p>Romantic storytelling aside, let me tell you what Nvpunk is: a complete, out of the box and ready to go neovim distribution.</p>
-<p>In other words, it&rsquo;s a fully featured neovim configuration you can use without having to learn how to select, install and manage plugins, and maintain the configuration glue that holds it all together.</p>
-<p>Some highlights of what&rsquo;s included:</p>
-<ul>
-<li>LSP support with completions, snippets, diagnostics and formatting</li>
-<li>DAP support for debugging with a familiar UI</li>
-<li>Advanced syntax highlighting with TreeSitter</li>
-<li>Interactive file tree with git support</li>
-<li>Code outline panel</li>
-<li>Fancy greeter with customizable header graphics</li>
-<li>Theme chooser with a selection of popular preconfigured themes</li>
-<li>Categorized right click menu to access some useful features</li>
-</ul>
-<p>I&rsquo;ve been heavily inspired by other projects like <a href="https://www.lunarvim.org/"
- target="_blank" rel="noopener" >
-
-
-
-LunarVim&#8599</a>
-
-
-
-
-
-
-
-
-
-
-
-
-, <a href="https://nvchad.com/"
- target="_blank" rel="noopener" >
-
-
-
-NvChad&#8599</a>
-
-
-
-
-
-
-
-
-
-
-
-
- and <a href="https://astronvim.github.io/"
- target="_blank" rel="noopener" >
-
-
-
-AstroNvim&#8599</a>
-
-
-
-
-
-
-
-
-
-
-
-
-, with the difference that Nvpunk tries to offer a ready to go experience, while these distros give you more of a base to build on yourself, still requiring manual configuration to be effective.</p>
-<p>Nvpunk still offers some degree of custom configuration, but it&rsquo;s more tailored towards advanced users that know what they&rsquo;re doing, and it&rsquo;s very much optional.</p>
-<p>Most of the things you may want to change are configurable via a UI preferences menu, accessible from the greeter.</p>
-<p>I understand that Nvpunk may not be for everyone: some may call it bloated, and typically (neo)vim fans like to roll their own config anyway (just like I did), but that&rsquo;s fine. Nvpunk is mostly targeted at people that are looking for a good, feature-rich text editor, but that don&rsquo;t have the time, interest or knowledge to maintain their own config.</p>
-<p>You can find out more on <a href="https://nvpunk.gabmus.org"
- target="_blank" rel="noopener" >
-
-
-
-Nvpunk&rsquo;s website&#8599</a>
-
-
-
-
-
-
-
-
-
-
-
-
- and on the <a href="https://gitlab.com/gabmus/nvpunk"
- target="_blank" rel="noopener" >
-
-
-
-GitLab repository&#8599</a>
-
-
-
-
-
-
-
-
-
-
-
-
-.</p>
-]]></description>
-      
-        <media:thumbnail url="http://localhost:1313/images/post_pics/nvpunk_a_modern_neovim_distribution_with_batteries_included/cover.jpg" />
       
     </item>
     

@@ -1,9 +1,9 @@
 ---
-title: Test Style
+title: Test style
 tags:
   - markdown
   - terminal
-date: 2024-05-21T07:32:14+01:00
+date: 2021-01-01T07:32:14+01:00
 ---
 
 ## 1. Headlines
@@ -43,12 +43,13 @@ date: 2024-05-21T07:32:14+01:00
 
 ## 4. Links
 
-- [OpenAI](https://www.openai.com)
-- [Relative link to a file](./path/to/file.md)
+- [External Link](https://rirsc.xyz)
+- [Relative link to a file](/pages/about)
 
 ## 5. Images
 
-![Alt text](https://via.placeholder.com/150 "Optional title")
+![alt text](</images/posts/240522_picture and text/240522_picture and text.webp> "Optional title")
+*This is the caption*
 
 ## 6. Blockquotes
 
@@ -100,7 +101,7 @@ Use a backslash (`\`) to escape special Markdown characters:
 
 ## 12. Footnotes
 
-Here is a footnote reference[^1].
+Here is a footnote reference [^1].
 
 [^1]: This is the footnote.
 
@@ -115,7 +116,7 @@ Another Term
 ## 14. Emojis
 
 You can use emojis in your Markdown:
-- :smile:
+- :smiley:
 - :thumbsup:
 - :sparkles:
 
@@ -148,7 +149,11 @@ You can use emoji like :smiley: :+1: :sparkles:
 </div>
 
 ### Bandcamp Song
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
+</div>
 
 ### Spotify Song
-<iframe src="https://open.spotify.com/embed/track/TRACK_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<div style="display: flex; justify-content: center;">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/50UMCVCUJPAG1JMq2yfjEE?utm_source=generator" width="700px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>

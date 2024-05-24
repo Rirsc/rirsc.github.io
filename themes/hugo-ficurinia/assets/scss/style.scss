@@ -172,7 +172,7 @@ body {
     color: var(--default_fg);
     padding: ($margin / 2);
     margin: ($margin / 6) 0;
-    transition: background-color .15s ease-in-out !important;
+    /* transition: background-color .15s ease-in-out !important; */
     border-bottom: none;
     &:hover, &:focus {
         background-color: var(--default_accent);
@@ -336,7 +336,7 @@ blockquote {
             line-height: 40px;
             padding: unset;
             border-radius: 100%;
-            transition: background-color .15s ease-in-out;
+            /* transition: background-color .15s ease-in-out; */
             background-color: var(--default_hl_bg);
             color: var(--default_fg);
             box-shadow: $shadow;
@@ -1063,7 +1063,7 @@ header.jumbotronContainer {
                 padding: 3px;
                 // display: flex; flex-direction: row; justify-content: center;
                 background-color: transparent;
-                transition: background-color .15s ease-in-out;
+                /* transition: background-color .15s ease-in-out; */
                 svg {
                     margin-top: 5px;
                     &, * {

@@ -23,15 +23,6 @@
     <loc>http://localhost:1313/posts/240522_bandcamp-and-text/</loc>
     <lastmod>2024-05-22T07:32:14+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
-    <lastmod>2024-05-21T07:32:14+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/</loc>
-    <lastmod>2024-05-21T07:32:14+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/test-style/</loc>
-    <lastmod>2024-05-21T07:32:14+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/editor/</loc>
     <lastmod>2022-12-06T07:36:27+01:00</lastmod>
   </url><url>
@@ -47,7 +38,16 @@
     <loc>http://localhost:1313/tags/vim/</loc>
     <lastmod>2022-12-06T07:36:27+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2021-01-01T07:32:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/210101_test-style/</loc>
+    <lastmod>2021-01-01T07:32:14+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/pages/about/</loc>
+    <lastmod>2019-08-11T10:14:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
     <lastmod>2019-08-11T10:14:48+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

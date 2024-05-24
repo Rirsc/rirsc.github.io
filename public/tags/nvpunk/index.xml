@@ -26,13 +26,6 @@ neovim&#8599</a>
 
 
 
-
-
-
-
-
-
-
  for a while now, and for me, it&rsquo;s the single best text editor out there.</p>
 <p>But it&rsquo;s got a big problem: it&rsquo;s a bit of a hassle, and you have to know what you&rsquo;re doing. There&rsquo;s a wide ecosystem of plugins that integrate into each other, most of them requiring custom configuration code to work. It took a while, but I managed to put together a pretty good config.</p>
 <p>Over time this config, that was initially living in my dotfiles repo, grew larger and more complex. So came the refactorings, then the generalizations, modularization, custom settings systems&hellip;</p>
@@ -64,13 +57,6 @@ LunarVim&#8599</a>
 
 
 
-
-
-
-
-
-
-
 , <a href="https://nvchad.com/"
  target="_blank" rel="noopener" >
 
@@ -82,26 +68,12 @@ NvChad&#8599</a>
 
 
 
-
-
-
-
-
-
-
  and <a href="https://astronvim.github.io/"
  target="_blank" rel="noopener" >
 
 
 
 AstroNvim&#8599</a>
-
-
-
-
-
-
-
 
 
 
@@ -122,26 +94,12 @@ Nvpunk&rsquo;s website&#8599</a>
 
 
 
-
-
-
-
-
-
-
  and on the <a href="https://gitlab.com/gabmus/nvpunk"
  target="_blank" rel="noopener" >
 
 
 
 GitLab repository&#8599</a>
-
-
-
-
-
-
-
 
 
 

@@ -58,8 +58,44 @@
 </ul>
 <h2 id="4-links">4. Links</h2>
 <ul>
-<li><a href="https://www.openai.com">OpenAI</a></li>
-<li><a href="./path/to/file.md">Relative link to a file</a></li>
+<li><a href="https://www.openai.com"
+ target="_blank" rel="noopener" >
+
+
+
+OpenAI&#8599</a>
+
+
+
+
+
+
+
+
+
+
+
+
+</li>
+<li><a href="./path/to/file.md"
+>
+
+
+
+Relative link to a file</a>
+
+
+
+
+
+
+
+
+
+
+
+
+</li>
 </ul>
 <h2 id="5-images">5. Images</h2>
 <p><img src="https://via.placeholder.com/150" alt="Alt text" title="Optional title"></p>

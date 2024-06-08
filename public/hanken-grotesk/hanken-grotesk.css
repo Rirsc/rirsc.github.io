@@ -1,0 +1,161 @@
+/* HankenGrotesk-Regular- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 400;
+	src: local("HankenGrotesk Regular"), local("HankenGrotesk-Regular"), url(HankenGrotesk-Regular.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-Regular-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 400;
+	src: local("HankenGrotesk Regular"), local("HankenGrotesk-Regular"), url(HankenGrotesk-Regular-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-Medium-italic- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 500;
+	src: local("HankenGrotesk Medium Italic"), local("HankenGrotesk-MediumItalic"), url(HankenGrotesk-MediumItalic-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-Medium-italic-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 500;
+	src: local("HankenGrotesk Medium Italic"), local("HankenGrotesk-MediumItalic"), url(HankenGrotesk-MediumItalic-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-Medium- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 500;
+	src: local("HankenGrotesk Medium"), local("HankenGrotesk-Medium"), url(HankenGrotesk-Medium-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-Medium-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 500;
+	src: local("HankenGrotesk Medium"), local("HankenGrotesk-Medium"), url(HankenGrotesk-Medium-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-light-italic- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 300;
+	src: local("HankenGrotesk Light Italic"), local("HankenGrotesk-LightItalic"), url(HankenGrotesk-light-italic-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-light-italic-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 300;
+	src: local("HankenGrotesk Light Italic"), local("HankenGrotesk-LightItalic"), url(HankenGrotesk-light-italic-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-light- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 300;
+	src: local("HankenGrotesk Light"), local("HankenGrotesk-Light"), url(HankenGrotesk-light-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-light-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 300;
+	src: local("HankenGrotesk Light"), local("HankenGrotesk-Light"), url(HankenGrotesk-light-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-italic- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 400;
+	src: local("HankenGrotesk Italic"), local("HankenGrotesk-Italic"), url(HankenGrotesk-italic-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-italic-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 400;
+	src: local("HankenGrotesk Italic"), local("HankenGrotesk-Italic"), url(HankenGrotesk-italic-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-extra-bold-italic- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 700;
+	src: local("HankenGrotesk Extra Bold Italic"), local("HankenGrotesk-ExtraBoldItalic"), url(HankenGrotesk-extra-bold-italic-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-extra-bold-italic-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 700;
+	src: local("HankenGrotesk Extra Bold Italic"), local("HankenGrotesk-ExtraBoldItalic"), url(HankenGrotesk-extra-bold-italic-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-extra-bold- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 700;
+	src: local("HankenGrotesk Extra Bold"), local("HankenGrotesk-ExtraBold"), url(HankenGrotesk-extra-bold-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-extra-bold-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 700;
+	src: local("HankenGrotesk Extra Bold"), local("HankenGrotesk-ExtraBold"), url(HankenGrotesk-extra-bold-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-bold-italic- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 700;
+	src: local("HankenGrotesk Bold Italic"), local("HankenGrotesk-BoldItalic"), url(HankenGrotesk-bold-italic-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-bold-italic-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: italic;
+	font-weight: 700;
+	src: local("HankenGrotesk Bold Italic"), local("HankenGrotesk-BoldItalic"), url(HankenGrotesk-bold-italic-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+/* HankenGrotesk-bold- */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 700;
+	src: local("HankenGrotesk Bold"), local("HankenGrotesk-Bold"), url(HankenGrotesk-bold-.ttf) format("ttf");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+/* HankenGrotesk-bold-ext */
+@font-face {
+	font-family: HankenGrotesk;
+	font-style: normal;
+	font-weight: 700;
+	src: local("HankenGrotesk Bold"), local("HankenGrotesk-Bold"), url(HankenGrotesk-bold-ext.ttf) format("ttf");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+

@@ -89,16 +89,17 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
 {{ end }}
 
 
+
 $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
 $title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
-$mono_font: {{ .Site.Params.monospaceFontFamily | default "Arial" }};
+$mono_font: {{ .Site.Params.monospaceFontFamily | default "Arial" }}; 
 
 /* $main_font: {{ .Site.Params.fontFamily | default "JetBrains Mono" }};
 $title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
 $mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }}; */
 
 $symbols_font: "Symbols Nerd Font";
-$content_width: {{ .Site.Params.contentWidth | default "1000px" }};
+$content_width: {{ .Site.Params.contentWidth | default "800px" }};
 $border_radius: 10px;
 $margin: 15px;
 

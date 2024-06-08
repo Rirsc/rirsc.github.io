@@ -43,7 +43,7 @@
 
     
     
-    <link type="text/css" rel="stylesheet" href=http://localhost:1313/css/styles.3217d7f6d6efcea71a8418ab7d5fbaaa7d56f3db2505d31f60d464bca29ba8a6f3f368c2adcfcb69f8fed84990ed311d621a8421df5d2019ab5c40c033e174c0.css integrity="sha512-MhfX9tbvzqcahBirfV&#43;6qn1W89slBdMfYNRkvKKbqKbz82jCrc/Lafj&#43;2EmQ7TEdYhqEId9dIBmrXEDAM&#43;F0wA==" />
+    <link type="text/css" rel="stylesheet" href=http://localhost:1313/css/styles.5c32d53496ff4360ea122fb676c5bf51b19b9c3ebff46235b797e56e76d473237943e61953a886556873ca0798b5c403a62adb2e22e5365e619fd0a55e76ff4f.css integrity="sha512-XDLVNJb/Q2DqEi&#43;2dsW/UbGbnD6/9GI1t5flbnbUcyN5Q&#43;YZU6iGVWhzygeYtcQDpirbLiLlNl5hn9ClXnb/Tw==" />
 <meta name="author" content="Ricardo López" />
 
     
@@ -113,6 +113,22 @@
                 About
             </a></li>
         
+            <li><a href="http://localhost:1313/pages/etc/digital-love/">
+                Digital Love
+            </a></li>
+        
+            <li><a href="http://localhost:1313/pages/etc/">
+                Etc
+            </a></li>
+        
+            <li><a href="http://localhost:1313/pages/etc/gigs/">
+                Gigs
+            </a></li>
+        
+            <li><a href="http://localhost:1313/pages/log/">
+                Log
+            </a></li>
+        
         
         
         
@@ -135,10 +151,10 @@
 <div id="contentContainer">
                 <div id="content">
                     <main>
+    
+    
+    
 
-    
-    
-    
 
 
 
@@ -151,224 +167,11 @@
 
 
 <div class="postlist " id="postlist">
-    <article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/_drafts/raspberry_pi_pico_pinout_in_your_terminal/">Raspberry Pi Pico pinout in your terminal</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-03-09
-
-
-        </p>
-        
-            
-                <a class="unstyledLink" href="http://localhost:1313/_drafts/raspberry_pi_pico_pinout_in_your_terminal/">
-                    
-                        <img src="/images/post_pics/Raspberry_Pi_Pico_pinout_in_your_terminal/screenshot.avif" alt="" />
-                    
-                </a>
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        I&rsquo;m playing around with the new Raspberry Pi Pico, and I quickly realized that I&rsquo;d really love to have a quick pinout reference in my terminal.
-I thought of making a man page, but I would have lost the color (I don&rsquo;t know how to use arbitrary colors in groff), so I just created a simple text file with ascii escape sequences for colors and called it a day. It works, and it&rsquo;s pretty!
-I&rsquo;m uploading it here for your convenience (and mine as well), you should be able to grab it from your *NIX box by just typing:
-curl https://gabmus.org/pico_pinout If you want to save it in a file, just add &gt; some_file_name to the above.
-                    
-                </p>
-                <p><a href="http://localhost:1313/_drafts/raspberry_pi_pico_pinout_in_your_terminal/">Continue reading </a></p>
-            </div>
-        
-    </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/_drafts/making-a-dbus-daemon/">Making a D-Bus Daemon with Python and Flatpak</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2021-01-02
-
-
-        </p>
-        
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        I learned most of this stuff from this awesome series of articles by Larry Price. Give it a read, it&rsquo;s worth it.
-Why D-Bus daemons are quite useful tools. What would you need them for? Well, I decided to add one to HydraPaper to do two jobs:
-change the wallpaper periodically listen for monitor configuration changes and adapt to it, so that when you plug or unplug a monitor, the wallpaper doesn&rsquo;t get all messed up There could be other reasons, like provide an always active &ldquo;server&rdquo; component to your application, or if you need to send notifications to the user even when your main app isn&rsquo;t running.
-Of course possibilities are limitless, it&rsquo;s just another way to create software. Using D-Bus to create this daemon allows your graphical application to communicate with the main application in an easy and predictable way.
-If you want to read more about D-Bus, I suggest you give a look at this nicely written article by Patrick Louis.
-How Now what languages are we gonna use? Ha! Trick question! If you know me (or can read the title) you know we&rsquo;ll be using Python. Besides I&rsquo;m pretty sure you can use whatever language you prefer, but today that&rsquo;s what we&rsquo;re gonna use.
-Before we begin, it&rsquo;s good practice to choose a unique id for our daemon using the reverse domain name notation. For the HydraPaper Daemon I chose org.gabmus.hydrapaper.Daemon. It&rsquo;s important that your name is unique, so it&rsquo;s a good practice to name it something like ext.yourPersonalHandle.yourApplicationName.Daemon. Another good idea is if you have a registered domain like I do for gabmus.org, to just use that, followed by the name of your app and some other indication that this service will be a daemon. You can read more about valid names here.
-Once you have decided this id, just put it in a constant, along with the same but separated by slashes as if it was a path, like this:
-UID = &#39;org.gabmus.myapp.Daemon&#39; UID_AS_PATH = &#39;/org/gabmus/myapp/Daemon&#39; # notice the leading slash Let&rsquo;s now start with the basics: we need a class extending dbus.service.Object. This will be our D-Bus Object, and some of the methods inside of it will be exposed as D-Bus methods.
-import dbus import dbus.service # yes, you need to import this as well UID = &#39;org.gabmus.hydrapaper.Daemon&#39; UID_AS_PATH = &#39;/org/gabmus/hydrapaper/Daemon&#39; class MyappDaemon(dbus.service.Object): def __init__(self, bus_name): super().__init__( bus_name, UID_AS_PATH ) Now before moving on, I decided to include the final part here: bootstrapping our main loop and all of the things we need to get this bad boy running, so that you can actually try things out and see what&rsquo;s going on instead of just blindly copy-pasting.
-You&rsquo;ll need these additional imports:
-from dbus.mainloop.glib import DBusGMainLoop from gi.repository import GLib Let&rsquo;s move to the bottom of the file and create a main function, just to do things cleanly:
-def main(): DBusGMainLoop(set_as_default=True) try: bus_name = dbus.service.BusName( UID, bus=dbus.SessionBus(), do_not_queue=True ) except dbus.exceptions.NameExistsException: print(f&#39;Service with id {UID} is already running&#39;) exit(1) loop = GLib.MainLoop() daemon = MyappDaemon(bus_name) try: loop.run() except KeyboardInterrupt: print(&#39;KeyboardInterrupt received&#39;) except Exception as e: print(&#39;Unhandled exception: `{}`&#39;.format(str(e))) finally: loop.quit() if __name__ == &#39;__main__&#39;: main() Alright, let&rsquo;s resume from where we left.
-We have a D-Bus object, and the thing can run doing nothing now, awesome.
-Let&rsquo;s give this object a method we can invoke from outside.
-To do this we&rsquo;ll create a method in our class and decorate it with @dbus.service.method. This decorator takes some parameters:
-dbus_interface: the interface we want this method to be attached to (interfaces are another nesting level for D-Bus, honestly I think they&rsquo;re overkill for this kind of use, so we&rsquo;re just going to use our previously declared UID as the interface, it&rsquo;s gonna work). in_signature: what kind of parameters our method requires out_signature: what kind of output our method returns For the signatures, you can read more about data types you can use in this documentation page.
-Let&rsquo;s create a simple hello method that takes a string and returns another string.
-class MyappDaemon(dbus.service.Object): # ... @dbus.service.method( dbus_interface=UID, in_signature=&#39;s&#39;, out_signature=&#39;s&#39; ) def hello(self, your_name: str) -&gt; str: return f&#39;Hi there, {your_name}!&#39; That&rsquo;s it! Easy, wasn&rsquo;t it?
-Now if like me you want to have some action to run every x seconds or something, you can just use the standard threads and sleep model of Python, not much else you need as far as D-Bus goes.
-Now, let&rsquo;s see what we need to do to package this new Daemon in a Flatpak and have it being recognized by the system as proper and activatable D-Bus service.
-Plumbing First off, we&rsquo;ll be using meson, so I assume you already are using it for your base application.
-Assuming we have our daemon inside a sub-folder called myapp_daemon. For packages reasons I suggest you call the actual daemon Python file something like myappd.in.py. Notice the trailing d, it means daemon. Another thing: make sure to give this file executable permissions! (chmod +x myapp_daemon/myappd.in.py)
-At the beginning of myappd.in.py we&rsquo;re going to insert our shebang like this:
-#!@PYTHON@ In our main meson.build file, the one in the root of the project, let&rsquo;s put the following somewhere you feel is appropriate (skip anything that is already there of course):
-prefix = get_option(&#39;prefix&#39;) datadir = get_option(&#39;datadir&#39;) libexecdir = join_paths(prefix, get_option(&#39;libexecdir&#39;)) etcdir = get_option(&#39;sysconfdir&#39;) dbus_service_dir = dependency( &#39;dbus-1&#39; ).get_pkgconfig_variable( &#39;session_bus_services_dir&#39;, define_variable: [&#39;datadir&#39;, join_paths(prefix, datadir)] ) python = import(&#39;python&#39;) py_installation = python.find_installation(&#39;python3&#39;) if not py_installation.found() error(&#39;No valid python3 binary found&#39;) endif subdir(&#39;myapp_daemon&#39;) subdir(&#39;data&#39;) Now, let&rsquo;s create myapp_daemon/meson.build, and put this inside:
-daemon_conf = configuration_data() daemon_conf.set(&#39;PYTHON&#39;, py_installation.path()) configure_file( input: meson.project_name() + &#39;d.in.py&#39;, output: meson.project_name() + &#39;d&#39;, install: true, install_dir: libexecdir, configuration: daemon_conf ) That&rsquo;s it for the daemon itself, but we still need some other files to let Flatpak (or your host operating system for that matter if you install this with a regular package manager) recognize this as an activatable service.
-Note: an activatable service means a service that will be started automagically as soon as an application tries to connect to it.
-For this, I like to work inside of a new folder called data inside the project root.
-Inside data let&rsquo;s create:
-org.gabmus.myapp.Daemon.desktop.in containing:
-[Desktop Entry] Name=org.gabmus.myapp.Daemon Comment=Daemon for myapp Icon=org.gabmus.myapp.Daemon Exec=@libexecdir@/myappd X-GNOME-Autostart-Delay=10 StartupNotify=false NoDisplay=true Type=Application org.gabmus.myapp.Daemon.service.in containing:
-[D-BUS Service] Name=org.gabmus.myapp.Daemon Exec=@libexecdir@/myappd meson.build (if it exists already, just add to it) containing:
-data_conf = configuration_data() data_conf.set(&#39;libexecdir&#39;, libexecdir) configure_file( input: &#39;org.gabmus.myapp.Daemon.desktop.in&#39;, output: &#39;org.gabmus.myapp.Daemon.desktop&#39;, configuration: data_conf, install: true, install_dir: join_paths(etcdir, &#39;xdg&#39;, &#39;autostart&#39;) ) configure_file( input: &#39;org.gabmus.myapp.Daemon.service.in&#39;, output: &#39;org.gabmus.myapp.Daemon.service&#39;, configuration: data_conf, install: true, install_dir: dbus_service_dir ) Finally, we need to tell Flatpak that the org.gabmus.myapp.Daemon name is owned by our application. To do this let&rsquo;s add the following to our Flatpak manifest, inside the finish-args array:
-&#34;--own-name=org.gabmus.myapp&#34;, &#34;--own-name=org.gabmus.myapp.Daemon&#34; Great! Now in theory everything should be in place, of course let me know if anything is broken or doesn&rsquo;t work, the comment section is there to be used!
-For the final section of this small tutorial, let&rsquo;s see how to call the method we created.
-Summon the daemon For this last section, I&rsquo;ll just leave you with some very brief example code in Python, hopefully it&rsquo;s easy enough to follow:
-import dbus def summon_hello(name): try: bus = dbus.SessionBus() obj = bus.get_object( &#39;org.gabmus.myapp.Daemon&#39;, &#39;/org/gabmus/myapp/Daemon&#39; ) interface = dbus.Interface( obj, dbus_interface=&#39;org.gabmus.myapp.Daemon&#39; ) return interface.hello(name) except dbus.exceptions.DBusException: print(&#39;Failed to communicate with `org.gabmus.myapp.Daemon`!&#39;) return &#39;&#39; Hope you can find this tutorial useful. Mind you, I&rsquo;m not an expert in this matter, I just did this and failed to find a single tutorial summarizing all of what I needed, so I decided to make one myself.
-If you find that anything doesn&rsquo;t work as expected (maybe I missed a step or two?) please let me know in the comments, or contact me directly by using one of the contacts you can find in the About page.
-                    
-                </p>
-                <p><a href="http://localhost:1313/_drafts/making-a-dbus-daemon/">Continue reading </a></p>
-            </div>
-        
-    </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/_drafts/giara_is_a_reddit_app_for_linux/">Giara is a reddit app for Linux</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2020-10-30
-
-
-        </p>
-        
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        I am a quite avid reddit user. Like it or not, reddit is a very central place where communities for stuff that I care about tend to aggregate.
-For the longest time, I have felt the need for a reddit app on my Linux desktop, and I waited and kept waiting for one that would finally allow me to break free of using the web version.
-Some honorable mentions are due to projects like the now seemingly abandoned Something for reddit and the terminal app Tuir.
-Unfortunately they were not what I was looking for.
-At some point I just decided to start scratching this itch of mine, and so my quest began.
-And this is how Giara got to be!
-At this current stage Giara is already usable, with most of the main features you&rsquo;d expect from a reddit app to work.
-Many people, including some familiar faces, stepped up and helped me in the development process, and I have already received some contributions.
-It&rsquo;s not 100% done, tho. It still needs to reach feature parity with the reddit web client, as features like awards, polls, galleries and private messages are still to be implemented. I&rsquo;m also working on improving performance, as the app tends to be slower than I would prefer sometimes. All of these missing features and improvements are up next in my to-do list.
-The app has also been recently moved to the World group in GNOME&rsquo;s GitLab, and I&rsquo;m incredibly happy for it! The next step now is to add support for the Damned Lies translation platform, so that it can be even easier to contribute new translations to the project.
-As always any help and contribution is highly appreciated!
-You can find the repo on GNOME&rsquo;s GitLab and you can download the latest stable version of Giara from Flathub. You may also want to take a look at Giara&rsquo;s website.
-                    
-                </p>
-                <p><a href="http://localhost:1313/_drafts/giara_is_a_reddit_app_for_linux/">Continue reading </a></p>
-            </div>
-        
-    </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/_drafts/map_mouse_back_and_forward_buttons_in_your_gtk_app/">Map Mouse Back and Forward Buttons in Your GTK App</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2020-10-08
-
-
-        </p>
-        
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        The back and forward buttons on your mouse are incredibly useful, at least for me. I use them all the time!
-I couldn&rsquo;t find a proper way to map it on my app until I asked on the GTK Matrix chatroom, there baedert sent me a couple of links to how he did it in his app corebird.
-I translated the code to Python and decided to make a blog post to archive the procedure.
-First, here&rsquo;s a function that creates the &ldquo;gesture&rdquo; and assigns it to a widget and a callback function
-def add_mouse_button_accel(widget, function): gesture = Gtk.GestureMultiPress.new(widget) gesture.set_button(0) gesture.set_propagation_phase(Gtk.PropagationPhase.CAPTURE) gesture.connect(&#39;pressed&#39;, function) return gesture As you may have noticed, this function returns the created gesture. You may think there is no need for it and ideally you&rsquo;d be right.
-There&rsquo;s just a small issue: due to something that I could only identify as a bug in GTK, you need to keep the Gtk.GestureMultiPress object around, otherwise it gets destroyed and the button clicks are no longer registered.
-Once the gesture is returned, you can assign it to something that stays in memory (or you can modify this function and do something like widget.mouse_accel_gesture = gesture and be done with it).
-As for the function associated with the mouse click, here&rsquo;s a template you can use:
-def on_mouse_event(gesture, n_press, x, y): btn = gesture.get_current_button() if btn == 8: # Handle the Back button here elif btn == 9: # Handle the Forward button here There you go, hope it helps. If you have any trouble feel free to leave a comment or contact me (contact info can be found in the about page)
-                    
-                </p>
-                <p><a href="http://localhost:1313/_drafts/map_mouse_back_and_forward_buttons_in_your_gtk_app/">Continue reading </a></p>
-            </div>
-        
-    </div>
-    <hr />
-</article>
-<article class="card postlistitem">
-    <div>
-        <h2>
-            <a href="http://localhost:1313/_drafts/create_an_auto-resizing_image_widget_with_gtk3_and_python/">Create an auto resizing image widget with GTK3 and Python</a>
-        </h2>
-        <p class="date">
-            <span title='Date'> </span>
-    2020-10-03
-
-
-        </p>
-        
-            
-        
-        
-            <div class="articlePreview">
-                <p>
-                    
-                        One of the most common things you might wanna do with images, that is making them automatically resize to adapt to the available space they have, is not possible with Gtk.Image.
-So after some hacking, I seem to have found a solution that works:
-from gi.repository import Gtk, GdkPixbuf, Gdk class PictureView(Gtk.DrawingArea): def __init__(self, path, *args, **kwargs): super().__init__(*args, **kwargs) self.path = path self.pixbuf = GdkPixbuf.Pixbuf.new_from_file(self.path) self.img_surface = Gdk.cairo_surface_create_from_pixbuf( self.pixbuf, 1, None ) def get_useful_height(self): aw = self.get_allocated_width() pw = self.pixbuf.get_width() ph = self.pixbuf.get_height() return aw/pw * ph def get_scale_factor(self): return self.get_allocated_width() / self.pixbuf.get_width() def do_draw(self, context): sf = self.get_scale_factor() context.scale(sf, sf) context.set_source_surface(self.img_surface, 0, 0) context.paint() height = self.get_useful_height(self.get_allocated_width()) self.set_size_request(-1, height) This code is actually simpler than I imagined, and that&rsquo;s a good thing. Let&rsquo;s see what&rsquo;s going on here.
-I&rsquo;m doing all of this in a self contained class I unoriginally called PictureView, of course you can rename it to your liking. It takes a path to a picture as an argument.
-I&rsquo;m subclassing Gtk.DrawingArea to be able to draw arbitrary stuff with cairo.
-The first thing is creating a base GdkPixbuf.Pixbuf to store the original image, create a cairo surface from that image and then tell the widget what to do inside the do_draw method.
-This will in turn find out the size at which it wants to be rendered.
-For the width, I want all of it, or in other words all of the allocated width that the widget has.
-As for the height, I simply calculate the target height (indicated as allocated_height in the formula below) by solving a simple proportion between the picture width and the allocated width:
-pixbuf_width / allocated_width = pixbuf_height / allocated_height Once I have this useful data, I set the widget size request with the new values I found (I leave the width as -1 so that it doesn&rsquo;t change).
-Then, I scale the whole cairo context with the scale method, calculating the scale factor as widget_width / pixbuf_width, and finally set the cairo context source to the image surface I created in the constructor.
-Oh, and don&rsquo;t forget to call cairo.paint() as well.
-All in all this is pretty straight forward, but you need to know what you&rsquo;re doing, and I certainly did not up to about a couple of hour ago.
-Hopefully if you need to do this, you will find this blog post and avoid wasting two hours of your time trying to figure this out from sparse C code floating around the internet.
-As a final note, I&rsquo;m being told that in GTK4 GtkPicture is able to do this, but since I&rsquo;m still stuck with GTK3 (as you probably are as well if you&rsquo;re reading this), this is the best solution I could find.
-                    
-                </p>
-                <p><a href="http://localhost:1313/_drafts/create_an_auto-resizing_image_widget_with_gtk3_and_python/">Continue reading </a></p>
-            </div>
-        
-    </div>
-    <hr />
-</article>
-
-    </div>
-    <div id="getNextBtnContainer"></div>
+    
+    
+    
+</div>
+<div id="getNextBtnContainer"></div>
 
 
     
@@ -378,7 +181,7 @@ As a final note, I&rsquo;m being told that in GTK4 GtkPicture is able to do this
         
             <a href="/page/2/" title='Previous page'>
                 
-                    &lt;&lt;&lt;
+                    &lt;
                 
             </a>
         
@@ -398,24 +201,6 @@ As a final note, I&rsquo;m being told that in GTK4 GtkPicture is able to do this
             </span>
             
         
-            
-                <a href="/page/4/">4</a>
-            
-        
-            
-                <a href="/page/5/">5</a>
-            
-        
-            
-                <a href="/page/6/">6</a>
-            
-        
-        
-            <a href="/page/4/" title='Next page'>
-                
-                    &gt;&gt;&gt;
-                
-            </a>
         
     </div>
 

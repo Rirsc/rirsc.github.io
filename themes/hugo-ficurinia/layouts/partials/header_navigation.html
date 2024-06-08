@@ -4,6 +4,7 @@
     {{ end }}
     <div>RIRSC</div>
     <div>
+
     <ul id="main-nav">
         {{/*  <li><a href="/">{{ i18n "home" }}</a></li>  */}}
         <li><a href="/">{{ i18n "home" }}</a></li>
@@ -13,7 +14,7 @@
         {{ range site.Params.extraContentDirs }}
             <li><a href="/{{ . }}/">{{ . | humanize }}</a></li>
         {{ end }}
-        {{ $pagesDir := .Site.Params.Pages | default (slice "pages") }}
+        {{ $pagesDir := .Site.Params.Pages | default (slice "pages") }} 
         {{ $pagesList := where .Site.RegularPages "Section" "in" $pagesDir }}
         {{ range $pagesList }}
             <li><a href="{{ .Permalink }}">
@@ -30,5 +31,6 @@
             <li><a href="/search/">{{ i18n "search" }}</a></li>
         {{ end }}
     </ul>
+
     </div>
 </nav>

@@ -500,7 +500,7 @@ ul {
 ul li:before {
     content: '\2013';
     position: absolute;
-    margin-left: -15px;
+    margin-left: -20px;
   }
 
 ul.list {
@@ -513,6 +513,12 @@ ul.list {
         grid-template-columns: 100px auto;
     }
 }
+
+ul#main-nav li:before {
+    content: none;
+  }
+
+
 
 #commento {
     margin-top: $margin;

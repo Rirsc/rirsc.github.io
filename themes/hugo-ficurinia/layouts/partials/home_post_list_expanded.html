@@ -1,16 +1,16 @@
 {{ if  eq .Ctx.Paginator.PageNumber 1 }}
 <div style="margin-bottom:5em">
-    <h3>
+    <h5>
     Ey there stranger. Ricardo here, welcome to my abode :) <br>
     If you are looking for a more ‘standardised’ portfolio related to my main professional activity, that's living at
     <a href="https://www.rirsc.xyz/"target="_blank">  rirsc.xyz </a><br>
     This site is my digital sandbox where I intend to document my activities and online discoveries. A so-called
     <a href="https://pluralistic.net/2021/05/09/the-memex-method/" target="_blank"> memex,</a>
-    an archive of my experiences and acquired knowledge. <br>
+    an archive of my experiences and acquired knowledge.
     More about it at the 
     <a href="/pages/about"> about</a> page.<br>
     Enjoy!
-    </h3>
+    </h5>
 </div>
 {{ end }}
 
@@ -35,10 +35,9 @@
 {{ range $pagination }}
     <div class="list-group-item">
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-
+        
         {{- partial "single_post_expanded.html" . -}}
 
-        {{/*  {{ .Content | markdownify }}  */}}
     </div>
 {{ end }}
 <div id="getNextBtnContainer"></div>

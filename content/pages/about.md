@@ -19,7 +19,7 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 [Advanced hypertexting](https://www.kickscondor.com/hypertexting/), I guess.  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
 
 > I want my webpage to be static, minimalist, energy-efficient and fast.
-- This website has no trackin, analytics or ads.
+- This website has no tracking, analytics or ads.
 - It has its own [humans.txt](https://rirsc.github.io/humans.txt) as following this [cute idea](https://humanstxt.org/)
 - No JavaScript.
 - [Designed to last](https://jeffhuang.com/designed_to_last/)

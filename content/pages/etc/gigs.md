@@ -5,6 +5,7 @@ comments: false
 norss: true
 showtitle: false
 showdate: false
+hideMenu: true
 ---
 
 Gigs database will live here.

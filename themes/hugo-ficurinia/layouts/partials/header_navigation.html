@@ -17,9 +17,13 @@
         {{ $pagesDir := .Site.Params.Pages | default (slice "pages") }} 
         {{ $pagesList := where .Site.RegularPages "Section" "in" $pagesDir }}
         {{ range $pagesList }}
-            <li><a href="{{ .Permalink }}">
+        {{ if not (.Params.hideMenu | default false) }}
+            <li>
+            <a href="{{ .Permalink }}">
                 {{ or .Params.Button .Title }}
-            </a></li>
+            </a>
+            </li>
+            {{ end }}    
         {{ end }}
         {{ range .Site.Menus.main }}
             <li><a href="{{ .URL | safeURL }}">{{ .Name }}</a></li>
@@ -34,3 +38,6 @@
 
     </div>
 </nav>
+
+
+{{/*  {{ if site.Params.enableFeatured | default false }}  */}}

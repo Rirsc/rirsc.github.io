@@ -51,6 +51,8 @@ summaryLength = 30
 
     enableFeatured = false  # enable a particular view for articles marked as featured (featured: true in the article frontmatter)
 
+
+
     underlineTitleLinks = false  # show an underline also for links that are titles
 
     # enable comments support with commento using the script from your server
@@ -123,7 +125,9 @@ summaryLength = 30
     # For embeding iframes
     [markup.goldmark.renderer]
         unsafe = true
-        
+
+
+
 #[menu]
 #    [[menu.main]]
 #        identifier = "archguide"

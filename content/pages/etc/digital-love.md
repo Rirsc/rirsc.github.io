@@ -5,6 +5,7 @@ comments: false
 norss: true
 showtitle: false
 showdate: false
+hideMenu : true
 ---
 
 I have a long list of RSS which I should clean and publish here soon.

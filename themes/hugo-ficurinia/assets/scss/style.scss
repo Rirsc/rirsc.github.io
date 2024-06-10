@@ -492,9 +492,16 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 
 ul {
     li {
+        list-style-type: none;
         margin: 5px 0;
     }
 }
+
+ul li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -15px;
+  }
 
 ul.list {
     .date {

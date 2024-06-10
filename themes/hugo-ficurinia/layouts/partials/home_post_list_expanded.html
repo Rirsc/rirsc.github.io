@@ -1,7 +1,7 @@
 {{ if  eq .Ctx.Paginator.PageNumber 1 }}
 <div style="margin-bottom:5em">
-    <h2>
-    Ey stranger. Ricardo here, welcome to my abode :) <br>
+    <h3>
+    Ey there stranger. Ricardo here, welcome to my abode :) <br>
 
     If you are looking for a more ‘standardised’ portfolio related to my main professional activity, that's living
     <a href="https://www.rirsc.xyz/"target="_blank">  here </a>(for now).<br>
@@ -11,12 +11,9 @@
     More about it 
     <a href="/pages/about"> here.</a><br>
     Enjoy!
-    </h2>
+    </h3>
 </div>
 {{ end }}
-
-
-
 
 {{ $allPostsList := .AllPostsList }}
 {{ $postsList := $allPostsList }}
@@ -33,11 +30,20 @@
     {{ $pagination = (.Ctx.Paginate $postsList).Pages }}
 {{ end }}
 
+
+
 {{/* pagination */}}
-<div class="postlist {{ if site.Params.gridView }}gridView{{ end }}" id="postlist">
 {{ range $pagination }}
-    {{- partial "article_card.html" . -}}
+    <div class="list-group-item">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+
+        {{- partial "single_post_expanded.html" . -}}
+
+        {{/*  {{ .Content | markdownify }}  */}}
+    </div>
 {{ end }}
-</div>
 <div id="getNextBtnContainer"></div>
 {{- partial "paginator.html" .Ctx -}}
+
+
+

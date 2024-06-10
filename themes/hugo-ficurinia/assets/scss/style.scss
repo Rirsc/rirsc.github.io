@@ -104,7 +104,7 @@ $mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }}; *
 
 $symbols_font: "Symbols Nerd Font";
 $content_width: {{ .Site.Params.contentWidth | default "800px" }};
-$border_radius: 10px;
+$border_radius: 0px;
 $margin: 15px;
 
 $base_font_size: 20px;

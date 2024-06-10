@@ -1,6 +1,6 @@
 {{ if  eq .Ctx.Paginator.PageNumber 1 }}
 <div style="margin-bottom:5em">
-    <h2>
+    <h3>
     Ey stranger. Ricardo here, welcome to my abode :) <br>
 
     If you are looking for a more ‘standardised’ portfolio related to my main professional activity, that's living
@@ -11,15 +11,13 @@
     More about it 
     <a href="/pages/about"> here.</a><br>
     Enjoy!
-    </h2>
+    </h3>
 </div>
 {{ end }}
 
 
-
-
 {{ $allPostsList := .AllPostsList }}
-{{ $postsList := $allPostsList }}
+{{ $postsList := where $allPostsList "Section" "posts" }}
 {{ $featuredPostsList := slice }}
 {{ $pagination := slice }}
 {{ if site.Params.enableFeatured | default false }}
@@ -34,11 +32,12 @@
 {{ end }}
 
 {{/* pagination */}}
-{{ range $pagination }}
-    <div class="list-group-item">
-        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        {{ .Content | markdownify }}
-    </div>
-{{ end }}
+<div class="postlist {{ if site.Params.gridView }}gridView{{ end }}" id="postlist">
+    {{ range $pagination }}
+    {{ if eq .Section "posts" }}
+    {{- partial "article_card.html" . -}}
+    {{ end }}
+    {{ end }}
+</div>
 <div id="getNextBtnContainer"></div>
 {{- partial "paginator.html" .Ctx -}}

@@ -4,6 +4,7 @@ tags:
   - markdown
   - terminal
 date: 2021-01-01T07:32:14+01:00
+draft: true
 ---
 
 ## 1. Headlines

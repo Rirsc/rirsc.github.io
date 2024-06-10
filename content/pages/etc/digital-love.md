@@ -7,9 +7,11 @@ showtitle: false
 showdate: false
 ---
 
-I have a long list of RSS which I should clean and publish here soon. So far, here is a tiny selection of some of my favourite corners of the internet.  Dive in, there might be something that sparks your curiosity.
+I have a long list of RSS which I should clean and publish here soon.
+So far, here is a tiny selection of some of my favourite corners of the internet. 
+Dive in, there might be something that sparks your curiosity.
 
-# Creators
+## Creators
 
 [Nicole He](https://nicole.pizza/)
 
@@ -55,7 +57,7 @@ I have a long list of RSS which I should clean and publish here soon. So far, he
 
 [Sophie Koko](https://www.instagram.com/sophiekoko/?hl=en)
 
-# Music
+## Music
 
 [Please Advice](https://t.me/pleaseadvicebcn) - Curating incredible cute gigs in Barcelona, leads by two awesome humans who I can call close friends :)
 
@@ -67,7 +69,7 @@ I have a long list of RSS which I should clean and publish here soon. So far, he
 
 [Cashmere radio](https://cashmereradio.com/)
 
-# Blogs
+## Blogs
 
 I already posted some blogs that hugely influenced the creation of this site on [about](/pages/about/) page, this is an extended list. Little gems found online, all made by humans.
 
@@ -87,7 +89,7 @@ I already posted some blogs that hugely influenced the creation of this site on 
 
 [Steph Ango](https://stephango.com/)
 
-# Newsletters
+## Newsletters
 
 [Flecha (Carmen Pacheco)](https://carmenpacheco.es/flecha-archivo/)
 
@@ -99,7 +101,7 @@ I already posted some blogs that hugely influenced the creation of this site on 
 
 [Substainability by numbers](https://www.sustainabilitybynumbers.com/)
 
-# Misc
+## Misc
 
 [Noema](https://www.noemamag.com/)
 

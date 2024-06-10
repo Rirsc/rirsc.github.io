@@ -89,10 +89,14 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
 {{ end }}
 
 
+$main_font: {{ .Site.Params.fontFamily | default "Arial" }};
+$title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
+$mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }};
 
+/*
 $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
 $title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
-$mono_font: {{ .Site.Params.monospaceFontFamily | default "Arial" }}; 
+$mono_font: {{ .Site.Params.monospaceFontFamily | default "Arial" }}; */
 
 /* $main_font: {{ .Site.Params.fontFamily | default "JetBrains Mono" }};
 $title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
@@ -103,7 +107,7 @@ $content_width: {{ .Site.Params.contentWidth | default "800px" }};
 $border_radius: 10px;
 $margin: 15px;
 
-$base_font_size: 16px;
+$base_font_size: 20px;
 $title_font_mult: {{ .Site.Params.titleFontSizeMultiplier | default 1.0 }};
 $main_font_mult:  {{ .Site.Params.mainFontSizeMultiplier  | default 1.0 }};
 $mono_font_mult:  {{ .Site.Params.monoFontSizeMultiplier  | default 1.0 }};
@@ -119,6 +123,7 @@ body, html {
     font-size: $base_font_size * $main_font_mult;
     margin: 0;
     padding: 0;
+    line-height: 1.25;
     background-color: var(--default_bg);
     color: var(--default_fg);
 
@@ -151,10 +156,15 @@ body {
 
 @mixin linkLike {
     color: var(--default_fg);
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 0;
-    border-bottom: 2px solid currentcolor;
+    /* text-decoration: none; */
+    /* background-color: transparent; */
+    /* border-radius: 0; */
+    /* border-bottom: 1px solid currentcolor; */
+    /* border-bottom: 1px solid; */
+
+    text-decoration: underline;
+    text-decoration-color: var(--default_accent);
+
     &:hover, &:focus {
         &, &:not([disabled]) {
              /*border-color: var(--default_accent) !important;*/
@@ -189,6 +199,7 @@ body {
     {{ end }}
     font-size: #{1.2 * $base_font_size};
 }
+
 
 a {
     @include linkLike;
@@ -291,9 +302,12 @@ blockquote {
     padding-left: ($margin * 0.5);
     /* border: 200px 0; */
     border-left: 2px solid currentcolor;
+    color: var(--default_accent); 
+
     p {
-       /*  margin: 10px 0; */
+         margin: 0 20; 
         border: 50px 0;
+        color: var(--default_accent); 
     }
 }
 
@@ -353,6 +367,7 @@ blockquote {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $symbols_font, $title_font;
+    margin-bottom: 0;
     a {
         color: var(--default_accent);
         {{ if not (.Site.Params.underlineTitleLinks | default false) }}

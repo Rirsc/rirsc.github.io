@@ -7,28 +7,21 @@ showtitle: false
 showdate: false
 ---
 
-# This human
+## This human
 
-Hello outsider.
-
-I’m Ricardo, an Industrial Design Engineer mostly focused on 3D digital and interactive works.
-
-I love playing with technology and my main interests are music ([gigs](https://www.notion.so/Web-2-0-Gigs-bc40454f5f0743b0a9d37f6144834c5a?pvs=21)), [boardgames](https://www.notion.so/Web-2-0-Games-d5ee67fee6774c9ab560fa8aa550bb67?pvs=21) & rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
+Hello outsider.\
+I’m Ricardo, an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are music ([gigs](https://www.notion.so/Web-2-0-Gigs-bc40454f5f0743b0a9d37f6144834c5a?pvs=21)), [boardgames](https://www.notion.so/Web-2-0-Games-d5ee67fee6774c9ab560fa8aa550bb67?pvs=21) & rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
 A more precise portfolio about my 3D professional job is [here](http://rirsc.xyz) but I plan to move everything to this site sooner or later.
 
-# This website
+## This website
 
-This site is a digital sandbox. 
-
-Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/) but everytime is messy. [Advanced hypertexting, I guess.](https://www.kickscondor.com/hypertexting/)  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
+**This site is a digital sandbox.** Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/) but everytime is messy. [Advanced hypertexting, I guess.](https://www.kickscondor.com/hypertexting/)  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
 
 Static website etc
 
-## Important info
-
+### Important info
 > I want my webpage to be static, minimalist, energy-efficient and fast.
-> 
 - This website has no trackin, analytics or ads.
 - It has its own [humans.txt](https://rirsc.github.io/humans.txt) as following this [cute idea](https://humanstxt.org/).
 - No JavaScript.
@@ -37,16 +30,14 @@ Static website etc
 - It’s aiming to be part of the [less than 1MB club](https://1mb.club/blog/https-redirects/).
 - Still far from but with the following terms in mind: [permacomputing](https://permacomputing.net/permacomputing/), [frugal computing](https://arxiv.org/pdf/2303.06642),  [solarpunk](https://adasokol.com/on-the-solar-adaptations/).
 
-ADD PICTURE OF HOW FAST AND CLEAN IS
-
-## Dogmas
+### Dogmas
 
 - The [Small Web](https://neustadt.fr/essays/the-small-web/) is the Best Web
 - [Digital Ecology](https://adasokol.com/digital-ecology/)
 - [Manifest for a Humane Web](https://humanewebmanifesto.com/)
 - [This interview](https://www.kickscondor.com/nadia-eghbal/)
 
-# Colophon
+## Colophon
 
 Have fun. My goal is to infest you with the idea of creating a static website. The internet is getting a bit boring lately, and there is also this [Dead Internet theory](https://en.wikipedia.org/wiki/Dead_Internet_theory), which I just hope is wrong because it sounds terribly sad.
 
@@ -61,7 +52,7 @@ For something like that, these tutorials are cool:
 
 And it was running within minutes :) If you are struggling with it, feel free to reach me. I am not an expert but I could try my best to help you. Apart from Hugo, I also tried [Jekyll](https://jekyllrb.com/) before.
 
-# Inspirational sites
+## Inspirational sites
 
 This site is a compendium of places which we could agree are considered diy places and therefore interesting. Probably at the top of my influences, we could have:
 

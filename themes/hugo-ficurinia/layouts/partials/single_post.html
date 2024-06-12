@@ -3,12 +3,7 @@
     {{ if .Params.showTitle | default true }}
         <h1>{{ .Title }}</h1>
     {{ end }}
-    {{ if (.Params.showDate | default true) }}
-        <p class="date">
-            <span title='{{ i18n "date" }}'> </span>
-            {{- partial "date.html" .Date -}}
-        </p>
-    {{ end }}
+
     {{ if and (.Params.toc | default false) (.Site.Params.tocBeforeImage | default false) }}
         {{- partial "toc.html" . -}}
     {{ end }}
@@ -31,6 +26,15 @@
     {{ end }}
     <div>{{ .Content }}</div>
 </article>
+
+{{ if (.Params.showDate | default true) }}
+<p class="date">
+    <span title='{{ i18n "date" }}'> </span>
+    {{- partial "date.html" .Date -}}
+</p>
+{{ end }}
+
+
 {{ if .Params.tags }}
     {{ if not .Site.Params.paperCards }}<hr />{{ end }}
     <p class="articleTagsContainer">

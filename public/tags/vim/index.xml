@@ -6,15 +6,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Tue, 06 Dec 2022 07:36:27 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
+    <lastBuildDate>Wed, 02 Jan 2019 07:36:27 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
     
     
     <item>
       <title>Nvpunk: A Modern Neovim Distribution with Batteries Included</title>
-      <link>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</link>
-      <pubDate>Tue, 06 Dec 2022 07:36:27 +0100</pubDate>
+      <link>http://localhost:1313/posts/190102_nvpunk_a_modern_neovim/</link>
+      <pubDate>Wed, 02 Jan 2019 07:36:27 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/221206_nvpunk_a_modern_neovim_distribution_with_batteries_included/</guid>
+      <guid>http://localhost:1313/posts/190102_nvpunk_a_modern_neovim/</guid>
       <description><![CDATA[<p>I&rsquo;ve been using <a href="https://neovim.io"
  target="_blank" rel="noopener" >
 

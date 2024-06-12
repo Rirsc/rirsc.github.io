@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Berlin on RIRSC</title>
+    <link>http://localhost:1313/tags/berlin/</link>
+    <description>Recent content in Berlin on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Thu, 12 Jan 2023 23:33:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/berlin/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
+    
+    
+    <item>
+      <title>Philharmonie and my new guitar</title>
+      <link>http://localhost:1313/posts/230112_philharmonie-and-my-new-guitar/</link>
+      <pubDate>Thu, 12 Jan 2023 23:33:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/230112_philharmonie-and-my-new-guitar/</guid>
+      <description><![CDATA[<p>The interior of the Philharmonie building looks like a spaceship from the 50s. We sit at the back, because is way <del>cheaper</del> cooler.</p>
+<p>I received my new guitar; an awesome green INSERT MODEL HERE. Now I just need, you know, something to plug it into :_)</p>
+<p><strong>Reading:</strong> Hail Mary</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Photo on RIRSC</title>
+    <link>http://localhost:1313/tags/photo/</link>
+    <description>Recent content in Photo on RIRSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Wed, 12 Jun 2024 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/photo/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/Rirsc_Logo.svg</icon>
+    
+    
+    <item>
+      <title>Buch der tage</title>
+      <link>http://localhost:1313/posts/240612_buch-der-tage/</link>
+      <pubDate>Wed, 12 Jun 2024 04:14:54 -0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/240612_buch-der-tage/</guid>
+      <description><![CDATA[<p>By chance, I discovered the bookshop ‘langer blomqvist’, which is full of discounted and second-hand books. I bought this gem, ‘ Buch der Tage’, by Patti Smith. It consists of a daily photo with a small description covering 2018. Its in German, so I decided it could be cool to force me to read and translate the accordance day.</p>
+<p>The one for 12 June says as follows: ‘Lighted candles in memory of the deceases at the Abbey of Saint-Germain-des-Près´.</p>
+<p><img src="/images/posts/IMG20240612124046.webp" alt="alt text"></p>
+<p><img src="/images/posts/IMG20240612124207.webp" alt="alt text"></p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Continue the struggle</title>
+      <link>http://localhost:1313/posts/230207_continue-the-struggle/</link>
+      <pubDate>Tue, 07 Feb 2023 04:14:54 -0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/230207_continue-the-struggle/</guid>
+      <description><![CDATA[<p>Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.</p>
+<p><video controls src="</videos/VID20230208001924.mp4>" title="Title"></video></p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

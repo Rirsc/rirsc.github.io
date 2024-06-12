@@ -1,9 +1,9 @@
 ---
 title: Picture and text
+date: 2020-01-01T08:32:14+01:00
 tags:
   - bandcamp
   - terminal
-date: 2024-05-22T08:32:14+01:00
 ---
 
 ![alt text](</images/posts/240522_picture and text/240522_picture and text.webp>)

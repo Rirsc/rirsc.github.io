@@ -10,7 +10,8 @@ weight: 10
 
 Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.
 
-<div style="display: flex; justify-content: center;">
+
+<!-- <div style="display: flex; justify-content: center;">
 <video controls src="</videos/VID20230208001924.mp4>" title="Title"></video>
 </div>
 
@@ -22,3 +23,4 @@ Just a blooper from a quick thing for testing the Blender-Unity workflow without
 <div style="display: flex; justify-content: center;">
 {{< video autoplay="true" loop="true" src="</videos/VID20230208001924.mp4>" >}}
 </div>
+ -->

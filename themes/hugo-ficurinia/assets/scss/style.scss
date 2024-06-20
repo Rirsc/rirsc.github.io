@@ -223,6 +223,41 @@ a.unstyledLink {
     padding: $margin;
 }
 
+/* Ric added for menu */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    //flex: 1;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-nav li {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
 footer {
     color: var(--default_dim_fg);
     a {
@@ -585,7 +620,7 @@ ul#main-nav li:before {
 }
 
 .titleAndSearchContainer {
-    display: flex;
+    //display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;

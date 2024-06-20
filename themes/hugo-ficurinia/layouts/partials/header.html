@@ -1,6 +1,7 @@
 <header class="{{ if .IsHome }}jumbotronContainer{{ end }}">
     {{- partial "inject/header-before.html" . -}}
     <div class="titleAndSearchContainer">
+        <!--
         <div id="titleContainer">
                 {{/* {{ if not (.Site.Params.logoRightOfTitle | default false) }}
                 <a class="unstyledLink" href="/">
@@ -10,7 +11,7 @@
 
             
             <div class="rightOfLogo">
-                <!--
+                
                 <div class="titleAndHamburger">
                     <h1>
                         <a class="unstyledLink" href="/">{{ .Site.Title | default "Ficurinia" }}</a>
@@ -24,16 +25,21 @@
                         </label>
                     {{ end }}
                 </div>
-                -->
+                
                 
                 <div id="wide_nav">
                     {{- partial "header_navigation.html" . -}}
                 </div>
             </div>
             
-
-
         </div>
+        -->
+
+        <div id="wide_nav">
+            {{- partial "header_navigation.html" . -}}
+        </div>
+
+
         {{ if and (.Site.Params.searchbarEverywhere | default true) (and (.Site.Params.enableSearch | default true) (not (eq .Title "Search"))) }}
             {{- partial "searchbar.html" . -}}
         {{ end }}

@@ -58,6 +58,9 @@ Dive in, there might be something that sparks your curiosity.
 
 [Sophie Koko](https://www.instagram.com/sophiekoko/?hl=en)
 
+[Better Nerf](https://www.hbruvry.com/)
+
+
 ## Music
 
 [Please Advice](https://t.me/pleaseadvicebcn) - Curating incredible cute gigs in Barcelona, leads by two awesome humans who I can call close friends :)

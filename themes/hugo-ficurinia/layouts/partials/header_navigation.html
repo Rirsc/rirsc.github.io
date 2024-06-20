@@ -1,37 +1,47 @@
 <nav class="navbar">
     {{ if (.Site.Params.mobileHamburgerNav | default false) }}
-        <input type="checkbox" id="main-nav-toggler" />
+    <input type="checkbox" id="main-nav-toggler" />
     {{ end }}
-    <div class="navbar-left"><a href="/">RIRSC</a></div>
+    <div class="navbar-left">
+        <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">RIRSC</a>
+    </div>
     <div class="navbar-right">
         <ul id="main-nav">
-            {{/*  <li><a href="/">{{ i18n "home" }}</a></li>  */}}
-            {{/*  <li><a href="/">{{ i18n "home" }}</a></li>  */}}
             {{ if (.Site.Params.showPostsLink | default true) }}
-                <li><a href="/posts/">{{ i18n "posts" }}</a></li>
+                <li>
+                    <a href="/posts/" class="{{ if eq .RelPermalink "/posts/" }}active{{ end }}">{{ i18n "posts" }}</a>
+                </li>
             {{ end }}
             {{ range site.Params.extraContentDirs }}
-                <li><a href="/{{ . }}/">{{ . | humanize }}</a></li>
+            <li>
+                <a href="/{{ . }}/" class="{{ if eq .Site.BaseURL (printf " /%s/" .) }}active{{ end }}">{{ . | humanize
+                    }}</a>
+            </li>
             {{ end }}
-            {{ $pagesDir := .Site.Params.Pages | default (slice "pages") }} 
-            {{ $pagesList := where .Site.RegularPages "Section" "in" $pagesDir }}
-            {{ range $pagesList }}
+            {{ $pagesDir := .Site.Params.Pages | default (slice "pages") }}
+            {{ $pagesList := where .Site.RegularPages "Section" "in" $pagesDir }} {{ range $pagesList }}
             {{ if not (.Params.hideMenu | default false) }}
-                <li>
-                <a href="{{ .Permalink }}">
+            <li>
+                <a href="{{ .RelPermalink }}" class="{{ if eq $.RelPermalink .RelPermalink }}active{{ end }}">
                     {{ or .Params.Button .Title }}
                 </a>
-                </li>
-                {{ end }}    
+            </li>
+            {{ end }}
             {{ end }}
             {{ range .Site.Menus.main }}
-                <li><a href="{{ .URL | safeURL }}">{{ .Name }}</a></li>
+            <li>
+                <a href="{{ .URL | safeURL }}" class="{{ if eq .URL .Permalink }}active{{ end }}">{{ .Name }}</a>
+            </li>
             {{ end }}
             {{ if (.Site.Params.showTags | default true) }}
-                <li><a href="/tags/">{{ i18n "tags" }}</a></li>
+            <li>
+                <a href="/tags/" class="{{ if eq .Permalink " /tags/" }}active{{ end }}">{{ i18n "tags" }}</a>
+            </li>
             {{ end }}
             {{ if and (.Site.Params.searchMenuLink | default false) (.Site.Params.enableSearch | default true) }}
-                <li><a href="/search/">{{ i18n "search" }}</a></li>
+            <li>
+                <a href="/search/" class="{{ if eq .Permalink " /search/" }}active{{ end }}">{{ i18n "search" }}</a>
+            </li>
             {{ end }}
         </ul>
     </div>

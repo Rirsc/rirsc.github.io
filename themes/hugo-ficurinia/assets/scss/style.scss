@@ -223,41 +223,6 @@ a.unstyledLink {
     padding: $margin;
 }
 
-/* Ric added for menu */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-left {
-    //flex: 1;
-
-}
-
-.navbar-right {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-}
-
-#main-nav {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#main-nav li {
-    margin-left: 5px;
-}
-
-
-
-
-
-
 
 footer {
     color: var(--default_dim_fg);
@@ -741,7 +706,6 @@ header {
     }
     nav:not(#TableOfContents) {
         font-size: 1em;
-
         ul {
             li {
                 {{ if eq .Site.Params.menuStyle "buttons" }}
@@ -755,14 +719,14 @@ header {
                             @include roundButtonLike;
                         {{ else }}
                             font-family: $symbols_font, $main_font;
-                            background-color: var(--default_hl_bg);
+                            //background-color: var(--default_hl_bg);
                             transition: background-color .15s ease-in-out;
-                            &:hover, &:active {
-                                background-color: var(--default_accent);
+                            //&:hover, &:active {
+                              //  background-color: var(--default_accent);
                             }
                         {{ end }}
                         box-sizing: border-box;
-                        color: var(--default_fg);
+                        //color: var(--default_fg);
                         margin: 0;
                         padding: #{$margin/2} $margin;
                     }
@@ -775,11 +739,11 @@ header {
                     } */                    
                     a {
                         padding: 2px $margin;
-                        color: var(--default_accent); 
+                        //color: var(--default_accent); 
                         padding-left: 0px;
-                        &:hover {
-                            text-decoration: underline;
-                        }
+                        //&:hover {
+                          //  text-decoration: underline;
+                        //}
                     }
                 {{ end }}
             }
@@ -984,7 +948,7 @@ input, textarea, textarea.cactus-editor-textarea {
                         border-radius: $border_radius;
                     {{ end }}
                     border: 200px solid var(--default_stroke);
-                    background-color: var(--default_hl_bg);
+                    //background-color: var(--default_hl_bg);
                     flex-direction: column;
                     li {
                         border-right: none !important;
@@ -1355,3 +1319,45 @@ input {
 }
 
 
+/* Ric added for menu */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    //flex: 1;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-nav li {
+    margin-left: 5px;
+}
+
+.navbar a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    color: white;
+}
+
+.navbar a:hover {
+   color: white; /* Optional: make links white on hover for better UX */
+   background-color: transparent; 
+}

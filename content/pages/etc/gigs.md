@@ -10,11 +10,41 @@ hideMenu: true
 
 ## 2024
 
-240517 Sistema de Entretenimiento + Sin Bragas ⋅ OGH
+240615 Planet on a Chain + Blockage ⋅ OGH
+
+240609 Codex Outdoor ⋅ Panke courtyard
+
+240607 Experimental Sets in Solidarity with Palestine ⋅ OGH
+
+240530 TVOD + Gym Tonic + Trholz ⋅ OGH
+
+240517 Sistema de Entretenimiento + Sin Bragas + Ultrabonus + Fessa ⋅ OGH
 
 240511 Gordan + Skultura ⋅ Ausland
 
-240503 Lvz Silenciosa + DeserDrone ⋅ OGH
+240503 Lvz Silenciosa ⋅ OGH
+
+240423 Still House Plants + Adrián de Alphonso ⋅ 90mil
+
+240413 Agua Dulce ⋅ Church at Ligaestr
+
+240412 The Tarts ⋅ 90mil Kellar
+
+240409 Grief + Löri ⋅ OGH
+
+240331 Listen, Listen ⋅ Schrippe Hawaii
+
+240319 Cariño ⋅ Sala Sol
+
+240312 Swans + María Horn ⋅ Betonhalle
+
+240307 The Midnight Audience ⋅ Trxxxsr
+
+240218 Cosey Müller + Powerplant ⋅ Hinterraum
+
+240217 Salò indoor ⋅ 90mil
+
+240210 Uschi + Vorsicht Kinder ⋅ Loge
 
 ## 2023
 

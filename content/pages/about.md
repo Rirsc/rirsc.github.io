@@ -44,7 +44,7 @@ There are plenty of options out there, my setup is basically using [Hugo](https:
 
 For something like that, these tutorials are cool:
 
-- [How to Build a Personal Website Using GitHub Pages and Hugo?](https://juliecodestack.github.io/2023/04/13/build_hugo_site/)
+- [How to Build a Personal Website Using Hugo](https://juliecodestack.github.io/2023/04/13/build_hugo_site/)
 - [Host on Github Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 And it was running within minutes :) If you are struggling with it, feel free to reach me. I am not an expert but I could try my best to help you. Apart from Hugo, I also tried [Jekyll](https://jekyllrb.com/) before.

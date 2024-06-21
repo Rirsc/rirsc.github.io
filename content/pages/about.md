@@ -27,7 +27,7 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 - It’s aiming to be part of the [less than 1MB club](https://1mb.club/blog/https-redirects/)
 - Still far from but with the following terms in mind: [permacomputing](https://permacomputing.net/permacomputing/), [frugal computing](https://arxiv.org/pdf/2303.06642),  [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
 
-### Dogmas
+**Dogmas**
 
 - The [Small Web](https://neustadt.fr/essays/the-small-web/) is the best web.
 - [Digital Ecology](https://adasokol.com/digital-ecology/)

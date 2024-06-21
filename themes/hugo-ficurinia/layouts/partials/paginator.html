@@ -48,7 +48,7 @@
             {{ else }}
             <span>
                 {{ if eq $navtype "circles" }}{{ .PageNumber }}
-                {{ else }}[{{ .PageNumber }}]{{ end }}
+                {{ else }}{{ .PageNumber }}{{ end }}
             </span>
             {{ end }}
         {{ end }}

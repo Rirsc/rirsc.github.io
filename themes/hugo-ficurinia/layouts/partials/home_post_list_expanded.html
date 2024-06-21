@@ -34,7 +34,7 @@
 {{/* pagination */}}
 {{ range $pagination }}
 <div class="list-group-item">
-    <h3 class="list-expanded-title"><a class="list-expanded-title" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <h2 class="list-expanded-title"><a class="list-expanded-title" href="{{ .Permalink }}">{{ .Title }}</a></h3>
 
     {{ if (.Params.showDate | default true) }}
     <p class="date">

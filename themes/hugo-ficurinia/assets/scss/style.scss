@@ -790,10 +790,10 @@ header {
                         color: blue;
                     } */                    
                     a {
-                        padding: 2px $margin;
+                        padding: 2px 10px;
                         //color: var(--default_accent); 
-                        padding-left: 0px;
-                        //&:hover {
+                         padding-right: 0px;
+                         //&:hover {
                           //  text-decoration: underline;
                         //}
                     }

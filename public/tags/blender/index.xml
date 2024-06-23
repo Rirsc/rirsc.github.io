@@ -35,7 +35,7 @@
 
 
 
-<figure>
+<div class="video-margin">
     <video autoplay loop controls style="max-width: 100%;">
         
         
@@ -43,7 +43,7 @@
         
     </video>
     
-</figure>
+</div>
 
 </div>
 -->
@@ -54,7 +54,7 @@
 
 
 
-<figure>
+<div class="video-margin">
     <video autoplay loop controls style="max-width: 100%;">
         
         
@@ -64,7 +64,7 @@
         
     </video>
     
-</figure>
+</div>
 
 ]]></description>
       

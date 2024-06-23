@@ -52,7 +52,7 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
 
 
 
-<figure>
+<div class="video-margin">
     <video autoplay loop controls style="max-width: 100%;">
         
         
@@ -60,7 +60,7 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
         
     </video>
     
-</figure>
+</div>
 
 </div>
 -->
@@ -71,7 +71,7 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
 
 
 
-<figure>
+<div class="video-margin">
     <video autoplay loop controls style="max-width: 100%;">
         
         
@@ -81,7 +81,7 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
         
     </video>
     
-</figure>
+</div>
 
 ]]></description>
       

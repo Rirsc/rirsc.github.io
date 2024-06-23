@@ -1,6 +1,6 @@
 ---
 title: Picture and text
-date: 2020-01-01T08:32:14+01:00
+date: 2020-01-01
 tags:
   - bandcamp
   - terminal

@@ -1,6 +1,6 @@
 ---
 title: Bandcamp and text
-date: 2020-05-22T07:32:14+01:00
+date: 2020-05-22
 tags:
   - bandcamp
   - terminal

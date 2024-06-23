@@ -1,6 +1,6 @@
 ---
 title: "Nvpunk: A Modern Neovim Distribution with Batteries Included"
-date: 2019-01-02T07:36:27+01:00
+date: 2019-01-02
 tags:
   - neovim
   - nvpunk

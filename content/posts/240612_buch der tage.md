@@ -1,6 +1,6 @@
 ---
 title: Buch der tage
-date: 2024-06-12T04:14:54-08:00
+date: 2024-06-12
 tags:
   - books
   - music

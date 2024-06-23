@@ -27,6 +27,8 @@ hideMenu: true
 
 #### June
 
+Ataúdes Merche + Megarrollo + Delilah + Línea Maginoti + Türbot ⋅ Arrebato
+
 Planet on a Chain + Blockage ⋅ OGH
 
 Codex Outdoor ⋅ Panke courtyard

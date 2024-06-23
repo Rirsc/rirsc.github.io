@@ -1,6 +1,6 @@
 ---
 title: Flaaryr and the loosers
-date: 2023-01-03T04:14:54-08:00
+date: 2023-01-03
 tags:
   - music
 weight: 10

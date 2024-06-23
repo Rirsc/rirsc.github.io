@@ -40,7 +40,7 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
 -->
 <!--
 <div style="display: flex; justify-content: center;">
-<video controls width="800" src="../videos/VID20230208001924.mp4" title="Title"></video>
+<video controls width="800px" src="../videos/VID20230208001924.mp4" title="Title"></video>
 </div>
 -->
 <!-- 

@@ -19,7 +19,7 @@ Just a blooper from a quick thing for testing the Blender-Unity workflow without
 
 <!--
 <div style="display: flex; justify-content: center;">
-<video controls width="800" src="../videos/VID20230208001924.mp4" title="Title"></video>
+<video controls width="800px" src="../videos/VID20230208001924.mp4" title="Title"></video>
 </div>
 -->
 

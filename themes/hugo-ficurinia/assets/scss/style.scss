@@ -276,6 +276,7 @@ a.unstyledLink {
 
 footer {
     color: var(--default_dim_fg);
+    text-align: center;
     a {
         color: var(--default_dim_fg);
     }
@@ -295,6 +296,12 @@ footer {
                 font-size: 1rem * $main_font_mult;
             }
         }
+    }
+    //Ric added
+    .footerContent {
+        font-size: calc(0.9 * var(--base-font-size) * var(--main-font-mult));
+        display: inline-block;
+        padding: 1rem 0; /* Optional: padding for the footer */
     }
 }
 

@@ -11,17 +11,18 @@ paginate = 5
 summaryLength = 30
 
 [params]
-    description = "Ricardo López's blog about programming and other cool stuff"
+    description = "Ricardo López's blog about 3d and personal stuff"
     author = "Ricardo López"
 
     # It's best to put these icons in the "static" folder of your site
-    logo = "Rirsc_Logo.svg"
-    logoAltText = "Logo"
-    favicon = "Rirsc_Favicon.png"
-    faviconIco = "Rirsc_Favicon.ico"
-    appletouch = "/apple-touch-icon.png"
-    svgicon = "/Rirsc_Logo.svg"
-    icon512 = "/android-chrome-512x512.png"
+    logo = "/icons/risc_logo.svg"
+    logoAltText = "Rirsc"
+    favicon = "/icons/rirsc_favicon.png"
+    faviconIco = "/icons/rirsc_favicon.ico"
+    appletouch = "/icons/rirsc_apple_180.png"
+    svgicon = "/icons/rirsc_logo.svg"
+    icon512 = "/icons/rirsc_chrome_512.png"
+    
 
     imageInArticlePreview = true
     fitImageInArticlePreview = false

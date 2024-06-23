@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
         
-        <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/styles.1a8e17c26aa5d443734fbadbcf2a80ea74aa6ccd80cec5240059a53df29dc4247130f8db629f5e227a31cb60bc052334dcdbf81bd689b567e0a4e1c6e6ddc87c.css" integrity="sha512-Go4Xwmql1ENzT7rbzyqA6nSqbM2AzsUkAFmlPfKdxCRxMPjbYp9eInoxy2C8BSM03Nv4G9aJtWfgpOHG5t3IfA==" />
+        <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/styles.9c016c51456d2571547cb4527a33896f694018d6df8fb0d8eb1a3da0e14028cb5492027dc99bc7711a039203c30d9261352beb38238f3ab76b86724f5e5457fd.css" integrity="sha512-nAFsUUVtJXFUfLRSejOJb2lAGNbfj7DY6xo9oOFAKMtUkgJ9yZvHcRoDkgPDDZJhNSvrOCOPOrdrhnJPXlRX/Q==" />
         <style>
           .aboutfeeds {
             margin: 24px 0; padding: 12px;
@@ -59,7 +59,7 @@
           </div>
           <div class="head">
             <div class="avatar">
-              <img class="logo" src="Rirsc_Logo.svg" alt="Site Logo"/>
+              <img class="logo" src="/icons/risc_logo.svg" alt="Site Logo"/>
             </div>
             <div class="description">
               <p><xsl:value-of select="/rss/channel/description"/></p>

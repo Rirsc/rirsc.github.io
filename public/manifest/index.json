@@ -11,19 +11,19 @@
   "theme_color": "#edb6ab"
   
     ,
-    "description": "Ricardo López's blog about programming and other cool stuff"
+    "description": "Ricardo López's blog about 3d and personal stuff"
   
   
     ,
     "icons": [
       {
-        "src": "/android-chrome-512x512.png",
+        "src": "/icons/rirsc_chrome_512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
       },
       {
-        "src": "/android-chrome-512x512.png",
+        "src": "/icons/rirsc_chrome_512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any"

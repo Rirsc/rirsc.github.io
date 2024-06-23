@@ -29,3 +29,5 @@ Just a blooper from a quick thing for testing the Blender-Unity workflow without
 {{< video autoplay="true" loop="true" src="</videos/VID20230208001924.mp4>" >}}
 </div>
 -->
+
+{{< video h264="/videos/VID20230208001924.mp4" class="video-margin" >}}

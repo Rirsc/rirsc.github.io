@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Fri, 22 May 2020 07:32:14 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/bandcamp/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bandcamp/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Bandcamp and text</title>
       <link>http://localhost:1313/posts/200522_bandcamp-and-text/</link>
-      <pubDate>Fri, 22 May 2020 07:32:14 +0100</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/200522_bandcamp-and-text/</guid>
       <description><![CDATA[<br/>
@@ -36,7 +36,7 @@ Oh wow.</p>
     <item>
       <title>Picture and text</title>
       <link>http://localhost:1313/posts/200101_picture-and-text/</link>
-      <pubDate>Wed, 01 Jan 2020 08:32:14 +0100</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/200101_picture-and-text/</guid>
       <description><![CDATA[<p><img src="/images/posts/240522_picture%20and%20text/240522_picture%20and%20text.webp" alt="alt text"></p>

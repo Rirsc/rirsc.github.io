@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Wed, 12 Jun 2024 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Books</title>
       <link>http://localhost:1313/tags/books/</link>
-      <pubDate>Wed, 12 Jun 2024 04:14:54 -0800</pubDate>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/books/</guid>
       <description><![CDATA[]]></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Music</title>
       <link>http://localhost:1313/tags/music/</link>
-      <pubDate>Wed, 12 Jun 2024 04:14:54 -0800</pubDate>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/music/</guid>
       <description><![CDATA[]]></description>
@@ -36,7 +36,7 @@
     <item>
       <title>Photo</title>
       <link>http://localhost:1313/tags/photo/</link>
-      <pubDate>Wed, 12 Jun 2024 04:14:54 -0800</pubDate>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/photo/</guid>
       <description><![CDATA[]]></description>
@@ -48,7 +48,7 @@
     <item>
       <title>Blender</title>
       <link>http://localhost:1313/tags/blender/</link>
-      <pubDate>Tue, 07 Feb 2023 04:14:54 -0800</pubDate>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/blender/</guid>
       <description><![CDATA[]]></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Screenshot</title>
       <link>http://localhost:1313/tags/screenshot/</link>
-      <pubDate>Tue, 07 Feb 2023 04:14:54 -0800</pubDate>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/screenshot/</guid>
       <description><![CDATA[]]></description>
@@ -72,7 +72,7 @@
     <item>
       <title>Unity</title>
       <link>http://localhost:1313/tags/unity/</link>
-      <pubDate>Tue, 07 Feb 2023 04:14:54 -0800</pubDate>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/unity/</guid>
       <description><![CDATA[]]></description>
@@ -84,7 +84,7 @@
     <item>
       <title>Berlin</title>
       <link>http://localhost:1313/tags/berlin/</link>
-      <pubDate>Thu, 12 Jan 2023 23:33:00 +0000</pubDate>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/berlin/</guid>
       <description><![CDATA[]]></description>
@@ -96,7 +96,7 @@
     <item>
       <title>Bandcamp</title>
       <link>http://localhost:1313/tags/bandcamp/</link>
-      <pubDate>Fri, 22 May 2020 07:32:14 +0100</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/bandcamp/</guid>
       <description><![CDATA[]]></description>
@@ -108,7 +108,7 @@
     <item>
       <title>Terminal</title>
       <link>http://localhost:1313/tags/terminal/</link>
-      <pubDate>Fri, 22 May 2020 07:32:14 +0100</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/terminal/</guid>
       <description><![CDATA[]]></description>
@@ -120,7 +120,7 @@
     <item>
       <title>Editor</title>
       <link>http://localhost:1313/tags/editor/</link>
-      <pubDate>Wed, 02 Jan 2019 07:36:27 +0100</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/editor/</guid>
       <description><![CDATA[]]></description>
@@ -132,7 +132,7 @@
     <item>
       <title>Neovim</title>
       <link>http://localhost:1313/tags/neovim/</link>
-      <pubDate>Wed, 02 Jan 2019 07:36:27 +0100</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/neovim/</guid>
       <description><![CDATA[]]></description>
@@ -144,7 +144,7 @@
     <item>
       <title>Nvpunk</title>
       <link>http://localhost:1313/tags/nvpunk/</link>
-      <pubDate>Wed, 02 Jan 2019 07:36:27 +0100</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/nvpunk/</guid>
       <description><![CDATA[]]></description>
@@ -156,7 +156,7 @@
     <item>
       <title>Vim</title>
       <link>http://localhost:1313/tags/vim/</link>
-      <pubDate>Wed, 02 Jan 2019 07:36:27 +0100</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/vim/</guid>
       <description><![CDATA[]]></description>

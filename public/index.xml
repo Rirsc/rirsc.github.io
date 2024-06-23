@@ -16,10 +16,10 @@
       
       <guid>http://localhost:1313/posts/240612_buch-der-tage/</guid>
       <description><![CDATA[<p>By chance, I discovered the bookshop <em>langer blomqvist</em>, which is full of discounted and second-hand books. I bought the gem <em>Buch der Tage</em>, by Patti Smith. It consists of a daily photo with a small description covering 2018.</p>
-<p><img src="/images/posts/IMG20240612124046.webp" alt="alt text"></p>
+<p><img src="/images/posts/IMG20240612124046.webp" alt="Buch der tage"></p>
 <p>Its in German, so I decided it could be cool to force me to read and translate the accordance day.
 Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases at the Abbey of Saint-Germain-des-Près´.</p>
-<p><img src="/images/posts/IMG20240612124207.webp" alt="alt text"></p>
+<p><img src="/images/posts/IMG20240612124207.webp" alt="Light candles"></p>
 ]]></description>
       
     </item>
@@ -52,7 +52,7 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
 
 
 
-<figure>
+<div class="video-margin">
     <video autoplay loop controls style="max-width: 100%;">
         
         
@@ -60,10 +60,30 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
         
     </video>
     
-</figure>
+</div>
 
 </div>
--->]]></description>
+-->
+
+
+
+
+
+
+
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;">
+        
+        
+            <source src='/videos/VID20230208001924.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</div>
+
+]]></description>
       
     </item>
     

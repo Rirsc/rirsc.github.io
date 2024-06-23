@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Tue, 07 Feb 2023 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/screenshot/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/screenshot/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Continue the struggle</title>
       <link>http://localhost:1313/posts/230207_continue-the-struggle/</link>
-      <pubDate>Tue, 07 Feb 2023 04:14:54 -0800</pubDate>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/230207_continue-the-struggle/</guid>
       <description><![CDATA[<p>Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.</p>
@@ -46,7 +46,27 @@
 </figure>
 
 </div>
--->]]></description>
+-->
+
+
+
+
+
+
+
+<figure>
+    <video autoplay loop controls style="max-width: 100%;">
+        
+        
+            <source src='/videos/VID20230208001924.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</figure>
+
+]]></description>
       
     </item>
     

@@ -267,15 +267,6 @@ a.unstyledLink {
      background-color: transparent; 
 }
 
-#hidden-pages {
-    display: none;
-  }
-  
-  #etc-toggler:checked ~ #hidden-pages {
-    display: block;
-  }
-
-
 
 
 
@@ -1393,3 +1384,8 @@ input {
 .list-expanded-title a {
     text-decoration: none;  
 }
+
+//Ric added. Margin apply at the shortcode video.html
+.video-margin {
+    margin: 0px 0px; /* Adjust margins as desired */
+  }

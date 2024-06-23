@@ -4,22 +4,22 @@
     {{ end }}
 
     <div class="navbar-left">
-        <a href="/" class="{{ if eq .RelPermalink " /" }}active{{ end }}">RIRSC</a>
+        <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">RIRSC</a>
     </div>
 
     <div class="navbar-right">
         <ul id="main-nav">
             <li>
-                <a href="/pages/etc" class="{{ if eq $.RelPermalink " /pages/etc/" }}active{{ end }}">
+                <a href="/pages/etc" class="{{ if eq $.RelPermalink "/pages/etc/" }}active{{ end }}">
                     ETC
                 </a>
-                <a href="/pages/log" class="{{ if eq $.RelPermalink " /pages/log/" }}active{{ end }}">
+                <a href="/pages/log" class="{{ if eq $.RelPermalink "/pages/log/" }}active{{ end }}">
                     LOG
                 </a>
-                <a href="/pages/about" class="{{ if eq $.RelPermalink " /pages/about/" }}active{{ end }}">
+                <a href="/pages/about" class="{{ if eq $.RelPermalink "/pages/about/" }}active{{ end }}">
                     ABOUT
                 </a>
             </li>
         </ul>
-    </div>
+    </div>  
 </nav>

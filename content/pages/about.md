@@ -7,7 +7,6 @@ showtitle: false
 showdate: false
 ---
 
-Hello outsider.\
 I’m Ricardo, an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) [games](/pages/etc/games/) comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
 A more precise portfolio focused on my 3D professional job is found at [rirsc.xyz](http://rirsc.xyz) but I plan to move everything to this site sooner or later.
@@ -26,7 +25,7 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 - It’s aiming to be part of the [less than 1MB club](https://1mb.club/blog/https-redirects/)
 - Still far from but with the following terms in mind: [permacomputing](https://permacomputing.net/permacomputing/), [frugal computing](https://arxiv.org/pdf/2303.06642),  [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
 
-**Dogmas**
+## Dogmas
 
 - The [Small Web](https://neustadt.fr/essays/the-small-web/) is the best web.
 - [Digital Ecology](https://adasokol.com/digital-ecology/)

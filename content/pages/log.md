@@ -7,19 +7,6 @@ showtitle: false
 showdate: false
 ---
 
-<style>
-    h2 {
-        margin-bottom: 0;
-    }  
-    h4 {
-        color: var(--default_dim_fg);
-    }
-    p {
-        margin-top: 0.3em;
-        margin-bottom: 0.3em;
-    } 
-</style>
-
 My attempt to list some personal and professional stuff I've made since ~~2020~~ 2018 (I will try to go further in time one day). For a cherry-picked selection of my main 3D career, visit my [other portfolio](https://www.rirsc.xyz/)
 
 ## 2024

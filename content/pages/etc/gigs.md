@@ -8,9 +8,9 @@ showdate: false
 hideMenu: true
 ---
 
-<style>
+<!-- <style>
     h2 {
-        margin-bottom: -0.5em;
+        margin-bottom: 0;
     }  
     h4 {
         color: var(--default_dim_fg);
@@ -19,7 +19,7 @@ hideMenu: true
         margin-top: 0.3em;
         margin-bottom: 0.3em;
     } 
-</style>
+</style> -->
 
 ## 2024
 

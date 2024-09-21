@@ -8,7 +8,8 @@
             {{- partial "single_post.html" . -}}
         {{ end }}
     {{ else }}
-        {{- partial "home_post_list_expanded.html" (dict "Ctx" . "AllPostsList" $allPostsList) -}}
+        {{/*  {{- partial "home_post_list_expanded.html" (dict "Ctx" . "AllPostsList" $allPostsList) -}}  */}}
+        {{- partial "home_post_list_expanded.html" . -}}
     {{ end }}
 
 {{ end }}

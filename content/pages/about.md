@@ -21,7 +21,6 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 > I want my webpage to be static, minimalist, energy-efficient and fast.
 - This website has no tracking, analytics or ads.
 - It has its own [humans.txt](/humans.txt) as following this [cute idea](https://humanstxt.org/)
-- No JavaScript.
 - [Designed to last](https://jeffhuang.com/designed_to_last/)
 - [Manual until it hurts](https://indieweb.org/manual_until_it_hurts)
 - It’s aiming to be part of the [less than 1MB club](https://1mb.club/blog/https-redirects/)

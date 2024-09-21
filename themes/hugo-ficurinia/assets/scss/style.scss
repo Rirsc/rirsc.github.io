@@ -549,6 +549,8 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 }
 
 ul {
+     padding-inline-start: 1.1 * $margin;
+     margin-top: 0;
     li {
         list-style-type: none;
         //margin: 5px 0;

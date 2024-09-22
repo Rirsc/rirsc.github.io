@@ -7,7 +7,7 @@ showtitle: false
 showdate: false
 ---
 
-A vault to store the remaining pages until I figure out a better way to organize the entire site. So far it is a temporary home for all the content, keeping it safe and accessible until I think of a better arrangement.
+A vault to store the remaining pages until I figure out a better way to organize the entire site.
 
 [Digital Love](/pages/etc/digital-love)<br>
 [Gigs](/pages/etc/gigs)<br>

@@ -3,7 +3,6 @@ title: Flaaryr and the loosers
 date: 2023-01-03
 tags:
   - music
-weight: 10
 ---
 
 I discovered [Flaaryr](https://flaaryr.bandcamp.com/) and his previous band, [Hungría](https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas) His setup is quite nice, make sure to check his social media for a deeper look at the equipment he has to achieve the alien noises he creates.

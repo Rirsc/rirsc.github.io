@@ -8,19 +8,6 @@ showdate: false
 hideMenu: true
 ---
 
-<!-- <style>
-    h2 {
-        margin-bottom: 0;
-    }  
-    h4 {
-        color: var(--default_dim_fg);
-    }
-    p {
-        margin-top: 0.3em;
-        margin-bottom: 0.3em;
-    } 
-</style> -->
-
 ## 2024
 
 #### June

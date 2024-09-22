@@ -5,7 +5,6 @@ tags:
   - screenshot
   - unity
   - blender
-weight: 10
 ---
 
 Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.

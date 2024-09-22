@@ -6,7 +6,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/tags/music/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/music/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Ricrecs</title>
+      <link>http://localhost:1313/tags/ricrecs/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ricrecs/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Weekly</title>
+      <link>http://localhost:1313/tags/weekly/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/weekly/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
     
     
     <item>
@@ -15,18 +51,6 @@
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/books/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Music</title>
-      <link>http://localhost:1313/tags/music/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/music/</guid>
       <description><![CDATA[]]></description>
       
     </item>
@@ -120,7 +144,7 @@
     <item>
       <title>Editor</title>
       <link>http://localhost:1313/tags/editor/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/editor/</guid>
       <description><![CDATA[]]></description>
@@ -130,9 +154,21 @@
     
     
     <item>
+      <title>Links</title>
+      <link>http://localhost:1313/tags/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/links/</guid>
+      <description><![CDATA[]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
       <title>Neovim</title>
       <link>http://localhost:1313/tags/neovim/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/neovim/</guid>
       <description><![CDATA[]]></description>
@@ -144,7 +180,7 @@
     <item>
       <title>Nvpunk</title>
       <link>http://localhost:1313/tags/nvpunk/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/nvpunk/</guid>
       <description><![CDATA[]]></description>
@@ -156,7 +192,7 @@
     <item>
       <title>Vim</title>
       <link>http://localhost:1313/tags/vim/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/vim/</guid>
       <description><![CDATA[]]></description>

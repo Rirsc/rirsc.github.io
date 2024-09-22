@@ -7,7 +7,7 @@ tags:
   - ricrecs
 ---
 
-After seeing [Trholz](https://trholzriot.bandcamp.com/album/premi-re-pierre) at idvogh, I bought them one fanzine. Cool drawings and it has the lyrics&tabs of the songs; win-win.
+After seeing [Trholz](https://trholzriot.bandcamp.com/album/premi-re-pierre) at idvdogh, I bought them one fanzine. Cool drawings and it has the lyrics&tabs of the songs; win-win.
 
 ![Trholz](</images/posts/IMG20240531114009.webp>)\
 ![Trholz](../images/posts/IMG20240531114002.webp)

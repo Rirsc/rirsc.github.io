@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
-    <title>Tags on RIRSC</title>
+    <title>Tags on rirsc</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on RIRSC</description>
+    <description>Recent content in Tags on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Music</title>
       <link>http://localhost:1313/tags/music/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/music/</guid>
       <description><![CDATA[]]></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Ricrecs</title>
       <link>http://localhost:1313/tags/ricrecs/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/ricrecs/</guid>
       <description><![CDATA[]]></description>
@@ -36,7 +36,7 @@
     <item>
       <title>Weekly</title>
       <link>http://localhost:1313/tags/weekly/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/weekly/</guid>
       <description><![CDATA[]]></description>
@@ -135,66 +135,6 @@
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/terminal/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Editor</title>
-      <link>http://localhost:1313/tags/editor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/editor/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Links</title>
-      <link>http://localhost:1313/tags/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/links/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Neovim</title>
-      <link>http://localhost:1313/tags/neovim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/neovim/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Nvpunk</title>
-      <link>http://localhost:1313/tags/nvpunk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/nvpunk/</guid>
-      <description><![CDATA[]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title>Vim</title>
-      <link>http://localhost:1313/tags/vim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/vim/</guid>
       <description><![CDATA[]]></description>
       
     </item>

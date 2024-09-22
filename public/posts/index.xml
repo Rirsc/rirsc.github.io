@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
-    <title>Posts on RIRSC</title>
+    <title>Posts on rirsc</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on RIRSC</description>
+    <description>Recent content in Posts on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>spectral cartography</title>
+      <link>http://localhost:1313/posts/240712_spectral-cartography/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/240712_spectral-cartography/</guid>
+      <description><![CDATA[<p>In this house we adore anything that <a href="https://www.instagram.com/uglystupidhonest/"
+ target="_blank" rel="noopener" >
+
+
+
+Chris&#8599;</a>
+
+
+
+
+
+ makes. His approach to music is as clever and beautiful as the rest of his art. For his latest project he has built a music label, <a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race?from=search&amp;logged_in_menubar=true&amp;search_item_id=1132279508&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726377253&amp;search_page_no=0&amp;search_rank=1"
+ target="_blank" rel="noopener" >
+
+
+
+spectal cartography&#8599;</a>
+
+
+
+
+
+ and it even have a couple of tracks mixed by Andi Toma, from the marvelous <a href="https://mouseonmars.bandcamp.com/?from=search&amp;search_item_id=2381589351&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726385384&amp;search_page_no=0&amp;search_rank=1&amp;logged_in_menubar=true"
+ target="_blank" rel="noopener" >
+
+
+
+Mouse on Mars&#8599;</a>
+
+
+
+
+
+</p>
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 350px; height: 650px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038730673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/" seamless><a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race">15|40 - Relay Race by C/H</a></iframe>
+</div>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
@@ -90,7 +139,7 @@ Web Wide World&#8599;</a>
 
 
 
-, and I read it while listening to his OST. Go check <a href="https://www.johnpowell-jones.co.uk/"
+ and I read it while listening to his OST. Go check <a href="https://www.johnpowell-jones.co.uk/"
  target="_blank" rel="noopener" >
 
 

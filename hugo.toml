@@ -1,6 +1,6 @@
 baseURL = "https://rirsc.github.io"
 languageCode = "en-us"
-title = "RIRSC"
+title = "rirsc"
 
 theme = "hugo-ficurinia"
 

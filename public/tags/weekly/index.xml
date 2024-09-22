@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
-    <title>Weekly on RIRSC</title>
+    <title>Weekly on rirsc</title>
     <link>http://localhost:1313/tags/weekly/</link>
-    <description>Recent content in Weekly on RIRSC</description>
+    <description>Recent content in Weekly on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>24week22 - Trholz zine and dep Albini</title>
-      <link>http://localhost:1313/posts/240729_24week22---throlz-zine-and-dep-albini/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/posts/240702_24week22---throlz-zine-and-dep-albini/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/240729_24week22---throlz-zine-and-dep-albini/</guid>
+      <guid>http://localhost:1313/posts/240702_24week22---throlz-zine-and-dep-albini/</guid>
       <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre"
  target="_blank" rel="noopener" >
 
 
 
-Trholz&#8599</a>
+Trholz&#8599;</a>
 
 
 
@@ -34,7 +34,7 @@ Trholz&#8599</a>
 
 
 
-‘Fluffy’&#8599</a>
+‘Fluffy’&#8599;</a>
 
 
 
@@ -46,7 +46,7 @@ Trholz&#8599</a>
 
 
 
-A curated collection of HCI demo videos produced during the golden age from 1983-2002.&#8599</a>
+A curated collection of HCI demo videos produced during the golden age from 1983-2002&#8599;</a>
 
 
 
@@ -60,7 +60,7 @@ A curated collection of HCI demo videos produced during the golden age from 1983
 
 
 
-Math rock NTS session&#8599</a>
+Math rock NTS session&#8599;</a>
 
 
 
@@ -72,19 +72,19 @@ Math rock NTS session&#8599</a>
 
 
 
-TTRPGs for Palestine.&#8599</a>
+TTRPGs for Palestine&#8599;</a>
 
 
 
 
 
- Cute. I think I dont know even one, wow.</p>
+ is a cute project with a tons of interesting TTRPGs. I think I dont know even one though, wow.</p>
 <p>I bought the volumen II from <a href="https://johnpowell-jones.bandcamp.com/album/web-wide-world-game-ost"
  target="_blank" rel="noopener" >
 
 
 
-Web Wide World&#8599</a>
+Web Wide World&#8599;</a>
 
 
 
@@ -95,7 +95,7 @@ Web Wide World&#8599</a>
 
 
 
-John Powell-Jones&#8599</a>
+John Powell-Jones&#8599;</a>
 
 
 
@@ -107,14 +107,75 @@ John Powell-Jones&#8599</a>
 
 
 
-marginalia.nu&#8599</a>
+marginalia.nu&#8599;</a>
 
 
 
 
 
-.</p>
+</p>
 <p>Finished Animal Well; now the fun starts.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>24week16 - sBach and the LatentScape</title>
+      <link>http://localhost:1313/posts/240421_24week16---sbach-and-the-latentscape/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/240421_24week16---sbach-and-the-latentscape/</guid>
+      <description><![CDATA[<p>We went to the exposition Sound System Culture at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.</p>
+<p>Entered the rabbit hole of <a href="https://en.wikipedia.org/wiki/Spencer_Seim"
+ target="_blank" rel="noopener" >
+
+
+
+Spencer Seim&#8599;</a>
+
+
+
+
+
+ and I spent way too much time that I would admit looping at his <a href="https://sbach.bandcamp.com/album/sbach"
+ target="_blank" rel="noopener" >
+
+
+
+sBach&#8599;</a>
+
+
+
+
+
+ project.</p>
+<p>I am also listening <a href="https://stillhouseplants.bandcamp.com/"
+ target="_blank" rel="noopener" >
+
+
+
+Still House Plants&#8599;</a>
+
+
+
+
+
+ quite a lot these days.</p>
+<p>I dont remember how I ended up in this <a href="https://latentscape.com/#0,-10"
+ target="_blank" rel="noopener" >
+
+
+
+LantentScape&#8599;</a>
+
+
+
+
+
+ nor that I care. Please explain me what its about.</p>
+<p><img src="../images/posts/latentspace.webp" alt="LatentSpace"></p>
 ]]></description>
       
     </item>

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "RIRSC",
-  "short_name": "RIRSC",
+  "name": "rirsc",
+  "short_name": "rirsc",
   "start_url": "/",
   "display": "standalone",
   

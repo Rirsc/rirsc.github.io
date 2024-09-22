@@ -1,29 +1,29 @@
 ---
 title: About
-date: 2019-08-11 10:14:48
+date: 2019-08-11
 comments: false
 norss: true
 showtitle: false
 showdate: false
 ---
 
-I’m Ricardo, an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) [games](/pages/etc/games/) comix, design, films, riding my bike around forests and playing with computers to create stuff.
+I’m Ricardo, an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) [games,](/pages/etc/games/) comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
 A more precise portfolio focused on my 3D professional job is found at [rirsc.xyz](http://rirsc.xyz) but I plan to move everything to this site sooner or later.
 
-## This website
+## Key points
 
 This site is a digital sandbox.\
 Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/) but everytime is messy.
-[Advanced hypertexting](https://www.kickscondor.com/hypertexting/), I guess.  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
+[Advanced hypertexting](https://www.kickscondor.com/hypertexting/) I guess.  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
 
 > I want my webpage to be static, minimalist, energy-efficient and fast.
 - This website has no tracking, analytics or ads.
-- It has its own [humans.txt](/humans.txt) as following this [cute idea](https://humanstxt.org/)
+- It has its own [humans.txt](/humans.txt) as following this [cute idea](https://humanstxt.org/)
 - [Designed to last](https://jeffhuang.com/designed_to_last/)
 - [Manual until it hurts](https://indieweb.org/manual_until_it_hurts)
 - It’s aiming to be part of the [less than 1MB club](https://1mb.club/blog/https-redirects/)
-- Still far from but with the following terms in mind: [permacomputing](https://permacomputing.net/permacomputing/), [frugal computing](https://arxiv.org/pdf/2303.06642),  [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
+- Still far from but with the following in mind: [permacomputing](https://permacomputing.net/permacomputing/) [frugal computing](https://arxiv.org/pdf/2303.06642)  [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
 
 ## Dogmas
 

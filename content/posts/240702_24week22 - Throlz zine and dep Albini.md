@@ -24,7 +24,7 @@ Lately I was digging back into math rock, so this session [Math rock NTS session
 
 [TTRPGs for Palestine](https://itch.io/b/2295/ttrpgs-for-palestine) is a cute project with a tons of interesting TTRPGs. I think I dont know even one though, wow.
 
-I bought the volumen II from [Web Wide World](https://johnpowell-jones.bandcamp.com/album/web-wide-world-game-ost), and I read it while listening to his OST. Go check [John Powell-Jones](https://www.johnpowell-jones.co.uk/) art.
+I bought the volumen II from [Web Wide World](https://johnpowell-jones.bandcamp.com/album/web-wide-world-game-ost) and I read it while listening to his OST. Go check [John Powell-Jones](https://www.johnpowell-jones.co.uk/) art.
 
 Interesting [marginalia.nu](https://www.marginalia.nu/)
 

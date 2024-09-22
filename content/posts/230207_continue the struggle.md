@@ -29,4 +29,4 @@ Just a blooper from a quick thing for testing the Blender-Unity workflow without
 </div>
 -->
 
-{{< video h264="/videos/VID20230208001924.mp4" class="video-margin" >}}
+{{< video h264="/videos/VID20230208001924.mp4" muted="true" class="video-margin" >}}

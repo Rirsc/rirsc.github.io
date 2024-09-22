@@ -5,8 +5,9 @@
 {{ $caption := .Get "caption" }}
 {{ $attr := .Get "attr" }}
 {{ $attrlink := .Get "attrlink" }}
+{{ $muted := .Get "muted" }}
 <div class="video-margin">
-    <video autoplay loop controls style="max-width: 100%;">
+    <video autoplay loop controls style="max-width: 100%;" {{ if eq $muted "true" }}muted{{ end }}>
         {{ if $h265 }}
             <source src='{{ $h265 }}' type="video/mp4" />
         {{ end }}

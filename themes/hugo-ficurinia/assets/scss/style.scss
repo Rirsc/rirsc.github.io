@@ -1392,3 +1392,91 @@ input {
 .video-margin {
     margin: 0px 0px; /* Adjust margins as desired */
   }
+
+
+
+//Ric added. Projects styles
+.project {
+    background-color: red;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: block;
+   
+}
+
+/* Apply specific padding to the text inside .project */
+.project .project-text {
+    padding: 20px; /* Adjust padding for text content */
+    color: #333; /* Example: change text color if needed */
+    background-color: green; /* Example: change background color if needed */
+}
+
+/* Apply different padding or margin to images */
+.project img {
+    background-color: blue;
+    max-width: 100%; /* Ensure images are responsive */
+   /* height: auto;  Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Adjust image margin */
+  /*  padding: 10px;   Add image-specific padding */
+}
+
+.three-column-layout {
+    display: flex; /* Use Flexbox for layout */
+}
+
+.column {
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+.left {
+    flex: 0 0 25%; /* Fixed width of 10% */
+    background-color: transparent; /* No background for empty columns */
+}
+
+.center {
+    flex: 0 0 50%; /* Fixed width of 80% */
+}
+
+.empty {
+    /* Make empty columns invisible on small screens */
+    display: none; 
+}
+
+/* Show empty columns on larger screens */
+@media (min-width: 769px) {
+    .empty {
+        display: block; /* Show empty columns on large screens */
+    }
+}
+
+/* Ensure the center column fills 100% on small screens */
+@media (max-width: 768px) {
+    .left {
+        flex: 0 0 0; /* Make the left column 0 width */
+    }
+    .center {
+        flex: 0 0 100%; /* Make the center column 100% width */
+    }
+    .right {
+        flex: 0 0 0; /* Make the right column 0 width */
+    }
+}
+
+
+
+
+.hero-image img {
+    width: 100%;    /* Make sure the hero image spans the width of the section */
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}

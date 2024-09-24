@@ -1,0 +1,38 @@
+{{- partial "head.html" . -}}
+{{- partial "build_assets.html" . -}}
+
+<body>
+  <div id="baseContainer">
+    {{- partial "header.html" . -}}
+
+    <section class="project">
+      {{/*
+      <header>
+        <h1>{{ .Title }}</h1>
+        <h3>{{ .Params.subtitle }}</h3>
+      </header>
+      */}}
+
+      <div class="project-text">
+        <h1>{{ .Title }}</h1>
+        <h3>{{ .Params.subtitle }}</h3>
+        {{ .Content }}
+      </div>
+    </section>  
+   
+    
+
+
+    <div id="contentContainer">
+      <div id="content">
+       
+        {{- partial "footer.html" . -}}
+      </div>
+    </div>
+  </div>
+
+
+  {{- partial "plausible.html" . -}}
+  {{- partial "umami.html" . -}}
+  {{- partial "inject/body.html" . -}}
+</body>

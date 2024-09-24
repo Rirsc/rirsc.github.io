@@ -31,7 +31,7 @@ Chris&#8599;</a>
 
 
 
-spectal cartography&#8599;</a>
+spectral cartography&#8599;</a>
 
 
 
@@ -437,6 +437,49 @@ Oh wow.</p>
     
     
     
+    
+    
+    
+    <item>
+      <title>Xiaomi</title>
+      <link>http://localhost:1313/projects/xiaomi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/xiaomi/</guid>
+      <description><![CDATA[<section class="three-column-layout">
+    <div class="column left empty"></div>
+    <div class="column center">
+        <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
+        <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
+    </div>
+    <div class="column right empty"></div>
+</section>
+<p><img src="/images/projects/xiaomi/XIA_01.webp" alt="alt text"></p>
+<p><img src="/images/projects/xiaomi/XIA_02.webp" alt="alt text">
+<img src="/images/projects/xiaomi/XIA_03.webp" alt="alt text"></p>
+
+
+
+
+
+
+
+
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+        
+        
+            <source src='/videos/projects/xiaomi/Xiaomi_KS3.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</div>
+
+]]></description>
+      
+    </item>
     
     
   </channel>

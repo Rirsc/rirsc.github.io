@@ -14,28 +14,31 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/xiaomi/</guid>
-      <description><![CDATA[<h1 id="from-here-is-3-columns">FROM HERE IS 3 COLUMNS</h1>
-<section class="three-column-layout flex-layout">
-    <div class="column left" style="background-color:red">
-        <p>Content in the left column...</p>
+      <description><![CDATA[<div id="contentContainer">
+    <div id="content">
+        <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
+        <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
     </div>
-    <div class="column center" style="background-color: blue">
-        <p>Content in the center column...</p>
+</div>
+<p><img src="/images/projects/xiaomi/XIA_01.webp" alt="alt text"></p>
+<div class="two-column-layout flex-layout">
+    <div class="column left">
+        <img src="/images/projects/xiaomi/XIA_02.webp">
     </div>
-    <div class="column right empty" style="background-color: pink"></div>
-</section>
-<h1 id="from-here-is-4-columns">FROM HERE IS 4 COLUMNS</h1>
-<section class="four-column-layout flex-layout">
-    <div class="column left empty" style="background-color: white"></div>
-    <div class="column center-left empty"  style="background-color: blue"></div>
-    <div class="column center-right" style="background-color: gray">
-        <p>Content in the third column...</p>
+    <div class="column right">
+    <div class="separator"></div>
+    <img src="/images/projects/xiaomi/XIA_03.webp">
     </div>
-    <div class="column right empty" style="background-color: yellow"></div>
-</section>
-<h1 id="from-here-is-without-html-code">FROM HERE IS WITHOUT HTML CODE</h1>
-<p><img src="/images/projects/xiaomi/XIA_02.webp" alt="alt text"></p>
-<p><img src="/images/projects/xiaomi/XIA_03.webp" alt="alt text"></p>
+</div>
+<div class="two-column-layout flex-layout">
+    <div class="column left">
+        <img src="/images/projects/xiaomi/XIA_04.webp">
+    </div>
+    <div class="column right">
+    <div class="separator"></div>
+    <img src="/images/projects/xiaomi/XIA_05.webp">
+    </div>
+</div>
 
 
 
@@ -56,8 +59,70 @@
     
 </div>
 
-<p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
-<p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>]]></description>
+<div class="two-column-layout flex-layout">
+    <div class="column left">
+        <img src="/images/projects/xiaomi/XIA_06.webp">
+    </div>
+    <div class="column right">
+    <div class="separator"></div>
+    <img src="/images/projects/xiaomi/XIA_07.webp">
+    </div>
+</div>
+<p><img src="/images/projects/xiaomi/XIA_08.webp" alt="alt text"></p>
+<div class="two-column-layout flex-layout">
+    <div class="column left">
+        <div class="separator"></div>
+        <img src="/images/projects/xiaomi/XIA_10.webp">
+    </div>
+    <div class="column right">
+    <img src="/images/projects/xiaomi/XIA_09.webp">
+    </div>
+</div>
+<div class="two-column-layout flex-layout">
+    <div class="column left empty">
+    </div>
+    <div class="column right">
+    <img src="/images/projects/xiaomi/XIA_12.webp">
+    </div>
+</div>
+<h2 id="credits">Credits</h2>
+<p><a href="https://onformative.com/"
+ target="_blank" rel="noopener" >
+
+
+
+<strong>onformative</strong>&#8599;</a>
+
+
+
+
+
+</p>
+<ul>
+<li>Creative Direction: Cedric Kiefer.</li>
+<li>Art Direction: Bernd Marbach, Alex Hahn, Ricardo López.</li>
+<li>Production: Julia Laub, Tobias Ziegler.</li>
+</ul>
+<h1 id="backups-and-references">BACKUPS AND REFERENCES</h1>
+<h1 id="from-here-is-3-columns">FROM HERE IS 3 COLUMNS</h1>
+<div class="three-column-layout flex-layout">
+    <div class="column left empty" style="background-color:red">
+    </div>
+    <div class="column center" style="background-color: black">
+        <p>Some text in here</p>
+    </div>
+    <div class="column right empty" style="background-color: pink"></div>
+</div>
+<h1 id="from-here-is-4-columns">FROM HERE IS 4 COLUMNS</h1>
+<div class="four-column-layout flex-layout">
+    <div class="column left empty" style="background-color: white"></div>
+    <div class="column center-left empty"  style="background-color: blue"></div>
+    <div class="column center-right" style="background-color: gray">
+        <p>Content in the third column...</p>
+    </div>
+    <div class="column right empty" style="background-color: yellow"></div>
+</div>
+]]></description>
       
     </item>
     

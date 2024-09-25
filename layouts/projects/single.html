@@ -1,50 +1,26 @@
 {{- partial "head.html" . -}}
 {{- partial "build_assets.html" . -}}
 
-<body>
-  <div id="baseContainer">
+  <body>
+{{/*  <div id="baseContainer">  */}}
     {{- partial "header.html" . -}}
 
     <section class="project">
-      {{/*
-      <header>
-        <h1>{{ .Title }}</h1>
-        <h3>{{ .Params.subtitle }}</h3>
-      </header>
-      */}}
-
-      {{/*
-      <div class="project-text">
-        <h1>{{ .Title }}</h1>
-        <h3>{{ .Params.subtitle }}</h3>
-      </div>
-      */}}
-
       <div id="contentContainer">
         <div id="content">
           <h1>{{ .Title }}</h1>
           <h3>{{ .Params.subtitle }}</h3>
         </div>
-    </div>
-
-
+      </div>
      {{ .Content }}
-
     </section>  
-
-
-
-
-   
-    
-
 
     <div id="contentContainer">
       <div id="content">
         {{- partial "footer.html" . -}}
       </div>
     </div>
-  </div>
+  {{/*  </div>  */}}
 
 
   {{- partial "plausible.html" . -}}

@@ -1390,7 +1390,9 @@ input {
 
 //Ric added. Margin apply at the shortcode video.html
 .video-margin {
-    margin: 0px 0px; /* Adjust margins as desired */
+    display: block; /* Ensure the video behaves like a block element */
+    margin: 0 auto; /* Center it horizontally */
+    max-width: 100%; /* Make sure it scales properly */
   }
 
 
@@ -1400,7 +1402,6 @@ input {
     max-width: 1500px;
     margin: 0 auto;
     display: block;
-   
 }
 
 /* Apply specific padding to the text inside .project */
@@ -1416,6 +1417,7 @@ input {
    /* height: auto;  Maintain aspect ratio */
     display: block; /* Center the image */
    /*  padding: 10px;  Add image-specific padding */
+   margin: 0 auto;
 }
 
 

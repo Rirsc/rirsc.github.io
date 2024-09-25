@@ -14,6 +14,12 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 </div>
 
 
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
+
 <div class="two-column-layout flex-layout">
     <div class="column left">
         <img src="/images/projects/samsung-thewall/Samsung_TheWall_003.webp">
@@ -44,3 +50,19 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 {{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_014.mp4" title="Title" muted="true" >}}
 
+![alt text](/images/projects/samsung-thewall/Samsung_TheWall_015.webp)
+
+![alt text](/images/projects/samsung-thewall/Samsung_TheWall_016.webp)
+
+{{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_017.mp4" title="Title" muted="true" >}}
+
+
+## Credits
+
+[**onformative**](https://onformative.com/)
+
+**Creative Direction:** Cedric Kiefer.\
+**Art Direction:** Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.\
+**Production::** Julia Laub.\
+**Technical Direction:** Henryk Wollik.\
+**Code:** Henryk Wollik, Ryan Alexander.

@@ -1388,13 +1388,12 @@ input {
     text-decoration: none;  
 }
 
-//Ric added. Margin apply at the shortcode video.html
-.video-margin {
+//Ric added at the shortcode video.html
+video {
     display: block; /* Ensure the video behaves like a block element */
     margin: 0 auto; /* Center it horizontally */
-    max-width: 100%; /* Make sure it scales properly */
-  }
-
+    max-width: 100%; /* Ensure the video scales properly to fit the container */
+}
 
 
 //Ric added. Projects styles

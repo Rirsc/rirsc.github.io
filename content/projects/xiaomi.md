@@ -38,7 +38,7 @@ images:
 </div>
 
 
-{{< video h264="/videos/projects/xiaomi/Xiaomi_KS3.mp4" muted="true" class="video-margin" >}}
+{{< video h264="/videos/projects/xiaomi/Xiaomi_KS3.mp4" muted="true" >}}
 
 
 <div class="two-column-layout flex-layout">

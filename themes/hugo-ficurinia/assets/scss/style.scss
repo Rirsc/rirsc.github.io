@@ -751,7 +751,7 @@ nav:not(#TableOfContents), #links {
 header {
     @include limitWidth;
     padding: $margin;
-    margin-bottom: $margin;
+    //margin-bottom: $margin;
     .rightOfLogo {
         width: 100%;
         display: flex;
@@ -1397,7 +1397,6 @@ input {
 
 //Ric added. Projects styles
 .project {
-    background-color: red;
     max-width: 1500px;
     margin: 0 auto;
     display: block;
@@ -1406,64 +1405,120 @@ input {
 
 /* Apply specific padding to the text inside .project */
 .project .project-text {
-    padding: 20px; /* Adjust padding for text content */
+    padding: 10px; /* Adjust padding for text content */
     color: #333; /* Example: change text color if needed */
-    background-color: green; /* Example: change background color if needed */
 }
 
 /* Apply different padding or margin to images */
 .project img {
-    background-color: blue;
+    background-color: pink;
     max-width: 100%; /* Ensure images are responsive */
    /* height: auto;  Maintain aspect ratio */
     display: block; /* Center the image */
-    margin: 0 auto; /* Adjust image margin */
-  /*  padding: 10px;   Add image-specific padding */
+   /*  padding: 10px;  Add image-specific padding */
 }
 
-.three-column-layout {
-    display: flex; /* Use Flexbox for layout */
+
+
+
+
+
+/* Base layout styles for both 3-column and 4-column layouts */
+.flex-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .column {
-    padding: 10px; /* Add some padding for better spacing */
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding/margins are included in width */
 }
 
-.left {
-    flex: 0 0 25%; /* Fixed width of 10% */
-    background-color: transparent; /* No background for empty columns */
+
+/* 2-Column Layout */
+.two-column-layout .left,
+.two-column-layout .right {
+    flex: 0 0 50%; 
 }
 
-.center {
-    flex: 0 0 50%; /* Fixed width of 80% */
+/* 3-Column Layout */
+.three-column-layout .left,
+.three-column-layout .right {
+    flex: 0 0 33.33%; 
 }
 
+.three-column-layout .center {
+    flex: 0 0 33.33%;
+}
+
+/* 4-Column Layout */
+.four-column-layout .left,
+.four-column-layout .right {
+    flex: 0 0 25%; /* Left and right take 25% each */
+}
+
+.four-column-layout .center-left,
+.four-column-layout .center-right {
+    flex: 0 0 25%; /* Center-left and center-right take 25% each */
+}
+
+/* Empty columns hidden on small screens */
 .empty {
-    /* Make empty columns invisible on small screens */
-    display: none; 
+    display: none; /* Ensure empty columns are hidden by default */
 }
 
 /* Show empty columns on larger screens */
 @media (min-width: 769px) {
     .empty {
-        display: block; /* Show empty columns on large screens */
+        display: block; /* Make empty columns visible */
     }
 }
 
-/* Ensure the center column fills 100% on small screens */
+/* Ensure non-empty columns fill 100% on small screens */
 @media (max-width: 768px) {
-    .left {
-        flex: 0 0 0; /* Make the left column 0 width */
-    }
-    .center {
-        flex: 0 0 100%; /* Make the center column 100% width */
-    }
-    .right {
-        flex: 0 0 0; /* Make the right column 0 width */
+    /* Only apply 100% width to non-empty columns */
+    .two-column-layout .column:not(.empty),
+    .three-column-layout .column:not(.empty),
+    .four-column-layout .column:not(.empty)     {
+        flex: 0 0 100%; /* Make non-empty columns take 100% width */
     }
 }
 
 
+
+.separator {
+    height: 150px; /* Adjust the height as needed */
+}
+
+/* Hide the separator on smaller screens */
+@media (max-width: 768px) {
+    .separator {
+        display: none; /* Hide the separator on small screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Probably I will remove this later
 
 
 .hero-image img {

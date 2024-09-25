@@ -446,17 +446,34 @@ Oh wow.</p>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/xiaomi/</guid>
-      <description><![CDATA[<section class="three-column-layout">
-    <div class="column left empty"></div>
-    <div class="column center">
+      <description><![CDATA[<div id="contentContainer">
+    <div id="content">
         <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
         <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
     </div>
-    <div class="column right empty"></div>
-</section>
+</div>
 <p><img src="/images/projects/xiaomi/XIA_01.webp" alt="alt text"></p>
-<p><img src="/images/projects/xiaomi/XIA_02.webp" alt="alt text">
-<img src="/images/projects/xiaomi/XIA_03.webp" alt="alt text"></p>
+<div class="two-column-layout flex-layout">
+    <div class="column left">
+        <img src="/images/projects/xiaomi/XIA_02.webp">
+    </div>
+    <div class="column right">
+    <div class="separator"></div>
+    <img src="/images/projects/xiaomi/XIA_03.webp">
+    </div>
+</div>
+<h1 id="backups-and-references">BACKUPS AND REFERENCES</h1>
+<div class="three-column-layout flex-layout">
+    <div class="column left empty" style="background-color:red"></div>
+    <div class="column center" style="background-color: black">
+        <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
+        <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
+    </div>
+    <div class="column right empty" style="background-color: pink"></div>
+</div>
+<h1 id="from-here-is-without-html-code">FROM HERE IS WITHOUT HTML CODE</h1>
+<p><img src="/images/projects/xiaomi/XIA_02.webp" alt="alt text"></p>
+<p><img src="/images/projects/xiaomi/XIA_03.webp" alt="alt text"></p>
 
 
 
@@ -477,6 +494,31 @@ Oh wow.</p>
     
 </div>
 
+<p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
+<p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
+<h2 id="credits">Credits</h2>
+<p><strong>onformative</strong></p>
+<p>Creative Direction: Cedric Kiefer.
+Art Direction: Bernd Marbach, Alex Hahn, Ricardo López.
+Production: Julia Laub, Tobias Ziegler.</p>
+<h1 id="from-here-is-3-columns">FROM HERE IS 3 COLUMNS</h1>
+<div class="three-column-layout flex-layout">
+    <div class="column left empty" style="background-color:red">
+    </div>
+    <div class="column center" style="background-color: black">
+        <p>Some text in here</p>
+    </div>
+    <div class="column right empty" style="background-color: pink"></div>
+</div>
+<h1 id="from-here-is-4-columns">FROM HERE IS 4 COLUMNS</h1>
+<div class="four-column-layout flex-layout">
+    <div class="column left empty" style="background-color: white"></div>
+    <div class="column center-left empty"  style="background-color: blue"></div>
+    <div class="column center-right" style="background-color: gray">
+        <p>Content in the third column...</p>
+    </div>
+    <div class="column right empty" style="background-color: yellow"></div>
+</div>
 ]]></description>
       
     </item>

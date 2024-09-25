@@ -13,19 +13,34 @@
       </header>
       */}}
 
+      {{/*
       <div class="project-text">
         <h1>{{ .Title }}</h1>
         <h3>{{ .Params.subtitle }}</h3>
-        {{ .Content }}
       </div>
+      */}}
+
+      <div id="contentContainer">
+        <div id="content">
+          <h1>{{ .Title }}</h1>
+          <h3>{{ .Params.subtitle }}</h3>
+        </div>
+    </div>
+
+
+     {{ .Content }}
+
     </section>  
+
+
+
+
    
     
 
 
     <div id="contentContainer">
       <div id="content">
-       
         {{- partial "footer.html" . -}}
       </div>
     </div>

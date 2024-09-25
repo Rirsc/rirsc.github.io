@@ -21,3 +21,6 @@ A vault to store the remaining pages until I figure out a better way to organize
 <span style="color:var(--default_dim_fg);">Bikes</span><br>
 <span style="color: var(--default_dim_fg);">Recipes </span>
 
+[Xiaomi](/projects/xiaomi-ks3k11r/)<br>
+[Samsung](/projects/samsung-thewall/)<br>
+

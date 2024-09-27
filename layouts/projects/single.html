@@ -1,26 +1,32 @@
 {{- partial "head.html" . -}}
 {{- partial "build_assets.html" . -}}
 
-  <body>
-{{/*  <div id="baseContainer">  */}}
+<body>
+  {{/* <div id="baseContainer"> */}}
     {{- partial "header.html" . -}}
 
     <section class="project">
       <div id="contentContainer">
         <div id="content">
+          {{ if ne .File.BaseFileName "lab" }} <!-- If the file name is not 'lab.md' -->
+
           <h1>{{ .Title }}</h1>
           <h3>{{ .Params.subtitle }}</h3>
+          {{ end }}
+
         </div>
       </div>
-     {{ .Content }}
-    </section>  
+      {{ .Content }}
+    </section>
+
 
     <div id="contentContainer">
       <div id="content">
         {{- partial "footer.html" . -}}
       </div>
     </div>
-  {{/*  </div>  */}}
+    {{/*
+  </div> */}}
 
 
   {{- partial "plausible.html" . -}}

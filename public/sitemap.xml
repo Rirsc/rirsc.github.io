@@ -94,9 +94,13 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/lab/</loc>
+  </url><url>
     <loc>http://localhost:1313/manifest/index.json</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/samsung-thewall-backup/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/samsung-thewall/</loc>
   </url><url>

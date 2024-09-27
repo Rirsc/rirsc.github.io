@@ -1411,13 +1411,128 @@ video {
 
 /* Apply different padding or margin to images */
 .project img {
-    background-color: pink;
     max-width: 100%; /* Ensure images are responsive */
-   /* height: auto;  Maintain aspect ratio */
     display: block; /* Center the image */
-   /*  padding: 10px;  Add image-specific padding */
-   margin: 0 auto;
+    margin: auto;
 }
+
+
+
+
+ /* -----------------------------------------------------------------------*/
+
+
+/* USING COLUMNS */
+
+
+/* Define the container with grid layout */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12-column grid system */
+    gap: 20px; /* Optional: add space between grid items */
+  }
+  
+  .column { 
+   /* padding: 10px; */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  }
+  
+  .column-1 {
+    grid-column: span 1;
+  }
+  
+  .column-2 {
+    grid-column: span 2;
+  }
+
+  .column-3 {
+    grid-column: span 3;
+  }
+
+  .column-4 {
+    grid-column: span 4;
+  }
+  
+  .column-5 {
+    grid-column: span 5;
+  }
+  
+  .column-6 {
+    grid-column: span 6; 
+  }
+
+  .column-8 {
+    grid-column: span 8; 
+  }
+  
+  .column-12 {
+    grid-column: span 12; 
+  }
+  
+
+  /* Empty columns hidden on small screens */
+  .empty {
+    display: none; /* Ensure empty columns are hidden by default */
+  }
+  
+  /* Show empty columns on larger screens */
+  @media (min-width: 769px) {
+    .empty {
+      display: block; /* Make empty columns visible on large screens */
+    }
+  }
+  
+  /* Ensure non-empty columns fill 100% on small screens */
+  @media (max-width: 768px) {
+    .column:not(.empty) {
+      grid-column: span 12; /* Make non-empty columns take 100% width */
+    }
+  }
+  
+  /* -----------------------------------------------------------------------*/
+
+  /* ----------LAB GRID ----------------------------------------*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Three equal columns */
+    gap: 30px; /* Space between items */
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0; /* Optional background for visibility */
+    border: 1px solid #ddd;
+  }
+  
+  .grid-item img {
+    width: 100%; /* Makes images fill the grid item */
+    height: auto; /* Keeps the aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* 1 column for small screens */
+      gap: 10px; /* Adjust smaller space between items */
+    }
+  
+    .grid-item {
+      width: 100% !important; /* Force grid items to full width on small screens */
+    }
+  }
+  
+
+  /* -----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1430,10 +1545,7 @@ video {
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
-.column {
-    padding: 10px;
-    box-sizing: border-box; /* Ensure padding/margins are included in width */
-}
+
 
 
 /* 2-Column Layout */
@@ -1491,9 +1603,14 @@ video {
     height: 150px; /* Adjust the height as needed */
 }
 
+.separator-small {
+    height: 75px; /* Adjust the height as needed */
+}
+
 /* Hide the separator on smaller screens */
 @media (max-width: 768px) {
-    .separator {
+    .separator,
+    .separator-small {
         display: none; /* Hide the separator on small screens */
     }
 }

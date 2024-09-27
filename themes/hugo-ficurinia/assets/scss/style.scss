@@ -307,7 +307,7 @@ footer {
 }
 
 article, .articlePreview {
-    margin-bottom: 5em;
+    margin-bottom: 2em;
     img {
         margin: auto;
         display: block;
@@ -1463,6 +1463,10 @@ video {
 
   .column-8 {
     grid-column: span 8; 
+  }
+
+  .column-10 {
+    grid-column: span 10; 
   }
   
   .column-12 {

@@ -4,7 +4,6 @@ subtitle: ""
 heroImage: ""
 ---
 
-
 <div class="grid-layout">
     <div class="column column-1 empty"></div>
     <div class="column column-5">
@@ -21,7 +20,6 @@ heroImage: ""
 
 ![alt text](/images/projects/lab/ML_Fut_Norman_spheres_003.webp)
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="grid-layout">
     <div class="column column-6">
@@ -31,7 +29,6 @@ heroImage: ""
           <img src="/images/projects/lab/machine_drawing.webp" alt="Machine">
     </div>
 
-    
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-3 empty"></div>
 <div class="column column-6">
@@ -39,13 +36,11 @@ heroImage: ""
 </div>
 <div class="column column-3 empty"></div>
 
-
 <div class="column column-5">
 {{< video h264="/images/projects/lab/Blue-Spikes-7.mp4" muted="true" class="video-margin" >}}</div>
 <div class="column column-5">
 {{< video h264="/images/projects/lab/Blue-Spikes-9.mp4" muted="true" class="video-margin" >}}</div>
 <div class="column column-2 empty"></div>
-
 
 <div class="column column-2 empty"></div>
 <div class="column column-5">
@@ -53,8 +48,6 @@ heroImage: ""
 <div class="column column-5">
 <div class="separator"></div>
 {{< video h264="/images/projects/lab/Shiny-Ceramic-Heads-4-1.mp4" muted="true" class="video-margin" >}}</div>
-
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
@@ -72,7 +65,6 @@ heroImage: ""
           <img src="/images/projects/lab/artyfish_00042_.webp" alt="Fish">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-12">
 {{< video h264="/images/projects/lab/ENV_HQ_042.mp4" muted="true" class="video-margin" >}}
@@ -84,16 +76,12 @@ heroImage: ""
 {{< video h264="/images/projects/lab/Wall-Content_020.mp4" muted="true" class="video-margin" >}}
 </div>
 
-
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-2 empty"></div>
 <div class="column column-6">
 {{< video h264="/images/projects/lab/LAB_P_GT_720p.mp4" muted="true" class="video-margin" >}}
 </div>
 <div class="column column-4 empty"></div>
-
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
@@ -104,7 +92,6 @@ heroImage: ""
           <img src="/images/projects/lab/Bold Yellow Vibes_00082.webp" alt="BoldYellow">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
           <img src="/images/projects/lab/OCT_Beginning_M005_001.webp" alt="Landscape">
@@ -112,8 +99,6 @@ heroImage: ""
 <div class="column column-6">
           <img src="/images/projects/lab/OCT_Evolution_M005_001_Tinted.webp" alt="Landscape">
 </div>
-
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-4">
@@ -137,7 +122,6 @@ heroImage: ""
 {{< video h264="/images/projects/lab/SAM_MW_Cubes_048_v02.mp4" muted="true" class="video-margin" >}}
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
           <img src="/images/projects/lab/Insaniyti_V01.webp" alt="Insaniyti">
@@ -146,7 +130,6 @@ heroImage: ""
 <div class="separator"></div>
           <img src="/images/projects/lab/Crystal Ship_V02.webp" alt="Ship">
 </div>
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-4">
@@ -177,7 +160,6 @@ heroImage: ""
           <img src="/images/projects/lab/transbio.webp" alt="Transbio">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-4">
           <img src="/images/projects/lab/Rough-Pink_00182.webp" alt="Rough Pink">
@@ -189,7 +171,6 @@ heroImage: ""
           <img src="/images/projects/lab/Rough-Pink_00193.webp" alt="Rough Pink">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
           <img src="/images/projects/lab/Renmants_00231.webp" alt="Transtubes">
@@ -198,7 +179,6 @@ heroImage: ""
 <div class="separator"></div>
           <img src="/images/projects/lab/Renmants_00232.webp" alt="Transbio">
 </div>
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
@@ -216,7 +196,6 @@ heroImage: ""
           <img src="/images/projects/lab/Fontaine 4.webp" alt="Rough Pink">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-2 empty"></div>
 <div class="column column-4">
@@ -227,7 +206,6 @@ heroImage: ""
 {{< video h264="/images/projects/lab/DOR_Furnishings_003_Low.mp4" muted="true" class="video-margin" >}}
 </div>
 <div class="column column-2 empty"></div>
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
@@ -252,7 +230,6 @@ heroImage: ""
           <img src="/images/projects/lab/YellowNar_00152.webp" alt="YellowNar">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-2 empty"></div>
 <div class="column column-8">
@@ -260,7 +237,6 @@ heroImage: ""
 </div>
 <div class="column column-2 empty">
 </div>
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-3 empty"></div>
@@ -277,14 +253,12 @@ heroImage: ""
 <div class="column column-2 empty">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6 empty">
 </div>
 <div class="column column-6">
           <img src="/images/projects/lab/LAB_Eyes.webp" alt="Eyes">
 </div>
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
@@ -302,12 +276,9 @@ heroImage: ""
           <img src="/images/projects/lab/LAB_SA20C_Overhead_Materials_AA_v03_black-and-white_04.webp" alt="Lab">
 </div>
 
-
-
 <div class="column column-12">
           <img src="/images/projects/lab/LAB_LB_shot_L_BW.webp" alt="LB">
 </div>
-
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-4 empty">
@@ -319,4 +290,4 @@ heroImage: ""
 <div class="column column-4 empty">
 </div>
 
-</div> 
+</div>

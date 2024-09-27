@@ -5,45 +5,6 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div class="grid-layout">
-  <div class="column column-1-2">
-    <p>This div takes 1/2 of the row on large screens, 100% on small.</p>
-  </div>
-
-  <div class="column column-1-2 empty"></div>
-</div>
-
-<div class="grid-layout">
-  <div class="column column-2-3">
-    <p>This div takes 2/3 of the row on large screens, 100% on small.</p>
-  </div>
-
-  <div class="column column-1-3">
-    <p>This div takes 1/3 of the row on large screens, 100% on small.</p>
-  </div>
-
-  <div class="column column-1-3 empty"></div>
-</div>
-
-<div class="grid-layout">
-  <div class="column column-1-4">
-    <p>This div takes 1/4 of the row on large screens, 100% on small.</p>
-  </div>
-
-  <div class="column column-2-4">
-    <p>This div takes 2/4 of the row on large screens, 100% on small.</p>
-  </div>
-
-  <div class="column column-1-4 empty"></div>
-</div>
-
-
-
-
-
-
-
-
 
 <div id="contentContainer">
     <div id="content">
@@ -59,53 +20,71 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 
-
 <div class="grid-layout">
-    <div class="column column-1-2">
+    <div class="column column-6">
         <img src="/images/projects/samsung-thewall/Samsung_TheWall_003.webp">
     </div>
-    <div class="column column-1-2">
+    <div class="column column-6">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_004.webp">
     </div>
-</div>
 
+
+<div class="column column-12">
 {{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_002.mp4" title="Title" muted="true" >}}
+</div>
 
-<div class="grid-layout">
-    <div class="column column-1-2">
+<div class="column column-8">
         <img src="/images/projects/samsung-thewall/Samsung_TheWall_007.webp">
-    </div>
-    <div class="column column-1-2">
+</div>
+<div class="column column-4">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_006.webp">
-    </div>
+
 </div>
 
-![alt text](/images/projects/samsung-thewall/Samsung_TheWall_008.webp)
 
-<div class="grid-layout">
-    <div class="column column-1-3 empty"></div>
-    <div class="column column-2-3">
+<div class="column column-12">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_008.webp">
+</div>
+
+
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_009.webp">
-    </div>
 </div>
 
 
-![alt text](/images/projects/samsung-thewall/Samsung_TheWall_011.webp)
+<div class="column column-12">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_011.webp">
+</div>
 
-<div class="grid-layout">
-    <div class="column column-1-6 empty"></div>
-    <div class="column column-5-6">
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_012.webp">
-    </div>
 </div>
 
-{{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_014.mp4" title="Title" muted="true" >}}
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+{{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_014.mp4" title="Title" muted="true" >}}</div>
+<div class="column column-1 empty"></div>
 
-![alt text](/images/projects/samsung-thewall/Samsung_TheWall_015.webp)
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_016.webp">
+</div>
 
-![alt text](/images/projects/samsung-thewall/Samsung_TheWall_016.webp)
 
-{{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_017.mp4" title="Title" muted="true" >}}
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+{{< video h264="/videos/projects/samsung-thewall/Samsung_TheWall_017.mp4" title="Title" muted="true" >}}</div>
+<div class="column column-1 empty"></div>
+
+
+
+</div> <!-- Grid ends here -->
+
 
 
 ## Credits
@@ -113,7 +92,8 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 [**onformative**](https://onformative.com/)
 
 **Creative Direction:** Cedric Kiefer.\
-**Art Direction:** Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.\
+**Art Direction:** Bernd Marbach, Lena Steinkühler,\
+Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.\
 **Production:** Julia Laub.\
 **Technical Direction:** Henryk Wollik.\
 **Code:** Henryk Wollik, Ryan Alexander.

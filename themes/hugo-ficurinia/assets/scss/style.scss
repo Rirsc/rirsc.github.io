@@ -1534,79 +1534,6 @@ video {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Base layout styles for both 3-column and 4-column layouts */
-.flex-layout {
-    display: flex;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-}
-
-
-
-
-/* 2-Column Layout */
-.two-column-layout .left,
-.two-column-layout .right {
-    flex: 0 0 50%; 
-}
-
-/* 3-Column Layout */
-.three-column-layout .left,
-.three-column-layout .right {
-    flex: 0 0 33.33%; 
-}
-
-.three-column-layout .center {
-    flex: 0 0 33.33%;
-}
-
-/* 4-Column Layout */
-.four-column-layout .left,
-.four-column-layout .right {
-    flex: 0 0 25%; /* Left and right take 25% each */
-}
-
-.four-column-layout .center-left,
-.four-column-layout .center-right {
-    flex: 0 0 25%; /* Center-left and center-right take 25% each */
-}
-
-/* Empty columns hidden on small screens */
-.empty {
-    display: none; /* Ensure empty columns are hidden by default */
-}
-
-/* Show empty columns on larger screens */
-@media (min-width: 769px) {
-    .empty {
-        display: block; /* Make empty columns visible */
-    }
-}
-
-/* Ensure non-empty columns fill 100% on small screens */
-@media (max-width: 768px) {
-    /* Only apply 100% width to non-empty columns */
-    .two-column-layout .column:not(.empty),
-    .three-column-layout .column:not(.empty),
-    .four-column-layout .column:not(.empty)     {
-        flex: 0 0 100%; /* Make non-empty columns take 100% width */
-    }
-}
-
-
-
 .separator {
     height: 150px; /* Adjust the height as needed */
 }
@@ -1622,23 +1549,6 @@ video {
         display: none; /* Hide the separator on small screens */
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

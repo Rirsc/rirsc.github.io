@@ -1,6 +1,6 @@
 ---
 title: "Live Wallpaper"
-subtitle: "Visal Language"
+subtitle: "Visual Language"
 heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
@@ -143,9 +143,6 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
     <img src="/images/projects/one-plus-8t/OP8T_Mockup-01_19_BlackBG_SG.webp">
 </div>
 <div class="column column-1 empty"></div>
-
-
-
 
 
 

@@ -100,11 +100,11 @@
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/sap-rebrand/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/samsung-thewall/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/xiaomi-ks3k11r-backup/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/xiaomi-ks3k11r/</loc>
   </url>

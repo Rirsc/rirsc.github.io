@@ -1010,36 +1010,131 @@ Oh wow.</p>
     
     
     <item>
+      <title>RE: Brand</title>
+      <link>http://localhost:1313/projects/sap-rebrand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/sap-rebrand/</guid>
+      <description><![CDATA[<div id="contentContainer">
+    <div id="content">
+        <p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
+        <p>The allure lies in transparency, with the crystalline composition subtly tinted to evoke a play of reflections and refractions.</p>
+    </div>
+</div>
+<div class="grid-layout">
+    <div class="column column-4 empty">
+    </div>
+    <div class="column column-8">
+    <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_001.webp">
+    </div>
+<div class="column column-4">
+        <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_002.webp">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_003.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+    <img src="/images/projects/sap-rebrand/SAP_Mist_004_TK_001.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_009.webp">
+</div>
+<div class="column column-12">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_011.webp">
+</div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_012.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+
+
+
+
+
+
+
+
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+        
+        
+            <source src='/videos/projects/samsung-thewall/Samsung_TheWall_014.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</div>
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_016.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+
+
+
+
+
+
+
+
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+        
+        
+            <source src='/videos/projects/samsung-thewall/Samsung_TheWall_017.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</div>
+</div>
+<div class="column column-1 empty"></div>
+</div> <!-- Grid ends here -->
+<h2 id="credits">Credits</h2>
+<p><a href="https://onformative.com/"
+ target="_blank" rel="noopener" >
+
+
+
+<strong>onformative</strong>&#8599;</a>
+
+
+
+
+
+</p>
+<p><strong>Creative Direction:</strong> Cedric Kiefer.<br>
+<strong>Art Direction:</strong> Bernd Marbach, Lena Steinkühler,<br>
+Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+<strong>Production:</strong> Julia Laub.<br>
+<strong>Technical Direction:</strong> Henryk Wollik.<br>
+<strong>Code:</strong> Henryk Wollik, Ryan Alexander.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
       <title>Samsung</title>
       <link>http://localhost:1313/projects/samsung-thewall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/samsung-thewall/</guid>
-      <description><![CDATA[<div class="grid-layout">
-  <div class="column column-1-2">
-    <p>This div takes 1/2 of the row on large screens, 100% on small.</p>
-  </div>
-  <div class="column column-1-2 empty"></div>
-</div>
-<div class="grid-layout">
-  <div class="column column-2-3">
-    <p>This div takes 2/3 of the row on large screens, 100% on small.</p>
-  </div>
-  <div class="column column-1-3">
-    <p>This div takes 1/3 of the row on large screens, 100% on small.</p>
-  </div>
-  <div class="column column-1-3 empty"></div>
-</div>
-<div class="grid-layout">
-  <div class="column column-1-4">
-    <p>This div takes 1/4 of the row on large screens, 100% on small.</p>
-  </div>
-  <div class="column column-2-4">
-    <p>This div takes 2/4 of the row on large screens, 100% on small.</p>
-  </div>
-  <div class="column column-1-4 empty"></div>
-</div>
-<div id="contentContainer">
+      <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>In 2019 onformative was commissioned to develop another collection of exclusive digital real-time artworks for Samsung’s latest TV lineup.
         As a contrast and complementation mutually, the content for the ‘ambient mode’ focuses on kinetic concepts to bring a dynamic dimension to the room.</p>
@@ -1048,13 +1143,13 @@ Oh wow.</p>
 </div>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <div class="grid-layout">
-    <div class="column column-1-2">
+    <div class="column column-6">
         <img src="/images/projects/samsung-thewall/Samsung_TheWall_003.webp">
     </div>
-    <div class="column column-1-2">
+    <div class="column column-6">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_004.webp">
     </div>
-</div>
+<div class="column column-12">
 
 
 
@@ -1075,28 +1170,31 @@ Oh wow.</p>
     
 </div>
 
-<div class="grid-layout">
-    <div class="column column-1-2">
+</div>
+<div class="column column-8">
         <img src="/images/projects/samsung-thewall/Samsung_TheWall_007.webp">
-    </div>
-    <div class="column column-1-2">
+</div>
+<div class="column column-4">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_006.webp">
-    </div>
 </div>
-<p><img src="/images/projects/samsung-thewall/Samsung_TheWall_008.webp" alt="alt text"></p>
-<div class="grid-layout">
-    <div class="column column-1-3 empty"></div>
-    <div class="column column-2-3">
+<div class="column column-12">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_008.webp">
+</div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_009.webp">
-    </div>
 </div>
-<p><img src="/images/projects/samsung-thewall/Samsung_TheWall_011.webp" alt="alt text"></p>
-<div class="grid-layout">
-    <div class="column column-1-6 empty"></div>
-    <div class="column column-5-6">
+<div class="column column-12">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_011.webp">
+</div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
     <img src="/images/projects/samsung-thewall/Samsung_TheWall_012.webp">
-    </div>
 </div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
 
 
 
@@ -1116,9 +1214,15 @@ Oh wow.</p>
     </video>
     
 </div>
-
-<p><img src="/images/projects/samsung-thewall/Samsung_TheWall_015.webp" alt="alt text"></p>
-<p><img src="/images/projects/samsung-thewall/Samsung_TheWall_016.webp" alt="alt text"></p>
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_016.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
 
 
 
@@ -1138,7 +1242,9 @@ Oh wow.</p>
     </video>
     
 </div>
-
+</div>
+<div class="column column-1 empty"></div>
+</div> <!-- Grid ends here -->
 <h2 id="credits">Credits</h2>
 <p><a href="https://onformative.com/"
  target="_blank" rel="noopener" >
@@ -1153,7 +1259,8 @@ Oh wow.</p>
 
 </p>
 <p><strong>Creative Direction:</strong> Cedric Kiefer.<br>
-<strong>Art Direction:</strong> Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+<strong>Art Direction:</strong> Bernd Marbach, Lena Steinkühler,<br>
+Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
 <strong>Production:</strong> Julia Laub.<br>
 <strong>Technical Direction:</strong> Henryk Wollik.<br>
 <strong>Code:</strong> Henryk Wollik, Ryan Alexander.</p>
@@ -1162,134 +1269,6 @@ Oh wow.</p>
     </item>
     
     
-    
-    
-    
-    <item>
-      <title>Xiaomi</title>
-      <link>http://localhost:1313/projects/xiaomi-ks3k11r-backup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/xiaomi-ks3k11r-backup/</guid>
-      <description><![CDATA[<div id="contentContainer">
-    <div id="content">
-        <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
-        <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
-    </div>
-</div>
-<p><img src="/images/projects/xiaomi-ks3&amp;k11r/XIA_01.webp" alt="alt text"></p>
-<div class="two-column-layout flex-layout">
-    <div class="column left">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_02.webp">
-    </div>
-    <div class="column right">
-    <div class="separator"></div>
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_03.webp">
-    </div>
-</div>
-<div class="two-column-layout flex-layout">
-    <div class="column left">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_04.webp">
-    </div>
-    <div class="column right">
-    <div class="separator"></div>
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_05.webp">
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="video-margin">
-    <video autoplay loop controls style="max-width: 100%;" muted>
-        
-        
-            <source src='/videos/projects/xiaomi-ks3&amp;k11r/Xiaomi_KS3.mp4' type="video/mp4" />
-        
-        
-        
-    </video>
-    
-</div>
-
-<div class="two-column-layout flex-layout">
-    <div class="column left">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_06.webp">
-    </div>
-    <div class="column right">
-    <div class="separator"></div>
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_07.webp">
-    </div>
-</div>
-<p><img src="/images/projects/xiaomi-ks3&amp;k11r/XIA_08.webp" alt="alt text"></p>
-<div class="two-column-layout flex-layout">
-    <div class="column left">
-        <div class="separator"></div>
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_10.webp">
-    </div>
-    <div class="column right">
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_09.webp">
-    </div>
-</div>
-<div class="two-column-layout flex-layout">
-    <div class="column left empty">
-    </div>
-    <div class="column right">
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_12.webp">
-    </div>
-</div>
-<h2 id="credits">Credits</h2>
-<p><a href="https://onformative.com/"
- target="_blank" rel="noopener" >
-
-
-
-<strong>onformative</strong>&#8599;</a>
-
-
-
-
-
-</p>
-<ul>
-<li>Creative Direction: Cedric Kiefer.</li>
-<li>Art Direction: Bernd Marbach, Alex Hahn, Ricardo López.</li>
-<li>Production: Julia Laub, Tobias Ziegler.</li>
-</ul>
-<h1 id="backups-and-references">BACKUPS AND REFERENCES</h1>
-<h2 id="from-here-is-2-columns">FROM HERE IS 2 COLUMNS</h2>
-<div class="two-column-layout flex-layout">
-    <div class="column left" style="background-color:red">
-    </div>
-    <div class="column right" style="background-color: orange">
-        <p>Some text in here</p>
-    </div>
-</div>
-<h2 id="from-here-is-3-columns">FROM HERE IS 3 COLUMNS</h2>
-<div class="three-column-layout flex-layout">
-    <div class="column left empty" style="background-color:red">
-    </div>
-    <div class="column center" style="background-color: black">
-        <p>Some text in here</p>
-    </div>
-    <div class="column right empty" style="background-color: pink"></div>
-</div>
-<h2 id="from-here-is-4-columns">FROM HERE IS 4 COLUMNS</h2>
-<div class="four-column-layout flex-layout">
-    <div class="column left empty" style="background-color: white"></div>
-    <div class="column center-left empty"  style="background-color: blue"></div>
-    <div class="column center-right" style="background-color: gray">
-        <p>Content in the third column...</p>
-    </div>
-    <div class="column right empty" style="background-color: yellow"></div>
-</div>
-]]></description>
-      
-    </item>
     
     
     
@@ -1309,34 +1288,26 @@ Oh wow.</p>
 <div class="grid-layout">
     <div class="column column-1 empty"></div>
     <div class="column column-5">
-      <img src="/images/projects/xiaomi-ks3&k11r/XIA_02.webp" alt="Image 1">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_02.webp" alt="XIA 1">
+    </div>
+    <div class="column column-5">
+        <div class="separator"></div>
+        <img src="/images/projects/xiaomi-ks3&k11r/XIA_03.webp" alt="XIA 2">
+    </div>
+    <div class="column column-1 empty"></div>
+<div class="column column-12"><div class="separator"></div></div>
+<div class="column column-1 empty"></div>
+    <div class="column column-5">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_04.webp" alt="XIA 4">
     </div>
         <div class="column column-5">
         <div class="separator"></div>
-      <img src="/images/projects/xiaomi-ks3&k11r/XIA_03.web" alt="Image 2">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_05.webp" alt="XIA 5">
     </div>
-    <div class="column column-1 empty">    </div>
-</div>
-<div class="grid-layout">
-    <div class="column-6">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_02.webp">
-    </div>
-    <div class="column-6">
-             <div class="separator"></div>
-            <img src="/images/projects/xiaomi-ks3&k11r/XIA_03.webp"></div>
-    </div>
-</div>
+<div class="column column-1 empty">    </div>
 <div class="column column-12"><div class="separator"></div></div>
-<div class="grid-layout">
-    <div class="column-6">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_04.webp">
-    </div>
-    <div class="column-6">
-    <div class="separator"></div>
-            <img src="/images/projects/xiaomi-ks3&k11r/XIA_05.webp"></div>
-    </div>
-</div>
-<div class="column column-12"><div class="separator"></div></div>
+<div class="column column-3 empty"></div>
+<div class="column column-6">
 
 
 
@@ -1357,42 +1328,49 @@ Oh wow.</p>
     
 </div>
 
+</div>
+<div class="column column-3 empty"></div>
+ </div> <!-- Grid ends here -->
+<div id="contentContainer">
+    <div id="content">
+        <h2>R&D</h2>
+        <h3>Visual development</h3>
+        <p>During the research and development phase, we conducted a wide range of experiments and studies to explore various visual styles and techniques.</p>
+        <p>The following is a small selection from the initial vast research, showcasing the most promising styleframes.</p>
+    </div>
+</div>
 <div class="grid-layout">
-    <div class="column-6">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_06.webp">
-    </div>
-    <div class="column-6">
-    <div class="separator"></div>
-            <img src="/images/projects/xiaomi-ks3&k11r/XIA_07.webp"></div>
-    </div>
+<div class="column column-6">
+<div class="separator"></div>
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_07.webp" alt="XIA 7">
 </div>
-<h1 id="not-done-from-here">NOT DONE FROM HERE</h1>
-<div class="two-column-layout flex-layout">
-    <div class="column left">
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_06.webp">
-    </div>
-    <div class="column right">
-    <div class="separator"></div>
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_07.webp">
-    </div>
+<div class="column column-6">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_06.webp" alt="XIA 6">
 </div>
-<p><img src="/images/projects/xiaomi-ks3&amp;k11r/XIA_08.webp" alt="alt text"></p>
-<div class="two-column-layout flex-layout">
-    <div class="column left">
-        <div class="separator"></div>
-        <img src="/images/projects/xiaomi-ks3&k11r/XIA_10.webp">
-    </div>
-    <div class="column right">
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_09.webp">
-    </div>
+<div class="column column-12"><div class="separator"></div></div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_08.webp" alt="XIA 8">
 </div>
-<div class="two-column-layout flex-layout">
-    <div class="column left empty">
-    </div>
-    <div class="column right">
-    <img src="/images/projects/xiaomi-ks3&k11r/XIA_12.webp">
-    </div>
+<div class="column column-1 empty">
 </div>
+<div class="column column-12"><div class="separator"></div></div>
+<div class="column column-1 empty"></div>
+<div class="column column-5">
+<div class="separator"></div>
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_09.webp" alt="XIA 09">
+</div>
+<div class="column column-6">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_10.webp" alt="XIA 10">
+</div>
+<div class="column column-12"><div class="separator"></div></div>
+<div class="column column-2 empty"></div>
+<div class="column column-8">
+      <img src="/images/projects/xiaomi-ks3&k11r/XIA_12.webp" alt="XIA 12">
+</div>
+<div class="column column-2 empty">
+</div>
+</div> <!-- Grid ends here -->
 <h2 id="credits">Credits</h2>
 <p><a href="https://onformative.com/"
  target="_blank" rel="noopener" >
@@ -1411,33 +1389,6 @@ Oh wow.</p>
 <li>Art Direction: Bernd Marbach, Alex Hahn, Ricardo López.</li>
 <li>Production: Julia Laub, Tobias Ziegler.</li>
 </ul>
-<h1 id="backups-and-references">BACKUPS AND REFERENCES</h1>
-<h2 id="from-here-is-2-columns">FROM HERE IS 2 COLUMNS</h2>
-<div class="two-column-layout flex-layout">
-    <div class="column left" style="background-color:red">
-    </div>
-    <div class="column right" style="background-color: orange">
-        <p>Some text in here</p>
-    </div>
-</div>
-<h2 id="from-here-is-3-columns">FROM HERE IS 3 COLUMNS</h2>
-<div class="three-column-layout flex-layout">
-    <div class="column left empty" style="background-color:red">
-    </div>
-    <div class="column center" style="background-color: black">
-        <p>Some text in here</p>
-    </div>
-    <div class="column right empty" style="background-color: pink"></div>
-</div>
-<h2 id="from-here-is-4-columns">FROM HERE IS 4 COLUMNS</h2>
-<div class="four-column-layout flex-layout">
-    <div class="column left empty" style="background-color: white"></div>
-    <div class="column center-left empty"  style="background-color: blue"></div>
-    <div class="column center-right" style="background-color: gray">
-        <p>Content in the third column...</p>
-    </div>
-    <div class="column right empty" style="background-color: yellow"></div>
-</div>
 ]]></description>
       
     </item>

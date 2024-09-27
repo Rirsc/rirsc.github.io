@@ -580,6 +580,125 @@
     
     
     <item>
+      <title>RE: Brand</title>
+      <link>http://localhost:1313/projects/sap-rebrand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/sap-rebrand/</guid>
+      <description><![CDATA[<div id="contentContainer">
+    <div id="content">
+        <p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
+        <p>The allure lies in transparency, with the crystalline composition subtly tinted to evoke a play of reflections and refractions.</p>
+    </div>
+</div>
+<div class="grid-layout">
+    <div class="column column-4 empty">
+    </div>
+    <div class="column column-8">
+    <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_001.webp">
+    </div>
+<div class="column column-4">
+        <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_002.webp">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_003.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+    <img src="/images/projects/sap-rebrand/SAP_Mist_004_TK_001.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_009.webp">
+</div>
+<div class="column column-12">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_011.webp">
+</div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_012.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+
+
+
+
+
+
+
+
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+        
+        
+            <source src='/videos/projects/samsung-thewall/Samsung_TheWall_014.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</div>
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-8">
+    <img src="/images/projects/samsung-thewall/Samsung_TheWall_016.webp">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-10">
+
+
+
+
+
+
+
+
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+        
+        
+            <source src='/videos/projects/samsung-thewall/Samsung_TheWall_017.mp4' type="video/mp4" />
+        
+        
+        
+    </video>
+    
+</div>
+</div>
+<div class="column column-1 empty"></div>
+</div> <!-- Grid ends here -->
+<h2 id="credits">Credits</h2>
+<p><a href="https://onformative.com/"
+ target="_blank" rel="noopener" >
+
+
+
+<strong>onformative</strong>&#8599;</a>
+
+
+
+
+
+</p>
+<p><strong>Creative Direction:</strong> Cedric Kiefer.<br>
+<strong>Art Direction:</strong> Bernd Marbach, Lena Steinkühler,<br>
+Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+<strong>Production:</strong> Julia Laub.<br>
+<strong>Technical Direction:</strong> Henryk Wollik.<br>
+<strong>Code:</strong> Henryk Wollik, Ryan Alexander.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
       <title>Samsung</title>
       <link>http://localhost:1313/projects/samsung-thewall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

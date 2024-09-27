@@ -96,6 +96,8 @@
   </url><url>
     <loc>http://localhost:1313/projects/lab/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/oneplus-8t/</loc>
+  </url><url>
     <loc>http://localhost:1313/manifest/index.json</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>

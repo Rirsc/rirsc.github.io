@@ -25,4 +25,7 @@ A vault to store the remaining pages until I figure out a better way to organize
 [Samsung](/projects/samsung-thewall/)<br>
 [Sap](/projects/sap-rebrand/)<br>
 [Live Wallpaper](/projects/oneplus-8t/)<br>
+[Liquid Crystallized](/projects/diageo/)<br>
+
+
 [Lab](/projects/lab/)<br>

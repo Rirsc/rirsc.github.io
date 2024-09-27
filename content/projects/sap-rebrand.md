@@ -28,11 +28,11 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 
-<div class="column column-2 empty"></div>
+<div class="column column-1 empty"></div>
 <div class="column column-10">
         <img src="/images/projects/sap-rebrand/SAP_Data_006_TK_002.webp">
 </div>
-<div class="column column-2 empty"></div>
+<div class="column column-1 empty"></div>
 
 
 

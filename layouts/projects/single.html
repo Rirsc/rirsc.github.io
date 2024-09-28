@@ -5,17 +5,18 @@
   {{/* <div id="baseContainer"> */}}
     {{- partial "header.html" . -}}
 
-    <section class="project">
-      <div id="contentContainer">
-        <div id="content">
-          {{ if ne .File.BaseFileName "lab" }} <!-- If the file name is not 'lab.md' -->
-
-          <h1>{{ .Title }}</h1>
-          <h3>{{ .Params.subtitle }}</h3>
-          {{ end }}
-
-        </div>
+    <div id="contentContainer">
+      <div id="content">
+        {{ if ne .File.BaseFileName "lab" }} <!-- If the file name is not 'lab.md' -->
+        <h1>{{ .Title }}</h1>
+        <h3>{{ .Params.subtitle }}</h3>
+        {{ end }}
+        
       </div>
+    </div>
+
+    <section class="project">
+
       {{ .Content }}
     </section>
 

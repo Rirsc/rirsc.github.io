@@ -7,13 +7,16 @@ showtitle: false
 showdate: false
 ---
 
-I’m Ricardo, an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) [games,](/pages/etc/games/) comix, design, films, riding my bike around forests and playing with computers to create stuff.
+Ey there stranger. Ricardo here, welcome to my abode :)
+
+I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) [games,](/pages/etc/games/) comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
 A more precise portfolio focused on my 3D professional job is found at [rirsc.xyz](http://rirsc.xyz) but I plan to move everything to this site sooner or later.
 
 ## Key points
 
-This site is a digital sandbox.\
+This site is my digital sandbox where I intend to document my activities and online discoveries. A so-called [memex](https://pluralistic.net/2021/05/09/the-memex-method/) an archive of my experiences and acquired knowledge.
+
 Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/) but everytime is messy.
 [Advanced hypertexting](https://www.kickscondor.com/hypertexting/) I guess.  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
 

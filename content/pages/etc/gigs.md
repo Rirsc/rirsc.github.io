@@ -10,6 +10,22 @@ hideMenu: true
 
 ## 2024
 
+#### August
+
+- Liturgy ⋅ Berghain
+- Cruelster + Shafrah + Muell ⋅ idvd.ogh
+- Skuv + Eyes Gone + etc ⋅ idvd.ogh
+- Meltway + Half of a Rainbow ⋅ idvd.ogh
+- Kara Delik & Dostlar ⋅ Neue Zukunft
+- OPNV + Clear History + Screensaver ⋅ idvd.ogh
+
+#### July
+
+- Autobahns + WWW + Tttturbo ⋅ idvd.ogh
+- Los Mirlos ⋅ Alexanderplatz
+- Twisted Teens ⋅ idvd.ogh
+- Musikii Festivalas ⋅ 90mil
+
 #### June
 
 - Ataúdes Merche + Megarrollo + Delilah + Línea Maginoti + Türbot ⋅ Arrebato

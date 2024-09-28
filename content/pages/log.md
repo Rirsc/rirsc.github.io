@@ -17,7 +17,7 @@ My attempt to list some personal and professional stuff I've made since ~~2020~~
 - Attended Hack & Tell at [c-base](https://c-base.org/)  
 - Highlights  
    - Gigs
-      - TVOD + Gym Tonic @ OGH
+      - TVOD + Gym Tonic ⋅ OGH
    - Books
       - *The Invention of Nature* - Wulf, Andrea
       - *The Word for World Is Forest* - Le Guin, Ursula K.
@@ -31,7 +31,7 @@ My attempt to list some personal and professional stuff I've made since ~~2020~~
 
 #### February
 
-- Salò Indoor = Alpha Maid, @ 90mil  
+- Salò Indoor = Alpha Maid, ⋅ 90mil  
 - Started to get more serious studying Ableton
 
 #### January
@@ -57,10 +57,10 @@ My attempt to list some personal and professional stuff I've made since ~~2020~~
 
 - Highlights  
    - Gigs
-      - Kassa Overall @ Gretzhen
+      - Kassa Overall ⋅ Gretzhen
       - MIRA
       - Atonal
-      - Osees @ Festsaal
+      - Osees ⋅ Festsaal
    - Books
       - *Future is Now* - Lanier, Jaron
       - *Future of Humanity* - Kaku, Michio

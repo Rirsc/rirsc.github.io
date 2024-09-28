@@ -14,10 +14,10 @@ hideMenu: true
 
 - Liturgy ⋅ Berghain
 - Cruelster + Shafrah + Muell ⋅ idvd.ogh
-- Skuv + Eyes Gone + etc ⋅ idvd.ogh
+- Skuv + Eyes Gone ⋅ idvd.ogh
 - Meltway + Half of a Rainbow ⋅ idvd.ogh
 - Kara Delik & Dostlar ⋅ Neue Zukunft
-- OPNV + Clear History + Screensaver ⋅ idvd.ogh
+- ÖPNV + Clear History + Screensaver ⋅ idvd.ogh
 
 #### July
 

@@ -11,6 +11,7 @@ A vault to store the remaining pages until I figure out a better way to organize
 
 [Digital Love](/pages/etc/digital-love)<br>
 [Gigs](/pages/etc/gigs)<br>
+[AI Generators](/posts/231129_ai-image-generators/)<br>
 <span style="color:var(--default_dim_fg);">Games</span><br>
 <span style="color:var(--default_dim_fg);">Physical Love</span><br>
 <span style="color:var(--default_dim_fg);">Bookshelf</span><br>
@@ -22,10 +23,15 @@ A vault to store the remaining pages until I figure out a better way to organize
 <span style="color: var(--default_dim_fg);">Recipes </span>
 
 [Xiaomi](/projects/xiaomi-ks3k11r/)<br>
+Magic Leap<br>
+[Samsung Sero](https://onformative.com/work/samsung-sero/)<br>
 [Samsung](/projects/samsung-thewall/)<br>
 [Sap](/projects/sap-rebrand/)<br>
 [Live Wallpaper](/projects/oneplus-8t/)<br>
 [Liquid Crystallized](/projects/diageo/)<br>
-
+Blissheer
+Quiet Orography
+Promotional Video
+Physera
 
 [Lab](/projects/lab/)<br>

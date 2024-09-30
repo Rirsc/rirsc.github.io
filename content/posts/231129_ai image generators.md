@@ -6,7 +6,8 @@ tags:
   - design
   - image
   - comfyui
-draft: true
+hide: true
+showdate: false
 ---
 
 Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.

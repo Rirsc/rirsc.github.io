@@ -29,9 +29,9 @@ Magic Leap<br>
 [Sap](/projects/sap-rebrand/)<br>
 [Live Wallpaper](/projects/oneplus-8t/)<br>
 [Liquid Crystallized](/projects/diageo/)<br>
-Blissheer
-Quiet Orography
-Promotional Video
-Physera
+[Blissheer](/projects/negroni/)<br>
+[Quiet Orography](/projects/quiet-orography/)<br>
+[Promotional Video](/projects/promotional-video/)<br>
+[Physera](/projects/physera/)<br>
 
 [Lab](/projects/lab/)<br>

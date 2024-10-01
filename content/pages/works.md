@@ -7,9 +7,10 @@ showdate: false
 type: "works"
 ---
 
-
 <style>
-
+      .grid-layout h5 {
+            margin-top: 10px;
+      }
   /* For links inside the grid layout */
   .grid-layout a {
     text-decoration: none; 
@@ -21,7 +22,6 @@ type: "works"
     background-color: transparent; 
   }
 </style>
-
 
 <div class="grid-layout">
 
@@ -73,9 +73,7 @@ type: "works"
       <h5 style="text-align: right;">Live Wallpaper</h5></a>
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
-
 
 <div class="column column-3 empty"></div>
 <div class="column column-6">
@@ -86,9 +84,7 @@ type: "works"
 <div class="column column-3 empty">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
-
 
 <div class="column column-1 empty"></div>
 <div class="column column-5">
@@ -104,9 +100,7 @@ type: "works"
 </div>
 <div class="column column-2 empty"></div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
-
 
 <div class="column column-3 empty"></div>
 <div class="column column-6">
@@ -117,9 +111,7 @@ type: "works"
 <div class="column column-3 empty">
 </div>
 
-
 <div class="column column-12"><div class="separator"></div></div>
-
 
 <div class="column column-7 empty"></div>
 <div class="column column-4">
@@ -131,7 +123,5 @@ type: "works"
 </div>
 
 <div class="column column-12"><div class="separator"></div></div>
-
-
 
 </div> <!-- Grid ends here -->

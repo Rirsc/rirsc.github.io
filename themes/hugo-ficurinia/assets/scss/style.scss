@@ -307,7 +307,7 @@ footer {
 }
 
 article, .articlePreview {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     img {
         margin: auto;
         display: block;
@@ -1407,7 +1407,7 @@ video {
 /* Apply specific padding to the text inside .project */
 .project .project-text {
     padding: 10px; /* Adjust padding for text content */
-    color: #333; /* Example: change text color if needed */
+    // color: #333; 
 }
 
 /* Apply different padding or margin to images */
@@ -1516,8 +1516,7 @@ video {
   }
   
   .grid-item {
-    background-color: #f0f0f0; /* Optional background for visibility */
-    border: 1px solid #ddd;
+     border: 1px solid #ddd;
   }
   
   .grid-item img {

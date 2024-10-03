@@ -275,11 +275,17 @@ a.unstyledLink {
 footer {
     color: var(--default_dim_fg);
     text-align: center;
+    //Ric added aqui
+    @include limitWidth;
+     padding: $margin;
+
     a {
         color: var(--default_dim_fg);
+        margin: 0 calc(0.5 * #{$margin});
     }
     hr {
-        margin-top: (2 * $margin);
+        margin-top: (3 * $margin);
+        opacity: .3;
     }
     .footerColumns {
         font-size: .9 * $base_font_size * $main_font_mult;
@@ -297,9 +303,21 @@ footer {
     }
     //Ric added
     .footerContent {
-        font-size: calc(0.9 * var(--base-font-size) * var(--main-font-mult));
-        display: inline-block;
+        font-size: calc(0.01 * var(--base-font-size) * var(--main-font-mult));
+       // display: inline-block;
         padding: 1rem 0; /* Optional: padding for the footer */
+    }
+}
+
+@media (max-width: 768px) { 
+    .footerContent {
+        text-align: left;
+        margin: 0.5rem 0; /* Optional: add spacing between links */
+    }
+
+    .footerContent a {
+        display: block; /* Force each link to take up its own line */
+        margin: 0.25rem 0; /* Optional: adjust margin between links */
     }
 }
 

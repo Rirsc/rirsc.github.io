@@ -219,13 +219,8 @@ a.unstyledLink {
 }
 
 #content {
-    // Ric added. Trying to limit the width of the content
-    // @include limitWidth;
-    //padding: $margin;
-
-    width: 100%; // Ensure the header takes up the full width of the viewport.
-    max-width: 800px; // Set the maximum width to 1568px.
-    margin: 0 auto; // Center the header on the page.
+    @include limitWidth;
+    max-width: 800px;
     padding: $margin;
 }
 

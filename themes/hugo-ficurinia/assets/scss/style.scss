@@ -277,7 +277,7 @@ footer {
     text-align: center;
     //Ric added aqui
     @include limitWidth;
-     padding: $margin;
+    // padding: $margin;
 
     a {
         color: var(--default_dim_fg);

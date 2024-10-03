@@ -219,7 +219,13 @@ a.unstyledLink {
 }
 
 #content {
-    @include limitWidth;
+    // Ric added. Trying to limit the width of the content
+    // @include limitWidth;
+    //padding: $margin;
+
+    width: 100%; // Ensure the header takes up the full width of the viewport.
+    max-width: 800px; // Set the maximum width to 1568px.
+    margin: 0 auto; // Center the header on the page.
     padding: $margin;
 }
 
@@ -750,8 +756,12 @@ nav:not(#TableOfContents), #links {
 
 header {
     @include limitWidth;
-    padding: $margin;
+     padding: $margin;
     //margin-bottom: $margin;
+    // Ric added. Alternative to only extend menu to 1568px, dont like it
+   // width: 100%; // Ensure the header takes up the full width of the viewport.
+    // max-width: 1568px; // Set the maximum width to 1568px.
+    // margin: 0 auto; // Center the header on the page.
     .rightOfLogo {
         width: 100%;
         display: flex;

@@ -54,7 +54,7 @@ type: "works"
 
 <div class="column column-7 empty"></div>
 <div class="column column-5">
-       <a href="https://onformative.com/work/samsung-sero/">
+       <a href="https://onformative.com/work/samsung-sero/" target="_blank">
       <img src="/images/projects/samsung-sero/samsung_sero_hero.webp" alt="Samsung Sero">
       <h5 style="text-align: right;">Samsung Sero</h5></a>
 </div>

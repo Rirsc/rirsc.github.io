@@ -112,13 +112,16 @@ images:
 
 </div> <!-- Grid ends here -->
 
+<div class="separator-small"></div>
 
-
-
-## Credits
-
-[**onformative**](https://onformative.com/)
-
-- Creative Direction: Cedric Kiefer.
-- Art Direction: Bernd Marbach, Alex Hahn, Ricardo López.
-- Production: Julia Laub, Tobias Ziegler.
+<!-- <div id="contentContainer"> -->
+ <div id="content">
+        <h1>Credits</h1>
+        <p><strong><a href="https://onformative.com/">onformative↗</a></strong></p>
+        <ul>
+            <li>Creative Direction: Cedric Kiefer.</li>
+            <li>Art Direction: Bernd Marbach, Alex Hahn, Ricardo López.</li>
+            <li>Production: Julia Laub, Tobias Ziegler.</li>
+        </ul>
+    </div>
+<!-- </div> -->

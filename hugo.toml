@@ -7,8 +7,8 @@ theme = "hugo-ficurinia"
 author = "Ricardo López"
 copyright = "Ricardo López"
 
-paginate = 5
-summaryLength = 30
+paginate = 6
+summaryLength = 500
 
 [params]
     description = "Ricardo López's blog about 3d and personal stuff"

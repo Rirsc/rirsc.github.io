@@ -14,7 +14,7 @@ First and sadly, I support the current overall rejection as the main use is focu
 
 The widespread use of these generators is horrendous in both ethical and aesthetic terms. Let’s go for the big ‘buts’.
 
-<!--more-->
+<!-- READ MORE! -->
 
 ## The opposite of beautiful is careless
 
@@ -41,6 +41,7 @@ Not only that but by just removing the human part in the process, the workflow l
 Also, as humans, we find particularly enjoyable the craftsman of things. The road is the destiny and all of that, you know what I mean.
 
 Craft, craft, craft is what we want. And in a respectful way.
+
 
 ## It’s all about the output, therefore curate the input
 

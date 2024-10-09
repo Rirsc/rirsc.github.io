@@ -1,7 +1,4 @@
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
-
-
-
 {{ range $paginator.Pages }}
 <div>
     <h4 class="list-expanded-title">
@@ -12,7 +9,20 @@
         {{- partial "date.html" .Date -}}
     </h6>
     {{ end }}
-    {{- partial "single_post_expanded.html" . -}}
+    {{/*  {{- partial "single_post_expanded.html" . -}}  */}}
+
+    {{ if in .Content "READ MORE!" }}
+        {{ $contentParts := split .Content "<!-- READ MORE! -->" }}
+        {{ index $contentParts 0 | safeHTML }} <!-- Render content up to the marker -->
+        <article class="article-content">
+        <a href="{{ .Permalink }}" class="read-more">Read More</a>
+         </article>
+    {{ else }}
+        {{- partial "single_post_expanded.html" . -}} <!-- Render full content if no marker -->
+    {{ end }}
+
+
+
 </div>
 {{ end }}
 

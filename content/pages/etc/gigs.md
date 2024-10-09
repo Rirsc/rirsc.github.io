@@ -8,6 +8,13 @@ showdate: false
 hideMenu: true
 ---
 
+<style>
+ul {
+      margin-top: 0;
+      }
+</style>
+
+
 ## 2024
 
 #### August

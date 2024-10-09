@@ -276,7 +276,7 @@ footer {
     color: var(--default_dim_fg);
     @include limitWidth;
     padding: $margin;
-
+    font-size: smaller;
     a {
         color: var(--default_dim_fg);
         margin: 0 calc(0.5 * #{$margin});
@@ -572,7 +572,8 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 
 ul {
      padding-inline-start: 1.1 * $margin;
-     margin-top: 0;
+    //  margin-top: $margin / 2;
+   
     li {
         list-style-type: none;
         //margin: 5px 0;
@@ -817,14 +818,15 @@ header {
                 {{ else }}
                 
                     /*&:first-child {
-                         padding-left: 0px;
+                        padding-left: 0px;
                         margin-left: 0px;
                         color: blue;
                     } */                    
                     a {
-                        padding: 2px 10px;
+                        //padding: 2px 10px; // This works but shows the left bit highlighted
+                        padding: 0 #{$margin/3};
                         //color: var(--default_accent); 
-                         padding-right: 0px;
+                         //padding-right: 0px;
                          //&:hover {
                           //  text-decoration: underline;
                         //}
@@ -834,6 +836,17 @@ header {
         }
     }
 }
+
+// Decrease padding on small screens
+@media (max-width: 768px) {
+    header {
+        padding: $margin / 2; // Reduced padding for small screens
+    }
+}
+
+
+
+
 
 .articleTagsContainer {
     margin: $margin 0;

@@ -9,7 +9,7 @@ showdate: false
 
 A vault to store the remaining pages until I figure out a better way to organize the entire site.
 
-[Lab](/projects/lab/)<br>
+<!-- [Lab](/projects/lab/)<br> -->
 [Log](/pages/etc/log)<br>
 [Digital Love](/pages/etc/digital-love)<br>
 [Gigs](/pages/etc/gigs)<br>

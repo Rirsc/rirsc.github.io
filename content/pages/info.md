@@ -1,5 +1,5 @@
 ---
-title: About
+title: Info
 date: 2019-08-11
 comments: false
 norss: true
@@ -9,9 +9,9 @@ showdate: false
 
 Ey there stranger. Ricardo here, welcome to my abode :)
 
-I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) [games,](/pages/etc/games/) comix, design, films, riding my bike around forests and playing with computers to create stuff.
+I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/), games, comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
-A more precise portfolio focused on my 3D professional job is found at [rirsc.xyz](http://rirsc.xyz) but I plan to move everything to this site sooner or later.
+
 
 ## Key points
 

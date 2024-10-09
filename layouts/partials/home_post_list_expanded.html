@@ -1,22 +1,16 @@
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
 
-{{/*  {{ if eq .Paginator.PageNumber 1 }}
-<div style="margin-bottom:5em">
-    <p>
-       
-    </p>
-</div>
-{{ end }}  */}}
+
 
 {{ range $paginator.Pages }}
-<div class="list-group-item">
-    <h2 class="list-expanded-title">
+<div>
+    <h4 class="list-expanded-title">
         <a class="list-expanded-title" href="{{ .Permalink }}">{{ .Title }}</a>
-    </h2>
+    </h4>
     {{ if (.Params.showDate | default true) }}
-    <p class="date">
+    <h6 class="date">
         {{- partial "date.html" .Date -}}
-    </p>
+    </h6>
     {{ end }}
     {{- partial "single_post_expanded.html" . -}}
 </div>

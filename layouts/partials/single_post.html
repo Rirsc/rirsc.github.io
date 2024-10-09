@@ -5,9 +5,9 @@
     {{ end }}
 
     {{ if (.Params.showDate | default true) }}
-    <h4 class="date">
+    <h5 class="date">
         {{- partial "date.html" .Date -}}
-    </h4>
+    </h5>
     {{ end }}
 
     {{ if and (.Params.toc | default false) (.Site.Params.tocBeforeImage | default false) }}

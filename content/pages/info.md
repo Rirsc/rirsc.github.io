@@ -15,10 +15,10 @@ I’m an Industrial Design Engineer mostly focused on 3D digital and interactive
 
 ## Key points
 
-This site is my digital sandbox where I intend to document my activities and online discoveries. A so-called [memex](https://pluralistic.net/2021/05/09/the-memex-method/) an archive of my experiences and acquired knowledge.
+This site is my **digital sandbox** where I intend to document my activities and online discoveries. A so-called [memex](https://pluralistic.net/2021/05/09/the-memex-method/) an archive of my experiences and acquired knowledge.
 
 Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/) but everytime is messy.
-[Advanced hypertexting](https://www.kickscondor.com/hypertexting/) I guess.  Many pages are in progress, or incorrect. This is my tiny realm and its fine that way. 
+[Advanced hypertexting](https://www.kickscondor.com/hypertexting/) I guess.  Many pages are in progress, or incorrect. **This is my tiny realm and its fine that way.** 
 
 > Similarly, without an open, unified network, the whole notion of business online would have been entirely feudal from the start. Instead, it only took a feudal turn around the turn of the century. These days, instead of websites on the open Internet, people are more likely to create apps in proprietary stores or profiles on proprietary social media sites.
 >
@@ -43,7 +43,7 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 
 Have fun. My goal is to infest you with the idea of creating a static website. The internet is getting a bit boring lately, and there is also this [Dead Internet theory](https://en.wikipedia.org/wiki/Dead_Internet_theory) which I just hope is wrong because it sounds terribly sad.
 
-I cant encourage you enough to start your own site now. We all should be dead bored by now of looking at the same grids and feeds. Just jump in and start polinating whatever you have in mind.
+I cant encourage you enough to **start your own site now.** We all should be dead bored by now of looking at the same grids and feeds. Just jump in and start polinating whatever you have in mind.
 
 There are plenty of options out there, my setup is basically using [Hugo](https://gohugo.io/) with the awesome theme [Ficurina](https://gitlab.com/gabmus/hugo-ficurinia) and deploying everything at Github.
 
@@ -56,7 +56,7 @@ And it was running within minutes :) If you are struggling with it, feel free to
 
 ## Inspirational sites
 
-This site is a compendium of places which we could agree are considered diy places and therefore interesting. Probably at the top of my influences, we could have:
+This site is a compendium of places which we could agree are considered **diy places and therefore interesting.** Probably at the top of my influences, we could have:
 
 [100r](https://100r.co/site/about_us.html)\
 [wnoadiarwb](https://wnoadiarwb.us/)\

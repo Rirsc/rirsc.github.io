@@ -7,7 +7,7 @@ tags:
   - photo
 ---
 
-By chance, I discovered the bookshop *langer blomqvist*, which is full of discounted and second-hand books. I bought the gem *Buch der Tage*, by Patti Smith. It consists of a daily photo with a small description covering 2018.
+By chance, I discovered the bookshop **langer blomqvist**, which is full of discounted and second-hand books. I bought the gem ***Buch der Tage*, by Patti Smith**. It consists of a daily photo with a small description covering 2018.
 
 ![Buch der tage](</images/posts/IMG20240612124046.webp>)
 

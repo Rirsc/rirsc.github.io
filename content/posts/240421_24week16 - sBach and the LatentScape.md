@@ -7,7 +7,7 @@ tags:
   - ricrecs
 ---
 
-We went to the exposition Sound System Culture at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.
+We went to the exposition **Sound System Culture** at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.
 
 Entered the rabbit hole of [Spencer Seim](https://en.wikipedia.org/wiki/Spencer_Seim) and I spent way too much time that I would admit looping at his [sBach](https://sbach.bandcamp.com/album/sbach) project.
 

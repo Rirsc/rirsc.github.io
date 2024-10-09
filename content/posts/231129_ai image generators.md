@@ -10,7 +10,7 @@ tags:
 
 Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.
 
-First and sadly, I support the current overall rejection as the main use is focused on lazy replicating rather than creating.
+First and sadly, I support the current overall rejection as **the main use is focused on lazy replicating rather than creating.**
 
 The widespread use of these generators is horrendous in both ethical and aesthetic terms. Let’s go for the big ‘buts’.
 

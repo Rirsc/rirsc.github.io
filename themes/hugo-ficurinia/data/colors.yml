@@ -1,4 +1,4 @@
-default: dark  # light
+default: light  # dark
 auto_switch: false  # set to true to respect the user preference
 dark:
   bg: '#1f1f1f'  # main site background
@@ -12,7 +12,7 @@ dark:
     fg: 'white'  # sidebar font color
     
 light:
-  bg: '#ecece8'
+  bg: '#e8e8e8'
   hl_bg: '#e6e6e6'
   fg: '#262625'
   dim_fg: '#40403e'

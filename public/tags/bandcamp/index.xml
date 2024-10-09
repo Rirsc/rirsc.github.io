@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Bandcamp on rirsc</title>
-    <link>http://localhost:1313/tags/bandcamp/</link>
+    <link>http://192.168.1.11:1313/tags/bandcamp/</link>
     <description>Recent content in Bandcamp on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bandcamp/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/bandcamp/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Bandcamp and text</title>
-      <link>http://localhost:1313/posts/200522_bandcamp-and-text/</link>
+      <link>http://192.168.1.11:1313/posts/200522_bandcamp-and-text/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/200522_bandcamp-and-text/</guid>
+      <guid>http://192.168.1.11:1313/posts/200522_bandcamp-and-text/</guid>
       <description><![CDATA[<br/>
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
@@ -35,10 +35,10 @@ Oh wow.</p>
     
     <item>
       <title>Picture and text</title>
-      <link>http://localhost:1313/posts/200101_picture-and-text/</link>
+      <link>http://192.168.1.11:1313/posts/200101_picture-and-text/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/200101_picture-and-text/</guid>
+      <guid>http://192.168.1.11:1313/posts/200101_picture-and-text/</guid>
       <description><![CDATA[<p><img src="/images/posts/240522_picture%20and%20text/240522_picture%20and%20text.webp" alt="alt text"></p>
 <p>This is my comment to this amazing song posted up there. Nothing more, nothing less. Yet so nice.
 And another text down here because and fairly sure you were asking for most content from myself, right?

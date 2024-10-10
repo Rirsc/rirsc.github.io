@@ -51,18 +51,18 @@ heroImage: ""
 
 <div class="column column-12"><div class="separator"></div></div>
 <div class="column column-6">
-          <img src="/images/projects/lab/artyfish_00034_.webp" alt="Fish">
+          <img src="/images/projects/lab/ArtyFish_00034.webp" alt="Fish">
 </div>
 <div class="column column-6">
 <div class="separator"></div>
-          <img src="/images/projects/lab/artyfish_00037_.webp" alt="Fish">
+          <img src="/images/projects/lab/Artyfish_00037.webp" alt="Fish">
 </div>
 <div class="column column-6">
-          <img src="/images/projects/lab/artyfish_00047_.webp" alt="Fish">
+          <img src="/images/projects/lab/Artyfish_00047.webp" alt="Fish">
 </div>
 <div class="column column-6">
 <div class="separator"></div>
-          <img src="/images/projects/lab/artyfish_00042_.webp" alt="Fish">
+          <img src="/images/projects/lab/Artyfish_00042.webp" alt="Fish">
 </div>
 
 <div class="column column-12"><div class="separator"></div></div>

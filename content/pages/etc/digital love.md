@@ -40,7 +40,6 @@ Dive in, there might be something that sparks your curiosity.
 
 ## Music
 
-[Please Advice](https://t.me/pleaseadvicebcn) - Curating incredible cute gigs in Barcelona, led by two awesome humans who I can call close friends :)\
 [The Quietus](https://thequietus.com/)\
 [Bandcamp updates](https://daily.bandcamp.com/)\
 [Cashmere radio](https://cashmereradio.com/)
@@ -62,7 +61,7 @@ I already posted some blogs that hugely influenced the creation of this site on 
 
 [Flecha (Carmen Pacheco)](https://carmenpacheco.es/flecha-archivo/)\
 [Westenberg](https://joanwestenberg.com/)\
-[Gárgola digital](https://gargoladigital.substack.com/)\
+[gárgola digital](https://gargoladigital.substack.com/)\
 [Pluralistic](https://pluralistic.net/)\
 [Substainability by numbers](https://www.sustainabilitybynumbers.com/)
 

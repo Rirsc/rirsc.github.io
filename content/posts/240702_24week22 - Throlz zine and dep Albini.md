@@ -9,8 +9,8 @@ tags:
 
 After seeing [Trholz](https://trholzriot.bandcamp.com/album/premi-re-pierre) at idvdogh, I bought them one **fanzine.** Cool drawings and it has the lyrics&tabs of the songs; win-win.
 
-![Trholz](</images/posts/IMG20240531114009.webp>)\
-![Trholz](</images/posts/IMG20240531114002.webp>)
+![Trholz](/images/posts/IMG20240531114009.webp)\
+![Trholz](/images/posts/IMG20240531114002.webp)
 
 I have been playing the latest album from **Shellac, To All Trains** (snif, DEP Steve Albini) in order to keep his memory a bit more recent in my brain these days. Im also thinking on re-doing again his famous [‘Fluffy’](https://www.mashed.com/1580426/fluffy-coffee-steve-albini-drank-studio/) coffe.
 

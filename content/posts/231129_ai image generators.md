@@ -6,6 +6,7 @@ tags:
   - design
   - image
   - comfyui
+  - notes
 ---
 
 Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.
@@ -68,21 +69,52 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 **2/ Push the models** — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. [Boldtron](https://www.instagram.com/boldtron/?hl=en) approach is a good starting point as a reference. Personally, this has been my most used methodology so far. I use [ComfyUI](https://github.com/comfyanonymous/ComfyUI) with Stable Diffusion using some personal 3D renders as input and lots of trial and error.
 
-![Input (personal 3D Renders)](https://www.rirsc.xyz/wp-content/uploads/2024/04/Fassbar_007-1024x1280.webp)
+<div class="grid-layout">
+  <div class="column column-12">
+  {{< video h264="/videos/posts/231129_ai image generators/2024-01-14-14-53-54.mp4" muted="true" class="video-margin" >}}
+  </div>
+  <div class="column column-6">
+    <img src="/images/posts/231129_ai_image_generators/Fassbar_007-1024x1280.webp">
+    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
+  </div>
+  <div class="column column-6">
+    <img src="/images/posts/231129_ai_image_generators/Blue-Spikes-01.webp">
+    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+  </div>
+</div>
 
-![Output](https://www.rirsc.xyz/wp-content/uploads/2024/04/Blue-Spikes-01.webp)
+
+
+
 
 **3/ Train your models** — There are already [‘clean’ models](https://huggingface.co/aipicasso/clean-diffusion-2-0-poc). They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, [Chris](https://www.instagram.com/stories/highlights/18194394052224812/) is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_). My baby steps here have been merely for training using some of my hand sketches:
 
-![Input (personal sketches)](https://www.rirsc.xyz/wp-content/uploads/2024/04/Sketches-Training-1024x1024.webp)
 
-![Output](https://www.rirsc.xyz/wp-content/uploads/2024/04/Sketches-Training_Output.webp)
+<div class="grid-layout">
+  <div class="column column-6">
+    <img src="/images/posts/231129_ai_image_generators/Sketches-Training-1024x1024.webp">
+    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
+    </div>
+  <div class="column column-6">
+    <img src="/images/posts/231129_ai_image_generators/Sketches-Training_Output.webp">
+    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+  </div>
+</div>
 
 And another attempt, this time with some random 3D unused style frames I have:
 
-![Input (personal 3D Render)](https://www.rirsc.xyz/wp-content/uploads/2024/04/3D-Training-1024x1024.webp)
 
-![Output](https://www.rirsc.xyz/wp-content/uploads/2024/04/3D-Training_Output.webp)
+<div class="grid-layout">
+    <div class="column column-6">
+        <img src="/images/posts/231129_ai_image_generators/3D-Training-1024x1024.webp" alt="3D Training Image">
+        <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
+    </div>
+    <div class="column column-6">
+        <img src="/images/posts/231129_ai_image_generators/3D-Training_Output.webp" alt="3D Training Output">
+        <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+    </div>
+</div>
+
 
 Quite far away from a polished output, yet I find some of them appealing as they look from a different realm.
 

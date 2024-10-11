@@ -46,7 +46,7 @@ Dive in, there might be something that sparks your curiosity.
 
 ## Blogs
 
-I already posted some blogs that hugely influenced the creation of this site on the [about](/pages/about/) page; this is an extended list. Little gems found online, all made by humans.
+I already posted some blogs that hugely influenced the creation of this site on the [info](/pages/info/) page; this is an extended list. Little gems found online, all made by humans.
 
 [wnoadiarwb](https://wnoadiarwb.us/)\
 [Eva Decker](https://eva.town/)\

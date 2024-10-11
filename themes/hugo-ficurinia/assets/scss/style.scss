@@ -187,16 +187,15 @@ p {
 @mixin roundButtonLike {
     display: inline-block;
     border-radius: $border_radius;
-    background-color: var(--default_hl_bg);
-    color: var(--default_fg);
+    background-color: var(--default_bg);
+    //color: var(--default_fg);
     padding: ($margin / 2);
-    margin: ($margin / 6) 0;
-    /* transition: background-color .15s ease-in-out !important; */
-    border-bottom: none;
-    &:hover, &:focus {
+    //margin: ($margin / 6) 0;
+    border: 1px solid var(--default_fg); /* Outline */
+
+    &:hover, {
         background-color: var(--default_accent);
     }
-    box-shadow: $shadow;
 }
 
 @mixin buttonLike {
@@ -234,9 +233,24 @@ a.unstyledLink {
 
 /* Ric added for menu */
 .navbar {
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+
+    //Fixed navbar with blurry
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Center the whole navbar */
+    align-items: center; /* Vertically align */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Stick it to the top */
+    left: 0;
+    width: 100%; /* Ensure it spans the entire width */
+    z-index: 1000; /* Make sure it appears above other content */
+    padding: 10px 0; /* Adjust padding as needed */
+    background-color: rgba(var(--default_bg), 0.5);
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    -webkit-backdrop-filter: blur(3px); /* Safari support */
+    background-blend-mode: multiply;
 }
 
 .navbar-left {
@@ -244,12 +258,22 @@ a.unstyledLink {
 }
 
 .navbar-right {
+    // display: flex;
+    // justify-content: flex-end;
+    // flex: 1;
+
+    //For fixed navbar
     display: flex;
-    justify-content: flex-end;
-    flex: 1;
+    align-items: center; /* Align vertically */
 }
 
 #main-nav {
+    // display: flex;
+    // align-items: center;
+    // margin: 0;
+    // padding: 0;
+    // list-style: none;
+
     display: flex;
     align-items: center;
     margin: 0;
@@ -277,6 +301,12 @@ a.unstyledLink {
 }
 
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: $margin / 4; // Reduced padding for small screens
+        //padding: 0;
+    }
+}
 
 
 
@@ -293,7 +323,11 @@ footer {
     
     hr {
         margin-top: (3 * $margin);
-        opacity: .3;
+        border: none;           
+        height: 1px;            
+        background-color: var(--default_stroke);  
+                
+        width: 100%;           
     }
 
     .footerContent {
@@ -785,7 +819,7 @@ nav:not(#TableOfContents), #links {
 
 header {
     @include limitWidth;
-     padding: $margin;
+    padding: $margin * 2;
     //margin-bottom: $margin;
     // Ric added. Alternative to only extend menu to 1568px, dont like it
    // width: 100%; // Ensure the header takes up the full width of the viewport.
@@ -848,14 +882,7 @@ header {
             }
         }
     }
-}
 
-// Decrease padding on small screens
-// @media (max-width: 768px) {
-//     header {
-//         padding: $margin / 2; // Reduced padding for small screens
-//     }
-// }
 
 
 
@@ -867,6 +894,7 @@ header {
 
 a.buttonTag {
     @include roundButtonLike;
+    text-decoration: none;
 }
 
 .cactus-button, .cactus-login-buttons > button {

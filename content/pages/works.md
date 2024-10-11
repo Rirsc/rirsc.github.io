@@ -77,7 +77,7 @@ type: "works"
 
 <div class="column column-3 empty"></div>
 <div class="column column-6">
-      <a href="/projects/liquid-crystallized">
+      <a href="/projects/diageo">
       <img src="/images/projects/liquid_crystallized/Diageo_Landing_45.webp" alt="Lqd Crystllzd">
       <h5 style="text-align: right;">Lqd Crystllzd</h5></a>
 </div>

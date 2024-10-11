@@ -40,8 +40,14 @@
     {{ if not .Site.Params.paperCards }} {{ end }}
     <p class="articleTagsContainer">
         {{ range sort .Params.tags }}
+
+        <a {{ if site.Params.buttonTags | default false }}
+        class="buttonTag" {{ end }}
+        href="/tags/{{ . | urlize }}/">{{ . }}</a>
+
+            {{/*  
             <a href="/tags/{{ . | urlize }}/">#{{ . }} </a>
-            &nbsp;&nbsp;
+            &nbsp;&nbsp;  */}}
         {{ end }}
     </p>
 {{ end }}

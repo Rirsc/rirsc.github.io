@@ -288,6 +288,7 @@ a.unstyledLink {
 .navbar a {
     color: var(--default_dim_fg);
     text-decoration: none;
+    margin: $margin;
 }
 
 .navbar a.active {
@@ -307,6 +308,15 @@ a.unstyledLink {
         //padding: 0;
     }
 }
+
+
+@media (max-width: 768px) {
+    .navbar a{
+        margin: $margin / 1.5; // Reduced padding for small screens
+        //padding: 0;
+    }
+}
+
 
 
 

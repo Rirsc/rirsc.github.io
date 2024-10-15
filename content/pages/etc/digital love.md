@@ -48,14 +48,14 @@ Dive in, there might be something that sparks your curiosity.
 
 I already posted some blogs that hugely influenced the creation of this site on the [info](/pages/info/) page; this is an extended list. Little gems found online, all made by humans.
 
-[wnoadiarwb](https://wnoadiarwb.us/)\
-[Eva Decker](https://eva.town/)\
-[Gossip’s Web](https://gossipsweb.net/)\
-[Kicks Condor](https://www.kickscondor.com/)\
-[Coolguy](https://coolguy.website/introduction/)\
+[wnoadiarwb](https://wnoadiarwb.us/) - Music & 90s website vibes\
+[Eva Decker](https://eva.town/) - Design engineer & nice\
+[Kicks Condor](https://www.kickscondor.com/) - Best feed out there\
+[Coolguy](https://coolguy.website/home/) - \
 [Gwern](https://gwern.net/) - Bigger than the Wikipedia\
 [grains](https://grains.cc/about/)\
-[Steph Ango](https://stephango.com/)
+[Steph Ango](https://stephango.com/)\
+[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among other gems.
 
 ## Newsletters
 
@@ -69,4 +69,5 @@ I already posted some blogs that hugely influenced the creation of this site on 
 
 [Noema](https://www.noemamag.com/)\
 [LessWrong](https://www.lesswrong.com/)\
+[Gossip’s Web](https://gossipsweb.net/)\
 [Low-tech Magazine](https://solar.lowtechmagazine.com/posts/)

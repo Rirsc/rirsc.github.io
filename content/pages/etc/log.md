@@ -7,7 +7,7 @@ showtitle: false
 showdate: false
 ---
 
-My attempt to list some personal and professional stuff I've made since ~~2020~~ 2018 (I will try to go further in time one day). For a cherry-picked selection of my main 3D career, visit my [other portfolio](https://www.rirsc.xyz/)
+My attempt to list some personal and professional stuff I've made since ~~2020~~ 2018 (I will try to go further in time one day).
 
 ## 2024
 
@@ -36,7 +36,7 @@ My attempt to list some personal and professional stuff I've made since ~~2020~~
 
 #### January
 
-- Cleaned and updated [rirsc.xyz](https://www.rirsc.xyz/)  
+- Cleaned and updated personal 3D portfolio website
 - Spent some days at sunny Su (Cataluña) and even saw some deers
 
 ## 2023

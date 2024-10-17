@@ -515,6 +515,21 @@ h5 {font-size: 1.1 * $base_font_size * $title_font_mult;}
 h6 {font-size: 1 * $base_font_size * $title_font_mult;}
 
 
+@media (max-width: 769px) {
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1; /* Make empty columns visible on large screens */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
 .nerd {
     font-family: $symbols_font, $main_font;
     font-size: 1.2 * $base_font_size;

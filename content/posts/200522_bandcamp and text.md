@@ -19,7 +19,7 @@ Black mode
 <iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2940750360/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas">Cumbre de Nieves Perpetuas by Hungría</a></iframe>
 </div>
 
-This is my comment to this amazing song posted up there. Nothing more, nothing less. Yet so nice.
+This is just a test comment. Nothing more, nothing less. Yet so nice.
 And another text down here because and fairly sure you were asking for most content from myself, right?
 Yes, I knew it. Even another sentence.
 Oh wow.

@@ -34,10 +34,10 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 - Still far from but with the following in mind: [permacomputing](https://permacomputing.net/permacomputing/) [frugal computing](https://arxiv.org/pdf/2303.06642)  [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
 - The [Small Web](https://neustadt.fr/essays/the-small-web/) is the best web.
 - [Digital Ecology](https://adasokol.com/digital-ecology/)
+- [Websites must be accesible](https://normadesign.it/en/log/web-design-origin-of-the-web/)
 - I want my webpage to be static, minimalist, energy-efficient and fast.
 - [Manifest for a Humane Web](https://humanewebmanifesto.com/)
 - [This interview](https://www.kickscondor.com/nadia-eghbal/)
-
 
 ## Colophon
 

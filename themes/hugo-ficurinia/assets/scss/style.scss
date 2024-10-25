@@ -179,7 +179,7 @@ p {
         &, &:not([disabled]) {
              /*border-color: var(--default_accent) !important;*/
              background-color: white; 
-            /* background-color: var(--default_accent); */
+             background-color: var(--default_accent); 
            /*  box-shadow: inset 100px #54b3d6; */
             color: var(--dark_bg);
 
@@ -188,13 +188,16 @@ p {
 }
 
 @mixin roundButtonLike {
-    display: inline-block;
+    //display: inline-block;
     border-radius: $border_radius;
-    background-color: var(--default_bg);
+    background-color: var(--default_hl_bg);
     //color: var(--default_fg);
     padding: ($margin / 2);
     //margin: ($margin / 6) 0;
-    border: 1px solid var(--default_fg); /* Outline */
+    //border: 1px solid var(--default_fg);
+    border-left: 1px solid var(--default_dim_fg);
+    border-bottom: 1px solid var(--default_dim_fg);
+    //border-right: 1px solid var(--default_fg);
 
     &:hover, {
         background-color: var(--default_accent);
@@ -250,10 +253,13 @@ a.unstyledLink {
     width: 100%; /* Ensure it spans the entire width */
     z-index: 1000; /* Make sure it appears above other content */
     padding: 5px 0; /* Adjust padding as needed */
+    
     background-color: rgba(var(--default_bg), 0.5);
     backdrop-filter: blur(10px); /* Apply the blur effect */
     -webkit-backdrop-filter: blur(3px); /* Safari support */
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
+    //mix-blend-mode: screen; /* Dynamically adjust based on background */
+
 }
 
 .navbar-wrapper {
@@ -309,7 +315,8 @@ a.unstyledLink {
 
 .navbar a:hover {
     color: var(--default_fg);
-    //  background-color: transparent; 
+    //background-color: transparent; 
+     // background-color: var(--default_bg); 
 }
 
 
@@ -930,10 +937,6 @@ header {
 
 
 
-
-
-
-
 .articleTagsContainer {
     margin: $margin 0;
 }
@@ -941,6 +944,14 @@ header {
 a.buttonTag {
     @include roundButtonLike;
     text-decoration: none;
+    text-transform: uppercase;
+
+    //display: flex; /* Switches to flexbox layout */
+    //align-items: center; /* Vertically centers text */
+    //justify-content: center;
+    font-size: medium;
+
+    
 }
 
 .cactus-button, .cactus-login-buttons > button {

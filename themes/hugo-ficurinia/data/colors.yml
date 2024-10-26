@@ -4,21 +4,23 @@ dark:
   bg: '#1f1f1f'  # main site background
   hl_bg: '#34363b'  # card and circle navigation background color for paper card mode
   #fg: 'white'  # font color
-  fg: '#d1dbe6' 
+  fg: '#d1dbe6'
   dim_fg: '#bababa'  # will be used for secondary information like dates and tags
   stroke: '#5da66b'  # stroke/border color used mostly in the icon menu tooltip
   accent: '#edb6ab'  # pervasive accent color
   sidebar:
     bg: '#34363b'  # sidebar background
     fg: 'white'  # sidebar font color
-    
+
 light:
   bg: '#e8e8e8'
   hl_bg: '#e6e6e6'
   fg: '#262625'
   dim_fg: '#40403e'
   stroke: '#575754'
-  accent: '#ff4c00'
+  # accent: '#ff4c00'
+  # accent: '#ff6800'
+  accent: '#f95b05'
   sidebar:
     bg: '#e6e6e6'
     fg: '#121211'

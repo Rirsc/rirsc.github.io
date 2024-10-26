@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Song on rirsc</title>
+    <link>http://192.168.178.34:1313/tags/song/</link>
+    <description>Recent content in Song on rirsc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/song/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>If I see you somewhere else, I don’t know</title>
+      <link>http://192.168.178.34:1313/posts/241022_if-i-see-you-somewhere-else-i-dont-know/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.178.34:1313/posts/241022_if-i-see-you-somewhere-else-i-dont-know/</guid>
+      <description><![CDATA[<p>Fresh new song from  <a href="https://www.instagram.com/elvira.del.rocio?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw=="
+ target="_blank" rel="noopener" >
+
+
+
+Elvira del Rocío&#8599</a>
+ 
+ 
+
+ catching the mood of entering Autumn.</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1939301531&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/maleficae" title="elvira del rocío" target="_blank" style="color: #cccccc; text-decoration: none;"></div>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

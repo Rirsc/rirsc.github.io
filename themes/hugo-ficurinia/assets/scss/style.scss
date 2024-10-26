@@ -129,8 +129,6 @@ body, html {
     letter-spacing: -0.2px;
 
 
-
-
     ::selection, {
         //color: var(--default_bg);
         /* background: var(--default_accent); */
@@ -155,12 +153,20 @@ p {
 }
 
 
+//Ric added trying to avoid brown glitch
+a {
+        color: var(--default_fg);
+        background-color: transparent;
+      }
 
-    /* 
-    a:hover {
-        box-shadow: inset 100px 0 0 0 #54b3d6;
-        color: white;
-      } */
+a:hover, 
+a:focus, 
+a:active {
+  color: var(--default_fg);
+  background-color: var(--default_accent);
+}
+
+
 
 
 @mixin linkLike {
@@ -177,11 +183,12 @@ p {
 
     &:hover, &:focus {
         &, &:not([disabled]) {
-             /*border-color: var(--default_accent) !important;*/
-             background-color: white; 
-             background-color: var(--default_accent); 
+             //border-color: var(--default_accent) !important;
+             //background-color: white; 
+             //background-color: var(--default_accent); 
+             //text-decoration-color: var(--default_accent);
            /*  box-shadow: inset 100px #54b3d6; */
-            color: var(--dark_bg);
+           // color: var(--dark_bg);
 
         }
     }
@@ -314,7 +321,7 @@ a.unstyledLink {
 }
 
 .navbar a:hover {
-    color: var(--default_fg);
+   // color: var(--default_fg);
     //background-color: transparent; 
      // background-color: var(--default_bg); 
 }
@@ -477,7 +484,7 @@ blockquote {
 #pageNavigation {
     text-align: right;
     a {
-        color: var(--default_accent);
+       // color: var(--default_accent);
     }
     a, span {
         // appropriately sized tap targets
@@ -896,7 +903,7 @@ header {
                         {{ else }}
                             font-family: $symbols_font, $main_font;
                             //background-color: var(--default_hl_bg);
-                            transition: background-color .15s ease-in-out;
+                           // transition: background-color .15s ease-in-out;
                             //&:hover, &:active {
                               //  background-color: var(--default_accent);
                             }
@@ -1509,7 +1516,7 @@ header.jumbotronContainer {
 }
 
 input {
-    transition: .15s border ease-in-out;
+   // transition: .15s border ease-in-out;
 }
 
 

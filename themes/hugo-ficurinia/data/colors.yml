@@ -13,12 +13,12 @@ dark:
     fg: 'white'  # sidebar font color
 
 light:
-  bg: '#e8e8e8'
+  # bg: '#e8e8e8'
+  bg: '#f9fffa'
   hl_bg: '#e6e6e6'
   fg: '#262625'
   dim_fg: '#40403e'
   stroke: '#575754'
-  # accent: '#ff4c00'
   # accent: '#ff6800'
   accent: '#f95b05'
   sidebar:

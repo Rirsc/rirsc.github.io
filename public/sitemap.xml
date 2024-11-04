@@ -2,28 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.178.34:1313/posts/241022_if-i-see-you-somewhere-else-i-dont-know/</loc>
-    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/tags/music/</loc>
-    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/posts/</loc>
     <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/</loc>
     <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/tags/song/</loc>
-    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/tags/</loc>
-    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+    <loc>http://192.168.178.34:1313/tags/music/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/tags/ricrecs/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/240712_spectral-cartography/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/240702_24week22---throlz-zine-and-dep-albini/</loc>

@@ -20,39 +20,39 @@ ul {
 #### August
 
 - Liturgy ⋅ Berghain
-- Cruelster + Shafrah + Muell ⋅ idvd.ogh
-- Skuv + Eyes Gone ⋅ idvd.ogh
-- Meltway + Half of a Rainbow ⋅ idvd.ogh
+- Cruelster + Shafrah + Muell ⋅ idvd
+- Skuv + Eyes Gone ⋅ idvd
+- Meltway + Half of a Rainbow ⋅ idvd
 - Kara Delik & Dostlar ⋅ Neue Zukunft
-- ÖPNV + Clear History + Screensaver ⋅ idvd.ogh
+- ÖPNV + Clear History + Screensaver ⋅ idvd
 
 #### July
 
-- Autobahns + WWW + Tttturbo ⋅ idvd.ogh
+- Autobahns + WWW + Tttturbo ⋅ idvd
 - Los Mirlos ⋅ Alexanderplatz
-- Twisted Teens ⋅ idvd.ogh
+- Twisted Teens ⋅ idvd
 - Musikii Festivalas ⋅ 90mil
 
 #### June
 
 - Ataúdes Merche + Megarrollo + Delilah + Línea Maginoti + Türbot ⋅ Arrebato
-- Planet on a Chain + Blockage ⋅ idvd.ogh
+- Planet on a Chain + Blockage ⋅ idvd
 - Codex Outdoor ⋅ Panke courtyard
-- Experimental Sets in Solidarity with Palestine ⋅ idvd.ogh
-- TVOD + Gym Tonic + Trholz ⋅ idvd.ogh
-- Sistema de Entretenimiento + Sin Bragas + Ultrabonus + Fessa ⋅ idvd.ogh
+- Experimental Sets in Solidarity with Palestine ⋅ idvd
+- TVOD + Gym Tonic + Trholz ⋅ idvd
+- Sistema de Entretenimiento + Sin Bragas + Ultrabonus + Fessa ⋅ idvd
 
 #### May
 
 - Gordan + Skultura ⋅ Ausland
-- Luz Silenciosa ⋅ idvd.ogh
+- Luz Silenciosa ⋅ idvd
 
 #### April
 
 - Still House Plants + Adrián de Alphonso ⋅ 90mil
 - Agua Dulce ⋅ Church at Ligaestr
 - The Tarts ⋅ 90mil Kellar
-- Grief + Löri ⋅ idvd.ogh
+- Grief + Löri ⋅ idvd
 
 #### March
 

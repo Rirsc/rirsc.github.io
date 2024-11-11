@@ -151,16 +151,25 @@ ComfyUI&#8599</a>
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
   </div>
 </div>
-<p><strong>3/ Train your models</strong> — There are already  <a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc"
+<p><strong>3/ Train your models</strong> — There are already ‘clean’ models: <a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc"
  target="_blank" rel="noopener" >
 
 
 
-‘clean’ models&#8599</a>
+Clean Diffusion 2.0 PoC&#8599</a>
  
  
 
-. They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always,  <a href="https://www.instagram.com/stories/highlights/18194394052224812/"
+ or  <a href="https://huggingface.co/Mitsua/mitsua-diffusion-one"
+ target="_blank" rel="noopener" >
+
+
+
+Mitsua&#8599</a>
+ 
+ 
+
+They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always,  <a href="https://www.instagram.com/stories/highlights/18194394052224812/"
  target="_blank" rel="noopener" >
 
 

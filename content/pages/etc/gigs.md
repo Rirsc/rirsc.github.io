@@ -17,7 +17,22 @@ ul {
 
 ## 2024
 
-#### August
+##### November
+
+- Mabe Fratti + Military Genius ⋅ Silent Green
+
+##### October
+
+- ÖPNV + Güner Künier ⋅ idvd.ogh
+- Guadalupe Plata + Carlos Ares ⋅ Jardín de Invierno
+- Soundit = Lux Lisbon + Helena Hauff ⋅ Plaza Monumental
+- Clichée + Dystopian Society + Elektrokohle ⋅ idvd
+
+##### September
+
+- Clichée + Dystopian Society + Elektrokohle ⋅ idvd
+
+##### August
 
 - Liturgy ⋅ Berghain
 - Cruelster + Shafrah + Muell ⋅ idvd
@@ -26,14 +41,14 @@ ul {
 - Kara Delik & Dostlar ⋅ Neue Zukunft
 - ÖPNV + Clear History + Screensaver ⋅ idvd
 
-#### July
+##### July
 
 - Autobahns + WWW + Tttturbo ⋅ idvd
 - Los Mirlos ⋅ Alexanderplatz
 - Twisted Teens ⋅ idvd
 - Musikii Festivalas ⋅ 90mil
 
-#### June
+##### June
 
 - Ataúdes Merche + Megarrollo + Delilah + Línea Maginoti + Türbot ⋅ Arrebato
 - Planet on a Chain + Blockage ⋅ idvd
@@ -42,26 +57,26 @@ ul {
 - TVOD + Gym Tonic + Trholz ⋅ idvd
 - Sistema de Entretenimiento + Sin Bragas + Ultrabonus + Fessa ⋅ idvd
 
-#### May
+##### May
 
 - Gordan + Skultura ⋅ Ausland
 - Luz Silenciosa ⋅ idvd
 
-#### April
+##### April
 
 - Still House Plants + Adrián de Alphonso ⋅ 90mil
 - Agua Dulce ⋅ Church at Ligaestr
 - The Tarts ⋅ 90mil Kellar
 - Grief + Löri ⋅ idvd
 
-#### March
+##### March
 
 - Listen, Listen ⋅ Schrippe Hawaii
 - Cariño ⋅ Sala Sol
 - Swans + María Horn ⋅ Betonhalle
 - The Midnight Audience ⋅ Trxxxsr
 
-#### February 
+##### February 
 
 - Cosey Müller + Powerplant ⋅ Hinterraum
 - Salò indoor ⋅ 90mil
@@ -69,16 +84,16 @@ ul {
 
 ## 2023
 
-#### December
+##### December
 
 - Zaragozafelizfeliz ⋅ Las Armas
 - Apotheke 25 Aniversario ⋅ Sala López
 
-#### November
+##### November
 
 - Trompe L’Oeil. Daria Goremykina & Gösta Wellmer ⋅ Stil Vor Talent
 
-#### October
+##### October
 
 - Swans ⋅ Admiralspalast
 - MIRA ⋅ Fira Barcelona
@@ -87,36 +102,36 @@ ul {
 - Irregular Roots + Iseo ⋅ Parque Labordeta
 - Raja Kirik + Mooki6 ⋅ FOC
 
-#### September
+##### September
 
 - upsammy + Jonathan Castro ⋅ Silent Green
 - Sunn O))) + Kali Malone ⋅ Berghaim (Panorama Bar)
 - Lewsberg ⋅ Lark
 
-#### August
+##### August
 
 - Canela Party ⋅ Torremolinos
 - A L´Arme Festival ⋅ RadialSystem
 - My Expansive Awareness + Dan Oiuw ⋅ Loophole
 
-#### July
+##### July
 
 - Wet Kiss + Double Job + Clear History + Commuted ⋅ Autobahn
 - Orua + HC Behrendsent ⋅ KastanienKeller
 
-#### June
+##### June
 
 - Princess Thailand + Soft Pattern ⋅ Schokoladen
 - Aerial Salad + Riot Spears + CAVA ⋅ Autobahn
 - Alien Nosejob + Ignorance + Das Nest ⋅ Autobahn
 - Gym Tonic + Cold Summer + The Toxics ⋅ Autobahn
 
-#### May
+##### May
 
 - CAVA + F.E.I.D.L ⋅ Abstand
 - Salò at Kesselberg ⋅ Kesselberg
 
-#### April
+##### April
 
 - Xiu Xiu ⋅ Silent Green
 - Brutalismus ⋅ Huxleys Neue Welt
@@ -126,17 +141,17 @@ ul {
 - Painting is Dead + Rank-O ⋅ Schokoladen
 - Chavalan + Shitvector ⋅ Schokoladen
 
-#### March
+##### March
 
 - Flaaryr ⋅ Loophole
 - NYOS + Merriment and Dirt ⋅ Schokoladen
 
-#### February
+##### February
 
 - Fuzz ⋅ SO36
 - The Residents ⋅ Columbiahalle
 
-#### January
+##### January
 
 - Dame Area + Esplendor Geométrico + Cachito Turulo ⋅ Sala Upload
 - Philharmonie ⋅ Philharmonie
@@ -144,49 +159,49 @@ ul {
 
 ## 2022
 
-#### December
+##### December
 
 - Tara Clerkin Trio + Ellen Arkbro ⋅ Silent Green
 
-#### November
+##### November
 
 - Lemongrab + SGATV ⋅ Loophole
 
-#### October
+##### October
 
 - Ultraflex ⋅ Tennis Bar
 
-#### September
+##### September
 
 - Splizz + Feidl ⋅ Villa Kuriosum
 
-#### August
+##### August
 
 - Canela Party ⋅ Torremolinos
 
-#### July
+##### July
 
 - Reverend Beat Man ⋅ Privatclub
 
-#### June
+##### June
 
 - Boiler Room ⋅ Anomalie
 
-#### May
+##### May
 
 - Sega Bodega ⋅ Gretchen
 
-#### April
+##### April
 
 - Shame ⋅ Festsaal Kreuzberg
 - Nattefrost ⋅ Tennis Bar
 - Sound Sculptures by Juan Hurle ⋅ Arkaoda
 
-#### March
+##### March
 
 - Halfsilks + The Gondors ⋅ Schokoladen
 
-#### February
+##### February
 
 - Plattenbau ⋅ Haus der Statistik
 - Pflanzparty ⋅ Arkaoda

@@ -87,7 +87,7 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 
 
-**3/ Train your models** — There are already [‘clean’ models](https://huggingface.co/aipicasso/clean-diffusion-2-0-poc). They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, [Chris](https://www.instagram.com/stories/highlights/18194394052224812/) is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_). My baby steps here have been merely for training using some of my hand sketches:
+**3/ Train your models** — There are already ‘clean’ models:[Clean Diffusion 2.0 PoC](https://huggingface.co/aipicasso/clean-diffusion-2-0-poc) or [Mitsua](https://huggingface.co/Mitsua/mitsua-diffusion-one)They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, [Chris](https://www.instagram.com/stories/highlights/18194394052224812/) is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_). My baby steps here have been merely for training using some of my hand sketches:
 
 
 <div class="grid-layout">

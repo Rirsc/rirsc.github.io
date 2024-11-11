@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Tag3 on rirsc</title>
+    <link>http://192.168.178.34:1313/tags/tag3/</link>
+    <description>Recent content in Tag3 on rirsc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/tag3/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>ZineFest at Subaermarkt</title>
+      <link>http://192.168.178.34:1313/posts/210821_zinefest/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.178.34:1313/posts/210821_zinefest/</guid>
+      <description><![CDATA[<p>I visited for the first time this sweet fest at Subaemarkt where artists and illustrators show and sell their gems.
+This is my loot; a magazine, some cool illustrations and toon of stickers.</p>
+<p> <a href="../images/posts/IMG_20210821_191129.webp"
+>
+
+
+
+ZineFest</a>
+ 
+ 
+
+</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

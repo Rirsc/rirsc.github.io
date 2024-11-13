@@ -19,7 +19,6 @@ Dive in, there might be something that sparks your curiosity.
 [Ryoji Ikeda](https://www.ryojiikeda.com/)\
 [Pippin Bar](https://pippinbarr.com/)\
 [David O’Reilly](https://davidoreilly.com/)\
-[Javier Arce](https://javier.computer/)\
 [Jane Friedhoff](https://janefriedhoff.com/)\
 [Eran Hilleli](https://eranhilleli.com/)\
 [Alexander Mitzkus](https://zuggamasta.de/)\

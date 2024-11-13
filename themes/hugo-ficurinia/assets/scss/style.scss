@@ -261,12 +261,15 @@ a.unstyledLink {
     z-index: 1000; /* Make sure it appears above other content */
     padding: 5px 0; /* Adjust padding as needed */
     
-    background-color: rgba(var(--default_bg), 0.5);
-    backdrop-filter: blur(10px); /* Apply the blur effect */
-    -webkit-backdrop-filter: blur(3px); /* Safari support */
-    background-blend-mode: overlay;
-    //mix-blend-mode: screen; /* Dynamically adjust based on background */
+    // Blur bg
+     background-color: rgba(var(--default_bg), 0.5);
+     backdrop-filter: blur(10px); /* Apply the blur effect */
+     -webkit-backdrop-filter: blur(3px); /* Safari support */
+     background-blend-mode: overlay;
 
+    // Transparent and exclusion
+    //mix-blend-mode: exclusion; /* Dynamically adjust based on background */
+    //color: var(--default_bg);
 }
 
 .navbar-wrapper {
@@ -310,13 +313,13 @@ a.unstyledLink {
 }
 
 .navbar a {
-    color: var(--default_dim_fg);
+    //color: var(--default_dim_fg);
     text-decoration: none;
     margin: $margin;
 }
 
 .navbar a.active {
-    color: var(--default_fg);
+    //color: var(--default_fg);
     font-weight: bold;
 }
 

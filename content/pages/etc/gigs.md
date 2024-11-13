@@ -26,7 +26,6 @@ ul {
 - ÖPNV + Güner Künier ⋅ idvd.ogh
 - Guadalupe Plata + Carlos Ares ⋅ Jardín de Invierno
 - Soundit = Lux Lisbon + Helena Hauff ⋅ Plaza Monumental
-- Clichée + Dystopian Society + Elektrokohle ⋅ idvd
 
 ##### September
 

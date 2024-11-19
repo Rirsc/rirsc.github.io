@@ -262,14 +262,16 @@ a.unstyledLink {
     padding: 5px 0; /* Adjust padding as needed */
     
     // Blur bg
-     background-color: rgba(var(--default_bg), 0.5);
-     backdrop-filter: blur(10px); /* Apply the blur effect */
-     -webkit-backdrop-filter: blur(3px); /* Safari support */
-     background-blend-mode: overlay;
+    background-color: rgba(var(--default_bg), 0.5);
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    -webkit-backdrop-filter: blur(3px); /* Safari support */
+    background-blend-mode: overlay;
 
     // Transparent and exclusion
-    //mix-blend-mode: exclusion; /* Dynamically adjust based on background */
+   // mix-blend-mode: exclusion; /* Dynamically adjust based on background */
     //color: var(--default_bg);
+
+
 }
 
 .navbar-wrapper {
@@ -325,7 +327,8 @@ a.unstyledLink {
 
 .navbar a:hover {
    // color: var(--default_fg);
-    //background-color: transparent; 
+    background-color: transparent; 
+    font-weight: bold;
      // background-color: var(--default_bg); 
 }
 

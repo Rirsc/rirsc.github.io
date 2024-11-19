@@ -10,10 +10,11 @@ showdate: false
 A vault to store the remaining pages until I figure out a better way to organize the entire site.
 
 <!-- [Lab](/projects/lab/)<br> -->
-[Log](/pages/etc/log)<br>
+<!-- [Log](/pages/etc/log)<br> -->
 [Digital Love](/pages/etc/digital-love)<br>
 [Gigs](/pages/etc/gigs)<br>
 [CV](/pages/etc/cv/)<br>
+[AI Generators](/posts/231129_ai-image-generators/)<br>
 <span style="color:var(--default_dim_fg);">Games</span><br>
 <span style="color:var(--default_dim_fg);">Physical Love</span><br>
 <span style="color:var(--default_dim_fg);">Bookshelf</span><br>

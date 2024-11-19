@@ -3,15 +3,20 @@ title: "24week44 - Free will and Carcáscara"
 date: 2024-11-03
 tags:
   - weekly
-draft: true
 ---
 
-Hack&Tell #100 at the one and only C-Base. Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause because they are doing some printings to whoever brings a t-shirt. At the beginning there is also a nice recap with photos from the very early editions, and some momentos memorables that are shared from fixed attendes. The project that won is [QR-DICE: 6-side QR-cube](https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11) and it just blown our minds.
+**Hack&Tell #100** at [C-Base](https://c-base.org/) Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is [QR-DICE: 6-side QR-cube](https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11) and it just blown our minds.
 
-The algo did its job and cos I recently finished [Determined: A Science of Life Without Free Will by Robert Sapolsky](https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will), it spit this conversation about free will between him and his love-hate nemesis, Daniel Dennet. Watch it [here](https://youtu.be/aYzFH8xqhns?si=AyH4eAHs5cot8JYk)
+The algo did its job cos I recently finished [Determined: A Science of Life Without Free Will by Robert Sapolsky](https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will) and this conversation about free will between Robert and his love-hate nemesis, Daniel Dennet, appeared on my feed. Watch it [here](https://youtu.be/aYzFH8xqhns?si=AyH4eAHs5cot8JYk)
 
-Shitty weather and shittier politicians have devastated part of *Comunitat Valenciana.* All my love to the marvelous people that live in that beautiful part of the world. [heart emoji]
+Terrible weather and even worse politicians have devastated part of *Comunitat Valenciana.* All my love to the marvelous people that live in that beautiful part of the world. ♡
 
-Listening to Carcáscara - II:
+Listening to **Carcáscara - II**:
 
-[carcáscara bandcamp embebed]
+
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
+</div>
+
+
+<!-- <iframe style="border: 0; width: 350px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe> -->

@@ -11,9 +11,9 @@ tags:
 
 Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.
 
-First and sadly, I support the current overall rejection as **the main use is focused on lazy replicating rather than creating.**
+First and sadly, I support the current overall rejection as **the main use is focused on lazy replicating rather than creating.** The widespread use of these generators is horrendous in both ethical and aesthetic terms.
 
-The widespread use of these generators is horrendous in both ethical and aesthetic terms. Let’s go for the big ‘buts’.
+Let’s go for the big ‘buts’.
 
 <!-- READ MORE! -->
 
@@ -50,8 +50,9 @@ In any art, the output should be the core element that holds everything. Don’t
 
 Perfect parallelism is still music sampling. Crop from here and there, twist as much as the waves allow you to, and make a completely new track fully distinguished from the initial point (which, from the very start point, was a solid love and curated selection from the creator).
 
-> All ideas can be atomized to unoriginal elements, it is how these elements are arranged, combined and transformed where originality is realized, and where ideas and identity become entangled—a relationship which is necessary for bringing them into reality.  
-> — [David O'Reilly](https://sub.davidoreilly.com/p/imitation-i)
+> All ideas can be atomized to unoriginal elements, it is how these elements are arranged, combined and transformed where originality is realized, and where ideas and identity become entangled—a relationship which is necessary for bringing them into reality.
+> 
+> *[David O'Reilly](https://sub.davidoreilly.com/p/imitation-i)*
 
 I can’t find the exact quote right now (or maybe I listened to it in a book release from him) but [Mauro Entrialgo](https://twitter.com/tyrexito?lang=en) said something like: **If you copy an artist, you are a thief. If you copy several artists, you will probably be part of an art movement. If you copy from tons and tons of artists of all types, after a while, you will have your style.**
 

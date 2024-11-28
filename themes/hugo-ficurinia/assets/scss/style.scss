@@ -168,8 +168,11 @@ a {
 a:hover, 
 a:focus, 
 a:active {
-  color: var(--default_fg);
+  //color: var(--default_fg);
   //background-color: var(--default_accent);
+
+  color: var(--default_bg);
+  background-color: var(--default_accent);
 }
 
 
@@ -332,7 +335,7 @@ a.unstyledLink {
 }
 
 .navbar a:hover {
-   // color: var(--default_fg);
+    color: var(--default_fg);
     background-color: transparent; 
     font-weight: bold;
      // background-color: var(--default_bg); 
@@ -471,15 +474,19 @@ blockquote {
     //color: var(--default_dim_fg); 
     //color: #ffffa9;
     //background: #ffffa9; 
-    color: var(--default_accent); 
+    color: var(--default_dim_fg); 
   
 
-    p {
+    p, {
         margin: ($margin * 1); 
         border: 50px 0;
-        //color: var(--default_dim_fg);
-        color: var(--default_accent); 
+        color: var(--default_dim_fg);
+        //color: var(--default_accent); 
         font-style: italic;
+    }
+
+    a {
+        color: var(--default_dim_fg);
     }
 }
 

@@ -31,9 +31,7 @@ But be sad no more, humans are still awesome and get tired easily of lame repeti
 
 ## Human awesomeness
 
-As humans, we get tired easily and we find this lazy outcome extremely boring in the short term.
-
-The following ‘formula’ has been spread and it’s definitely how I think it should be:
+As humans, we get tired easily and we find this lazy outcome extremely boring in the short term. The following formula has been spread and it’s definitely how I think it should be:
 
 **Humans + AI > AI > Humans**
 
@@ -66,7 +64,7 @@ Also, old ideas must die (similar to why immortality is a bad idea, apart from m
 
 As I am writing these words, I will reduce and categorise the workflows I know into these three approaches:
 
-**1/ Use it as it is** — Open [Krea](https://www.krea.ai/home), Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.
+**1/ Use it as it is** — Open [Krea](https://www.krea.ai/home) Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.
 
 **2/ Push the models** — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. [Boldtron](https://www.instagram.com/boldtron/?hl=en) approach is a good starting point as a reference. Personally, this has been my most used methodology so far. I use [ComfyUI](https://github.com/comfyanonymous/ComfyUI) with Stable Diffusion using some personal 3D renders as input and lots of trial and error.
 
@@ -88,7 +86,7 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 
 
-**3/ Train your models** — There are already ‘clean’ models:[Clean Diffusion 2.0 PoC](https://huggingface.co/aipicasso/clean-diffusion-2-0-poc) or [Mitsua](https://huggingface.co/Mitsua/mitsua-diffusion-one)They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, [Chris](https://www.instagram.com/stories/highlights/18194394052224812/) is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_). My baby steps here have been merely for training using some of my hand sketches:
+**3/ Train your models** — There are already ‘clean’ models:[Clean Diffusion 2.0 PoC](https://huggingface.co/aipicasso/clean-diffusion-2-0-poc) or [Mitsua](https://huggingface.co/Mitsua/mitsua-diffusion-one)They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, [Chris](https://www.instagram.com/stories/highlights/18194394052224812/) is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_) My baby steps here have been merely for training using some of my hand sketches:
 
 
 <div class="grid-layout">

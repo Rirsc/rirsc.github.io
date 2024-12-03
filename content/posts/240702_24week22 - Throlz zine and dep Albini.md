@@ -14,11 +14,11 @@ After seeing [Trholz](https://trholzriot.bandcamp.com/album/premi-re-pierre) at 
 
 I have been playing the latest album from **Shellac, To All Trains** (snif, DEP Steve Albini) in order to keep his memory a bit more recent in my brain these days. Im also thinking on re-doing again his famous [‘Fluffy’](https://www.mashed.com/1580426/fluffy-coffee-steve-albini-drank-studio/) coffe.
 
-This is an authentic gem: [A curated collection of HCI demo videos produced during the golden age from 1983-2002](https://jackrusher.com/classic-ux/)
+This is an authentic gem: [A curated collection of HCI demo videos produced during the golden age from 1983-2002](https://jackrusher.com/classic-ux/) 
 
 Re-watching **Serial Experiments Lain,** because its so on point with how we communicate online and it doesnt matter when you read this.
 
-**My favorite thing is Monsters II** is finally out. Time for a visit to the store :)
+**My favorite thing is Monsters II** is finally out. I enjoyed the first one quite a lot, so now its time for a visit to the store :)
 
 Lately I was digging back into math rock, so this session [Math rock NTS session](https://www.nts.live/shows/loraine-james/episodes/loraine-james-7th-july-2022) by Loraine James comes just perfect.
 

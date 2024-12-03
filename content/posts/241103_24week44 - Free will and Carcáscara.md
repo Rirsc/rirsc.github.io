@@ -1,5 +1,5 @@
 ---
-title: "24week44 - Free will and Carcáscara"
+title: "24week44 - Free will & Carcáscara"
 date: 2024-11-03
 tags:
   - weekly
@@ -17,6 +17,3 @@ Listening to **Carcáscara - II**:
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
 </div>
-
-
-<!-- <iframe style="border: 0; width: 350px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe> -->

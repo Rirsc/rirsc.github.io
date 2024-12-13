@@ -2,7 +2,7 @@
     {{ if (.Site.Params.mobileHamburgerNav | default false) }}
     <input type="checkbox" id="main-nav-toggler" />
     {{ end }}
-
+    
     <div class="navbar-wrapper">
         <div class="navbar-left">
             <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">RIRSC</a>

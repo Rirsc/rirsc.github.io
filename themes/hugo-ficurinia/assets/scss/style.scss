@@ -131,7 +131,6 @@ body, html {
     color: var(--default_fg);
     //letter-spacing: -0.2px;
 
-
     ::selection, {
         //color: var(--default_bg);
        // background: var(--default_accent); 
@@ -148,8 +147,18 @@ body, html {
         color: var(--default_bg);
 
     }
-
 }
+
+// Ric Increase font size for large screens
+@media (min-width: 1024px) {
+    body, html {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+
+
 
 body {
     min-height: 100vh;
@@ -158,7 +167,6 @@ body {
 p {
     //margin: (2 * $margin) 0; 
     margin: $margin 0 (2 * $margin) 0;
-
 }
 
 
@@ -253,6 +261,14 @@ a.unstyledLink {
     @include limitWidth;
     max-width: 800px;
     padding: $margin;
+    
+}
+
+// Ric Increase top margin on desktop
+@media (min-width: 1024px) {
+    #content {
+        margin-top: $margin * 3;
+    }
 }
 
 
@@ -274,14 +290,13 @@ a.unstyledLink {
     padding: 5px 0; /* Adjust padding as needed */
     
     // Blur bg
-    background-color: rgba(var(--default_bg), 0.5);
-    backdrop-filter: blur(10px); /* Apply the blur effect */
-    -webkit-backdrop-filter: blur(3px); /* Safari support */
-    background-blend-mode: overlay;
+     background-color: rgba(var(--default_bg), 0.5);
+     backdrop-filter: blur(10px); /* Apply the blur effect */
+     -webkit-backdrop-filter: blur(3px); /* Safari support */
+     background-blend-mode: overlay;
 
-    // Transparent and exclusion
-   // mix-blend-mode: exclusion; /* Dynamically adjust based on background */
-    //color: var(--default_bg);
+    // Text with effect
+    mix-blend-mode: difference;
 
 
 }
@@ -293,6 +308,17 @@ a.unstyledLink {
     align-items: center;
     width: 100%; /* Ensure the wrapper takes up the full width of the navbar */
 }
+
+// Ric Increase font size for large screens
+@media (min-width: 1024px) {
+    .navbar-wrapper {
+        width: 50%; 
+    }
+}
+
+
+
+
 
 .navbar-left {
     //flex: 1;
@@ -965,7 +991,7 @@ header {
     header {
     @media (min-width: 769px) {
         nav:not(#TableOfContents), #links {
-            font-size: 1.3em;
+            font-size: 1.1em;
         }
       }
     }

@@ -1,10 +1,11 @@
 default: dark  # light
 auto_switch: false  # set to true to respect the user preference
 dark:
-  bg: '#1f1f1f'  # main site background
+  bg: '#131314'  # main site background
   hl_bg: '#34363b'  # card and circle navigation background color for paper card mode
   #fg: '#d1dbe6'
-  fg: '#e1eaf3'
+  #fg: '#e1eaf3'
+  fg: '#ffffff'
   # dim_fg: '#bababa'  # will be used for secondary information like dates and tags
   dim_fg: '#a2aab3' 
   stroke: '#a2aab3'  # stroke/border color used mostly in the icon menu tooltip

@@ -1,5 +1,6 @@
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
 {{ range $paginator.Pages }}
+
 <div class="list-expanded-block">
     <h4 class="list-expanded-title">
         <a class="list-expanded-title" href="{{ .Permalink }}">{{ .Title }}</a>

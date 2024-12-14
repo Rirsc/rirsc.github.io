@@ -5,7 +5,7 @@ dark:
   hl_bg: '#34363b'  # card and circle navigation background color for paper card mode
   #fg: '#d1dbe6'
   #fg: '#e1eaf3'
-  fg: '#ffffff'
+  fg: '#f2f2f2'
   # dim_fg: '#bababa'  # will be used for secondary information like dates and tags
   dim_fg: '#a2aab3' 
   stroke: '#a2aab3'  # stroke/border color used mostly in the icon menu tooltip

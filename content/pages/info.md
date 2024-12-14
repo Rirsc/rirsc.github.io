@@ -11,9 +11,9 @@ Ey there stranger. Ricardo here, welcome to my abode :)
 
 I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
+## Info about this site
 
-
-## Key points
+### Key points
 
 This site is my **digital sandbox** where I intend to document my activities and online discoveries. A so-called [memex](https://pluralistic.net/2021/05/09/the-memex-method/) an archive of my experiences and acquired knowledge.
 
@@ -24,7 +24,7 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 >
 >*Jaron Lanier*
 
-## Dogmas
+### Dogmas
 
 - This website has no tracking, analytics or ads.
 - It has its own [humans.txt](/humans.txt) as following this [cute idea](https://humanstxt.org/)
@@ -39,7 +39,20 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 - [Manifest for a Humane Web](https://humanewebmanifesto.com/)
 - [This interview](https://www.kickscondor.com/nadia-eghbal/)
 
-## Colophon
+### Inspirational sites
+
+This site is a compendium of places which we could agree are considered **diy places and therefore interesting.** Probably at the top of my influences, we could have:
+
+[100r](https://100r.co/site/about_us.html)\
+[wnoadiarwb](https://wnoadiarwb.us/)\
+[gwern](https://gwern.net/index)\
+[ratfactor](https://ratfactor.com/)\
+[kickscondor](https://www.kickscondor.com/)\
+[javier.computer](https://javier.computer/)
+
+If you need even more rabbit holes, I have collected more awesome sites in my [digital love.](/pages/etc/digital-love/) Heat up some coffee, put some nice music, and get ready for the trip.
+
+### Colophon
 
 Have fun. My goal is to infest you with the idea of creating a static website. The internet is getting a bit boring lately, and there is also this [Dead Internet theory](https://en.wikipedia.org/wiki/Dead_Internet_theory) which I just hope is wrong because it sounds terribly sad.
 
@@ -53,16 +66,3 @@ For something like that, these tutorials are cool:
 - [Host on Github Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 And it was running within minutes :) If you are struggling with it, feel free to reach me. I am not an expert but I could try my best to help you. Apart from Hugo, I also tried [Jekyll](https://jekyllrb.com/) before.
-
-## Inspirational sites
-
-This site is a compendium of places which we could agree are considered **diy places and therefore interesting.** Probably at the top of my influences, we could have:
-
-[100r](https://100r.co/site/about_us.html)\
-[wnoadiarwb](https://wnoadiarwb.us/)\
-[gwern](https://gwern.net/index)\
-[ratfactor](https://ratfactor.com/)\
-[kickscondor](https://www.kickscondor.com/)\
-[javier.computer](https://javier.computer/)
-
-If you need even more rabbit holes, I have collected more awesome sites in my [digital love.](/pages/etc/digital-love/) Heat up some coffee, put some nice music, and get ready for the trip.

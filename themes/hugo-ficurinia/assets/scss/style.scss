@@ -588,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {font-size: 2 * $base_font_size * $title_font_mult; }
 h2 {font-size: 1.8 * $base_font_size * $title_font_mult;   margin-top: $margin * 5;  }
-h3 {font-size: 1.5 * $base_font_size * $title_font_mult;}
+h3 {font-size: 1.5 * $base_font_size * $title_font_mult;  margin-top: $margin * 4;  }
 h4 {font-size: 1.3 * $base_font_size * $title_font_mult; color: var(--default_dim_fg);}
 h5 {font-size: 1.1 * $base_font_size * $title_font_mult;}
 h6 {font-size: 1 * $base_font_size * $title_font_mult;}
@@ -1759,11 +1759,32 @@ video {
 
 
 
+//For shortcodes. Show or not content depending on screen size
+/* Hide elements by default */
+.only-desktop,
+.only-mobile {
+  display: none;
+}
+
+/* Show only on large screens */
+@media (min-width: 768px) {
+  .only-desktop {
+    display: block;
+  }
+}
+
+/* Show only on small screens */
+@media (max-width: 767px) {
+  .only-mobile {
+    display: block;
+  }
+}
+
+
+
 
 
 // Probably I will remove this later
-
-
 .hero-image img {
     width: 100%;    /* Make sure the hero image spans the width of the section */
 }

@@ -11,9 +11,23 @@ The algo did its job cos I recently finished [Determined: A Science of Life With
 
 Terrible weather and even worse politicians have devastated part of *Comunitat Valenciana.* All my love to the marvelous people that live in that beautiful part of the world. ♡
 
-Listening to **Carcáscara - II**:
 
 
+Listening: **Carcáscara - II**
+
+{{< only-desktop >}}
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
+</div>
+{{< /only-desktop >}}
+
+
+
+
+{{< only-mobile >}}
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
 </div>
+{{< /only-mobile >}}
+
+

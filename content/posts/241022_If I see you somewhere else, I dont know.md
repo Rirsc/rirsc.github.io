@@ -4,6 +4,7 @@ date: 2024-10-22
 tags:
   - music
   - song
+draft: true
 ---
 
 Fresh new song from [Elvira del Rocío](https://soundcloud.com/maleficae) catching the mood of entering Autumn.

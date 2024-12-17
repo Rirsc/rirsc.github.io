@@ -52,9 +52,22 @@ Mouse on Mars&#8599</a>
 
 
 </p>
+<div class="only-desktop">
+  
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038730673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race">15|40 - Relay Race by C/H</a></iframe>
+</div>
+
+</div>
+
+<div class="only-mobile">
+  
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038730673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/" seamless><a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race">15|40 - Relay Race by C/H</a></iframe>
 </div>
+
+</div>
+
 ]]></description>
       
     </item>

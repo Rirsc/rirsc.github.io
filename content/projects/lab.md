@@ -55,14 +55,14 @@ heroImage: ""
 </div>
 <div class="column column-6">
 <div class="separator"></div>
-          <img src="/images/projects/lab/Artyfish_00037.webp" alt="Fish">
+          <img src="/images/projects/lab/Artyfish_00037.webp" alt="Fish2">
 </div>
 <div class="column column-6">
-          <img src="/images/projects/lab/Artyfish_00047.webp" alt="Fish">
+          <img src="/images/projects/lab/Artyfish_00047.webp" alt="Fish3">
 </div>
 <div class="column column-6">
 <div class="separator"></div>
-          <img src="/images/projects/lab/Artyfish_00042.webp" alt="Fish">
+          <img src="/images/projects/lab/Artyfish_00042.webp" alt="Fish4">
 </div>
 
 <div class="column column-12"><div class="separator"></div></div>

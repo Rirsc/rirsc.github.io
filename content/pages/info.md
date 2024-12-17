@@ -11,6 +11,7 @@ Ey there stranger. Ricardo here, welcome to my abode :)
 
 I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
+
 ## Info about this site
 
 ### Key points

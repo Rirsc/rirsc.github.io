@@ -54,7 +54,8 @@ I already posted some blogs that hugely influenced the creation of this site on 
 [Gwern](https://gwern.net/) - Bigger than the Wikipedia\
 [grains](https://grains.cc/about/)\
 [Steph Ango](https://stephango.com/)\
-[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among other gems.
+[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among other gems.\
+[Molly White](https://www.mollywhite.net/feed)
 
 ## Newsletters
 
@@ -62,7 +63,8 @@ I already posted some blogs that hugely influenced the creation of this site on 
 [Westenberg](https://joanwestenberg.com/)\
 [gárgola digital](https://gargoladigital.substack.com/)\
 [Pluralistic](https://pluralistic.net/)\
-[Substainability by numbers](https://www.sustainabilitybynumbers.com/)
+[Substainability by numbers](https://www.sustainabilitybynumbers.com/)\
+[Citation Needed](https://www.citationneeded.news//)
 
 ## Misc
 

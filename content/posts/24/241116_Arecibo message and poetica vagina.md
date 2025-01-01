@@ -16,4 +16,4 @@ From there, I did a quick search for various messages humanity has sent into spa
 > In the 1980s he came up with a project that records the vaginal contractions of ballerinas using a “vaginal detector” built in a laboratory of mechanical engineering. […] He used electronic music software in order to match the the frequency of the contractions to the English speech. He then transmitted the sounds of vaginal contractions to the nearest star systems.
 > 
 
-I just not really sure what to think about this project at all. Lets pass go to a brief musical break: [Vèjula - Merope](https://stroomtv.bandcamp.com/album/v-jula)
+I'm just not really sure what to think about this project at all. Lets pass to a brief musical break: [Vèjula - Merope](https://stroomtv.bandcamp.com/album/v-jula)

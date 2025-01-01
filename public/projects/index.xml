@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Projects on rirsc</title>
-    <link>http://192.168.178.34:1313/projects/</link>
+    <link>http://192.168.1.11:1313/projects/</link>
     <description>Recent content in Projects on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Ricardo López</copyright><atom:link href="http://192.168.178.34:1313/projects/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <copyright>Ricardo López</copyright><atom:link href="http://192.168.1.11:1313/projects/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Blissheer</title>
-      <link>http://192.168.178.34:1313/projects/negroni/</link>
+      <link>http://192.168.1.11:1313/projects/negroni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/negroni/</guid>
+      <guid>http://192.168.1.11:1313/projects/negroni/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>These remnants offer a glimpse into a project that took a turn, capturing a brief exploration. As the creative journey unfolded, the project underwent a transformation, diverging from its original path.   </p>
@@ -94,10 +94,10 @@
     
     <item>
       <title>Lab</title>
-      <link>http://192.168.178.34:1313/projects/lab/</link>
+      <link>http://192.168.1.11:1313/projects/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/lab/</guid>
+      <guid>http://192.168.1.11:1313/projects/lab/</guid>
       <description><![CDATA[<div class="grid-layout">
     <div class="column column-1 empty"></div>
     <div class="column column-5">
@@ -666,10 +666,10 @@
     
     <item>
       <title>Live Wallpaper</title>
-      <link>http://192.168.178.34:1313/projects/oneplus-8t/</link>
+      <link>http://192.168.1.11:1313/projects/oneplus-8t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/oneplus-8t/</guid>
+      <guid>http://192.168.1.11:1313/projects/oneplus-8t/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>During a preliminary exploration phase in early 2020, a series of abstract 3D shapes were meticulously crafted as part of a research endeavor for a Live Wallpaper project.</p>
@@ -781,10 +781,10 @@
     
     <item>
       <title>Lqd | Crystllzd</title>
-      <link>http://192.168.178.34:1313/projects/diageo/</link>
+      <link>http://192.168.1.11:1313/projects/diageo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/diageo/</guid>
+      <guid>http://192.168.1.11:1313/projects/diageo/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>Proposal to define a visual language for a beverage brand, accentuating the dynamic interplay between liquid and crystallized forms to vividly depict the transformative essence of matter.</p>
@@ -877,10 +877,10 @@
     
     <item>
       <title>Promotional Video</title>
-      <link>http://192.168.178.34:1313/projects/physera/</link>
+      <link>http://192.168.1.11:1313/projects/physera/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/physera/</guid>
+      <guid>http://192.168.1.11:1313/projects/physera/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>I was part of the 3D team in charge of the developtment of the <a href="https://play.google.com/store/apps/details?id=com.healthcoda.physera&hl=de&pli=1">Physera App</a> with guided exercises to reduce user pains. Mainly doing animations, a bit of rigging and a lot of back and forth at it early stages for correct implementation within ViroReact platform. Available now on the Apple Store and Google Play.</p>
@@ -925,10 +925,10 @@
     
     <item>
       <title>Promotional Video</title>
-      <link>http://192.168.178.34:1313/projects/promotional-video/</link>
+      <link>http://192.168.1.11:1313/projects/promotional-video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/promotional-video/</guid>
+      <guid>http://192.168.1.11:1313/projects/promotional-video/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>Polygonal Mind entrusted me with the creation of an Introductory Motion Graphics Course to augment their 3D programs. As the architect of this course, I curated a concise film that encapsulated the core lessons and exercises students will delve into under my guidance.</p>
@@ -986,10 +986,10 @@
     
     <item>
       <title>Quiet Orography</title>
-      <link>http://192.168.178.34:1313/projects/quiet-orography/</link>
+      <link>http://192.168.1.11:1313/projects/quiet-orography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/quiet-orography/</guid>
+      <guid>http://192.168.1.11:1313/projects/quiet-orography/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>How it would look without all the noise? An experiment in embracing simplicity over excitement and resisting the urge for instant gratification.</p>
@@ -1086,10 +1086,10 @@
     
     <item>
       <title>RE: Brand</title>
-      <link>http://192.168.178.34:1313/projects/sap-rebrand/</link>
+      <link>http://192.168.1.11:1313/projects/sap-rebrand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/sap-rebrand/</guid>
+      <guid>http://192.168.1.11:1313/projects/sap-rebrand/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
@@ -1202,10 +1202,10 @@
     
     <item>
       <title>Samsung</title>
-      <link>http://192.168.178.34:1313/projects/samsung-thewall/</link>
+      <link>http://192.168.1.11:1313/projects/samsung-thewall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/samsung-thewall/</guid>
+      <guid>http://192.168.1.11:1313/projects/samsung-thewall/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>In 2019 onformative was commissioned to develop another collection of exclusive digital real-time artworks for Samsung’s latest TV lineup.
@@ -1338,10 +1338,10 @@
     
     <item>
       <title>Xiaomi</title>
-      <link>http://192.168.178.34:1313/projects/xiaomi-ks3k11r/</link>
+      <link>http://192.168.1.11:1313/projects/xiaomi-ks3k11r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/projects/xiaomi-ks3k11r/</guid>
+      <guid>http://192.168.1.11:1313/projects/xiaomi-ks3k11r/</guid>
       <description><![CDATA[<div id="contentContainer">
     <div id="content">
         <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>

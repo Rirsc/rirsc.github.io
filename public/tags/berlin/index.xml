@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Berlin on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/berlin/</link>
+    <link>http://192.168.1.11:1313/tags/berlin/</link>
     <description>Recent content in Berlin on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/berlin/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/berlin/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Philharmonie and my new guitar</title>
-      <link>http://192.168.178.34:1313/posts/230112_philharmonie-and-my-new-guitar/</link>
+      <link>http://192.168.1.11:1313/posts/230112_philharmonie-and-my-new-guitar/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/230112_philharmonie-and-my-new-guitar/</guid>
+      <guid>http://192.168.1.11:1313/posts/230112_philharmonie-and-my-new-guitar/</guid>
       <description><![CDATA[<p>The interior of the Philharmonie building looks like a spaceship from the 50s. We sit at the back, because is way <del>cheaper</del> cooler.</p>
 <p>I received my new guitar; an awesome <strong>Epiphone SG Special P-90 Faded Pelham Blue AUS.</strong> Now I just need, you know, something to plug it into :_)</p>
 <p>Reading: <strong>Hail Mary.</strong></p>

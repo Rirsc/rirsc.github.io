@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Coding on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/coding/</link>
+    <link>http://192.168.1.11:1313/tags/coding/</link>
     <description>Recent content in Coding on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Game of life by oimo.io</title>
-      <link>http://192.168.178.34:1313/posts/240526_game-of-life-by-oimo.io/</link>
+      <link>http://192.168.1.11:1313/posts/240526_game-of-life-by-oimo.io/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/240526_game-of-life-by-oimo.io/</guid>
+      <guid>http://192.168.1.11:1313/posts/240526_game-of-life-by-oimo.io/</guid>
       <description><![CDATA[<p>Forever in love with anything related with the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
  target="_blank" rel="noopener" >
 

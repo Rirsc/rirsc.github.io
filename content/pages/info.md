@@ -7,23 +7,199 @@ showtitle: false
 showdate: false
 ---
 
+
+
 Ey there stranger. Ricardo here, welcome to my abode :)
 
 I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
 
+Specializing in 3D design, I'm passionate about blending visual aesthetics and functional innovation into diverse projects, navigating both physical and digital landscapes.
 
-## Info about this site
+Diving into the realm of 3D animation, interactive installations, and coding (with an eagerness to delve deeper), my creative journey is an evolving tapestry of diverse skills. **Recently contributing to spatial computing prototypes at Magic Leap,** I'm driven by the spirit of exploration and innovation, seeking new frontiers in technology and design.
+
+With expertise in 3D design, I specialize in creating visually appealing and functional solutions for diverse projects, encompassing both physical and digital products.
+
+## Experience
+
+<div class="work-history">
+  <!-- Desktop View -->
+  <table class="desktop-view">
+    <thead>
+      <tr>
+        <th>Years</th>
+        <th>Role</th>
+        <th>Employer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2022–2024</td>
+        <td>Senior Designer</td>
+        <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
+      </tr>
+      <tr>
+        <td>2020–2022</td>
+        <td>3D Designer</td>
+        <td><a href="https://onformative.com/">onformative↗</a></td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Freelance</td>
+        <td>Freelance</td>
+      </tr>
+      <tr>
+        <td>2014–2018</td>
+        <td>Art Director</td>
+        <td><a href="https://www.aimsport.com/">AIM Sport↗</a></td>
+      </tr>
+      <tr>
+        <td>2013</td>
+        <td>3D Animator</td>
+        <td>Unusual Wonder</td>
+      </tr>
+      <tr>
+        <td>2012–2014</td>
+        <td>Design Engineer</td>
+        <td><a href="https://www.theleisureway.com/">theleisureway↗</a></td>
+      </tr>
+      <tr>
+        <td>2011</td>
+        <td>Web development</td>
+        <td><a href="https://vgst.net/">vgs↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Mobile View -->
+  <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2022–2024</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>Senior Designer</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+    <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2020–2022</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>3D Designer</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td><a href="https://onformative.com/">onformative↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>Freelance</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td>Freelance</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2014–2018</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>Art Director</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td><a href="https://www.aimsport.com/">AIM Sport↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>3D Animator</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td>Unusual Wonder</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2012–2014</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>Design Engineer</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td><a href="https://www.theleisureway.com/">theleisureway↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="mobile-view">
+    <tbody class="entry">
+      <tr>
+        <th>Years</th>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <th>Role</th>
+        <td>Web development</td>
+      </tr>
+      <tr>
+        <th>Employer</th>
+        <td><a href="https://vgst.net/">vgs↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+## About this site
 
 ### Key points
 
 This site is my **digital sandbox** where I intend to document my activities and online discoveries. A so-called [memex](https://pluralistic.net/2021/05/09/the-memex-method/) an archive of my experiences and acquired knowledge.
 
 Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.net/2021/05/09/the-memex-method/) but everytime is messy.
-[Advanced hypertexting](https://www.kickscondor.com/hypertexting/) I guess.  Many pages are in progress, or incorrect. **This is my tiny realm and its fine that way.** 
+[Advanced hypertexting](https://www.kickscondor.com/hypertexting/) I guess. Many pages are in progress, or incorrect. **This is my tiny realm and its fine that way.**
 
 > Similarly, without an open, unified network, the whole notion of business online would have been entirely feudal from the start. Instead, it only took a feudal turn around the turn of the century. These days, instead of websites on the open Internet, people are more likely to create apps in proprietary stores or profiles on proprietary social media sites.
 >
->*Jaron Lanier*
+> _Jaron Lanier_
 
 ### Dogmas
 
@@ -32,7 +208,7 @@ Sometimes a blog, sometimes a wiki, maybe a [‘memex’](https://pluralistic.ne
 - [Designed to last](https://jeffhuang.com/designed_to_last/)
 - [Manual until it hurts](https://indieweb.org/manual_until_it_hurts)
 - It’s aiming to be part of the [less than 1MB club](https://1mb.club/blog/https-redirects/)
-- Still far from but with the following in mind: [permacomputing](https://permacomputing.net/permacomputing/) [frugal computing](https://arxiv.org/pdf/2303.06642)  [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
+- Still far from but with the following in mind: [permacomputing](https://permacomputing.net/permacomputing/) [frugal computing](https://arxiv.org/pdf/2303.06642) [solarpunk](https://adasokol.com/on-the-solar-adaptations/)
 - The [Small Web](https://neustadt.fr/essays/the-small-web/) is the best web.
 - [Digital Ecology](https://adasokol.com/digital-ecology/)
 - [Websites must be accesible](https://normadesign.it/en/log/web-design-origin-of-the-web/)

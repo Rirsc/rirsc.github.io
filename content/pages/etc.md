@@ -11,7 +11,7 @@ A vault to store the remaining pages until I figure out a better way to organize
 
 <!-- [Lab](/projects/lab/)<br> -->
 <!-- [Log](/pages/etc/log)<br> -->
-[AI Generators](/posts/231129_ai-image-generators/)<br>
+[AI Generators](/posts/23/231129_ai-image-generators/)<br>
 [Digital Love](/pages/etc/digital-love)<br>
 [Gigs](/pages/etc/gigs)<br>
 <span style="color:var(--default_dim_fg);">Games</span><br>

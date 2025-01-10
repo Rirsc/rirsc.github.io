@@ -16,9 +16,9 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 30 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-
+<!-- <div class="separator-small"></div> -->
 
 <div class="grid-layout">
     <div class="column column-6">

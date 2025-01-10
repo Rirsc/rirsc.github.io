@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Posts on rirsc</title>
-    <link>http://192.168.1.11:1313/posts/</link>
+    <link>http://192.168.178.34:1313/posts/</link>
     <description>Recent content in Posts on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Arecibo Message and Poetica Vagina</title>
-      <link>http://192.168.1.11:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
+      <link>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
       <description><![CDATA[<p>Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.</p>
 <p><img src="/images/posts/arecibo-message.webp" alt="AreciboMessage" loading="lazy" />
 </p>
@@ -68,10 +68,10 @@ Vèjula - Merope&#8599</a>
     
     <item>
       <title>24week44 - Free will &amp; Carcáscara</title>
-      <link>http://192.168.1.11:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
+      <link>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
       <description><![CDATA[<p><strong>Hack&amp;Tell #100</strong> at <a href="https://c-base.org/"
  target="_blank" rel="noopener" >
 
@@ -148,10 +148,10 @@ here&#8599</a>
     
     <item>
       <title>24week39 - We will remember freedom 02b</title>
-      <link>http://192.168.1.11:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
+      <link>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
       <description><![CDATA[<p>These are definetly a worthy words put together by <a href="https://en.wikipedia.org/wiki/Margaret_Killjoy"
  target="_blank" rel="noopener" >
 
@@ -224,10 +224,10 @@ Maithink X&#8599</a>
     
     <item>
       <title>spectral cartography</title>
-      <link>http://192.168.1.11:1313/posts/24/240712_spectral-cartography/</link>
+      <link>http://192.168.178.34:1313/posts/24/240712_spectral-cartography/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240712_spectral-cartography/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240712_spectral-cartography/</guid>
       <description><![CDATA[<p>In this house we adore anything that <a href="https://www.instagram.com/uglystupidhonest/"
  target="_blank" rel="noopener" >
 
@@ -289,10 +289,10 @@ Mouse on Mars&#8599</a>
     
     <item>
       <title>24week22 - Trholz zine and dep Albini</title>
-      <link>http://192.168.1.11:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
+      <link>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
       <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre"
  target="_blank" rel="noopener" >
 
@@ -411,10 +411,10 @@ marginalia.nu&#8599</a>
     
     <item>
       <title>Buch der tage</title>
-      <link>http://192.168.1.11:1313/posts/24/240612_buch-der-tage/</link>
+      <link>http://192.168.178.34:1313/posts/24/240612_buch-der-tage/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240612_buch-der-tage/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240612_buch-der-tage/</guid>
       <description><![CDATA[<p>By chance, I discovered the bookshop <strong>langer blomqvist</strong>, which is full of discounted and second-hand books. I bought the gem <strong><em>Buch der Tage</em>, by Patti Smith</strong>. It consists of a daily photo with a small description covering 2018.</p>
 <p><img src="/images/posts/IMG20240612124046.webp" alt="Buch der tage" loading="lazy" />
 </p>
@@ -430,10 +430,10 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
     
     <item>
       <title>Game of life by oimo.io</title>
-      <link>http://192.168.1.11:1313/posts/24/240526_game-of-life-by-oimo.io/</link>
+      <link>http://192.168.178.34:1313/posts/24/240526_game-of-life-by-oimo.io/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240526_game-of-life-by-oimo.io/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240526_game-of-life-by-oimo.io/</guid>
       <description><![CDATA[<p>Forever in love with anything related with the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
  target="_blank" rel="noopener" >
 
@@ -483,10 +483,10 @@ projects&#8599</a>
     
     <item>
       <title>Cindy Lee and Realistik website</title>
-      <link>http://192.168.1.11:1313/posts/24/240523_cindy-lee-and-realistik-website/</link>
+      <link>http://192.168.178.34:1313/posts/24/240523_cindy-lee-and-realistik-website/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240523_cindy-lee-and-realistik-website/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240523_cindy-lee-and-realistik-website/</guid>
       <description><![CDATA[<p>The new album from Cindy Lee, <em><a href="https://www.youtube.com/watch?si=6bVn2BwB_PnWvbb2&amp;v=_LJi5na897Y&amp;feature=youtu.be"
  target="_blank" rel="noopener" >
 
@@ -522,10 +522,10 @@ Realistik Studios&#8599</a>
     
     <item>
       <title>24week16 - sBach and the LatentScape</title>
-      <link>http://192.168.1.11:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
+      <link>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
       <description><![CDATA[<p>We went to the exposition <strong>Sound System Culture</strong> at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.</p>
 <p>Entered the rabbit hole of <a href="https://en.wikipedia.org/wiki/Spencer_Seim"
  target="_blank" rel="noopener" >
@@ -588,10 +588,10 @@ LantentScape&#8599</a>
     
     <item>
       <title>Contemporánea - Un diccionario sonoro</title>
-      <link>http://192.168.1.11:1313/posts/24/240310_contemporanea/</link>
+      <link>http://192.168.178.34:1313/posts/24/240310_contemporanea/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240310_contemporanea/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/240310_contemporanea/</guid>
       <description><![CDATA[<p>A so-called ‘sound dictionary’ that dives deep into the most relevant names shaping contemporary music. You can feel the passion and dedication poured into this project. It’s an inspiring resource, perfect for discovering new ideas or revisiting familiar ones. Definitely saving this to explore it bit by bit.</p>
 <p><a href="https://contemporanea.march.es/"
  target="_blank" rel="noopener" >
@@ -634,10 +634,10 @@ Contemporánea - Un diccionario sonoro&#8599</a>
     
     <item>
       <title>AI image generators</title>
-      <link>http://192.168.1.11:1313/posts/23/231129_ai-image-generators/</link>
+      <link>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>
@@ -867,10 +867,10 @@ Chris&#8599</a>
     
     <item>
       <title>ZineFest at Subaermarkt</title>
-      <link>http://192.168.1.11:1313/posts/21/210821_zinefest-at-subaermarkt/</link>
+      <link>http://192.168.178.34:1313/posts/21/210821_zinefest-at-subaermarkt/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/21/210821_zinefest-at-subaermarkt/</guid>
+      <guid>http://192.168.178.34:1313/posts/21/210821_zinefest-at-subaermarkt/</guid>
       <description><![CDATA[<p>I visited for the first time this sweet fest at Subaemarkt where artists and illustrators show and sell their gems.</p>
 <p>This is my loot; a magazine, some cool illustrations and toon of stickers. I will definetily keep an eye on it for further editions.</p>
 <p><img src="/images/posts/IMG_20210821_191129.webp" alt="ZineFest" loading="lazy" />
@@ -883,10 +883,10 @@ Chris&#8599</a>
     
     <item>
       <title>Continue the struggle</title>
-      <link>http://192.168.1.11:1313/posts/23/230207_continue-the-struggle/</link>
+      <link>http://192.168.178.34:1313/posts/23/230207_continue-the-struggle/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230207_continue-the-struggle/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/230207_continue-the-struggle/</guid>
       <description><![CDATA[<p>Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.</p>
 <!--
 <div style="display: flex; justify-content: center;">
@@ -948,10 +948,10 @@ Chris&#8599</a>
     
     <item>
       <title>Les Conches and Glaas and Atlanta</title>
-      <link>http://192.168.1.11:1313/posts/23/230130_les-conches-velasques-and-glass/</link>
+      <link>http://192.168.178.34:1313/posts/23/230130_les-conches-velasques-and-glass/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230130_les-conches-velasques-and-glass/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/230130_les-conches-velasques-and-glass/</guid>
       <description><![CDATA[<p>Finished <strong>Atlanta season 4</strong> and enjoyed it a lot. It keeps the surealism of the previous seasons and the atmosphere puts me on a dreamy mood which I love.</p>
 <p><strong>Les Conches Velaques</strong> have a new album and you should listen if you are looking for an honest approach to arab-copla-postrock vibes.</p>
 <div class="only-desktop">
@@ -979,10 +979,10 @@ Chris&#8599</a>
     
     <item>
       <title>Philharmonie and my new guitar</title>
-      <link>http://192.168.1.11:1313/posts/23/230112_philharmonie-and-my-new-guitar/</link>
+      <link>http://192.168.178.34:1313/posts/23/230112_philharmonie-and-my-new-guitar/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230112_philharmonie-and-my-new-guitar/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/230112_philharmonie-and-my-new-guitar/</guid>
       <description><![CDATA[<p>The interior of the Philharmonie building looks like a spaceship from the 50s. We sit at the back, because is way <del>cheaper</del> cooler.</p>
 <p>I received my new guitar; an awesome <strong>Epiphone SG Special P-90 Faded Pelham Blue AUS.</strong> Now I just need, you know, something to plug it into :_)</p>
 <p>Reading: <strong>Hail Mary.</strong></p>
@@ -994,10 +994,10 @@ Chris&#8599</a>
     
     <item>
       <title>Flaaryr and the loosers</title>
-      <link>http://192.168.1.11:1313/posts/23/230103_flaaryr-and-the-loosers/</link>
+      <link>http://192.168.178.34:1313/posts/23/230103_flaaryr-and-the-loosers/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230103_flaaryr-and-the-loosers/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/230103_flaaryr-and-the-loosers/</guid>
       <description><![CDATA[<p>I discovered <a href="https://flaaryr.bandcamp.com/"
  target="_blank" rel="noopener" >
 
@@ -1048,10 +1048,10 @@ Hungría&#8599</a>
     
     <item>
       <title>22week01 - Moravec and how to Forming</title>
-      <link>http://192.168.1.11:1313/posts/22/220109_22week01/</link>
+      <link>http://192.168.178.34:1313/posts/22/220109_22week01/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/22/220109_22week01/</guid>
+      <guid>http://192.168.178.34:1313/posts/22/220109_22week01/</guid>
       <description><![CDATA[<p>I discovered and read about the <a href="https://en.wikipedia.org/wiki/Moravec%27s_paradox"
  target="_blank" rel="noopener" >
 

@@ -9,7 +9,7 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
     <div id="content">
         <p>During a preliminary exploration phase in early 2020, a series of abstract 3D shapes were meticulously crafted as part of a research endeavor for a Live Wallpaper project.</p>
         <p>These investigations delved into the interplay of gradients and vibrant colors, incorporating subtle hints of refractions to enhance the visual depth and allure of the designs.</p>
-    </div>
+    </div>`
 </div>
 
 

@@ -2,6 +2,7 @@
 title: "Lab"
 subtitle: ""
 heroImage: ""
+layout: project
 ---
 
 <div class="grid-layout">

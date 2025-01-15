@@ -674,7 +674,7 @@
     <div id="content">
         <p>During a preliminary exploration phase in early 2020, a series of abstract 3D shapes were meticulously crafted as part of a research endeavor for a Live Wallpaper project.</p>
         <p>These investigations delved into the interplay of gradients and vibrant colors, incorporating subtle hints of refractions to enhance the visual depth and allure of the designs.</p>
-    </div>
+    </div>`
 </div>
 <div class="grid-layout">
 <div class="column column-1 empty"></div>
@@ -1213,7 +1213,8 @@
         <p>I had the pleasure of working on this project with the outstanding team at onformative, my role was mostly focused in the creation of the shortfilm for document the project.</p>
     </div>
 </div>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 30 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<!-- <div class="separator-small"></div> -->
 <div class="grid-layout">
     <div class="column column-6">
         <img src="/images/projects/samsung-thewall/Samsung_TheWall_003.webp">

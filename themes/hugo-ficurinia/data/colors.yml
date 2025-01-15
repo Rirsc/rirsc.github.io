@@ -4,7 +4,6 @@ dark:
   bg: '#131314'  # main site background
   hl_bg: '#34363b'  # card and circle navigation background color for paper card mode
   #fg: '#d1dbe6'
-  #fg: '#e1eaf3'
   fg: '#f2f2f2'
   # dim_fg: '#bababa'  # will be used for secondary information like dates and tags
   dim_fg: '#a2aab3' 
@@ -16,8 +15,9 @@ dark:
 
 light:
   # bg: '#e8e8e8'
-  bg: '#f9fffa'
-  hl_bg: '#e6e6e6'
+  #bg: '#f9fffa'
+  bg: '#e6e6e6'
+  hl_bg: '#b3b3b3'
   fg: '#262625' # font color
   dim_fg: '#40403e'
   stroke: '#40403e'

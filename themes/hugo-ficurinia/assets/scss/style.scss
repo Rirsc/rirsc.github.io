@@ -1878,10 +1878,13 @@ video {
     h1, h2, h3, h4, h5, h6 {
         line-height: 1;
         letter-spacing: -0.03em;
+        text-align: center;
+
       }
     hr {
         margin-top: (6 * $margin);
         margin-bottom: -(0.5 * $margin);
+        
     }
 }
 
@@ -1890,9 +1893,6 @@ video {
         //margin: 0 (2 * $margin)  (6 * $margin) (2 * $margin);
        // margin: 0 0  (6 * $margin) 0;
         padding: 0 (8 * $margin);
-        h4 {
-            text-align: center;
-          }
     }
   }
 

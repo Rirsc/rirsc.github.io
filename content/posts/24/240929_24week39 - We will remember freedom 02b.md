@@ -1,5 +1,5 @@
 ---
-title: "24week39 - We will remember freedom 02b"
+title: "week39 - We will remember freedom 02b"
 date: 2024-09-29
 tags:
   - weekly

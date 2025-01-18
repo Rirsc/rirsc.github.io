@@ -1,5 +1,5 @@
 ---
-title: "24week44 - Free will & Carcáscara"
+title: "week44 - Free will & Carcáscara"
 date: 2024-11-03
 tags:
   - weekly

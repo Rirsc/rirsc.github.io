@@ -1,5 +1,5 @@
 ---
-title: 24week22 - Trholz zine and dep Albini
+title: week22 - Trholz zine and dep Albini
 date: 2024-07-02
 tags:
   - weekly

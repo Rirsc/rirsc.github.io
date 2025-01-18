@@ -1,5 +1,5 @@
 ---
-title: 24week16 - sBach and the LatentScape
+title: week16 - sBach and the LatentScape
 date: 2024-04-21
 tags:
   - weekly

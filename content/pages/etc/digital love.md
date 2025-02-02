@@ -55,7 +55,8 @@ I already posted some blogs that hugely influenced the creation of this site on 
 [grains](https://grains.cc/about/)\
 [Steph Ango](https://stephango.com/)\
 [Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among other gems.\
-[Molly White](https://www.mollywhite.net/feed)
+[Molly White](https://www.mollywhite.net/feed)\
+[Andrej Karpathy blog #3](https://karpathy.ai/blog/)
 
 ## Newsletters
 

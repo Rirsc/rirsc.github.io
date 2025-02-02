@@ -19,7 +19,8 @@
   </h4>
   {{ if (.Params.showDate | default true) }}
   <h6 class="date">{{- partial "date.html" .Date -}}</h6>
-  {{ end }} {{/* {{- partial "single_post_expanded.html" . -}} */}} {{ if in
+  {{ end }} {{/* {{- partial "single_post_expanded.html" . -}} */}}
+  {{ if in
   .Content "READ MORE!" }} {{ $contentParts := split .Content "<!-- READ MORE! -->"
   }} {{ index $contentParts 0 | safeHTML }}
   <!-- Render content up to the marker -->

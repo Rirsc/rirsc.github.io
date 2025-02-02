@@ -14,11 +14,23 @@ ul {
       }
 </style>
 
+## 2025
+
+##### January
+
+- Rebe ⋅ 8mm
+- De Klok + Blitzer + Ostseetraum ⋅ Westgermany
+- The Pleasure Majenta + Ligeia + Plattenbau Djs ⋅ 8mm
+- Les Conches Velasques (Espabilaco) ⋅ Potoka
+
 
 ## 2024
 
 ##### November
 
+- Data Unknown + Berliner Doom + Zero Discount ⋅ K-Hole
+- Ryoji Ikeda + PYUR ⋅ Silent Green
+- Objekt + Lena Willikens ⋅ ohm
 - Mabe Fratti + Military Genius ⋅ Silent Green
 
 ##### October

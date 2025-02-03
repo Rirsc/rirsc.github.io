@@ -1,5 +1,5 @@
 ---
-title: "Sascha Waltz and Guests"
+title: "Sasha Waltz and Guests"
 date: 2024-12-07
 tags:
   - dance

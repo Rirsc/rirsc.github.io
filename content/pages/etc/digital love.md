@@ -36,6 +36,7 @@ I already posted some site that hugely influenced the creation of this site on t
 [Eva Decker](https://eva.town/) - Design engineer & nice\
 [Steph Ango](https://stephango.com/) - Obsidian CEO\
 [Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among others\
+[Erica Fustero](https://www.ericafustero.com/blog) - Design photo and illustration\
 [Molly White](https://www.mollywhite.net/feed) - Tech activist\
 [Drugstore](https://eldrugstore.substack.com/) - Music film and design
 

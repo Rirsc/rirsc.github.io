@@ -16,6 +16,13 @@ ul {
 
 ## 2025
 
+##### March
+
+- The Pleasure Majenta + Ligeia + Plattenbau Djs ⋅ Hinterraum
+- Golden Diskó Ship + Cementa + dj discjockey ⋅ idvd
+
+##### February
+
 ##### January
 
 - Rebe ⋅ 8mm

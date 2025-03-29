@@ -45,18 +45,19 @@ Dive in, there might be something that sparks your curiosity.
 
 ## Blogs
 
-I already posted some blogs that hugely influenced the creation of this site on the [info](/pages/info/) page; this is an extended list. Little gems found online, all made by humans.
+I already posted some site that hugely influenced the creation of this site on the [info](/pages/info/) page; this is an extended list. Little gems found online, all made by humans.
 
+[100r](https://100r.co/site/about_us.html) - Inspirational way of living\
+[wnoadiarwb](https://wnoadiarwb.us/) - Music & 90s website vibes\
+[gwern](https://gwern.net/index) - Bigger than the Wikipedia\
+[ratfactor](https://ratfactor.com/) - Good ol tech human\
+[kickscondor](https://www.kickscondor.com/) - Lovely feed, sadly deceased\
+[javier.computer](https://javier.computer/) - Making internet fun&better \
 [wnoadiarwb](https://wnoadiarwb.us/) - Music & 90s website vibes\
 [Eva Decker](https://eva.town/) - Design engineer & nice\
-[Kicks Condor](https://www.kickscondor.com/) - Best feed out there\
-[Coolguy](https://coolguy.website/home/) - \
-[Gwern](https://gwern.net/) - Bigger than the Wikipedia\
-[grains](https://grains.cc/about/)\
-[Steph Ango](https://stephango.com/)\
-[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among other gems.\
-[Molly White](https://www.mollywhite.net/feed)\
-[Andrej Karpathy blog #3](https://karpathy.ai/blog/)
+[Steph Ango](https://stephango.com/) - Obsidian CEO\
+[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among others\
+[Molly White](https://www.mollywhite.net/feed) - Tech activist\
 
 ## Newsletters
 

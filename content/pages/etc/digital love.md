@@ -38,7 +38,8 @@ I already posted some site that hugely influenced the creation of this site on t
 [Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among others\
 [Erica Fustero](https://www.ericafustero.com/blog) - Design photo and illustration\
 [Molly White](https://www.mollywhite.net/feed) - Tech activist\
-[Drugstore](https://eldrugstore.substack.com/) - Music film and design
+[Drugstore](https://eldrugstore.substack.com/) - Music film and design\
+[The Culture Dump](https://culturedump.substack.com/) - Art history and theory
 
 ## Creators
 

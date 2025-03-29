@@ -10,7 +10,34 @@ hideMenu: true
 
 I have a long list of RSS which I should clean and publish here soon.  
 So far, here is a tiny selection of some of my favourite corners of the internet.  
-Dive in, there might be something that sparks your curiosity.  
+Dive in, there might be something that sparks your curiosity. 
+
+## Newsletters
+
+[Westenberg](https://joanwestenberg.com/)\
+[gárgola digital](https://gargoladigital.substack.com/)\
+[Pluralistic](https://pluralistic.net/)\
+[Flecha](https://carmenpacheco.es/flecha-archivo/)\
+[Substainability by numbers](https://www.sustainabilitybynumbers.com/)\
+[Citation Needed](https://www.citationneeded.news//)\
+[Mathbabe](https://mathbabe.org/)\
+[Naive Weekly](https://www.naiveweekly.com/)
+
+## Blogs & Personal Sites
+
+I already posted some site that hugely influenced the creation of this site on the [info](/pages/info/) page; this is an extended list. Little gems found online, all made by humans.
+
+[100r](https://100r.co/site/about_us.html) - Inspirational way of living\
+[Wnoadiarwb](https://wnoadiarwb.us/) - Music & 90s website vibes\
+[Gwern](https://gwern.net/index) - Bigger than the Wikipedia\
+[Ratfactor](https://ratfactor.com/) - Good ol tech human\
+[Kicks Condor](https://www.kickscondor.com/) - Lovely feed, sadly deceased\
+[Javier Arce](https://javier.computer/) - Making internet fun&better \
+[Eva Decker](https://eva.town/) - Design engineer & nice\
+[Steph Ango](https://stephango.com/) - Obsidian CEO\
+[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among others\
+[Molly White](https://www.mollywhite.net/feed) - Tech activist\
+[Drugstore](https://eldrugstore.substack.com/) - Music film and design
 
 ## Creators
 
@@ -32,41 +59,18 @@ Dive in, there might be something that sparks your curiosity.
 [V Buckenham](https://v21.io/blog/)\
 [Lauren Lee MacCarthy](https://lauren-mccarthy.com/Info)\
 [Nahuel Gerth](https://nahuelgerth.de/)\
+[Sophie Koko](https://vimeo.com/sophiekokogate)\
 [Don Hertzfeld](https://www.youtube.com/user/t1i1b/videos)\
 [Caleb Wood](https://www.kbibwod.com/)\
-[Sophie Koko](https://www.instagram.com/sophiekoko/?hl=en)\
 [Better Nerf](https://www.hbruvry.com/)
 
 ## Music
 
 [The Quietus](https://thequietus.com/)\
-[Bandcamp updates](https://daily.bandcamp.com/)\
-[Cashmere radio](https://cashmereradio.com/)
+[Bandcamp Updates](https://daily.bandcamp.com/)\
+[Cashmere Radio](https://cashmereradio.com/)
+[Hearing Things](https://www.hearingthings.co/)
 
-## Blogs
-
-I already posted some site that hugely influenced the creation of this site on the [info](/pages/info/) page; this is an extended list. Little gems found online, all made by humans.
-
-[100r](https://100r.co/site/about_us.html) - Inspirational way of living\
-[wnoadiarwb](https://wnoadiarwb.us/) - Music & 90s website vibes\
-[gwern](https://gwern.net/index) - Bigger than the Wikipedia\
-[ratfactor](https://ratfactor.com/) - Good ol tech human\
-[kickscondor](https://www.kickscondor.com/) - Lovely feed, sadly deceased\
-[javier.computer](https://javier.computer/) - Making internet fun&better \
-[wnoadiarwb](https://wnoadiarwb.us/) - Music & 90s website vibes\
-[Eva Decker](https://eva.town/) - Design engineer & nice\
-[Steph Ango](https://stephango.com/) - Obsidian CEO\
-[Hempuli](https://www.hempuli.com/blog/) - Creator of Baba is you, among others\
-[Molly White](https://www.mollywhite.net/feed) - Tech activist\
-
-## Newsletters
-
-[Flecha (Carmen Pacheco)](https://carmenpacheco.es/flecha-archivo/)\
-[Westenberg](https://joanwestenberg.com/)\
-[gárgola digital](https://gargoladigital.substack.com/)\
-[Pluralistic](https://pluralistic.net/)\
-[Substainability by numbers](https://www.sustainabilitybynumbers.com/)\
-[Citation Needed](https://www.citationneeded.news//)
 
 ## Misc
 

@@ -70,7 +70,7 @@ I already posted some site that hugely influenced the creation of this site on t
 
 [The Quietus](https://thequietus.com/)\
 [Bandcamp Updates](https://daily.bandcamp.com/)\
-[Cashmere Radio](https://cashmereradio.com/)
+[Cashmere Radio](https://cashmereradio.com/)\
 [Hearing Things](https://www.hearingthings.co/)
 
 

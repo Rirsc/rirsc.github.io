@@ -14,6 +14,5 @@ I love the idea and its aesthetics—I guess because it reminds me of my beloved
 From there, I did a quick search for various messages humanity has sent into space in hopes of finding life.Voyager Golden Record (1977), Cosmic Call (1999), the Teen Age Message (2008), and perhaps one of the oldest and most famous; the Pioneer Plaques. As many have pointed out, the Pioneer Plaques offered a vague representation of humanity’s cultural and racial diversity. The depiction of the woman’s body notably omits genitalia, making it feel incomplete. While searching for a more accurate or inclusive representation, somehow I ended learning about the project by [Joe Davis: Poetica Vagina](https://ucsdvis159.wordpress.com/2015/02/02/joe-davis-poetica-vagina/)
 
 > In the 1980s he came up with a project that records the vaginal contractions of ballerinas using a “vaginal detector” built in a laboratory of mechanical engineering. […] He used electronic music software in order to match the the frequency of the contractions to the English speech. He then transmitted the sounds of vaginal contractions to the nearest star systems.
-> 
 
 I'm just not really sure what to think about this project at all. Lets pass to a brief musical break: [Vèjula - Merope](https://stroomtv.bandcamp.com/album/v-jula)

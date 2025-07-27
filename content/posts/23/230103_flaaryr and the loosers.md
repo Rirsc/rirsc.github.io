@@ -19,6 +19,7 @@ I discovered [Flaaryr](https://flaaryr.bandcamp.com/) and his previous band, [Hu
 </div>
 {{< /only-mobile >}}
 
+{{< smalldivider  >}}
 
 On Friday we went to SO36 and saw **Die Vierlierer**, which was quite cool and crowded. The djs afterwards, a couple throwing german 80s postpunk awesonenes were incredibly good.
 

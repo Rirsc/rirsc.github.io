@@ -6,6 +6,8 @@ lastmod: 2024-05-29
 
 Finished **Atlanta season 4** and enjoyed it a lot. It keeps the surealism of the previous seasons and the atmosphere puts me on a dreamy mood which I love.
 
+{{< smalldivider  >}}
+
 **Les Conches Velaques** have a new album and you should listen if you are looking for an honest approach to arab-copla-postrock vibes.
 
 {{< only-desktop >}}
@@ -22,6 +24,7 @@ Finished **Atlanta season 4** and enjoyed it a lot. It keeps the surealism of th
 </div>
 {{< /only-mobile >}}
 
+{{< smalldivider  >}}
 
 Playing: **Outer Wilds.**
 

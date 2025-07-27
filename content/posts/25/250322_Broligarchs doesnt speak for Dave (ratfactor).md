@@ -9,7 +9,7 @@ tags:
 
 I stick up heavily for Dave [(ratfactor)](https://ratfactor.com/) and his profound defence on why [‘broligarchs’ doesnt speak for him](https://ratfactor.com/tech-nope)
 
-These are types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes but please make some time to read the entire text.
+These are the types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes, but please make some time to read the entire text.
 
 > "Tech", as portrayed in the public eye right now is something I barely recognize. It’s almost universally negative: Social media, ad tech, blockchain, 'AI'. I don’t work on any of that stuff. Am I even part of the same industry? (I don’t actually have an answer to that question.)
 >

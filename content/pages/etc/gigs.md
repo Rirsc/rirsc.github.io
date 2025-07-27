@@ -16,10 +16,31 @@ ul {
 
 ## 2025
 
+##### July
+
+- Liiek + Überall Algen ⋅ Greifswalder DIY
+
+##### June
+
+- Gwalt ⋅ Alfred-Scholz-Platz
+- Seefeel ⋅ Apolo 2
+
+##### May
+
+- Six Organs of Admittance ⋅ PAS
+- Forma Norte + Respira + Alféizar + Mateo + Adrianna ⋅ Pumarejo
+
+##### April
+
+- Whatever The Weather + Elif Gülin Soğuksu ⋅ Silent Green
+- Flaaryr + Licitir ⋅ idvd.ogh
+
 ##### March
 
-- The Pleasure Majenta + Ligeia + Plattenbau Djs ⋅ Hinterraum
+- Die Verlierer + Die Anstalt + Dead Finks + Nylon Club ⋅ Hinterraum
 - Golden Diskó Ship + Cementa + dj discjockey ⋅ idvd
+- Leep + Knast + Karabik ⋅ idvd.ogh
+
 
 ##### February
 

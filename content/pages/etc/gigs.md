@@ -22,8 +22,9 @@ ul {
 
 ##### June
 
-- Gwalt ⋅ Alfred-Scholz-Platz
 - Seefeel ⋅ Apolo 2
+- Gwalt ⋅ Alfred-Scholz-Platz
+- KOU + Andra Ljos ⋅ Beikraut
 
 ##### May
 

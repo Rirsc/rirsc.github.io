@@ -2,23 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.178.34:1313/tags/dance/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <loc>http://192.168.178.34:1313/tags/comics/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250323_experimental-comics/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/tags/music/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/posts/24/241207_arecibo-message-and-poetica-vagina-copy/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/tags/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</loc>
+    <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/coding/</loc>
+    <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/tech/</loc>
+    <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/weekly/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/books/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/cinema/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250209_quantum-foam-and-animated-postcards/</loc>
+    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</loc>
+    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/design/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</loc>
+    <lastmod>2025-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/david-lynch/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/film/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/25/250116_puzzle-to-another-world/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</loc>
     <lastmod>2024-11-16T00:00:00+00:00</lastmod>
@@ -27,9 +75,6 @@
     <lastmod>2024-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</loc>
-    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/tags/weekly/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</loc>
@@ -44,17 +89,11 @@
     <loc>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/tags/books/</loc>
-    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/posts/24/240612_buch-der-tage/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/tags/photo/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/tags/coding/</loc>
-    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/24/240526_game-of-life-by-oimo.io/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
@@ -67,6 +106,12 @@
   </url><url>
     <loc>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/tags/games/</loc>
+    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/posts/24/240312_lucas-pope-is-back/</loc>
+    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/posts/24/240310_contemporanea/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
@@ -81,9 +126,6 @@
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/tags/comfyui/</loc>
-    <lastmod>2023-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/tags/design/</loc>
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/tags/image/</loc>

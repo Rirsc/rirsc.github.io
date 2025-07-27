@@ -8,32 +8,12 @@ showdate: false
 ---
 
 
-<!-- 
-Ey there stranger. Ricardo here, welcome to my abode :)
-
-I’m an Industrial Design Engineer mostly focused on 3D digital and interactive works. I love playing with technology and my main interests are [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films, riding my bike around forests and playing with computers to create stuff.
-
-Specializing in 3D design, I'm passionate about blending visual aesthetics and functional innovation into diverse projects, navigating both physical and digital landscapes.
-
-Diving into the realm of 3D animation, interactive installations, and coding (with an eagerness to delve deeper), my creative journey is an evolving tapestry of diverse skills. **Recently contributing to spatial computing prototypes at Magic Leap,** I'm driven by the spirit of exploration and innovation, seeking new frontiers in technology and design.
-
-With expertise in 3D design, I specialize in creating visually appealing and functional solutions for diverse projects, encompassing both physical and digital products. -->
-
-
-
 Ey there stranger. Ricardo here, **welcome to my abode :)**
 
 I’m an industrial design engineer with a focus on 3D digital and interactive works. Passionate about blending aesthetics and functionality, my projects range from 3D animation to interactive installations and coding. Currently, I’m contributing to **spatial computing prototypes at Magic Leap,** shaping immersive experiences at the forefront of XR technology.
 
 **Beyond work,** I find joy in  [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films and riding my bike around forests. Playing with technology and exploring creative ideas keeps me inspired and always ready for new ways to expand my knowledge.
 
-
-<!-- <div class="grid-layout">
-  <div class="column column-6"> <img src="/images/pages/Rirsc-LinkedIn.webp">As seen on LinkedIn</div>
-  <div class="column column-6"> <img src="/images/pages/Rirsc-Reading.webp"> As seen indoors</div>
-  <div class="column column-6"> <img src="/images/pages/Rirsc-Pet.webp" style="filter: grayscale(100%);"> As seen online</div>
-  <div class="column column-6"> <img src="/images/pages/Rirsc-Outdoors.webp"> As seen outdoors</div>
-</div> -->
 
  <div class="grid-layout">
   <div class="column column-4"> <img src="/images/pages/Rirsc-Pet.webp">
@@ -65,7 +45,7 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
     </thead>
     <tbody>
       <tr>
-        <td>2022–2024</td>
+        <td>2022–2025</td>
         <td>Senior Designer</td>
         <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
       </tr>

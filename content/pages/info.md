@@ -28,8 +28,25 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
 **Beyond work,** I find joy in  [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films and riding my bike around forests. Playing with technology and exploring creative ideas keeps me inspired and always ready for new ways to expand my knowledge.
 
 
+<!-- <div class="grid-layout">
+  <div class="column column-6"> <img src="/images/pages/Rirsc-LinkedIn.webp">As seen on LinkedIn</div>
+  <div class="column column-6"> <img src="/images/pages/Rirsc-Reading.webp"> As seen indoors</div>
+  <div class="column column-6"> <img src="/images/pages/Rirsc-Pet.webp" style="filter: grayscale(100%);"> As seen online</div>
+  <div class="column column-6"> <img src="/images/pages/Rirsc-Outdoors.webp"> As seen outdoors</div>
+</div> -->
 
+ <div class="grid-layout">
+  <div class="column column-4"> <img src="/images/pages/Rirsc-Pet.webp">
+  <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online</figcaption>
+  </div>
 
+   <div class="column column-4"> <img src="/images/pages/Rirsc-LinkedIn.webp">
+     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen on LinkedIn</figcaption>
+  </div>
+  <div class="column column-4"> <img src="/images/pages/Rirsc-Bluesky.webp">
+    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online II</figcaption>
+  </div>
+  </div>
 
 
 

@@ -15,7 +15,7 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
 **Beyond work,** I find joy in  [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films and riding my bike around forests. Playing with technology and exploring creative ideas keeps me inspired and always ready for new ways to expand my knowledge.
 
 
- <div class="grid-layout">
+ <!-- <div class="grid-layout">
   <div class="column column-4"> <img src="/images/pages/Rirsc-Pet.webp">
   <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online</figcaption>
   </div>
@@ -26,7 +26,7 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
   <div class="column column-4"> <img src="/images/pages/Rirsc-Bluesky.webp">
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online II</figcaption>
   </div>
-  </div>
+  </div> -->
 
 
 

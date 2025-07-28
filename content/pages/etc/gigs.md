@@ -24,6 +24,7 @@ ul {
 
 - Seefeel ⋅ Apolo 2
 - Gwalt ⋅ Alfred-Scholz-Platz
+- GRÓA + Hot Couture ⋅ Neue Zukunft
 - KOU + Andra Ljos ⋅ Beikraut
 
 ##### May

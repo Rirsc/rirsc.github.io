@@ -87,7 +87,7 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
     <tbody class="entry">
       <tr>
         <th>Years</th>
-        <td>2022–2024</td>
+        <td>2022–2025</td>
       </tr>
       <tr>
         <th>Role</th>

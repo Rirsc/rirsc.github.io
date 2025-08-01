@@ -3,13 +3,17 @@
     {{- partial "inject/footer.html" . -}}
 
     <div class="footerContent">
-        <div class="footer-left">
+       <div class="footer-left"> {{- partial "inject/footer.html" . -}} 
+          {{/*  <div id="listenbrainz-container"></div>  */}}
             <a href="https://mstdn.social/@rirsc" target="_blank">MASTODON</a>
             <a href=" https://bsky.app/profile/rirsc.bsky.social" target="_blank">BLUESKY</a>
             <a href="https://www.goodreads.com/user/show/62820279-ricardo-lopez" target="_blank">GOODREADS</a>
             <a href="https://github.com/Rirsc" target="_blank">GITHUB</a>
             <a href="https://letterboxd.com/Rirsc/" target="_blank">LETTERBOXD</a>            
         </div>
+
         <div class="footer-right"> © 2025 Ricardo López</div>
     </div>
 </footer>
+
+{{/*  <script src="/js/listenbrainz.js"></script>  */}}

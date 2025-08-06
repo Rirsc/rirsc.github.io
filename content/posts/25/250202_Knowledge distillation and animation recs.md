@@ -5,7 +5,9 @@ tags:
   - weekly
 ---
 
-Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it. [Company B sucked the entire knowledge from Company A](https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/) without paying a dime to its creators, using the [knowledge distillation](https://en.wikipedia.org/wiki/Knowledge_distillation) technique.\
+Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it.\
+Using the [knowledge distillation](https://en.wikipedia.org/wiki/Knowledge_distillation) technique, [Company B sucked the entire knowledge from Company A](https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/) and didnt pay a dime to Company A.\
+Company A complaint that Company B didnt pay to them.\
 We all should grab a big pack of popcorn and enjoy it at least for today.
 
 {{< smalldivider  >}}

@@ -24,3 +24,5 @@ Alway a good time to remind that [The internet didn’t kill counterculture—yo
 {{< smalldivider  >}}
 
 Easy entry point for the most **famous philophers** and their theories: [Action Philosophers](https://www.actionphilosophers.com/)
+
+Nonetheless, my fav is still [Existential Comics](https://existentialcomics.com/) impossible to beat that one.

@@ -91,7 +91,7 @@ ul {
 
 ##### June
 
-- Ataúdes Merche + Megarrollo + Delilah + Línea Maginoti + Türbot ⋅ Arrebato
+- Ataúdes Merche + Megarrollo + Delilah + Línea Maginot + Türbot ⋅ Arrebato
 - Planet on a Chain + Blockage ⋅ idvd
 - Codex Outdoor ⋅ Panke courtyard
 - Experimental Sets in Solidarity with Palestine ⋅ idvd

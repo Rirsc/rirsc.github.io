@@ -92,9 +92,12 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
 
 
 
-$main_font: {{ .Site.Params.fontFamily | default "Arial" }};
-$title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
-$mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }};
+ $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
+ $title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
+ $mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }};
+
+
+
 
 /*
 $main_font: {{ .Site.Params.fontFamily | default "Arial" }};

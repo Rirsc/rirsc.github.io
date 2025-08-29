@@ -24,7 +24,7 @@ Anyway, let’s focus on one of my favourite magics in this world; **animation:*
 
 {{< smalldivider  >}}
 
-Lately I was reading the [Nutrition](https://grimgrains.com/site/nutrition.html) section from **Grimgrains,** this site populated by the wizards [Hundred Rabbits](https://100r.co/site/home.html). 
+Lately I was reading the [Nutrition](https://grimgrains.com/site/nutrition.html) section from **Grimgrains,** this site populated by the wizards [Hundred Rabbits](https://100r.co/site/home.html)
 
 {{< smalldivider  >}}
 

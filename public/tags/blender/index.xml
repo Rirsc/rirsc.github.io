@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Blender on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/blender/</link>
+    <link>http://192.168.1.11:1313/tags/blender/</link>
     <description>Recent content in Blender on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/blender/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/blender/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Continue the struggle</title>
-      <link>http://192.168.178.34:1313/posts/23/230207_continue-the-struggle/</link>
+      <link>http://192.168.1.11:1313/posts/23/230207_continue-the-struggle/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/230207_continue-the-struggle/</guid>
+      <guid>http://192.168.1.11:1313/posts/23/230207_continue-the-struggle/</guid>
       <description><![CDATA[<p>Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.</p>
 
 

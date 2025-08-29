@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Space on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/space/</link>
+    <link>http://192.168.1.11:1313/tags/space/</link>
     <description>Recent content in Space on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/space/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/space/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Arecibo Message and Poetica Vagina</title>
-      <link>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
+      <link>http://192.168.1.11:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
+      <guid>http://192.168.1.11:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
       <description><![CDATA[<p>Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.</p>
 <p><img src="/images/posts/arecibo-message.webp" alt="AreciboMessage" loading="lazy" />
 </p>

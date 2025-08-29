@@ -16,6 +16,12 @@ ul {
 
 ## 2025
 
+##### August
+
+- Oranssi Pazuzu + Insect Ark  ⋅ Berghain
+- Takkak Takkak + Specimens PPP + Emil Palme  ⋅ 90mil
+
+
 ##### July
 
 - Liiek + Überall Algen ⋅ Greifswalder DIY

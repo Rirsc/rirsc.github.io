@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Design on rirsc</title>
-    <link>http://192.168.1.11:2041/tags/design/</link>
+    <link>http://192.168.1.11:2976/tags/design/</link>
     <description>Recent content in Design on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2041/tags/design/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2041/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2976/tags/design/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2976/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Webcams suck, so f4mi built her own</title>
-      <link>http://192.168.1.11:2041/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
+      <link>http://192.168.1.11:2976/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
+      <guid>http://192.168.1.11:2976/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
       <description><![CDATA[<p><a href="https://bsky.app/profile/f4mi.bsky.social" target="_blank" rel="noopener">f4mi&#8599;</a> is this creative mind throwing absolutely gems to the internet. Probably most known by her videos usually related to <strong>00’s tech and hacking vibes projects.</strong> The entry title is from this time <a href="https://www.youtube.com/watch?v=K1T1eMyPIC4" target="_blank" rel="noopener">she built her own webcam&#8599;</a> but just make sure to follow her brain. Highly recommend joining her <a href="https://discord.gg/q8aAqQRn" target="_blank" rel="noopener">Discord server&#8599;</a> as well.</p>
 ]]></description>
       
@@ -24,10 +24,10 @@
     
     <item>
       <title>Lucas Pope is back</title>
-      <link>http://192.168.1.11:2041/posts/24/240312_lucas-pope-is-back/</link>
+      <link>http://192.168.1.11:2976/posts/24/240312_lucas-pope-is-back/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/24/240312_lucas-pope-is-back/</guid>
+      <guid>http://192.168.1.11:2976/posts/24/240312_lucas-pope-is-back/</guid>
       <description><![CDATA[<p><img src="/images/posts/mars-after-midnight.webp" alt="Mars After Midnight" loading="lazy" />
 </p>
 <p><a href="https://obradinn.com/" target="_blank" rel="noopener">Return of the Obra Dinn&#8599;</a> is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. <strong>Nothing better than struggling with other brains.</strong></p>
@@ -40,10 +40,10 @@
     
     <item>
       <title>AI image generators</title>
-      <link>http://192.168.1.11:2041/posts/23/231129_ai-image-generators/</link>
+      <link>http://192.168.1.11:2976/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://192.168.1.11:2976/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>

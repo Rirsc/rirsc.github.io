@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Weekly on rirsc</title>
-    <link>http://192.168.1.11:2041/tags/weekly/</link>
+    <link>http://192.168.1.11:2976/tags/weekly/</link>
     <description>Recent content in Weekly on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2041/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2041/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2976/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2976/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>25week09 - Flip a real coin, find a labyrinth, review the html</title>
-      <link>http://192.168.1.11:2041/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
+      <link>http://192.168.1.11:2976/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
+      <guid>http://192.168.1.11:2976/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
       <description><![CDATA[<p>Lets play a game; enter here to <a href="https://fliparealcoin.com/" target="_blank" rel="noopener">flip a real coin&#8599;</a> <br>
 If tails, enter this <a href="https://labyrinthlocator.org/" target="_blank" rel="noopener">labyrinth locator&#8599;</a> site and lose yourself in the closest one to you.  <br>
 If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopener">the html review issue 3&#8599;</a></p>
@@ -44,10 +44,10 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
     
     <item>
       <title>25week06 - Quantum foam and animated postcards</title>
-      <link>http://192.168.1.11:2041/posts/25/250209_quantum-foam-and-animated-postcards/</link>
+      <link>http://192.168.1.11:2976/posts/25/250209_quantum-foam-and-animated-postcards/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
+      <guid>http://192.168.1.11:2976/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
       <description><![CDATA[<p><img src="/images/posts/IMG20250207131943.webp" alt="Muybridge" loading="lazy" />
 </p>
 <p>Someone has a problem with animated postcards. And flip-books. Or any other physical approach to bring pictures to life.</p>
@@ -93,10 +93,10 @@ So in that sense, AI systems have a nascent sense of truth.</p>
     
     <item>
       <title>25week05 - Knowledge distillation and animation recs</title>
-      <link>http://192.168.1.11:2041/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
+      <link>http://192.168.1.11:2976/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
+      <guid>http://192.168.1.11:2976/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
       <description><![CDATA[<p>Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it.<br>
 Using the <a href="https://en.wikipedia.org/wiki/Knowledge_distillation" target="_blank" rel="noopener">knowledge distillation&#8599;</a> technique, <a href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/" target="_blank" rel="noopener">Company B sucked the entire knowledge from Company A&#8599;</a> and didnt pay a dime to Company A.<br>
 Company A complaint that Company B didnt pay to them.<br>
@@ -147,10 +147,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>25Week03 - Evil meta, k-punk and online countercoulture</title>
-      <link>http://192.168.1.11:2041/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
+      <link>http://192.168.1.11:2976/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
+      <guid>http://192.168.1.11:2976/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
       <description><![CDATA[<p>After Meta announced that it will allow users call LGTBQ+ people “mentally ill”, now its deleting posts with links to the decentralized competitor Pixelfed. <strong>Siren Servers against humanity, once again.</strong></p>
 <p align="center">﹘</p>
 <p>Found myself digging further about <a href="https://en.wikipedia.org/wiki/Mark_Fisher" target="_blank" rel="noopener">Mark Fisher&#8599;</a> and his acclaimed blog <a href="https://k-punk.org/" target="_blank" rel="noopener">k-punk&#8599;</a> Go for it if you find <strong>radical politics and music</strong> within your interests.</p>
@@ -170,10 +170,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week44 - Free will &amp; Carcáscara</title>
-      <link>http://192.168.1.11:2041/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
+      <link>http://192.168.1.11:2976/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
+      <guid>http://192.168.1.11:2976/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
       <description><![CDATA[<p><strong>Hack&amp;Tell #100</strong> at <a href="https://c-base.org/" target="_blank" rel="noopener">C-Base&#8599;</a> Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is <a href="https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11" target="_blank" rel="noopener">QR-DICE: 6-side QR-cube&#8599;</a> and it just blown our minds.</p>
 <p align="center">﹘</p>
 <p>The algo did its job cos I recently finished <a href="https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will" target="_blank" rel="noopener">Determined: A Science of Life Without Free Will by Robert Sapolsky&#8599;</a> and this conversation about free will between Robert and his love-hate nemesis, Daniel Dennet, appeared on my feed. Watch it <a href="https://youtu.be/aYzFH8xqhns?si=AyH4eAHs5cot8JYk" target="_blank" rel="noopener">here&#8599;</a></p>
@@ -205,10 +205,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week39 - We will remember freedom 02b</title>
-      <link>http://192.168.1.11:2041/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
+      <link>http://192.168.1.11:2976/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
+      <guid>http://192.168.1.11:2976/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
       <description><![CDATA[<p>These are definetly a worthy words put together by <a href="https://en.wikipedia.org/wiki/Margaret_Killjoy" target="_blank" rel="noopener">Margaret Killjoy&#8599;</a> about one of the sweetest, charmest and most brillante humans we had have so far; <strong>Ursuka K. Le Guin</strong>. <a href="https://blog.pmpress.org/2019/07/17/we-will-remember-freedom/" target="_blank" rel="noopener">We will remember freedom&#8599;</a></p>
 <p align="center">﹘</p>
 <p>On this new approach looking for a better web, <a href="https://matrix.org/docs/chat_basics/matrix-for-im/" target="_blank" rel="noopener">[matrix]&#8599;</a> cross my path. Im just leaving the link here for the future me to take a look at. I still need to study better the real differences from the protocols <strong>Activitypub</strong> (Mastodon) and <strong>Atproto</strong> (Bluesky).</p>
@@ -224,10 +224,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week22 - Trholz zine and dep Albini</title>
-      <link>http://192.168.1.11:2041/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
+      <link>http://192.168.1.11:2976/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
+      <guid>http://192.168.1.11:2976/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
       <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre" target="_blank" rel="noopener">Trholz&#8599;</a> at idvdogh, I bought them one <strong>fanzine.</strong> Cool drawings and it has the lyrics&amp;tabs of the songs; win-win.</p>
 <p><img src="/images/posts/IMG20240531114009.webp" alt="Trholz" loading="lazy" />
 <br>
@@ -259,10 +259,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week16 - sBach and the LatentScape</title>
-      <link>http://192.168.1.11:2041/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
+      <link>http://192.168.1.11:2976/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
+      <guid>http://192.168.1.11:2976/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
       <description><![CDATA[<p>We went to the exposition <strong>Sound System Culture</strong> at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.</p>
 <p align="center">﹘</p>
 <p>Entered the rabbit hole of <a href="https://en.wikipedia.org/wiki/Spencer_Seim" target="_blank" rel="noopener">Spencer Seim&#8599;</a> and I spent way too much time that I would admit looping at his <a href="https://sbach.bandcamp.com/album/sbach" target="_blank" rel="noopener">sBach&#8599;</a> project.</p>
@@ -280,10 +280,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>22week01 - Moravec and how to Forming</title>
-      <link>http://192.168.1.11:2041/posts/22/220109_22week01/</link>
+      <link>http://192.168.1.11:2976/posts/22/220109_22week01/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:2041/posts/22/220109_22week01/</guid>
+      <guid>http://192.168.1.11:2976/posts/22/220109_22week01/</guid>
       <description><![CDATA[<p>I discovered and read about the <a href="https://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank" rel="noopener">Moravec&rsquo;s paradox&#8599;</a> It put words into something that I learn while studiying character animation; basic human locomotive is extremely expensive and difficult to compute. I still dont get why we are triying to replicate our movements and lookalikes.</p>
 <p align="center">﹘</p>
 <p>Just fall in love with <strong>John Wilson</strong> again as Im going trought the second season of his masterpiece ‘How to with John Wilson’. Btw, apart from his <a href="https://vimeo.com/johnsmovies" target="_blank" rel="noopener">official vimeo&#8599;</a> he also has this other account with even more content in case you need it: <a href="https://vimeo.com/datejohn" target="_blank" rel="noopener">DATES&#8599;</a></p>

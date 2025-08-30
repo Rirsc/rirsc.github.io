@@ -1,8 +1,37 @@
 // Theme toggle script for dark/light mode
 (function() {
+  // Configuration: choose persistence mode.
+  // 'session' -> preference lasts only for the browser tab/session (cleared on tab close)
+  // 'local'   -> preference is saved to localStorage (persists across sessions)
+  // 'none'    -> don't persist
+  var persistence = 'session'; // change to 'local' if you want long-term persistence
+
+  // If true and persistence === 'local', will force localStorage back to 'dark' when the user leaves the site.
+  // Use this only if you explicitly want to overwrite the stored preference on unload.
+  var rollbackLocalOnUnload = false;
+
+  function storageSet(theme) {
+    try {
+      if (persistence === 'local') localStorage.setItem('theme', theme);
+      else if (persistence === 'session') sessionStorage.setItem('theme', theme);
+    } catch (e) {
+      // ignore storage errors (e.g., disabled storage)
+    }
+  }
+
+  function storageGet() {
+    try {
+      if (persistence === 'local') return localStorage.getItem('theme');
+      if (persistence === 'session') return sessionStorage.getItem('theme');
+    } catch (e) {
+      return null;
+    }
+    return null;
+  }
+
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
+    storageSet(theme);
     // Update the icon to the star SVG used in the header
     var icon = document.getElementById('theme-toggle-icon');
     if (icon) {
@@ -11,15 +40,24 @@
   }
 
   function toggleTheme() {
-    const current = document.documentElement.getAttribute('data-theme') || 'dark';
-    const next = current === 'dark' ? 'light' : 'dark';
+    var current = document.documentElement.getAttribute('data-theme') || 'dark';
+    var next = current === 'dark' ? 'light' : 'dark';
     setTheme(next);
   }
 
   window.toggleTheme = toggleTheme;
 
+  // Initialize on DOMContentLoaded using the chosen storage.
   document.addEventListener('DOMContentLoaded', function() {
-    const saved = localStorage.getItem('theme');
+    var saved = storageGet();
     setTheme(saved || 'dark');
   });
+
+  // Optional: roll localStorage back to dark when the user leaves the page.
+  if (rollbackLocalOnUnload) {
+    window.addEventListener('beforeunload', function() {
+      try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+    });
+  }
+
 })();

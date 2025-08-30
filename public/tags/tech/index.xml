@@ -1,58 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Tech on rirsc</title>
-    <link>http://192.168.1.11:1313/tags/tech/</link>
+    <link>http://192.168.1.11:2041/tags/tech/</link>
     <description>Recent content in Tech on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2041/tags/tech/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2041/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Broligarchs doesnt speak for Dave (ratfactor)</title>
-      <link>http://192.168.1.11:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</link>
+      <link>http://192.168.1.11:2041/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</guid>
-      <description><![CDATA[<p>I stick up heavily for Dave <a href="https://ratfactor.com/"
- target="_blank" rel="noopener" >
-
-
-
-(ratfactor)&#8599</a>
- 
-
-
-
-
-
- and his profound defence on why <a href="https://ratfactor.com/tech-nope"
- target="_blank" rel="noopener" >
-
-
-
-‘broligarchs’ doesnt speak for him&#8599</a>
- 
-
-
-
-
-
-</p>
-<p>These are the types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes, but please make some time to <a href="https://ratfactor.com/tech-nope"
- target="_blank" rel="noopener" >
-
-
-
-read the entire text&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</guid>
+      <description><![CDATA[<p>I stick up heavily for Dave <a href="https://ratfactor.com/" target="_blank" rel="noopener">(ratfactor)&#8599;</a> and his profound defence on why <a href="https://ratfactor.com/tech-nope" target="_blank" rel="noopener">‘broligarchs’ doesnt speak for him&#8599;</a></p>
+<p>These are the types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes, but please make some time to <a href="https://ratfactor.com/tech-nope" target="_blank" rel="noopener">read the entire text&#8599;</a></p>
 <blockquote>
 <p>&ldquo;Tech&rdquo;, as portrayed in the public eye right now is something I barely recognize. It’s almost universally negative: Social media, ad tech, blockchain, &lsquo;AI&rsquo;. I don’t work on any of that stuff. Am I even part of the same industry? (I don’t actually have an answer to that question.)</p>
 </blockquote>

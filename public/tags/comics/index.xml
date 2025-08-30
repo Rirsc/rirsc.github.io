@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Comics on rirsc</title>
-    <link>http://192.168.1.11:1313/tags/comics/</link>
+    <link>http://192.168.1.11:2041/tags/comics/</link>
     <description>Recent content in Comics on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/comics/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2041/tags/comics/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2041/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Experimental comics</title>
-      <link>http://192.168.1.11:1313/posts/25/250323_experimental-comics/</link>
+      <link>http://192.168.1.11:2041/posts/25/250323_experimental-comics/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250323_experimental-comics/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250323_experimental-comics/</guid>
       <description><![CDATA[<p><img src="/images/posts/cf_comics.webp" alt="CF comics" loading="lazy" />
 </p>
-<p>Cool comic panels in this ArtReview text. <a href="https://artreview.com/how-cf-brought-the-weird-to-underground-comics/"
- target="_blank" rel="noopener" >
-
-
-
-How CF Brought the Weird to Underground Comics&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>Cool comic panels in this ArtReview text. <a href="https://artreview.com/how-cf-brought-the-weird-to-underground-comics/" target="_blank" rel="noopener">How CF Brought the Weird to Underground Comics&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Listening: <strong>Hood</strong></p>
 <div class="only-desktop">

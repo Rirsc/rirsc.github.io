@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Pages on rirsc</title>
-    <link>http://192.168.1.11:1313/pages/</link>
+    <link>http://192.168.1.11:2041/pages/</link>
     <description>Recent content in Pages on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 11 Aug 2019 10:14:48 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/pages/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 11 Aug 2019 10:14:48 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2041/pages/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2041/icons/risc_logo.svg</icon>
     
     
     

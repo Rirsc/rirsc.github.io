@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Posts on rirsc</title>
-    <link>http://192.168.1.11:1313/posts/</link>
+    <link>http://192.168.1.11:2041/posts/</link>
     <description>Recent content in Posts on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:2041/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:2041/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Experimental comics</title>
-      <link>http://192.168.1.11:1313/posts/25/250323_experimental-comics/</link>
+      <link>http://192.168.1.11:2041/posts/25/250323_experimental-comics/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250323_experimental-comics/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250323_experimental-comics/</guid>
       <description><![CDATA[<p><img src="/images/posts/cf_comics.webp" alt="CF comics" loading="lazy" />
 </p>
-<p>Cool comic panels in this ArtReview text. <a href="https://artreview.com/how-cf-brought-the-weird-to-underground-comics/"
- target="_blank" rel="noopener" >
-
-
-
-How CF Brought the Weird to Underground Comics&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>Cool comic panels in this ArtReview text. <a href="https://artreview.com/how-cf-brought-the-weird-to-underground-comics/" target="_blank" rel="noopener">How CF Brought the Weird to Underground Comics&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Listening: <strong>Hood</strong></p>
 <div class="only-desktop">
@@ -56,48 +44,12 @@ How CF Brought the Weird to Underground Comics&#8599</a>
     
     <item>
       <title>Broligarchs doesnt speak for Dave (ratfactor)</title>
-      <link>http://192.168.1.11:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</link>
+      <link>http://192.168.1.11:2041/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</guid>
-      <description><![CDATA[<p>I stick up heavily for Dave <a href="https://ratfactor.com/"
- target="_blank" rel="noopener" >
-
-
-
-(ratfactor)&#8599</a>
- 
-
-
-
-
-
- and his profound defence on why <a href="https://ratfactor.com/tech-nope"
- target="_blank" rel="noopener" >
-
-
-
-‘broligarchs’ doesnt speak for him&#8599</a>
- 
-
-
-
-
-
-</p>
-<p>These are the types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes, but please make some time to <a href="https://ratfactor.com/tech-nope"
- target="_blank" rel="noopener" >
-
-
-
-read the entire text&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</guid>
+      <description><![CDATA[<p>I stick up heavily for Dave <a href="https://ratfactor.com/" target="_blank" rel="noopener">(ratfactor)&#8599;</a> and his profound defence on why <a href="https://ratfactor.com/tech-nope" target="_blank" rel="noopener">‘broligarchs’ doesnt speak for him&#8599;</a></p>
+<p>These are the types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes, but please make some time to <a href="https://ratfactor.com/tech-nope" target="_blank" rel="noopener">read the entire text&#8599;</a></p>
 <blockquote>
 <p>&ldquo;Tech&rdquo;, as portrayed in the public eye right now is something I barely recognize. It’s almost universally negative: Social media, ad tech, blockchain, &lsquo;AI&rsquo;. I don’t work on any of that stuff. Am I even part of the same industry? (I don’t actually have an answer to that question.)</p>
 </blockquote>
@@ -136,49 +88,13 @@ The broligarchs are not techie culture. They are not our leaders. They have noth
     
     <item>
       <title>25week09 - Flip a real coin, find a labyrinth, review the html</title>
-      <link>http://192.168.1.11:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
+      <link>http://192.168.1.11:2041/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
-      <description><![CDATA[<p>Lets play a game; enter here to <a href="https://fliparealcoin.com/"
- target="_blank" rel="noopener" >
-
-
-
-flip a real coin&#8599</a>
- 
-
-
-
-
-
- <br>
-If tails, enter this <a href="https://labyrinthlocator.org/"
- target="_blank" rel="noopener" >
-
-
-
-labyrinth locator&#8599</a>
- 
-
-
-
-
-
- site and lose yourself in the closest one to you.  <br>
-If heads, visit <a href="https://thehtml.review/03/"
- target="_blank" rel="noopener" >
-
-
-
-the html review issue 3&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
+      <description><![CDATA[<p>Lets play a game; enter here to <a href="https://fliparealcoin.com/" target="_blank" rel="noopener">flip a real coin&#8599;</a> <br>
+If tails, enter this <a href="https://labyrinthlocator.org/" target="_blank" rel="noopener">labyrinth locator&#8599;</a> site and lose yourself in the closest one to you.  <br>
+If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopener">the html review issue 3&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Listening: <strong>La Ola Interior - Spanish Ambient</strong></p>
 <div class="only-desktop">
@@ -205,25 +121,13 @@ the html review issue 3&#8599</a>
     
     <item>
       <title>Clásicas y oscuras</title>
-      <link>http://192.168.1.11:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</link>
+      <link>http://192.168.1.11:2041/posts/25/250213_cl%C3%A1sicas-y-oscuras/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250213_cl%C3%A1sicas-y-oscuras/</guid>
       <description><![CDATA[<p><img src="/images/posts/clasicas_y_oscuras.webp" alt="Clásicas y oscuras" loading="lazy" />
 </p>
-<p><a href="https://clasicasyoscuras.com/"
- target="_blank" rel="noopener" >
-
-
-
-<em>Clásicas y oscuras</em>&#8599</a>
- 
-
-
-
-
-
- is such an incredibly cool website with a collection of female characters in literature, cinema and music.</p>
+<p><a href="https://clasicasyoscuras.com/" target="_blank" rel="noopener"><em>Clásicas y oscuras</em>&#8599;</a> is such an incredibly cool website with a collection of female characters in literature, cinema and music.</p>
 ]]></description>
       
     </item>
@@ -232,77 +136,29 @@ the html review issue 3&#8599</a>
     
     <item>
       <title>25week06 - Quantum foam and animated postcards</title>
-      <link>http://192.168.1.11:1313/posts/25/250209_quantum-foam-and-animated-postcards/</link>
+      <link>http://192.168.1.11:2041/posts/25/250209_quantum-foam-and-animated-postcards/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
       <description><![CDATA[<p><img src="/images/posts/IMG20250207131943.webp" alt="Muybridge" loading="lazy" />
 </p>
 <p>Someone has a problem with animated postcards. And flip-books. Or any other physical approach to bring pictures to life.</p>
 <p align="center">﹘</p>
-<p><a href="https://en.wikipedia.org/wiki/Quantum_foam"
- target="_blank" rel="noopener" >
-
-
-
-Quantum foam&#8599</a>
- 
-
-
-
-
-
-</p>
+<p><a href="https://en.wikipedia.org/wiki/Quantum_foam" target="_blank" rel="noopener">Quantum foam&#8599;</a></p>
 <blockquote>
 <p>[..] at this small scale, particles of matter and antimatter are constantly created and destroyed.</p>
 </blockquote>
 <p align="center">﹘</p>
-<p>I found <a href="https://www.noemamag.com/why-ai-is-a-philosophical-rupture/"
- target="_blank" rel="noopener" >
-
-
-
-this interview&#8599</a>
- 
-
-
-
-
-
- with Tobias Rees by Nathan Gardels to be way too optimistic from my personal current AI views. Yet it has a lot of good points worth taking a look at.</p>
+<p>I found <a href="https://www.noemamag.com/why-ai-is-a-philosophical-rupture/" target="_blank" rel="noopener">this interview&#8599;</a> with Tobias Rees by Nathan Gardels to be way too optimistic from my personal current AI views. Yet it has a lot of good points worth taking a look at.</p>
 <blockquote>
 <p>Some people say AI has “only” pattern recognition. But I think pattern recognition is actually a form of discovering the logical structure of things. Roughly, when you have a student who identifies the logical principles that underlie data and who can answer questions based on these logical principles, wouldn’t you call that understanding?
 […]
 So in that sense, AI systems have a nascent sense of truth.</p>
 </blockquote>
 <p align="center">﹘</p>
-<p>If one wants to fall into an endless knowledge rabbithole, without the disgust sensation of doomscrolling, it is always good to visit the <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists"
- target="_blank" rel="noopener" >
-
-
-
-List of lists of lists&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>If one wants to fall into an endless knowledge rabbithole, without the disgust sensation of doomscrolling, it is always good to visit the <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists" target="_blank" rel="noopener">List of lists of lists&#8599;</a></p>
 <p align="center">﹘</p>
-<p><a href="https://thesoundof.love/"
- target="_blank" rel="noopener" >
-
-
-
-The Sound of Love&#8599</a>
- 
-
-
-
-
-
- is a collection of love comments left on bright tunes across youtube.</p>
+<p><a href="https://thesoundof.love/" target="_blank" rel="noopener">The Sound of Love&#8599;</a> is a collection of love comments left on bright tunes across youtube.</p>
 <p align="center">﹘</p>
 <p>Listening: <strong>Parasite Jazz</strong></p>
 <div class="only-desktop">
@@ -329,178 +185,34 @@ The Sound of Love&#8599</a>
     
     <item>
       <title>25week05 - Knowledge distillation and animation recs</title>
-      <link>http://192.168.1.11:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
+      <link>http://192.168.1.11:2041/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
       <description><![CDATA[<p>Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it.<br>
-Using the <a href="https://en.wikipedia.org/wiki/Knowledge_distillation"
- target="_blank" rel="noopener" >
-
-
-
-knowledge distillation&#8599</a>
- 
-
-
-
-
-
- technique, <a href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/"
- target="_blank" rel="noopener" >
-
-
-
-Company B sucked the entire knowledge from Company A&#8599</a>
- 
-
-
-
-
-
- and didnt pay a dime to Company A.<br>
+Using the <a href="https://en.wikipedia.org/wiki/Knowledge_distillation" target="_blank" rel="noopener">knowledge distillation&#8599;</a> technique, <a href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/" target="_blank" rel="noopener">Company B sucked the entire knowledge from Company A&#8599;</a> and didnt pay a dime to Company A.<br>
 Company A complaint that Company B didnt pay to them.<br>
 We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 <p align="center">﹘</p>
 <p>Anyway, let’s focus on one of my favourite magics in this world; <strong>animation:</strong></p>
 <ul>
 <li>
-<p><a href="https://www.youtube.com/watch?v=-gcktHx463E"
- target="_blank" rel="noopener" >
-
-
-
-A boy doing sit-ups with his dog&#8599</a>
- 
-
-
-
-
-
- Apparently its part of a videogame which feels even more adorable. Here is a <a href="https://www.youtube.com/watch?v=9VWbFa-hNRQ"
- target="_blank" rel="noopener" >
-
-
-
-playthrough&#8599</a>
- 
-
-
-
-
-
- which includes <strong>a seal cleaning the ass of a dog.</strong></p>
+<p><a href="https://www.youtube.com/watch?v=-gcktHx463E" target="_blank" rel="noopener">A boy doing sit-ups with his dog&#8599;</a> Apparently its part of a videogame which feels even more adorable. Here is a <a href="https://www.youtube.com/watch?v=9VWbFa-hNRQ" target="_blank" rel="noopener">playthrough&#8599;</a> which includes <strong>a seal cleaning the ass of a dog.</strong></p>
 </li>
 <li>
-<p><a href="https://www.youtube.com/watch?v=EVHHI7B_Yuk"
- target="_blank" rel="noopener" >
-
-
-
-Common Side Effects&#8599</a>
- 
-
-
-
-
-
- announced session 3, yaaaaay. Lets hope it helps bring more seasons for the astonishing <a href="https://www.youtube.com/watch?v=NWQH8cMpWTU"
- target="_blank" rel="noopener" >
-
-
-
-Scavengers Reign&#8599</a>
- 
-
-
-
-
-
- as they shared several people involved in both projects.</p>
+<p><a href="https://www.youtube.com/watch?v=EVHHI7B_Yuk" target="_blank" rel="noopener">Common Side Effects&#8599;</a> announced session 3, yaaaaay. Lets hope it helps bring more seasons for the astonishing <a href="https://www.youtube.com/watch?v=NWQH8cMpWTU" target="_blank" rel="noopener">Scavengers Reign&#8599;</a> as they shared several people involved in both projects.</p>
 </li>
 <li>
-<p>Severance season 2 was announced, and they hired Oliver Latta (<a href="https://www.extraweg.com/"
- target="_blank" rel="noopener" >
-
-
-
-extraweg&#8599</a>
- 
-
-
-
-
-
-) again for <a href="https://www.youtube.com/watch?v=uKT5bwMkOAw"
- target="_blank" rel="noopener" >
-
-
-
-the title sequence&#8599</a>
- 
-
-
-
-
-
-, so its as good as the previous one.</p>
+<p>Severance season 2 was announced, and they hired Oliver Latta (<a href="https://www.extraweg.com/" target="_blank" rel="noopener">extraweg&#8599;</a>) again for <a href="https://www.youtube.com/watch?v=uKT5bwMkOAw" target="_blank" rel="noopener">the title sequence&#8599;</a>, so its as good as the previous one.</p>
 </li>
 <li>
-<p><a href="https://www.blender.org/user-stories/making-flow-an-interview-with-director-gints-zilbalodis/"
- target="_blank" rel="noopener" >
-
-
-
-Long and detailed interview with the director of Flow&#8599</a>
- 
-
-
-
-
-
-, Gints Zilbadolis, which includes some making-of videos worth watching. Crazy how much beauty humans can create.</p>
+<p><a href="https://www.blender.org/user-stories/making-flow-an-interview-with-director-gints-zilbalodis/" target="_blank" rel="noopener">Long and detailed interview with the director of Flow&#8599;</a>, Gints Zilbadolis, which includes some making-of videos worth watching. Crazy how much beauty humans can create.</p>
 </li>
 </ul>
 <p align="center">﹘</p>
-<p>Lately I was reading the <a href="https://grimgrains.com/site/nutrition.html"
- target="_blank" rel="noopener" >
-
-
-
-Nutrition&#8599</a>
- 
-
-
-
-
-
- section from <strong>Grimgrains,</strong> this site populated by the wizards <a href="https://100r.co/site/home.html"
- target="_blank" rel="noopener" >
-
-
-
-Hundred Rabbits&#8599</a>
- 
-
-
-
-
-
-.</p>
+<p>Lately I was reading the <a href="https://grimgrains.com/site/nutrition.html" target="_blank" rel="noopener">Nutrition&#8599;</a> section from <strong>Grimgrains,</strong> this site populated by the wizards <a href="https://100r.co/site/home.html" target="_blank" rel="noopener">Hundred Rabbits&#8599;</a></p>
 <p align="center">﹘</p>
-<p>Out there, I visited the <a href="https://www.google.com/maps/place/Braun-Sammlung&#43;Ettel&#43;Museum&#43;f%C3%BCr&#43;Design/@52.527291,13.3199926,13.8z/data=!4m6!3m5!1s0x47a8510c23e4dfad:0xb07e7c91165d4d79!8m2!3d52.5241418!4d13.3363634!16s%2Fg%2F11byl684fj?entry=ttu&amp;g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
- target="_blank" rel="noopener" >
-
-
-
-Braun-Sammlung Ettel Museum für Design&#8599</a>
- 
-
-
-
-
-
- in Moabit. Apart from the vast collection of industrial design objects, my mind was blown by the idea behind it; just an individual collector who decided to open his studio to anyone interested in Braun products. When I visited it, I saw him having coffee in a small part of the studio with his friends while visitors were taking a look at the collection. <strong>Looks like a cool plan for retirement times.</strong></p>
+<p>Out there, I visited the <a href="https://www.google.com/maps/place/Braun-Sammlung&#43;Ettel&#43;Museum&#43;f%C3%BCr&#43;Design/@52.527291,13.3199926,13.8z/data=!4m6!3m5!1s0x47a8510c23e4dfad:0xb07e7c91165d4d79!8m2!3d52.5241418!4d13.3363634!16s%2Fg%2F11byl684fj?entry=ttu&amp;g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Braun-Sammlung Ettel Museum für Design&#8599;</a> in Moabit. Apart from the vast collection of industrial design objects, my mind was blown by the idea behind it; just an individual collector who decided to open his studio to anyone interested in Braun products. When I visited it, I saw him having coffee in a small part of the studio with his friends while visitors were taking a look at the collection. <strong>Looks like a cool plan for retirement times.</strong></p>
 <p align="center">﹘</p>
 <p>Listening: <strong>kinoue 64</strong></p>
 <div class="only-desktop">
@@ -527,47 +239,11 @@ Braun-Sammlung Ettel Museum für Design&#8599</a>
     
     <item>
       <title>Webcams suck, so f4mi built her own</title>
-      <link>http://192.168.1.11:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
+      <link>http://192.168.1.11:2041/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
-      <description><![CDATA[<p><a href="https://bsky.app/profile/f4mi.bsky.social"
- target="_blank" rel="noopener" >
-
-
-
-f4mi&#8599</a>
- 
-
-
-
-
-
- is this creative mind throwing absolutely gems to the internet. Probably most known by her videos usually related to <strong>00’s tech and hacking vibes projects.</strong> The entry title is from this time <a href="https://www.youtube.com/watch?v=K1T1eMyPIC4"
- target="_blank" rel="noopener" >
-
-
-
-she built her own webcam&#8599</a>
- 
-
-
-
-
-
- but just make sure to follow her brain. Highly recommend joining her <a href="https://discord.gg/q8aAqQRn"
- target="_blank" rel="noopener" >
-
-
-
-Discord server&#8599</a>
- 
-
-
-
-
-
- as well.</p>
+      <guid>http://192.168.1.11:2041/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
+      <description><![CDATA[<p><a href="https://bsky.app/profile/f4mi.bsky.social" target="_blank" rel="noopener">f4mi&#8599;</a> is this creative mind throwing absolutely gems to the internet. Probably most known by her videos usually related to <strong>00’s tech and hacking vibes projects.</strong> The entry title is from this time <a href="https://www.youtube.com/watch?v=K1T1eMyPIC4" target="_blank" rel="noopener">she built her own webcam&#8599;</a> but just make sure to follow her brain. Highly recommend joining her <a href="https://discord.gg/q8aAqQRn" target="_blank" rel="noopener">Discord server&#8599;</a> as well.</p>
 ]]></description>
       
     </item>
@@ -576,93 +252,21 @@ Discord server&#8599</a>
     
     <item>
       <title>25Week03 - Evil meta, k-punk and online countercoulture</title>
-      <link>http://192.168.1.11:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
+      <link>http://192.168.1.11:2041/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
       <description><![CDATA[<p>After Meta announced that it will allow users call LGTBQ+ people “mentally ill”, now its deleting posts with links to the decentralized competitor Pixelfed. <strong>Siren Servers against humanity, once again.</strong></p>
 <p align="center">﹘</p>
-<p>Found myself digging further about <a href="https://en.wikipedia.org/wiki/Mark_Fisher"
- target="_blank" rel="noopener" >
-
-
-
-Mark Fisher&#8599</a>
- 
-
-
-
-
-
- and his acclaimed blog <a href="https://k-punk.org/"
- target="_blank" rel="noopener" >
-
-
-
-k-punk&#8599</a>
- 
-
-
-
-
-
- Go for it if you find <strong>radical politics and music</strong> within your interests.</p>
+<p>Found myself digging further about <a href="https://en.wikipedia.org/wiki/Mark_Fisher" target="_blank" rel="noopener">Mark Fisher&#8599;</a> and his acclaimed blog <a href="https://k-punk.org/" target="_blank" rel="noopener">k-punk&#8599;</a> Go for it if you find <strong>radical politics and music</strong> within your interests.</p>
 <p align="center">﹘</p>
-<p>A vast collection of <a href="https://kaomoji.ru/en/"
- target="_blank" rel="noopener" >
-
-
-
-Kaomojis&#8599</a>
- 
-
-
-
-
-
- (Japanese Emoticons); the best emojis.</p>
+<p>A vast collection of <a href="https://kaomoji.ru/en/" target="_blank" rel="noopener">Kaomojis&#8599;</a> (Japanese Emoticons); the best emojis.</p>
 <p align="center">| ( ˘⌣˘)♡(˘⌣˘ ) |</p> 
 <p align="center">﹘</p>
-<p>Alway a good time to remind that <a href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/"
- target="_blank" rel="noopener" >
-
-
-
-The internet didn’t kill counterculture—you just won’t find it on Instagram&#8599</a>
- 
-
-
-
-
-
- Go look for those Discord channels you like, engange in communities, start your own site.</p>
+<p>Alway a good time to remind that <a href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/" target="_blank" rel="noopener">The internet didn’t kill counterculture—you just won’t find it on Instagram&#8599;</a> Go look for those Discord channels you like, engange in communities, start your own site.</p>
 <p align="center">﹘</p>
-<p>Easy entry point for the most <strong>famous philophers</strong> and their theories: <a href="https://www.actionphilosophers.com/"
- target="_blank" rel="noopener" >
-
-
-
-Action Philosophers&#8599</a>
- 
-
-
-
-
-
-</p>
-<p>Nonetheless, my fav is still <a href="https://existentialcomics.com/"
- target="_blank" rel="noopener" >
-
-
-
-Existential Comics&#8599</a>
- 
-
-
-
-
-
- impossible to beat that one.</p>
+<p>Easy entry point for the most <strong>famous philophers</strong> and their theories: <a href="https://www.actionphilosophers.com/" target="_blank" rel="noopener">Action Philosophers&#8599;</a></p>
+<p>Nonetheless, my fav is still <a href="https://existentialcomics.com/" target="_blank" rel="noopener">Existential Comics&#8599;</a> impossible to beat that one.</p>
 ]]></description>
       
     </item>
@@ -671,10 +275,10 @@ Existential Comics&#8599</a>
     
     <item>
       <title>Puzzle to another world</title>
-      <link>http://192.168.1.11:1313/posts/25/250116_puzzle-to-another-world/</link>
+      <link>http://192.168.1.11:2041/posts/25/250116_puzzle-to-another-world/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250116_puzzle-to-another-world/</guid>
+      <guid>http://192.168.1.11:2041/posts/25/250116_puzzle-to-another-world/</guid>
       <description><![CDATA[<blockquote>
 <p>[D] Twin Peaks is a world, and I love that world and I love that world. It&rsquo;s something that is like a magnet. It&rsquo;s to go back in there. <br>
 <br>
@@ -722,55 +326,19 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>Arecibo Message and Poetica Vagina</title>
-      <link>http://192.168.1.11:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
+      <link>http://192.168.1.11:2041/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
+      <guid>http://192.168.1.11:2041/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
       <description><![CDATA[<p>Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.</p>
 <p><img src="/images/posts/arecibo-message.webp" alt="AreciboMessage" loading="lazy" />
 </p>
-<p>I love the idea and its aesthetics—I guess because it reminds me of my beloved <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
- target="_blank" rel="noopener" >
-
-
-
-Game of Life&#8599</a>
- 
-
-
-
-
-
- It makes me wonder: would it be possible to recreate that exact drawing from one of the initial configurations?</p>
-<p>From there, I did a quick search for various messages humanity has sent into space in hopes of finding life.Voyager Golden Record (1977), Cosmic Call (1999), the Teen Age Message (2008), and perhaps one of the oldest and most famous; the Pioneer Plaques. As many have pointed out, the Pioneer Plaques offered a vague representation of humanity’s cultural and racial diversity. The depiction of the woman’s body notably omits genitalia, making it feel incomplete. While searching for a more accurate or inclusive representation, somehow I ended learning about the project by <a href="https://ucsdvis159.wordpress.com/2015/02/02/joe-davis-poetica-vagina/"
- target="_blank" rel="noopener" >
-
-
-
-Joe Davis: Poetica Vagina&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>I love the idea and its aesthetics—I guess because it reminds me of my beloved <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener">Game of Life&#8599;</a> It makes me wonder: would it be possible to recreate that exact drawing from one of the initial configurations?</p>
+<p>From there, I did a quick search for various messages humanity has sent into space in hopes of finding life.Voyager Golden Record (1977), Cosmic Call (1999), the Teen Age Message (2008), and perhaps one of the oldest and most famous; the Pioneer Plaques. As many have pointed out, the Pioneer Plaques offered a vague representation of humanity’s cultural and racial diversity. The depiction of the woman’s body notably omits genitalia, making it feel incomplete. While searching for a more accurate or inclusive representation, somehow I ended learning about the project by <a href="https://ucsdvis159.wordpress.com/2015/02/02/joe-davis-poetica-vagina/" target="_blank" rel="noopener">Joe Davis: Poetica Vagina&#8599;</a></p>
 <blockquote>
 <p>In the 1980s he came up with a project that records the vaginal contractions of ballerinas using a “vaginal detector” built in a laboratory of mechanical engineering. […] He used electronic music software in order to match the the frequency of the contractions to the English speech. He then transmitted the sounds of vaginal contractions to the nearest star systems.</p>
 </blockquote>
-<p>I&rsquo;m just not really sure what to think about this project at all. Lets pass to a brief musical break: <a href="https://stroomtv.bandcamp.com/album/v-jula"
- target="_blank" rel="noopener" >
-
-
-
-Vèjula - Merope&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>I&rsquo;m just not really sure what to think about this project at all. Lets pass to a brief musical break: <a href="https://stroomtv.bandcamp.com/album/v-jula" target="_blank" rel="noopener">Vèjula - Merope&#8599;</a></p>
 ]]></description>
       
     </item>
@@ -779,61 +347,13 @@ Vèjula - Merope&#8599</a>
     
     <item>
       <title>24week44 - Free will &amp; Carcáscara</title>
-      <link>http://192.168.1.11:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
+      <link>http://192.168.1.11:2041/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
-      <description><![CDATA[<p><strong>Hack&amp;Tell #100</strong> at <a href="https://c-base.org/"
- target="_blank" rel="noopener" >
-
-
-
-C-Base&#8599</a>
- 
-
-
-
-
-
- Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is <a href="https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11"
- target="_blank" rel="noopener" >
-
-
-
-QR-DICE: 6-side QR-cube&#8599</a>
- 
-
-
-
-
-
- and it just blown our minds.</p>
+      <guid>http://192.168.1.11:2041/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
+      <description><![CDATA[<p><strong>Hack&amp;Tell #100</strong> at <a href="https://c-base.org/" target="_blank" rel="noopener">C-Base&#8599;</a> Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is <a href="https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11" target="_blank" rel="noopener">QR-DICE: 6-side QR-cube&#8599;</a> and it just blown our minds.</p>
 <p align="center">﹘</p>
-<p>The algo did its job cos I recently finished <a href="https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will"
- target="_blank" rel="noopener" >
-
-
-
-Determined: A Science of Life Without Free Will by Robert Sapolsky&#8599</a>
- 
-
-
-
-
-
- and this conversation about free will between Robert and his love-hate nemesis, Daniel Dennet, appeared on my feed. Watch it <a href="https://youtu.be/aYzFH8xqhns?si=AyH4eAHs5cot8JYk"
- target="_blank" rel="noopener" >
-
-
-
-here&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>The algo did its job cos I recently finished <a href="https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will" target="_blank" rel="noopener">Determined: A Science of Life Without Free Will by Robert Sapolsky&#8599;</a> and this conversation about free will between Robert and his love-hate nemesis, Daniel Dennet, appeared on my feed. Watch it <a href="https://youtu.be/aYzFH8xqhns?si=AyH4eAHs5cot8JYk" target="_blank" rel="noopener">here&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Terrible weather and even worse politicians have devastated part of <em>Comunitat Valenciana.</em> All my love to the marvelous people that live in that beautiful part of the world. ♡</p>
 <p align="center">﹘</p>
@@ -862,77 +382,17 @@ here&#8599</a>
     
     <item>
       <title>24week39 - We will remember freedom 02b</title>
-      <link>http://192.168.1.11:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
+      <link>http://192.168.1.11:2041/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
-      <description><![CDATA[<p>These are definetly a worthy words put together by <a href="https://en.wikipedia.org/wiki/Margaret_Killjoy"
- target="_blank" rel="noopener" >
-
-
-
-Margaret Killjoy&#8599</a>
- 
-
-
-
-
-
- about one of the sweetest, charmest and most brillante humans we had have so far; <strong>Ursuka K. Le Guin</strong>. <a href="https://blog.pmpress.org/2019/07/17/we-will-remember-freedom/"
- target="_blank" rel="noopener" >
-
-
-
-We will remember freedom&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
+      <description><![CDATA[<p>These are definetly a worthy words put together by <a href="https://en.wikipedia.org/wiki/Margaret_Killjoy" target="_blank" rel="noopener">Margaret Killjoy&#8599;</a> about one of the sweetest, charmest and most brillante humans we had have so far; <strong>Ursuka K. Le Guin</strong>. <a href="https://blog.pmpress.org/2019/07/17/we-will-remember-freedom/" target="_blank" rel="noopener">We will remember freedom&#8599;</a></p>
 <p align="center">﹘</p>
-<p>On this new approach looking for a better web, <a href="https://matrix.org/docs/chat_basics/matrix-for-im/"
- target="_blank" rel="noopener" >
-
-
-
-[matrix]&#8599</a>
- 
-
-
-
-
-
- cross my path. Im just leaving the link here for the future me to take a look at. I still need to study better the real differences from the protocols <strong>Activitypub</strong> (Mastodon) and <strong>Atproto</strong> (Bluesky).</p>
+<p>On this new approach looking for a better web, <a href="https://matrix.org/docs/chat_basics/matrix-for-im/" target="_blank" rel="noopener">[matrix]&#8599;</a> cross my path. Im just leaving the link here for the future me to take a look at. I still need to study better the real differences from the protocols <strong>Activitypub</strong> (Mastodon) and <strong>Atproto</strong> (Bluesky).</p>
 <p align="center">﹘</p>
-<p>After some time collecting and filtering throught some german youtube channels, I think <a href="https://www.youtube.com/@maithinkx"
- target="_blank" rel="noopener" >
-
-
-
-Maithink X&#8599</a>
- 
-
-
-
-
-
- is one of my fav so far.</p>
+<p>After some time collecting and filtering throught some german youtube channels, I think <a href="https://www.youtube.com/@maithinkx" target="_blank" rel="noopener">Maithink X&#8599;</a> is one of my fav so far.</p>
 <p align="center">﹘</p>
-<p><a href="https://en.wikipedia.org/wiki/2_B_R_0_2_B"
- target="_blank" rel="noopener" >
-
-
-
-2 B R 0 2 B&#8599</a>
- 
-
-
-
-
-
-</p>
+<p><a href="https://en.wikipedia.org/wiki/2_B_R_0_2_B" target="_blank" rel="noopener">2 B R 0 2 B&#8599;</a></p>
 ]]></description>
       
     </item>
@@ -941,47 +401,11 @@ Maithink X&#8599</a>
     
     <item>
       <title>spectral cartography</title>
-      <link>http://192.168.1.11:1313/posts/24/240712_spectral-cartography/</link>
+      <link>http://192.168.1.11:2041/posts/24/240712_spectral-cartography/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240712_spectral-cartography/</guid>
-      <description><![CDATA[<p>In this house we adore anything that <a href="https://www.instagram.com/uglystupidhonest/"
- target="_blank" rel="noopener" >
-
-
-
-Chris&#8599</a>
- 
-
-
-
-
-
- makes. His approach to music is as clever and beautiful as the rest of his art. For his latest project he has built a music label, <a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race?from=search&amp;logged_in_menubar=true&amp;search_item_id=1132279508&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726377253&amp;search_page_no=0&amp;search_rank=1"
- target="_blank" rel="noopener" >
-
-
-
-spectral cartography&#8599</a>
- 
-
-
-
-
-
- and it even have a couple of tracks mixed by Andi Toma, from the marvelous <a href="https://mouseonmars.bandcamp.com/?from=search&amp;search_item_id=2381589351&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726385384&amp;search_page_no=0&amp;search_rank=1&amp;logged_in_menubar=true"
- target="_blank" rel="noopener" >
-
-
-
-Mouse on Mars&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/24/240712_spectral-cartography/</guid>
+      <description><![CDATA[<p>In this house we adore anything that <a href="https://www.instagram.com/uglystupidhonest/" target="_blank" rel="noopener">Chris&#8599;</a> makes. His approach to music is as clever and beautiful as the rest of his art. For his latest project he has built a music label, <a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race?from=search&amp;logged_in_menubar=true&amp;search_item_id=1132279508&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726377253&amp;search_page_no=0&amp;search_rank=1" target="_blank" rel="noopener">spectral cartography&#8599;</a> and it even have a couple of tracks mixed by Andi Toma, from the marvelous <a href="https://mouseonmars.bandcamp.com/?from=search&amp;search_item_id=2381589351&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726385384&amp;search_page_no=0&amp;search_rank=1&amp;logged_in_menubar=true" target="_blank" rel="noopener">Mouse on Mars&#8599;</a></p>
 <div class="only-desktop">
   
 <div style="display: flex; justify-content: center;">
@@ -1006,127 +430,31 @@ Mouse on Mars&#8599</a>
     
     <item>
       <title>24week22 - Trholz zine and dep Albini</title>
-      <link>http://192.168.1.11:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
+      <link>http://192.168.1.11:2041/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
-      <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre"
- target="_blank" rel="noopener" >
-
-
-
-Trholz&#8599</a>
- 
-
-
-
-
-
- at idvdogh, I bought them one <strong>fanzine.</strong> Cool drawings and it has the lyrics&amp;tabs of the songs; win-win.</p>
+      <guid>http://192.168.1.11:2041/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
+      <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre" target="_blank" rel="noopener">Trholz&#8599;</a> at idvdogh, I bought them one <strong>fanzine.</strong> Cool drawings and it has the lyrics&amp;tabs of the songs; win-win.</p>
 <p><img src="/images/posts/IMG20240531114009.webp" alt="Trholz" loading="lazy" />
 <br>
 <img src="/images/posts/IMG20240531114002.webp" alt="Trholz" loading="lazy" />
 </p>
 <p align="center">﹘</p>
-<p>I have been playing the latest album from <strong>Shellac, To All Trains</strong> (snif, DEP Steve Albini) in order to keep his memory a bit more recent in my brain these days. Im also thinking on re-doing again his famous <a href="https://www.mashed.com/1580426/fluffy-coffee-steve-albini-drank-studio/"
- target="_blank" rel="noopener" >
-
-
-
-‘Fluffy’&#8599</a>
- 
-
-
-
-
-
- coffe.</p>
+<p>I have been playing the latest album from <strong>Shellac, To All Trains</strong> (snif, DEP Steve Albini) in order to keep his memory a bit more recent in my brain these days. Im also thinking on re-doing again his famous <a href="https://www.mashed.com/1580426/fluffy-coffee-steve-albini-drank-studio/" target="_blank" rel="noopener">‘Fluffy’&#8599;</a> coffe.</p>
 <p align="center">﹘</p>
-<p>This is an authentic gem: <a href="https://jackrusher.com/classic-ux/"
- target="_blank" rel="noopener" >
-
-
-
-A curated collection of HCI demo videos produced during the golden age from 1983-2002&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>This is an authentic gem: <a href="https://jackrusher.com/classic-ux/" target="_blank" rel="noopener">A curated collection of HCI demo videos produced during the golden age from 1983-2002&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Re-watching <strong>Serial Experiments Lain,</strong> because its so on point with how we communicate online and it doesnt matter when you read this.</p>
 <p align="center">﹘</p>
 <p><strong>My favorite thing is Monsters II</strong> is finally out. I enjoyed the first one quite a lot, so now its time for a visit to the store :)</p>
 <p align="center">﹘</p>
-<p>Lately I was digging back into math rock, so this session <a href="https://www.nts.live/shows/loraine-james/episodes/loraine-james-7th-july-2022"
- target="_blank" rel="noopener" >
-
-
-
-Math rock NTS session&#8599</a>
- 
-
-
-
-
-
- by Loraine James comes just perfect.</p>
+<p>Lately I was digging back into math rock, so this session <a href="https://www.nts.live/shows/loraine-james/episodes/loraine-james-7th-july-2022" target="_blank" rel="noopener">Math rock NTS session&#8599;</a> by Loraine James comes just perfect.</p>
 <p align="center">﹘</p>
-<p><a href="https://itch.io/b/2295/ttrpgs-for-palestine"
- target="_blank" rel="noopener" >
-
-
-
-TTRPGs for Palestine&#8599</a>
- 
-
-
-
-
-
- is a cute project with a tons of interesting TTRPGs. I think I dont know even one though, wow.</p>
+<p><a href="https://itch.io/b/2295/ttrpgs-for-palestine" target="_blank" rel="noopener">TTRPGs for Palestine&#8599;</a> is a cute project with a tons of interesting TTRPGs. I think I dont know even one though, wow.</p>
 <p align="center">﹘</p>
-<p>I bought the volumen II from <a href="https://johnpowell-jones.bandcamp.com/album/web-wide-world-game-ost"
- target="_blank" rel="noopener" >
-
-
-
-Web Wide World&#8599</a>
- 
-
-
-
-
-
- and I read it while listening to his OST. Go check <a href="https://www.johnpowell-jones.co.uk/"
- target="_blank" rel="noopener" >
-
-
-
-John Powell-Jones&#8599</a>
- 
-
-
-
-
-
- art.</p>
+<p>I bought the volumen II from <a href="https://johnpowell-jones.bandcamp.com/album/web-wide-world-game-ost" target="_blank" rel="noopener">Web Wide World&#8599;</a> and I read it while listening to his OST. Go check <a href="https://www.johnpowell-jones.co.uk/" target="_blank" rel="noopener">John Powell-Jones&#8599;</a> art.</p>
 <p align="center">﹘</p>
-<p>Interesting <a href="https://www.marginalia.nu/"
- target="_blank" rel="noopener" >
-
-
-
-marginalia.nu&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>Interesting <a href="https://www.marginalia.nu/" target="_blank" rel="noopener">marginalia.nu&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Finished <strong>Animal Well</strong>; now the fun starts.</p>
 ]]></description>
@@ -1137,10 +465,10 @@ marginalia.nu&#8599</a>
     
     <item>
       <title>Buch der tage</title>
-      <link>http://192.168.1.11:1313/posts/24/240612_buch-der-tage/</link>
+      <link>http://192.168.1.11:2041/posts/24/240612_buch-der-tage/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240612_buch-der-tage/</guid>
+      <guid>http://192.168.1.11:2041/posts/24/240612_buch-der-tage/</guid>
       <description><![CDATA[<p>By chance, I discovered the bookshop <strong>langer blomqvist</strong>, which is full of discounted and second-hand books. I bought the gem <strong><em>Buch der Tage</em>, by Patti Smith</strong>. It consists of a daily photo with a small description covering 2018.</p>
 <p><img src="/images/posts/IMG20240612124046.webp" alt="Buch der tage" loading="lazy" />
 </p>
@@ -1156,49 +484,13 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
     
     <item>
       <title>Game of life by oimo.io</title>
-      <link>http://192.168.1.11:1313/posts/24/240526_game-of-life-by-oimo.io/</link>
+      <link>http://192.168.1.11:2041/posts/24/240526_game-of-life-by-oimo.io/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240526_game-of-life-by-oimo.io/</guid>
-      <description><![CDATA[<p>Forever in love with anything related with the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
- target="_blank" rel="noopener" >
-
-
-
-game of life&#8599</a>
- 
-
-
-
-
-
-<br>
-This particular approach from oimo is mesmerizing as it allows the user to zoom in and out achieving a totally wizardly effect.<a href="https://oimo.io/works/life/"
- target="_blank" rel="noopener" >
-
-
-
-Here&#8599</a>
- 
-
-
-
-
-
- you can see what I mean.
-I highly recommend you to take a look to the rest of his otherworldly <a href="https://oimo.io/works"
- target="_blank" rel="noopener" >
-
-
-
-projects&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/24/240526_game-of-life-by-oimo.io/</guid>
+      <description><![CDATA[<p>Forever in love with anything related with the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener">game of life&#8599;</a><br>
+This particular approach from oimo is mesmerizing as it allows the user to zoom in and out achieving a totally wizardly effect.<a href="https://oimo.io/works/life/" target="_blank" rel="noopener">Here&#8599;</a> you can see what I mean.
+I highly recommend you to take a look to the rest of his otherworldly <a href="https://oimo.io/works" target="_blank" rel="noopener">projects&#8599;</a></p>
 <p><img src="/images/posts/oimo-life.webp" alt="oimo-life" loading="lazy" />
 `</p>
 ]]></description>
@@ -1209,35 +501,11 @@ projects&#8599</a>
     
     <item>
       <title>Cindy Lee and Realistik website</title>
-      <link>http://192.168.1.11:1313/posts/24/240523_cindy-lee-and-realistik-website/</link>
+      <link>http://192.168.1.11:2041/posts/24/240523_cindy-lee-and-realistik-website/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240523_cindy-lee-and-realistik-website/</guid>
-      <description><![CDATA[<p>The new album from Cindy Lee, <em><a href="https://www.youtube.com/watch?si=6bVn2BwB_PnWvbb2&amp;v=_LJi5na897Y&amp;feature=youtu.be"
- target="_blank" rel="noopener" >
-
-
-
-Diamond Jubilee&#8599</a>
- 
-
-
-
-
-
-</em> is an absolute treasure from start to finish—a captivating blend of raw emotion and haunting beauty. What is as good as the album is the website from the studio behind it, <a href="https://www.geocities.ws/ccqsk/"
- target="_blank" rel="noopener" >
-
-
-
-Realistik Studios&#8599</a>
- 
-
-
-
-
-
-</p>
+      <guid>http://192.168.1.11:2041/posts/24/240523_cindy-lee-and-realistik-website/</guid>
+      <description><![CDATA[<p>The new album from Cindy Lee, <em><a href="https://www.youtube.com/watch?si=6bVn2BwB_PnWvbb2&amp;v=_LJi5na897Y&amp;feature=youtu.be" target="_blank" rel="noopener">Diamond Jubilee&#8599;</a></em> is an absolute treasure from start to finish—a captivating blend of raw emotion and haunting beauty. What is as good as the album is the website from the studio behind it, <a href="https://www.geocities.ws/ccqsk/" target="_blank" rel="noopener">Realistik Studios&#8599;</a></p>
 <p><img src="/images/posts/realistik_studios.webp" alt="RealistikStudios" loading="lazy" />
 </p>
 ]]></description>
@@ -1248,65 +516,17 @@ Realistik Studios&#8599</a>
     
     <item>
       <title>24week16 - sBach and the LatentScape</title>
-      <link>http://192.168.1.11:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
+      <link>http://192.168.1.11:2041/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
+      <guid>http://192.168.1.11:2041/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
       <description><![CDATA[<p>We went to the exposition <strong>Sound System Culture</strong> at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.</p>
 <p align="center">﹘</p>
-<p>Entered the rabbit hole of <a href="https://en.wikipedia.org/wiki/Spencer_Seim"
- target="_blank" rel="noopener" >
-
-
-
-Spencer Seim&#8599</a>
- 
-
-
-
-
-
- and I spent way too much time that I would admit looping at his <a href="https://sbach.bandcamp.com/album/sbach"
- target="_blank" rel="noopener" >
-
-
-
-sBach&#8599</a>
- 
-
-
-
-
-
- project.</p>
+<p>Entered the rabbit hole of <a href="https://en.wikipedia.org/wiki/Spencer_Seim" target="_blank" rel="noopener">Spencer Seim&#8599;</a> and I spent way too much time that I would admit looping at his <a href="https://sbach.bandcamp.com/album/sbach" target="_blank" rel="noopener">sBach&#8599;</a> project.</p>
 <p align="center">﹘</p>
-<p>I am also listening <a href="https://stillhouseplants.bandcamp.com/"
- target="_blank" rel="noopener" >
-
-
-
-Still House Plants&#8599</a>
- 
-
-
-
-
-
- quite a lot these days.</p>
+<p>I am also listening <a href="https://stillhouseplants.bandcamp.com/" target="_blank" rel="noopener">Still House Plants&#8599;</a> quite a lot these days.</p>
 <p align="center">﹘</p>
-<p>I dont remember how I ended up in this <a href="https://latentscape.com/#0,-10"
- target="_blank" rel="noopener" >
-
-
-
-LantentScape&#8599</a>
- 
-
-
-
-
-
- nor that I care. Please explain me what its about.</p>
+<p>I dont remember how I ended up in this <a href="https://latentscape.com/#0,-10" target="_blank" rel="noopener">LantentScape&#8599;</a> nor that I care. Please explain me what its about.</p>
 <p><img src="/images/posts/latentspace.webp" alt="LatentSpace" loading="lazy" />
 </p>
 ]]></description>
@@ -1317,74 +537,14 @@ LantentScape&#8599</a>
     
     <item>
       <title>Lucas Pope is back</title>
-      <link>http://192.168.1.11:1313/posts/24/240312_lucas-pope-is-back/</link>
+      <link>http://192.168.1.11:2041/posts/24/240312_lucas-pope-is-back/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240312_lucas-pope-is-back/</guid>
+      <guid>http://192.168.1.11:2041/posts/24/240312_lucas-pope-is-back/</guid>
       <description><![CDATA[<p><img src="/images/posts/mars-after-midnight.webp" alt="Mars After Midnight" loading="lazy" />
 </p>
-<p><a href="https://obradinn.com/"
- target="_blank" rel="noopener" >
-
-
-
-Return of the Obra Dinn&#8599</a>
- 
-
-
-
-
-
- is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. <strong>Nothing better than struggling with other brains.</strong></p>
-<p>Anyway, I wrote this post to mention the new game from <a href="https://en.wikipedia.org/wiki/Lucas_Pope"
- target="_blank" rel="noopener" >
-
-
-
-Lucas Pope&#8599</a>
- 
-
-
-
-
-
- the creator of the Obra. Its called <a href="https://play.date/games/mars-after-midnight/"
- target="_blank" rel="noopener" >
-
-
-
-Mars After Midnight&#8599</a>
- 
-
-
-
-
-
- I dont own a <a href="https://play.date/"
- target="_blank" rel="noopener" >
-
-
-
-Playdate&#8599</a>
- 
-
-
-
-
-
- so I wont be able to play it. But the art looks awesome and the approach sounds <em>(too)</em> similar to another of his gems; <a href="https://papersplea.se/"
- target="_blank" rel="noopener" >
-
-
-
-Papers Please&#8599</a>
- 
-
-
-
-
-
-</p>
+<p><a href="https://obradinn.com/" target="_blank" rel="noopener">Return of the Obra Dinn&#8599;</a> is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. <strong>Nothing better than struggling with other brains.</strong></p>
+<p>Anyway, I wrote this post to mention the new game from <a href="https://en.wikipedia.org/wiki/Lucas_Pope" target="_blank" rel="noopener">Lucas Pope&#8599;</a> the creator of the Obra. Its called <a href="https://play.date/games/mars-after-midnight/" target="_blank" rel="noopener">Mars After Midnight&#8599;</a> I dont own a <a href="https://play.date/" target="_blank" rel="noopener">Playdate&#8599;</a> so I wont be able to play it. But the art looks awesome and the approach sounds <em>(too)</em> similar to another of his gems; <a href="https://papersplea.se/" target="_blank" rel="noopener">Papers Please&#8599;</a></p>
 ]]></description>
       
     </item>
@@ -1393,24 +553,12 @@ Papers Please&#8599</a>
     
     <item>
       <title>Contemporánea - Un diccionario sonoro</title>
-      <link>http://192.168.1.11:1313/posts/24/240310_contemporanea/</link>
+      <link>http://192.168.1.11:2041/posts/24/240310_contemporanea/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240310_contemporanea/</guid>
+      <guid>http://192.168.1.11:2041/posts/24/240310_contemporanea/</guid>
       <description><![CDATA[<p>A so-called ‘sound dictionary’ that dives deep into the most relevant names shaping contemporary music. You can feel the passion and dedication poured into this project. It’s an inspiring resource, perfect for discovering new ideas or revisiting familiar ones. Definitely saving this to explore it bit by bit.</p>
-<p><a href="https://contemporanea.march.es/"
- target="_blank" rel="noopener" >
-
-
-
-Contemporánea - Un diccionario sonoro&#8599</a>
- 
-
-
-
-
-
-</p>
+<p><a href="https://contemporanea.march.es/" target="_blank" rel="noopener">Contemporánea - Un diccionario sonoro&#8599;</a></p>
 
 
 
@@ -1439,10 +587,10 @@ Contemporánea - Un diccionario sonoro&#8599</a>
     
     <item>
       <title>AI image generators</title>
-      <link>http://192.168.1.11:1313/posts/23/231129_ai-image-generators/</link>
+      <link>http://192.168.1.11:2041/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://192.168.1.11:2041/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>
@@ -1450,126 +598,30 @@ Contemporánea - Un diccionario sonoro&#8599</a>
 <h2 id="the-opposite-of-beautiful-is-careless">The opposite of beautiful is careless</h2>
 <p>Aesthetically, much of what is spreading is unmotivated output from quick prompting and zero filter. These are adding little to level up the scene but quite the opposite. It is also extremely sad how professional illustrators are being replaced by managers who decided to get rid of them. They wear a shiny painter’s smock with zero care for the final output (even if they are, sometimes they cannot improve what they have created so they just ease the requirements). Quite the opposite of when they had a professional who they could guide, even if sometimes this is done in an incredibly unproductive and stressful way for the person crafting the output.</p>
 <p>Nowadays, the major use is a vague replication of existing styles using models that have been trained on millions of images, a lot of them from artists who didn’t allow their art for such a purpose. One could disagree, mentioning that humans are constantly supporting their art in lots of references, and it’s what the models are doing.</p>
-<p>Even if I agree with it, I think <strong>it should be easy and obligatory to verify if any given image was used for training models and remove them if necessary</strong>. Similarly, it should be clearer when Siren Servers are grabbing users’ input and <a href="https://www.instagram.com/p/C34xFEpqSqK/?igsh=MWY3Zm9uNHRta3AxdQ%3D%3D"
- target="_blank" rel="noopener" >
-
-
-
-asking for their consent.&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>Even if I agree with it, I think <strong>it should be easy and obligatory to verify if any given image was used for training models and remove them if necessary</strong>. Similarly, it should be clearer when Siren Servers are grabbing users’ input and <a href="https://www.instagram.com/p/C34xFEpqSqK/?igsh=MWY3Zm9uNHRta3AxdQ%3D%3D" target="_blank" rel="noopener">asking for their consent.&#8599;</a></p>
 <p>Furthermore, we are already seeing a swift where big companies take the majority of the credit and artists with new ideas move aside.</p>
 <p>But be sad no more, humans are still awesome and get tired easily of lame repetition, and that is where all magic happens.</p>
 <h2 id="human-awesomeness">Human awesomeness</h2>
 <p>As humans, we get tired easily and we find this lazy outcome extremely boring in the short term. The following formula has been spread and it’s definitely how I think it should be:</p>
 <p><strong>Humans + AI &gt; AI &gt; Humans</strong></p>
-<p>Not only that but by just removing the human part in the process, the workflow led shortly into a vague and not appealing outcome. As clearly spotted in the following <a href="https://www.youtube.com/watch?v=NcH7fHtqGYM"
- target="_blank" rel="noopener" >
-
-
-
-video by Sabine Hossenfelder&#8599</a>
- 
-
-
-
-
-
- models training on their own output decrease incredibly their variety.</p>
+<p>Not only that but by just removing the human part in the process, the workflow led shortly into a vague and not appealing outcome. As clearly spotted in the following <a href="https://www.youtube.com/watch?v=NcH7fHtqGYM" target="_blank" rel="noopener">video by Sabine Hossenfelder&#8599;</a> models training on their own output decrease incredibly their variety.</p>
 <p>Also, as humans, we find particularly enjoyable the craftsman of things. The road is the destiny and all of that, you know what I mean.</p>
 <p>Craft, craft, craft is what we want. And in a respectful way.</p>
 <h2 id="its-all-about-the-output-therefore-curate-the-input">It’s all about the output, therefore curate the input</h2>
-<p>In any art, the output should be the core element that holds everything. Don’t get me wrong, unleashing the story behind the work could be astounding, and sometimes is the essential of the piece (for instance, the astounding intervention by <a href="https://publicdelivery.org/gonzalez-torres-beds/"
- target="_blank" rel="noopener" >
-
-
-
-Félix González-Torres: Bed Billboards&#8599</a>
- 
-
-
-
-
-
- always gets me goosebumps) but that should be relegated to mostly modern art conversations.</p>
+<p>In any art, the output should be the core element that holds everything. Don’t get me wrong, unleashing the story behind the work could be astounding, and sometimes is the essential of the piece (for instance, the astounding intervention by <a href="https://publicdelivery.org/gonzalez-torres-beds/" target="_blank" rel="noopener">Félix González-Torres: Bed Billboards&#8599;</a> always gets me goosebumps) but that should be relegated to mostly modern art conversations.</p>
 <p>Perfect parallelism is still music sampling. Crop from here and there, twist as much as the waves allow you to, and make a completely new track fully distinguished from the initial point (which, from the very start point, was a solid love and curated selection from the creator).</p>
 <blockquote>
 <p>All ideas can be atomized to unoriginal elements, it is how these elements are arranged, combined and transformed where originality is realized, and where ideas and identity become entangled—a relationship which is necessary for bringing them into reality.</p>
-<p><em><a href="https://sub.davidoreilly.com/p/imitation-i"
- target="_blank" rel="noopener" >
-
-
-
-David O&rsquo;Reilly&#8599</a>
- 
-
-
-
-
-
-</em></p>
+<p><em><a href="https://sub.davidoreilly.com/p/imitation-i" target="_blank" rel="noopener">David O&rsquo;Reilly&#8599;</a></em></p>
 </blockquote>
-<p>I can’t find the exact quote right now (or maybe I listened to it in a book release from him) but <a href="https://twitter.com/tyrexito?lang=en"
- target="_blank" rel="noopener" >
-
-
-
-Mauro Entrialgo&#8599</a>
- 
-
-
-
-
-
- said something like: <strong>If you copy an artist, you are a thief. If you copy several artists, you will probably be part of an art movement. If you copy from tons and tons of artists of all types, after a while, you will have your style.</strong></p>
+<p>I can’t find the exact quote right now (or maybe I listened to it in a book release from him) but <a href="https://twitter.com/tyrexito?lang=en" target="_blank" rel="noopener">Mauro Entrialgo&#8599;</a> said something like: <strong>If you copy an artist, you are a thief. If you copy several artists, you will probably be part of an art movement. If you copy from tons and tons of artists of all types, after a while, you will have your style.</strong></p>
 <p>That core mantra is how anyone should tackle any creation. Broad and curious approach to the wider amount of creation.</p>
 <p>The vague use of what is provided only perpetuates the current state of human output, which is still full of racism, sexism and so on. So it’s important to never fully rely on the current systems or we will never improve further in. To that point, I quite like the thought of Yann Lecun. He observes that as a species, we are still in our infancy when it comes to utilizing these models.</p>
 <p>Also, old ideas must die (similar to why immortality is a bad idea, apart from mine hehe, but that conversation is for another day).</p>
 <h2 id="it-can-and-must-be-used-as-a-tool">It can and must be used as a tool</h2>
 <p>As I am writing these words, I will reduce and categorise the workflows I know into these three approaches:</p>
-<p><strong>1/ Use it as it is</strong> — Open <a href="https://www.krea.ai/home"
- target="_blank" rel="noopener" >
-
-
-
-Krea&#8599</a>
- 
-
-
-
-
-
- Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.</p>
-<p><strong>2/ Push the models</strong> — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. <a href="https://www.instagram.com/boldtron/?hl=en"
- target="_blank" rel="noopener" >
-
-
-
-Boldtron&#8599</a>
- 
-
-
-
-
-
- approach is a good starting point as a reference. Personally, this has been my most used methodology so far. I use <a href="https://github.com/comfyanonymous/ComfyUI"
- target="_blank" rel="noopener" >
-
-
-
-ComfyUI&#8599</a>
- 
-
-
-
-
-
- with Stable Diffusion using some personal 3D renders as input and lots of trial and error.</p>
+<p><strong>1/ Use it as it is</strong> — Open <a href="https://www.krea.ai/home" target="_blank" rel="noopener">Krea&#8599;</a> Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.</p>
+<p><strong>2/ Push the models</strong> — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. <a href="https://www.instagram.com/boldtron/?hl=en" target="_blank" rel="noopener">Boldtron&#8599;</a> approach is a good starting point as a reference. Personally, this has been my most used methodology so far. I use <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noopener">ComfyUI&#8599;</a> with Stable Diffusion using some personal 3D renders as input and lots of trial and error.</p>
 <div class="grid-layout">
   <div class="column column-12">
   
@@ -1602,43 +654,7 @@ ComfyUI&#8599</a>
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
   </div>
 </div>
-<p><strong>3/ Train your models</strong> — There are already ‘clean’ models:<a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc"
- target="_blank" rel="noopener" >
-
-
-
-Clean Diffusion 2.0 PoC&#8599</a>
- 
-
-
-
-
-
- or <a href="https://huggingface.co/Mitsua/mitsua-diffusion-one"
- target="_blank" rel="noopener" >
-
-
-
-Mitsua&#8599</a>
- 
-
-
-
-
-
-They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, <a href="https://www.instagram.com/stories/highlights/18194394052224812/"
- target="_blank" rel="noopener" >
-
-
-
-Chris&#8599</a>
- 
-
-
-
-
-
- is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_) My baby steps here have been merely for training using some of my hand sketches:</p>
+<p><strong>3/ Train your models</strong> — There are already ‘clean’ models:<a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc" target="_blank" rel="noopener">Clean Diffusion 2.0 PoC&#8599;</a> or <a href="https://huggingface.co/Mitsua/mitsua-diffusion-one" target="_blank" rel="noopener">Mitsua&#8599;</a>They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, <a href="https://www.instagram.com/stories/highlights/18194394052224812/" target="_blank" rel="noopener">Chris&#8599;</a> is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_) My baby steps here have been merely for training using some of my hand sketches:</p>
 <div class="grid-layout">
   <div class="column column-6">
     <img src="/images/posts/231129_ai_image_generators/Sketches-Training-1024x1024.webp">
@@ -1672,10 +688,10 @@ Chris&#8599</a>
     
     <item>
       <title>ZineFest at Subaermarkt</title>
-      <link>http://192.168.1.11:1313/posts/21/210821_zinefest-at-subaermarkt/</link>
+      <link>http://192.168.1.11:2041/posts/21/210821_zinefest-at-subaermarkt/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/21/210821_zinefest-at-subaermarkt/</guid>
+      <guid>http://192.168.1.11:2041/posts/21/210821_zinefest-at-subaermarkt/</guid>
       <description><![CDATA[<p>I visited for the first time this sweet fest at Subaemarkt where artists and illustrators show and sell their gems.</p>
 <p>This is my loot; a magazine, some cool illustrations and toon of stickers. I will definetily keep an eye on it for further editions.</p>
 <p><img src="/images/posts/IMG_20210821_191129.webp" alt="ZineFest" loading="lazy" />
@@ -1688,10 +704,10 @@ Chris&#8599</a>
     
     <item>
       <title>Continue the struggle</title>
-      <link>http://192.168.1.11:1313/posts/23/230207_continue-the-struggle/</link>
+      <link>http://192.168.1.11:2041/posts/23/230207_continue-the-struggle/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230207_continue-the-struggle/</guid>
+      <guid>http://192.168.1.11:2041/posts/23/230207_continue-the-struggle/</guid>
       <description><![CDATA[<p>Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.</p>
 
 
@@ -1721,10 +737,10 @@ Chris&#8599</a>
     
     <item>
       <title>Les Conches and Glaas and Atlanta</title>
-      <link>http://192.168.1.11:1313/posts/23/230130_les-conches-velasques-and-glass/</link>
+      <link>http://192.168.1.11:2041/posts/23/230130_les-conches-velasques-and-glass/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230130_les-conches-velasques-and-glass/</guid>
+      <guid>http://192.168.1.11:2041/posts/23/230130_les-conches-velasques-and-glass/</guid>
       <description><![CDATA[<p>Finished <strong>Atlanta season 4</strong> and enjoyed it a lot. It keeps the surealism of the previous seasons and the atmosphere puts me on a dreamy mood which I love.</p>
 <p align="center">﹘</p>
 <p><strong>Les Conches Velaques</strong> have a new album and you should listen if you are looking for an honest approach to arab-copla-postrock vibes.</p>
@@ -1754,10 +770,10 @@ Chris&#8599</a>
     
     <item>
       <title>Philharmonie and my new guitar</title>
-      <link>http://192.168.1.11:1313/posts/23/230112_philharmonie-and-my-new-guitar/</link>
+      <link>http://192.168.1.11:2041/posts/23/230112_philharmonie-and-my-new-guitar/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230112_philharmonie-and-my-new-guitar/</guid>
+      <guid>http://192.168.1.11:2041/posts/23/230112_philharmonie-and-my-new-guitar/</guid>
       <description><![CDATA[<p>The interior of the Philharmonie building looks like a spaceship from the 50s. We sit at the back, because is way <del>cheaper</del> cooler.</p>
 <p align="center">﹘</p>
 <p>I received my new guitar; an awesome <strong>Epiphone SG Special P-90 Faded Pelham Blue AUS.</strong> Now I just need, you know, something to plug it into :_)</p>
@@ -1771,35 +787,11 @@ Chris&#8599</a>
     
     <item>
       <title>Flaaryr and the loosers</title>
-      <link>http://192.168.1.11:1313/posts/23/230103_flaaryr-and-the-loosers/</link>
+      <link>http://192.168.1.11:2041/posts/23/230103_flaaryr-and-the-loosers/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/23/230103_flaaryr-and-the-loosers/</guid>
-      <description><![CDATA[<p>I discovered <a href="https://flaaryr.bandcamp.com/"
- target="_blank" rel="noopener" >
-
-
-
-Flaaryr&#8599</a>
- 
-
-
-
-
-
- and his previous band, <a href="https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas"
- target="_blank" rel="noopener" >
-
-
-
-Hungría&#8599</a>
- 
-
-
-
-
-
- His setup is quite nice, make sure to check his social media for a deeper look at the equipment he has to achieve the alien noises he creates.</p>
+      <guid>http://192.168.1.11:2041/posts/23/230103_flaaryr-and-the-loosers/</guid>
+      <description><![CDATA[<p>I discovered <a href="https://flaaryr.bandcamp.com/" target="_blank" rel="noopener">Flaaryr&#8599;</a> and his previous band, <a href="https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas" target="_blank" rel="noopener">Hungría&#8599;</a> His setup is quite nice, make sure to check his social media for a deeper look at the equipment he has to achieve the alien noises he creates.</p>
 <div class="only-desktop">
   
 <div style="display: flex; justify-content: center;">
@@ -1826,63 +818,15 @@ Hungría&#8599</a>
     
     <item>
       <title>22week01 - Moravec and how to Forming</title>
-      <link>http://192.168.1.11:1313/posts/22/220109_22week01/</link>
+      <link>http://192.168.1.11:2041/posts/22/220109_22week01/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/22/220109_22week01/</guid>
-      <description><![CDATA[<p>I discovered and read about the <a href="https://en.wikipedia.org/wiki/Moravec%27s_paradox"
- target="_blank" rel="noopener" >
-
-
-
-Moravec&rsquo;s paradox&#8599</a>
- 
-
-
-
-
-
- It put words into something that I learn while studiying character animation; basic human locomotive is extremely expensive and difficult to compute. I still dont get why we are triying to replicate our movements and lookalikes.</p>
+      <guid>http://192.168.1.11:2041/posts/22/220109_22week01/</guid>
+      <description><![CDATA[<p>I discovered and read about the <a href="https://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank" rel="noopener">Moravec&rsquo;s paradox&#8599;</a> It put words into something that I learn while studiying character animation; basic human locomotive is extremely expensive and difficult to compute. I still dont get why we are triying to replicate our movements and lookalikes.</p>
 <p align="center">﹘</p>
-<p>Just fall in love with <strong>John Wilson</strong> again as Im going trought the second season of his masterpiece ‘How to with John Wilson’. Btw, apart from his <a href="https://vimeo.com/johnsmovies"
- target="_blank" rel="noopener" >
-
-
-
-official vimeo&#8599</a>
- 
-
-
-
-
-
- he also has this other account with even more content in case you need it: <a href="https://vimeo.com/datejohn"
- target="_blank" rel="noopener" >
-
-
-
-DATES&#8599</a>
- 
-
-
-
-
-
-</p>
+<p>Just fall in love with <strong>John Wilson</strong> again as Im going trought the second season of his masterpiece ‘How to with John Wilson’. Btw, apart from his <a href="https://vimeo.com/johnsmovies" target="_blank" rel="noopener">official vimeo&#8599;</a> he also has this other account with even more content in case you need it: <a href="https://vimeo.com/datejohn" target="_blank" rel="noopener">DATES&#8599;</a></p>
 <p align="center">﹘</p>
-<p>Catching up with <a href="https://jessemoynihan.com/"
- target="_blank" rel="noopener" >
-
-
-
-Forming&#8599</a>
- 
-
-
-
-
-
- by <strong>Jesse Moynihan</strong>. I cant wait to be finished and collected in a sweet printed edition. I mean, reading it on a screen is ok, but cant compete with a proper edition of it to grab whenever I need to be amazed with its colors, characters and story overall.</p>
+<p>Catching up with <a href="https://jessemoynihan.com/" target="_blank" rel="noopener">Forming&#8599;</a> by <strong>Jesse Moynihan</strong>. I cant wait to be finished and collected in a sweet printed edition. I mean, reading it on a screen is ok, but cant compete with a proper edition of it to grab whenever I need to be amazed with its colors, characters and story overall.</p>
 ]]></description>
       
     </item>

@@ -351,6 +351,13 @@ a.unstyledLink {
     align-items: center; /* Align vertically */
 }
 
+/* Ensure SVG icons inside the theme toggle are properly centered */
+#theme-toggle-icon svg {
+    display: inline-block;
+    vertical-align: middle;
+    preserveAspectRatio: xMidYMid meet; /* hint only: actual attribute set on the svg tag */
+}
+
 #main-nav {
     // display: flex;
     // align-items: center;

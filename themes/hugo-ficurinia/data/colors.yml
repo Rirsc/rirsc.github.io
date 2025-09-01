@@ -19,7 +19,7 @@ light:
   bg: '#e6e6e6'
   hl_bg: '#b3b3b3'
   fg: '#262625' # font color
-  dim_fg: '#40403e'
+  dim_fg: '#81888f'
   stroke: '#40403e'
   accent: '#f95b05'
   sidebar:

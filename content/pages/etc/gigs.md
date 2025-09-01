@@ -9,247 +9,247 @@ hideMenu: true
 ---
 
 <style>
-ul {
-      margin-top: 0;
-      }
+
+h4 {
+      color: var(--default_fg);
+}
+
+
 </style>
+
 
 ## 2025
 
-##### August
+#### August
 
-- Oranssi Pazuzu + Insect Ark  ⋅ Berghain
-- Takkak Takkak + Specimens PPP + Emil Palme  ⋅ 90mil
+Oranssi Pazuzu + Insect Ark  <span style="color:var(--default_dim_fg);">Berghain</span><br>
+Takkak Takkak + Specimens PPP + Emil Palme  <span style="color:var(--default_dim_fg);">90mil</span>
 
+#### July
 
-##### July
+Liiek + Überall Algen <span style="color:var(--default_dim_fg);">Greifswalder DIY</span><br>
 
-- Liiek + Überall Algen ⋅ Greifswalder DIY
+#### June
 
-##### June
+Seefeel <span style="color:var(--default_dim_fg);">Apolo 2</span><br>
+Gwalt <span style="color:var(--default_dim_fg);">Alfred-Scholz-Platz</span><br>
+GRÓA + Hot Couture <span style="color:var(--default_dim_fg);">Neue Zukunft</span><br>
+KOU + Andra Ljos <span style="color:var(--default_dim_fg);">Beikraut</span>
 
-- Seefeel ⋅ Apolo 2
-- Gwalt ⋅ Alfred-Scholz-Platz
-- GRÓA + Hot Couture ⋅ Neue Zukunft
-- KOU + Andra Ljos ⋅ Beikraut
+#### May
 
-##### May
+Six Organs of Admittance <span style="color:var(--default_dim_fg);">PAS</span><br>
+Forma Norte + Respira + Alféizar + Mateo + Adrianna <span style="color:var(--default_dim_fg);">Pumarejo</span><br>
 
-- Six Organs of Admittance ⋅ PAS
-- Forma Norte + Respira + Alféizar + Mateo + Adrianna ⋅ Pumarejo
+#### April
 
-##### April
+Whatever The Weather + Elif Gülin Soğuksu <span style="color:var(--default_dim_fg);">Silent Green</span><br>
+Flaaryr + Licitir <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-- Whatever The Weather + Elif Gülin Soğuksu ⋅ Silent Green
-- Flaaryr + Licitir ⋅ idvd.ogh
+#### March
 
-##### March
+Die Verlierer + Die Anstalt + Dead Finks + Nylon Club <span style="color:var(--default_dim_fg);">Hinterraum</span><br>
+Golden Diskó Ship + Cementa + dj discjockey <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Leep + Knast + Karabik <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-- Die Verlierer + Die Anstalt + Dead Finks + Nylon Club ⋅ Hinterraum
-- Golden Diskó Ship + Cementa + dj discjockey ⋅ idvd
-- Leep + Knast + Karabik ⋅ idvd.ogh
+#### January
 
-
-##### February
-
-##### January
-
-- Rebe ⋅ 8mm
-- De Klok + Blitzer + Ostseetraum ⋅ Westgermany
-- The Pleasure Majenta + Ligeia + Plattenbau Djs ⋅ 8mm
-- Les Conches Velasques (Espabilaco) ⋅ Potoka
+Rebe <span style="color:var(--default_dim_fg);">8mm</span><br>
+De Klok + Blitzer + Ostseetraum <span style="color:var(--default_dim_fg);">Westgermany</span><br>
+The Pleasure Majenta + Ligeia + Plattenbau Djs <span style="color:var(--default_dim_fg);">8mm</span><br>
+Les Conches Velasques (Espabilaco) <span style="color:var(--default_dim_fg);">Potoka</span><br>
 
 
 ## 2024
 
-##### November
+#### November
 
-- Data Unknown + Berliner Doom + Zero Discount ⋅ K-Hole
-- Ryoji Ikeda + PYUR ⋅ Silent Green
-- Objekt + Lena Willikens ⋅ ohm
-- Mabe Fratti + Military Genius ⋅ Silent Green
+Data Unknown + Berliner Doom + Zero Discount <span style="color:var(--default_dim_fg);">K-Hole</span><br>
+Ryoji Ikeda + PYUR <span style="color:var(--default_dim_fg);">Silent Green</span><br>
+Objekt + Lena Willikens <span style="color:var(--default_dim_fg);">ohm</span><br>
+Mabe Fratti + Military Genius <span style="color:var(--default_dim_fg);">Silent Green</span><br>
 
-##### October
+#### October
 
-- ÖPNV + Güner Künier ⋅ idvd.ogh
-- Guadalupe Plata + Carlos Ares ⋅ Jardín de Invierno
-- Soundit = Lux Lisbon + Helena Hauff ⋅ Plaza Monumental
+ÖPNV + Güner Künier <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Guadalupe Plata + Carlos Ares <span style="color:var(--default_dim_fg);">Jardín de Invierno</span><br>
+Soundit = Lux Lisbon + Helena Hauff <span style="color:var(--default_dim_fg);">Plaza Monumental</span><br>
 
-##### September
+#### September
 
-- Clichée + Dystopian Society + Elektrokohle ⋅ idvd
+Clichée + Dystopian Society + Elektrokohle <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-##### August
+#### August
 
-- Liturgy ⋅ Berghain
-- Cruelster + Shafrah + Muell ⋅ idvd
-- Skuv + Eyes Gone ⋅ idvd
-- Meltway + Half of a Rainbow ⋅ idvd
-- Kara Delik & Dostlar ⋅ Neue Zukunft
-- ÖPNV + Clear History + Screensaver ⋅ idvd
+Liturgy <span style="color:var(--default_dim_fg);">Berghain</span><br>
+Cruelster + Shafrah + Muell <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Skuv + Eyes Gone <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Meltway + Half of a Rainbow <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Kara Delik & Dostlar <span style="color:var(--default_dim_fg);">Neue Zukunft</span><br>
+ÖPNV + Clear History + Screensaver <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-##### July
+#### July
 
-- Autobahns + WWW + Tttturbo ⋅ idvd
-- Los Mirlos ⋅ Alexanderplatz
-- Twisted Teens ⋅ idvd
-- Musikii Festivalas ⋅ 90mil
+Autobahns + WWW + Tttturbo <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Los Mirlos <span style="color:var(--default_dim_fg);">Alexanderplatz</span><br>
+Twisted Teens <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Musikii Festivalas <span style="color:var(--default_dim_fg);">90mil</span><br>
 
-##### June
+#### June
 
-- Ataúdes Merche + Megarrollo + Delilah + Línea Maginot + Türbot ⋅ Arrebato
-- Planet on a Chain + Blockage ⋅ idvd
-- Codex Outdoor ⋅ Panke courtyard
-- Experimental Sets in Solidarity with Palestine ⋅ idvd
-- TVOD + Gym Tonic + Trholz ⋅ idvd
-- Sistema de Entretenimiento + Sin Bragas + Ultrabonus + Fessa ⋅ idvd
+Ataúdes Merche + Megarrollo + Delilah + Línea Maginot + Türbot <span style="color:var(--default_dim_fg);">Arrebato</span><br>
+Planet on a Chain + Blockage <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Codex Outdoor <span style="color:var(--default_dim_fg);">Panke courtyard</span><br>
+Experimental Sets in Solidarity with Palestine <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+TVOD + Gym Tonic + Trholz <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Sistema de Entretenimiento + Sin Bragas + Ultrabonus + Fessa <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-##### May
+#### May
 
-- Gordan + Skultura ⋅ Ausland
-- Luz Silenciosa ⋅ idvd
+Gordan + Skultura <span style="color:var(--default_dim_fg);">Ausland</span><br>
+Luz Silenciosa <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-##### April
+#### April
 
-- Still House Plants + Adrián de Alphonso ⋅ 90mil
-- Agua Dulce ⋅ Church at Ligaestr
-- The Tarts ⋅ 90mil Kellar
-- Grief + Löri ⋅ idvd
+Still House Plants + Adrián de Alphonso <span style="color:var(--default_dim_fg);">90mil</span><br>
+Agua Dulce <span style="color:var(--default_dim_fg);">Church at Ligaestr</span><br>
+The Tarts <span style="color:var(--default_dim_fg);">90mil Kellar</span><br>
+Grief + Löri <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
 
-##### March
+#### March
 
-- Listen, Listen ⋅ Schrippe Hawaii
-- Cariño ⋅ Sala Sol
-- Swans + María Horn ⋅ Betonhalle
-- The Midnight Audience ⋅ Trxxxsr
+Listen, Listen <span style="color:var(--default_dim_fg);">Schrippe Hawaii</span><br>
+Cariño <span style="color:var(--default_dim_fg);">Sala Sol</span><br>
+Swans + María Horn <span style="color:var(--default_dim_fg);">Betonhalle</span><br>
+The Midnight Audience <span style="color:var(--default_dim_fg);">Trxxxsr</span><br>
 
-##### February 
+#### February
 
-- Cosey Müller + Powerplant ⋅ Hinterraum
-- Salò indoor ⋅ 90mil
-- Uschi + Vorsicht Kinder ⋅ Loge
+Cosey Müller + Powerplant <span style="color:var(--default_dim_fg);">Hinterraum</span><br>
+Salò indoor <span style="color:var(--default_dim_fg);">90mil</span><br>
+Uschi + Vorsicht Kinder <span style="color:var(--default_dim_fg);">Loge</span><br>
 
 ## 2023
 
-##### December
+#### December
 
-- Zaragozafelizfeliz ⋅ Las Armas
-- Apotheke 25 Aniversario ⋅ Sala López
+Zaragozafelizfeliz <span style="color:var(--default_dim_fg);">Las Armas</span><br>
+Apotheke 25 Aniversario <span style="color:var(--default_dim_fg);">Sala López</span><br>
 
-##### November
+#### November
 
-- Trompe L’Oeil. Daria Goremykina & Gösta Wellmer ⋅ Stil Vor Talent
+Trompe L’Oeil. Daria Goremykina & Gösta Wellmer <span style="color:var(--default_dim_fg);">Stil Vor Talent</span><br>
 
-##### October
+#### October
 
-- Swans ⋅ Admiralspalast
-- MIRA ⋅ Fira Barcelona
-- Paddy Steer + Los Sara Fontan + Rocky Lorely ⋅ West Germany
-- Les Conches Velasques + Rodrigo Cuevas ⋅ Parque Labordeta
-- Irregular Roots + Iseo ⋅ Parque Labordeta
-- Raja Kirik + Mooki6 ⋅ FOC
+Swans <span style="color:var(--default_dim_fg);">Admiralspalast</span><br>
+MIRA <span style="color:var(--default_dim_fg);">Fira Barcelona</span><br>
+Paddy Steer + Los Sara Fontan + Rocky Lorely <span style="color:var(--default_dim_fg);">West Germany</span><br>
+Les Conches Velasques + Rodrigo Cuevas <span style="color:var(--default_dim_fg);">Parque Labordeta</span><br>
+Irregular Roots + Iseo <span style="color:var(--default_dim_fg);">Parque Labordeta</span><br>
+Raja Kirik + Mooki6 <span style="color:var(--default_dim_fg);">FOC</span><br>
 
-##### September
+#### September
 
-- upsammy + Jonathan Castro ⋅ Silent Green
-- Sunn O))) + Kali Malone ⋅ Berghaim (Panorama Bar)
-- Lewsberg ⋅ Lark
+upsammy + Jonathan Castro <span style="color:var(--default_dim_fg);">Silent Green</span><br>
+Sunn O))) + Kali Malone <span style="color:var(--default_dim_fg);">Berghaim</span><br>
+Lewsberg <span style="color:var(--default_dim_fg);">Lark</span><br>
 
-##### August
+#### August
 
-- Canela Party ⋅ Torremolinos
-- A L´Arme Festival ⋅ RadialSystem
-- My Expansive Awareness + Dan Oiuw ⋅ Loophole
+Canela Party <span style="color:var(--default_dim_fg);">Torremolinos</span><br>
+A L´Arme Festival <span style="color:var(--default_dim_fg);">RadialSystem</span><br>
+My Expansive Awareness + Dan Oiuw <span style="color:var(--default_dim_fg);">Loophole</span><br>
 
-##### July
+#### July
 
-- Wet Kiss + Double Job + Clear History + Commuted ⋅ Autobahn
-- Orua + HC Behrendsent ⋅ KastanienKeller
+Wet Kiss + Double Job + Clear History + Commuted <span style="color:var(--default_dim_fg);">Autobahn</span><br>
+Orua + HC Behrendsent <span style="color:var(--default_dim_fg);">KastanienKeller</span><br>
 
-##### June
+#### June
 
-- Princess Thailand + Soft Pattern ⋅ Schokoladen
-- Aerial Salad + Riot Spears + CAVA ⋅ Autobahn
-- Alien Nosejob + Ignorance + Das Nest ⋅ Autobahn
-- Gym Tonic + Cold Summer + The Toxics ⋅ Autobahn
+Princess Thailand + Soft Pattern <span style="color:var(--default_dim_fg);">Schokoladen</span><br>
+Aerial Salad + Riot Spears + CAVA <span style="color:var(--default_dim_fg);">Autobahn</span><br>
+Alien Nosejob + Ignorance + Das Nest <span style="color:var(--default_dim_fg);">Autobahn</span><br>
+Gym Tonic + Cold Summer + The Toxics <span style="color:var(--default_dim_fg);">Autobahn</span><br>
 
-##### May
+#### May
 
-- CAVA + F.E.I.D.L ⋅ Abstand
-- Salò at Kesselberg ⋅ Kesselberg
+CAVA + F.E.I.D.L <span style="color:var(--default_dim_fg);">Abstand</span><br>
+Salò at Kesselberg <span style="color:var(--default_dim_fg);">Kesselberg</span><br>
 
-##### April
+#### April
 
-- Xiu Xiu ⋅ Silent Green
-- Brutalismus ⋅ Huxleys Neue Welt
-- Hide ⋅ Autobahn
-- Tornpalk + Alphastrastegy + Aralilyoon ⋅ Autobahn
-- Patryk Lichota ⋅ Arrebato
-- Painting is Dead + Rank-O ⋅ Schokoladen
-- Chavalan + Shitvector ⋅ Schokoladen
+Xiu Xiu <span style="color:var(--default_dim_fg);">Silent Green</span><br>
+Brutalismus <span style="color:var(--default_dim_fg);">Huxleys Neue Welt</span><br>
+Hide <span style="color:var(--default_dim_fg);">Autobahn</span><br>
+Tornpalk + Alphastrastegy + Aralilyoon <span style="color:var(--default_dim_fg);">Autobahn</span><br>
+Patryk Lichota <span style="color:var(--default_dim_fg);">Arrebato</span><br>
+Painting is Dead + Rank-O <span style="color:var(--default_dim_fg);">Schokoladen</span><br>
+Chavalan + Shitvector <span style="color:var(--default_dim_fg);">Schokoladen</span><br>
 
-##### March
+#### March
 
-- Flaaryr ⋅ Loophole
-- NYOS + Merriment and Dirt ⋅ Schokoladen
+Flaaryr <span style="color:var(--default_dim_fg);">Loophole</span><br>
+NYOS + Merriment and Dirt <span style="color:var(--default_dim_fg);">Schokoladen</span><br>
 
-##### February
+#### February
 
-- Fuzz ⋅ SO36
-- The Residents ⋅ Columbiahalle
+Fuzz <span style="color:var(--default_dim_fg);">SO36</span><br>
+The Residents <span style="color:var(--default_dim_fg);">Columbiahalle</span><br>
 
-##### January
+#### January
 
-- Dame Area + Esplendor Geométrico + Cachito Turulo ⋅ Sala Upload
-- Philharmonie ⋅ Philharmonie
-- Die Verlierer ⋅ EggIdiot ⋅ SO36
+Dame Area + Esplendor Geométrico + Cachito Turulo <span style="color:var(--default_dim_fg);">Sala Upload</span><br>
+Philharmonie <span style="color:var(--default_dim_fg);">Philharmonie</span><br>
+Die Verlierer <span style="color:var(--default_dim_fg);">EggIdiot ⋅ SO36</span><br>
 
 ## 2022
 
-##### December
+#### December
 
-- Tara Clerkin Trio + Ellen Arkbro ⋅ Silent Green
+Tara Clerkin Trio + Ellen Arkbro <span style="color:var(--default_dim_fg);">Silent Green</span><br>
 
-##### November
+#### November
 
-- Lemongrab + SGATV ⋅ Loophole
+Lemongrab + SGATV <span style="color:var(--default_dim_fg);">Loophole</span><br>
 
-##### October
+#### October
 
-- Ultraflex ⋅ Tennis Bar
+Ultraflex <span style="color:var(--default_dim_fg);">Tennis Bar</span><br>
 
-##### September
+#### September
 
-- Splizz + Feidl ⋅ Villa Kuriosum
+Splizz + Feidl <span style="color:var(--default_dim_fg);">Villa Kuriosum</span><br>
 
-##### August
+#### August
 
-- Canela Party ⋅ Torremolinos
+Canela Party <span style="color:var(--default_dim_fg);">Torremolinos</span><br>
 
-##### July
+#### July
 
-- Reverend Beat Man ⋅ Privatclub
+Reverend Beat Man <span style="color:var(--default_dim_fg);">Privatclub</span><br>
 
-##### June
+#### June
 
-- Boiler Room ⋅ Anomalie
+Boiler Room <span style="color:var(--default_dim_fg);">Anomalie</span><br>
 
-##### May
+#### May
 
-- Sega Bodega ⋅ Gretchen
+Sega Bodega <span style="color:var(--default_dim_fg);">Gretchen</span><br>
 
-##### April
+#### April
 
-- Shame ⋅ Festsaal Kreuzberg
-- Nattefrost ⋅ Tennis Bar
-- Sound Sculptures by Juan Hurle ⋅ Arkaoda
+Shame <span style="color:var(--default_dim_fg);">Festsaal Kreuzberg</span><br>
+Nattefrost <span style="color:var(--default_dim_fg);">Tennis Bar</span><br>
+Sound Sculptures by Juan Hurle <span style="color:var(--default_dim_fg);">Arkaoda</span><br>
 
-##### March
+#### March
 
-- Halfsilks + The Gondors ⋅ Schokoladen
+Halfsilks + The Gondors <span style="color:var(--default_dim_fg);">Schokoladen</span><br>
 
-##### February
+#### February
 
-- Plattenbau ⋅ Haus der Statistik
-- Pflanzparty ⋅ Arkaoda
-- Cosmic Jam ⋅ Loophole
+Plattenbau <span style="color:var(--default_dim_fg);">Haus der Statistik</span><br>
+Pflanzparty <span style="color:var(--default_dim_fg);">Arkaoda</span><br>
+Cosmic Jam <span style="color:var(--default_dim_fg);">Loophole</span><br>

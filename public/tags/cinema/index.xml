@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Cinema on rirsc</title>
-    <link>http://192.168.1.11:1313/tags/cinema/</link>
+    <link>http://localhost:1313/tags/cinema/</link>
     <description>Recent content in Cinema on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/cinema/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cinema/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Clásicas y oscuras</title>
-      <link>http://192.168.1.11:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</link>
+      <link>http://localhost:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</guid>
+      <guid>http://localhost:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</guid>
       <description><![CDATA[<p><img src="/images/posts/clasicas_y_oscuras.webp" alt="Clásicas y oscuras" loading="lazy" />
 </p>
 <p><a href="https://clasicasyoscuras.com/" target="_blank" rel="noopener"><em>Clásicas y oscuras</em>&#8599;</a> is such an incredibly cool website with a collection of female characters in literature, cinema and music.</p>

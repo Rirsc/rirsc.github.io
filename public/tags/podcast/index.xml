@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Podcast on rirsc</title>
-    <link>http://192.168.1.11:1313/tags/podcast/</link>
+    <link>http://localhost:1313/tags/podcast/</link>
     <description>Recent content in Podcast on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/podcast/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/podcast/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Contemporánea - Un diccionario sonoro</title>
-      <link>http://192.168.1.11:1313/posts/24/240310_contemporanea/</link>
+      <link>http://localhost:1313/posts/24/240310_contemporanea/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240310_contemporanea/</guid>
+      <guid>http://localhost:1313/posts/24/240310_contemporanea/</guid>
       <description><![CDATA[<p>A so-called ‘sound dictionary’ that dives deep into the most relevant names shaping contemporary music. You can feel the passion and dedication poured into this project. It’s an inspiring resource, perfect for discovering new ideas or revisiting familiar ones. Definitely saving this to explore it bit by bit.</p>
 <p><a href="https://contemporanea.march.es/" target="_blank" rel="noopener">Contemporánea - Un diccionario sonoro&#8599;</a></p>
 

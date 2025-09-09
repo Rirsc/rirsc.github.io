@@ -352,10 +352,20 @@ a.unstyledLink {
 }
 
 /* Ensure SVG icons inside the theme toggle are properly centered */
+#theme-toggle, #theme-toggle-icon {
+    /* make the toggle a small flex container so the svg centers vertically */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1em; /* match font-size so the icon aligns with text */
+    line-height: 1;
+}
 #theme-toggle-icon svg {
-    display: inline-block;
-    vertical-align: middle;
-    preserveAspectRatio: xMidYMid meet; /* hint only: actual attribute set on the svg tag */
+    display: block; /* remove inline baseline quirks */
+    width: 1em;
+    height: 1em;
+    /* preserveAspectRatio is an SVG attribute so set it on the tag; kept as comment here */
+    /* preserveAspectRatio: xMidYMid meet; */
 }
 
 #main-nav {

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Games on rirsc</title>
-    <link>http://192.168.1.11:1313/tags/games/</link>
+    <link>http://localhost:1313/tags/games/</link>
     <description>Recent content in Games on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.11:1313/tags/games/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.11:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/games/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Lucas Pope is back</title>
-      <link>http://192.168.1.11:1313/posts/24/240312_lucas-pope-is-back/</link>
+      <link>http://localhost:1313/posts/24/240312_lucas-pope-is-back/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.11:1313/posts/24/240312_lucas-pope-is-back/</guid>
+      <guid>http://localhost:1313/posts/24/240312_lucas-pope-is-back/</guid>
       <description><![CDATA[<p><img src="/images/posts/mars-after-midnight.webp" alt="Mars After Midnight" loading="lazy" />
 </p>
 <p><a href="https://obradinn.com/" target="_blank" rel="noopener">Return of the Obra Dinn&#8599;</a> is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. <strong>Nothing better than struggling with other brains.</strong></p>

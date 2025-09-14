@@ -13,7 +13,8 @@ Cool comic panels in this ArtReview text. [How CF Brought the Weird to Undergrou
 
 {{< smalldivider  >}}
 
-Listening: **Hood**
+
+ Listening: **Hood**
 
 {{< only-desktop >}}
 <div style="display: flex; justify-content: center;">

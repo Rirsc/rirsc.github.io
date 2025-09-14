@@ -117,7 +117,7 @@ html[data-theme="light"] {
 
  $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
  $title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
- $mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }};
+ $mono_font: {{ .Site.Params.monospaceFontFamily | default "Courier New" }};
 
 
 /* $main_font: {{ .Site.Params.fontFamily | default "JetBrains Mono" }};
@@ -125,7 +125,7 @@ $title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
 $mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }}; */
 
 
-$symbols_font: "Symbols Nerd Font";
+ $symbols_font: {{ .Site.Params.fontFamily | default "Arial" }};
 $content_width: {{ .Site.Params.contentWidth | default "800px" }};
 $border_radius: 0px;
 $margin: 12px;

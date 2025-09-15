@@ -13,7 +13,21 @@ Cool comic panels in this ArtReview text. [How CF Brought the Weird to Undergrou
 
 {{< smalldivider  >}}
 
-Listening: **Hood**
+ Listening: **Hood**
+
+{{< only-desktop >}}
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hoodband.bandcamp.com/album/the-cycle-of-days-seasons">The Cycle Of Days &amp; Seasons by Hood</a></iframe>
+</div>
+{{< /only-desktop >}}
+
+
+{{< only-mobile >}}
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hoodband.bandcamp.com/album/the-cycle-of-days-seasons">The Cycle Of Days &amp; Seasons by Hood</a></iframe>
+</div>
+{{< /only-mobile >}} 
+
 
 
 
@@ -107,20 +121,6 @@ if ('IntersectionObserver' in window) {
 
 
 
-<!-- 
 
 
- Listening: **Hood**
 
-{{< only-desktop >}}
-<div style="display: flex; justify-content: center;">
-<iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hoodband.bandcamp.com/album/the-cycle-of-days-seasons">The Cycle Of Days &amp; Seasons by Hood</a></iframe>
-</div>
-{{< /only-desktop >}}
-
-
-{{< only-mobile >}}
-<div style="display: flex; justify-content: center;">
-<iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hoodband.bandcamp.com/album/the-cycle-of-days-seasons">The Cycle Of Days &amp; Seasons by Hood</a></iframe>
-</div>
-{{< /only-mobile >}} -->

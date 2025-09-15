@@ -1,0 +1,58 @@
+{{ $album := .Get "album" }}
+{{ $art := .Get "art" }}
+{{ $artist := .Get "artist" }}
+{{ $title := .Get "title" }}
+
+
+
+<div id="bandcamp-placeholder-{{ $album }}" class="bandcamp-placeholder" style="cursor: pointer; position: relative;">
+    
+       {{/*  <img src="{{ $album }}" alt="{{ $artist }} - {{ $title }}" style="width: 100%; height: auto; display: block; border-radius: 8px;" />    */}}
+
+    <div class="play-button-overlay"
+        style=" top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="var(--default_fg)" stroke-width="2"/>
+            <polygon points="40,30 40,70 70,50" fill="var(--default_fg)" />
+        </svg>
+
+    </div>
+</div>  
+
+
+
+
+
+<div id="bandcamp-player-{{ $album }}" class="bandcamp-player" style="display: none;">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album={{ $album }}/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless>{{ $artist }} - {{ $title }}</a></iframe>
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album={{ $album }}/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                seamless>{{ $artist }} - {{ $title }}</a></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    document.getElementById('bandcamp-placeholder-{{ $album }}').addEventListener('click', function () {
+        var placeholder = this;
+        var player = document.getElementById('bandcamp-player-{{ $album }}');
+        var iframes = player.querySelectorAll('iframe');
+
+        placeholder.style.display = 'none';
+        player.style.display = 'block';
+        iframes.forEach(function (iframe) {
+            iframe.src = iframe.dataset.src;
+        });
+    });
+</script>

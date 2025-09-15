@@ -36,6 +36,10 @@ If one wants to fall into an endless knowledge rabbithole, without the disgust s
 
 Listening: **Parasite Jazz**
 
+{{< bandcamp album="424056718" >}}
+
+
+<!-- 
 {{< only-desktop >}}
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://groovedge.bandcamp.com/album/parasite-jazz">Parasite Jazz by Parasite Jazz</a></iframe>
@@ -47,4 +51,4 @@ Listening: **Parasite Jazz**
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://groovedge.bandcamp.com/album/parasite-jazz">Parasite Jazz by Parasite Jazz</a></iframe>
 </div>
-{{< /only-mobile >}}
+{{< /only-mobile >}} -->

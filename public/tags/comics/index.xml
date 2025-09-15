@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Comics on rirsc</title>
+    <link>http://192.168.178.34:1313/tags/comics/</link>
+    <description>Recent content in Comics on rirsc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/comics/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>Experimental comics</title>
+      <link>http://192.168.178.34:1313/posts/25/250323_experimental-comics/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.178.34:1313/posts/25/250323_experimental-comics/</guid>
+      <description><![CDATA[<p><img src="/images/posts/cf_comics.webp" alt="CF comics" loading="lazy" />
+</p>
+<p>Cool comic panels in this ArtReview text. <a href="https://artreview.com/how-cf-brought-the-weird-to-underground-comics/" target="_blank" rel="noopener">How CF Brought the Weird to Underground Comics&#8599;</a></p>
+<p align="center">﹘</p>
+<p>Listening: <strong>Hood</strong></p>
+
+
+
+
+
+<div id="bandcamp-placeholder-1240731560" class="bandcamp-placeholder" style="cursor: pointer; position: relative;">
+    
+    <div class="play-button-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.3);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+    </div>
+</div>
+
+<div id="bandcamp-player-1240731560" class="bandcamp-player" style="display: none;">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+        <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank" data-src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless>Hood - The Cycle Of Days &amp; Seasons</a></iframe>
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+        <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank" data-src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless>Hood - The Cycle Of Days &amp; Seasons</a></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('bandcamp-placeholder-1240731560').addEventListener('click', function() {
+        var placeholder = this;
+        var player = document.getElementById('bandcamp-player-1240731560');
+        var iframes = player.querySelectorAll('iframe');
+
+        placeholder.style.display = 'none';
+        player.style.display = 'block';
+        iframes.forEach(function(iframe) {
+            iframe.src = iframe.dataset.src;
+        });
+    });
+</script>
+
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

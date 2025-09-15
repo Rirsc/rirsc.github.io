@@ -23,7 +23,7 @@ tags:
 <div class="grid-layout">
 <div class="column column-2 empty"></div>
 <div class="column column-8">
-{{< video h264="/videos/david_lynch+patti_smith.mp4" muted="true" >}}</div>
+{{< video h264="/videos/posts/david_lynch+patti_smith.mp4" muted="true" >}}</div>
 <div class="column column-2 empty"></div>
 </div>
 

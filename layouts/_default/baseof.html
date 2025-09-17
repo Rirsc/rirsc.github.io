@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="{{ if .IsHome }}home{{ end }}" lang="{{ .Site.LanguageCode }}">
+
+
+
+    {{- partial "head.html" . -}}
+    {{- partial "build_assets.html" . -}}
+    <body>
+
+ {{/*  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <filter id="xerox">
+      <feTurbulence baseFrequency="2 1"/>
+      <feDisplacementMap in="SourceGraphic" scale="1"/>
+    </filter>
+  </svg>  */}}
+
+
+
+
+        <div id="baseContainer">
+            {{- partial "header.html" . -}}
+
+            <div id="contentContainer">
+                <div id="content">
+                    <main>
+                        {{- block "main" . }}{{- end }}
+                    </main>
+                </div>
+            </div>
+            {{- partial "footer.html" . -}}
+        </div>
+        {{- partial "plausible.html" . -}}
+        {{- partial "umami.html" . -}}
+        {{- partial "inject/body.html" . -}}
+    </body>
+</html>

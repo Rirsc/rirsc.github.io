@@ -15,4 +15,4 @@ Cool comic panels in this ArtReview text. [How CF Brought the Weird to Undergrou
 
 Listening: **Hood**
 
-{{< bandcamp album="1240731560" artist="Hood" title="The Cycle Of Days & Seasons" >}}
+{{< bandcamp album="1240731560" >}}

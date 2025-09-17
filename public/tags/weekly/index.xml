@@ -20,6 +20,87 @@ If tails, enter this <a href="https://labyrinthlocator.org/" target="_blank" rel
 If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopener">the html review issue 3&#8599;</a></p>
 <p align="center">﹘</p>
 <p>Listening: <strong>La Ola Interior - Spanish Ambient</strong></p>
+
+
+
+
+
+<div id="bandcamp-placeholder-3275122274" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
+    </div>
+
+
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="bandcamp-player-3275122274" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    document.getElementById('bandcamp-placeholder-3275122274').addEventListener('click', function () {
+        var placeholder = this;
+        var player = document.getElementById('bandcamp-player-3275122274');
+        var iframes = player.querySelectorAll('iframe');
+
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
+</script>
+<!-- 
 <div class="only-desktop">
   
 <div style="display: flex; justify-content: center;">
@@ -28,6 +109,8 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
 
 </div>
 
+
+
 <div class="only-mobile">
   
 <div style="display: flex; justify-content: center;">
@@ -35,8 +118,7 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
 </div>
 
 </div>
-
-]]></description>
+ -->]]></description>
       
     </item>
     
@@ -69,6 +151,87 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 <p><a href="https://thesoundof.love/" target="_blank" rel="noopener">The Sound of Love&#8599;</a> is a collection of love comments left on bright tunes across youtube.</p>
 <p align="center">﹘</p>
 <p>Listening: <strong>Parasite Jazz</strong></p>
+
+
+
+
+
+<div id="bandcamp-placeholder-424056718" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
+    </div>
+
+
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="bandcamp-player-424056718" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    document.getElementById('bandcamp-placeholder-424056718').addEventListener('click', function () {
+        var placeholder = this;
+        var player = document.getElementById('bandcamp-player-424056718');
+        var iframes = player.querySelectorAll('iframe');
+
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
+</script>
+<!-- 
 <div class="only-desktop">
   
 <div style="display: flex; justify-content: center;">
@@ -77,6 +240,8 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 
 </div>
 
+
+
 <div class="only-mobile">
   
 <div style="display: flex; justify-content: center;">
@@ -84,8 +249,7 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 </div>
 
 </div>
-
-]]></description>
+ -->]]></description>
       
     </item>
     
@@ -123,6 +287,87 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 <p>Out there, I visited the <a href="https://www.google.com/maps/place/Braun-Sammlung&#43;Ettel&#43;Museum&#43;f%C3%BCr&#43;Design/@52.527291,13.3199926,13.8z/data=!4m6!3m5!1s0x47a8510c23e4dfad:0xb07e7c91165d4d79!8m2!3d52.5241418!4d13.3363634!16s%2Fg%2F11byl684fj?entry=ttu&amp;g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Braun-Sammlung Ettel Museum für Design&#8599;</a> in Moabit. Apart from the vast collection of industrial design objects, my mind was blown by the idea behind it; just an individual collector who decided to open his studio to anyone interested in Braun products. When I visited it, I saw him having coffee in a small part of the studio with his friends while visitors were taking a look at the collection. <strong>Looks like a cool plan for retirement times.</strong></p>
 <p align="center">﹘</p>
 <p>Listening: <strong>kinoue 64</strong></p>
+
+
+
+
+
+<div id="bandcamp-placeholder-2198154650" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
+    </div>
+
+
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="bandcamp-player-2198154650" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    document.getElementById('bandcamp-placeholder-2198154650').addEventListener('click', function () {
+        var placeholder = this;
+        var player = document.getElementById('bandcamp-player-2198154650');
+        var iframes = player.querySelectorAll('iframe');
+
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
+</script>
+<!-- 
 <div class="only-desktop">
   
 <div style="display: flex; justify-content: center;">
@@ -131,6 +376,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 </div>
 
+
+
+
+
 <div class="only-mobile">
   
 <div style="display: flex; justify-content: center;">
@@ -138,8 +387,7 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 </div>
 
 </div>
-
-]]></description>
+ -->]]></description>
       
     </item>
     
@@ -181,13 +429,97 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 <p>Terrible weather and even worse politicians have devastated part of <em>Comunitat Valenciana.</em> All my love to the marvelous people that live in that beautiful part of the world. ♡</p>
 <p align="center">﹘</p>
 <p>Listening: <strong>Carcáscara - II</strong></p>
-<div class="only-desktop">
+
+
+
+
+
+<div id="bandcamp-placeholder-227837001" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
+    </div>
+
+
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="bandcamp-player-227837001" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
+                data-src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                seamless></a></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    document.getElementById('bandcamp-placeholder-227837001').addEventListener('click', function () {
+        var placeholder = this;
+        var player = document.getElementById('bandcamp-player-227837001');
+        var iframes = player.querySelectorAll('iframe');
+
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
+</script>
+<!-- <div class="only-desktop">
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
 </div>
 
 </div>
+
+
+
+
 
 <div class="only-mobile">
   
@@ -196,7 +528,7 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 </div>
 
 </div>
-
+ -->
 ]]></description>
       
     </item>

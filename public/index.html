@@ -86,6 +86,12 @@
     
 
 <body>
+
+ 
+
+
+
+
         <div id="baseContainer"><header class="jumbotronContainer">
 <div class="titleAndSearchContainer">
         <div id="wide_nav"><nav class="navbar">
@@ -170,39 +176,48 @@
 
 
 
-
-
-<div id="bandcamp-placeholder-1240731560" class="bandcamp-placeholder" style="cursor: pointer; position: relative;">
-    
-       
-
-    <div class="play-button-overlay"
-        style=" top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="48" fill="none" stroke="var(--default_fg)" stroke-width="2"/>
-            <polygon points="40,30 40,70 70,50" fill="var(--default_fg)" />
-        </svg>
-
+<div id="bandcamp-placeholder-1240731560" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
     </div>
-</div>  
 
 
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
 
 
-
-<div id="bandcamp-player-1240731560" class="bandcamp-player" style="display: none;">
+<div id="bandcamp-player-1240731560" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
     <div class="only-desktop">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
-                seamless>Hood - The Cycle Of Days &amp; Seasons</a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
     <div class="only-mobile">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=1240731560/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-                seamless>Hood - The Cycle Of Days &amp; Seasons</a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
 </div>
@@ -216,12 +231,25 @@
         var player = document.getElementById('bandcamp-player-1240731560');
         var iframes = player.querySelectorAll('iframe');
 
-        placeholder.style.display = 'none';
-        player.style.display = 'block';
-        iframes.forEach(function (iframe) {
-            iframe.src = iframe.dataset.src;
-        });
-    });
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
 </script>
 </div>
 </article>
@@ -286,39 +314,48 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
 
 
 
-
-
-<div id="bandcamp-placeholder-3275122274" class="bandcamp-placeholder" style="cursor: pointer; position: relative;">
-    
-       
-
-    <div class="play-button-overlay"
-        style=" top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="48" fill="none" stroke="var(--default_fg)" stroke-width="2"/>
-            <polygon points="40,30 40,70 70,50" fill="var(--default_fg)" />
-        </svg>
-
+<div id="bandcamp-placeholder-3275122274" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
     </div>
-</div>  
 
 
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
 
 
-
-<div id="bandcamp-player-3275122274" class="bandcamp-player" style="display: none;">
+<div id="bandcamp-player-3275122274" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
     <div class="only-desktop">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
-                seamless> - </a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
     <div class="only-mobile">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-                seamless> - </a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
 </div>
@@ -332,12 +369,25 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
         var player = document.getElementById('bandcamp-player-3275122274');
         var iframes = player.querySelectorAll('iframe');
 
-        placeholder.style.display = 'none';
-        player.style.display = 'block';
-        iframes.forEach(function (iframe) {
-            iframe.src = iframe.dataset.src;
-        });
-    });
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
 </script>
 <!-- 
 <div class="only-desktop">
@@ -438,39 +488,48 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 
 
 
-
-
-<div id="bandcamp-placeholder-424056718" class="bandcamp-placeholder" style="cursor: pointer; position: relative;">
-    
-       
-
-    <div class="play-button-overlay"
-        style=" top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="48" fill="none" stroke="var(--default_fg)" stroke-width="2"/>
-            <polygon points="40,30 40,70 70,50" fill="var(--default_fg)" />
-        </svg>
-
+<div id="bandcamp-placeholder-424056718" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
     </div>
-</div>  
 
 
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
 
 
-
-<div id="bandcamp-player-424056718" class="bandcamp-player" style="display: none;">
+<div id="bandcamp-player-424056718" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
     <div class="only-desktop">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
-                seamless> - </a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
     <div class="only-mobile">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-                seamless> - </a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
 </div>
@@ -484,12 +543,25 @@ So in that sense, AI systems have a nascent sense of truth.</p>
         var player = document.getElementById('bandcamp-player-424056718');
         var iframes = player.querySelectorAll('iframe');
 
-        placeholder.style.display = 'none';
-        player.style.display = 'block';
-        iframes.forEach(function (iframe) {
-            iframe.src = iframe.dataset.src;
-        });
-    });
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
 </script>
 <!-- 
 <div class="only-desktop">
@@ -566,39 +638,48 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-
-
-<div id="bandcamp-placeholder-2198154650" class="bandcamp-placeholder" style="cursor: pointer; position: relative;">
-    
-       
-
-    <div class="play-button-overlay"
-        style=" top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="48" fill="none" stroke="var(--default_fg)" stroke-width="2"/>
-            <polygon points="40,30 40,70 70,50" fill="var(--default_fg)" />
-        </svg>
-
+<div id="bandcamp-placeholder-2198154650" class="bandcamp-placeholder"
+    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
+    <div class="only-mobile">
+        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
+            </svg>
+        </div>
     </div>
-</div>  
 
 
+    <div class="only-desktop">
+        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
+        <div class="play-button-overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
+                <polygon points="40,30 40,70 70,50" fill="#131314" />
+            </svg>
+        </div>
+    </div>
+
+</div>
 
 
-
-<div id="bandcamp-player-2198154650" class="bandcamp-player" style="display: none;">
+<div id="bandcamp-player-2198154650" class="bandcamp-player"
+    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
     <div class="only-desktop">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
-                seamless> - </a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
     <div class="only-mobile">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
                 data-src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-                seamless> - </a></iframe>
+                seamless></a></iframe>
         </div>
     </div>
 </div>
@@ -612,12 +693,25 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
         var player = document.getElementById('bandcamp-player-2198154650');
         var iframes = player.querySelectorAll('iframe');
 
-        placeholder.style.display = 'none';
-        player.style.display = 'block';
-        iframes.forEach(function (iframe) {
-            iframe.src = iframe.dataset.src;
-        });
-    });
+        placeholder.style.opacity = '0';
+
+        setTimeout(function () {
+            placeholder.style.display = 'none';
+            player.style.display = 'block';
+
+            
+            setTimeout(function () {
+                player.style.opacity = '1';
+            }, 20);
+
+            iframes.forEach(function (iframe) {
+                
+                if (iframe.src === 'about:blank') {
+                    iframe.src = iframe.dataset.src;
+                }
+            });
+        }, 300); 
+    }, { once: true }); 
 </script>
 <!-- 
 <div class="only-desktop">

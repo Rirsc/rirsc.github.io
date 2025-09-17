@@ -112,9 +112,6 @@ html[data-theme="light"] {
 }
 
 
-
-
-
  $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
  $title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
  $mono_font: {{ .Site.Params.monospaceFontFamily | default "Courier New" }};
@@ -150,6 +147,14 @@ body, html {
     background-color: var(--default_bg);
     color: var(--default_fg);
     //letter-spacing: -0.2px;
+
+
+
+    //filter: url(#xerox);  /* For the glitch */  
+    //margin: -1px 0 0 -1px; /* I need this to hide the top and left border error, but then I lose the sticky menu */
+
+
+
 
     ::selection, {
         background: #ffffa9;

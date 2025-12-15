@@ -39,7 +39,7 @@
 
     
     
-    <link type="text/css" rel="stylesheet" href=http://192.168.178.34:1313/css/styles.93bc1d3d8ef2650522813f6c3867eeaf0aee771debac809a570b16e3466d21dd2a0d5cc54f760bd6cc0c3339d02d60771ee01fca241bae2f5645aff7810642dd.css integrity="sha512-k7wdPY7yZQUigT9sOGfurwrudx3rrICaVwsW40ZtId0qDVzFT3YL1swMMznQLWB3HuAfyiQbri9WRa/3gQZC3Q==" />
+    <link type="text/css" rel="stylesheet" href=http://192.168.178.34:1313/css/styles.f2f4919e909740cc11082d0708d546441d33a73c8ec9b8c632e4a0360d2aae9c810fff18015b344795391385773720ecff53b42a958bfc492b809bd5e1b27cdc.css integrity="sha512-8vSRnpCXQMwRCC0HCNVGRB0zpzyOybjGMuSgNg0qrpyBD/8YAVs0R5U5E4V3NyDs/1O0KpWL/EkrgJvV4bJ83A==" />
 <meta name="author" content="Ricardo López" />
 
     
@@ -111,7 +111,11 @@ Les C" />
 
     <div class="navbar-wrapper">
         <div class="navbar-left">
-            <a href="/" class="">RIRSC</a>
+            <ul id="main-nav">
+                <li>
+                <a href="/" class="">RIRSC</a>
+                </li>
+            </ul>
         </div>
         <div class="navbar-right">
             <ul id="main-nav">
@@ -121,14 +125,14 @@ Les C" />
                     <a href="/pages/etc" class="">ETC</a>
                     <a href="/pages/info" class="">INFO</a>
 
-                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">
+                     <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">
                         <span id="theme-toggle-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+                            <svg xmlns="http://www.w3.org/2000/svg">
                                 <path fill="currentColor"
-                                    d="M50,0 L54.8,29.1 L79.4,20.6 L68.3,40.2 L97.6,42.4 L71.2,53.9 L97.6,67.6 L68.3,69.8 L79.4,89.4 L54.8,80.9 L50,100 L45.2,80.9 L20.6,89.4 L31.7,69.8 L2.4,67.6 L28.8,53.9 L2.4,42.4 L31.7,40.2 L20.6,20.6 L45.2,29.1 Z" />
+                                    d="M50,0 L20.6,20.6 L45.2,29.1 Z" />
                             </svg>
                         </span>
-                    </a>
+                    </a>  
                 </li>
             </ul>
         </div>
@@ -165,94 +169,23 @@ Les C" />
 
 
 
-
-<div id="bandcamp-placeholder-2672090613" class="bandcamp-placeholder"
-    style="cursor: pointer; position: relative; transition: opacity 300ms ease-out;">
-    <script>
-        (function() {
-            
-            const isMobile = window.innerWidth < 768;
-
-            const svgWidth = isMobile ? 350 : 700;
-            const svgHeight = isMobile ? 550 : 230;
-            const cellSize = 20; 
-
-            const numCols = Math.ceil(svgWidth / cellSize);
-            const numRows = Math.ceil(svgHeight / cellSize);
-
-            let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}" viewBox="0 0 ${svgWidth} ${svgHeight}">`;
-
-            const colors = ['#808080', '#a0a0a0', '#c0c0c0'];
-
-            for (let y = 0; y < numRows; y++) {
-                for (let x = 0; x < numCols; x++) {
-                    const color = colors[Math.floor(Math.random() * colors.length)];
-                    svg += `<rect x="${x * cellSize}" y="${y * cellSize}" width="${cellSize}" height="${cellSize}" fill="${color}" />`;
-                }
-            }
-            svg += '</svg>';
-
-            const dataUri = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
-
-            const style = document.createElement('style');
-            style.innerHTML = `
-                #bandcamp-placeholder-2672090613::before {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background-image: ${dataUri};
-                    background-repeat: no-repeat;
-                    mix-blend-mode: multiply;
-                    pointer-events: none;
-                    opacity: 0.7;
-                }
-            `;
-            document.head.appendChild(style);
-        })();
-    </script>
-    <div class="only-mobile">
-        <img src="/images/misc/bandcamp_preview_mobile.png" style="width: 350px; height: 550px; display: block;" />
-        <div class="play-button-overlay"
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="48" fill="none" stroke="#f2f2f2" stroke-width="2" />
-                <polygon points="40,30 40,70 70,50" fill="#f2f2f2" />
-            </svg>
-        </div>
-    </div>
-
-
-    <div class="only-desktop">
-        <img src="/images/misc/bandcamp_preview_desktop.png" style="width: 700px; height: 230px; display: block;" />
-        <div class="play-button-overlay"
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-                <circle cx="50" cy="50" r="48" fill="none" stroke="#131314" stroke-width="2" />
-                <polygon points="40,30 40,70 70,50" fill="#131314" />
-            </svg>
-        </div>
-    </div>
-
-</div>
-
-
-<div id="bandcamp-player-2672090613" class="bandcamp-player"
-    style="display: none; opacity: 0; transition: opacity 1s ease-in;">
+<div id="bandcamp-player-2672090613" class="bandcamp-player">
     <div class="only-desktop">
         <div style="display: flex; justify-content: center;">
-            <iframe style="border: 0; width: 700px; height: 230px;" src="about:blank"
-                data-src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
-                seamless></a></iframe>
+            <iframe style="border: 0; width: 700px; height: 230px;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless>
+            </iframe>
+
         </div>
     </div>
     <div class="only-mobile">
         <div style="display: flex; justify-content: center;">
-            <iframe style="border: 0; width: 350px; height: 550px;" src="about:blank"
-                data-src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-                seamless></a></iframe>
+            <iframe style="border: 0; width: 700px; height: 230px;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless>
+            </iframe>
+
         </div>
     </div>
 </div>
@@ -260,32 +193,8 @@ Les C" />
 
 
 
-<script>
-    document.getElementById('bandcamp-placeholder-2672090613').addEventListener('click', function () {
-        var placeholder = this;
-        var player = document.getElementById('bandcamp-player-2672090613');
-        var iframes = player.querySelectorAll('iframe');
 
-        placeholder.style.opacity = '0';
 
-        setTimeout(function () {
-            placeholder.style.display = 'none';
-            player.style.display = 'block';
-
-            
-            setTimeout(function () {
-                player.style.opacity = '1';
-            }, 20);
-
-            iframes.forEach(function (iframe) {
-                
-                if (iframe.src === 'about:blank') {
-                    iframe.src = iframe.dataset.src;
-                }
-            });
-        }, 300); 
-    }, { once: true }); 
-</script>
 <!-- 
 
 <div class="only-desktop">

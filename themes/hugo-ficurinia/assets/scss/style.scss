@@ -313,10 +313,10 @@ a.unstyledLink {
     padding: 5px 0; /* Adjust padding as needed */
     
     // Blur bg
-     background-color: rgba(var(--default_bg), 0.5);
-     backdrop-filter: blur(10px); /* Apply the blur effect */
-     -webkit-backdrop-filter: blur(3px); /* Safari support */
-     background-blend-mode: overlay;
+      background-color: rgba(var(--default_bg), 0.5);
+      backdrop-filter: blur(10px); /* Apply the blur effect */
+      -webkit-backdrop-filter: blur(3px); /* Safari support */
+      background-blend-mode: overlay;
 
     // Text with effect - For Dark mode
     //mix-blend-mode: difference;
@@ -333,8 +333,13 @@ a.unstyledLink {
     width: 100%; /* Ensure the wrapper takes up the full width of the navbar */
 }
 
-// Ric Increase font size for large screens
+
 @media (min-width: 1024px) {
+    .navbar-wrapper {
+        width: 50%; 
+    }
+}
+@media (min-width: 768px) {
     .navbar-wrapper {
         width: 50%; 
     }
@@ -343,7 +348,16 @@ a.unstyledLink {
 
 
 .navbar-left {
-    //flex: 1;
+    display: flex;
+    align-items: center;
+    /* Ensure the left title/link aligns vertically with the right menu */
+    a {
+        display: inline-flex; /* allow centering of inline SVGs or icons */
+        align-items: center;
+        line-height: 1;
+        padding: 0 $margin / 3;
+        margin: 0; /* remove default margins that can shift baseline */
+    }
 }
 
 .navbar-right {
@@ -352,8 +366,8 @@ a.unstyledLink {
     // flex: 1;
 
     //For fixed navbar
-    display: flex;
-    align-items: center; /* Align vertically */
+    //display: flex;
+    //align-items: center; 
 }
 
 /* Ensure SVG icons inside the theme toggle are properly centered */
@@ -388,7 +402,7 @@ a.unstyledLink {
 }
 
 #main-nav li {
-    margin-left: 5px;
+   // margin-left: 5px;
 }
 
 .navbar a {
@@ -412,8 +426,8 @@ a.unstyledLink {
 
 @media (max-width: 768px) {
     .navbar {
-        padding: $margin / 4; // Reduced padding for small screens
-        //padding: 0;
+        //padding: $margin / 4; // Reduced padding for small screens
+        padding: 0;
     }
 }
 
@@ -1046,7 +1060,7 @@ header {
         ul {
             li {
                 {{ if eq .Site.Params.menuStyle "buttons" }}
-                    margin: 5px 2px;
+                    //margin: 5px 2px;
                     margin-right: 5px;
                     &:last-child {
                         margin-right: none;
@@ -1066,7 +1080,7 @@ header {
                         box-sizing: border-box;
                         //color: var(--default_fg);
                         margin: 0;
-                        padding: #{$margin/2} $margin;
+                        //padding: #{$margin/2} $margin;
                     }
                 {{ else }}
                 

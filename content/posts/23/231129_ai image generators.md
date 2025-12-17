@@ -70,7 +70,9 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 <div class="grid-layout">
   <div class="column column-12">
-  {{< video h264="/videos/posts/231129_ai image generators/2024-01-14-14-53-54.mp4" muted="true" class="video-margin" >}}
+  {{< video h264="/videos/posts/231129_ai_image_generators/2024-01-14-14-53-54.mp4" muted="true" class="video-margin" >}}
+
+
   </div>
   <div class="column column-6">
     <img src="/images/posts/231129_ai_image_generators/Fassbar_007-1024x1280.webp">
@@ -81,8 +83,6 @@ As I am writing these words, I will reduce and categorise the workflows I know i
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
   </div>
 </div>
-
-
 
 
 

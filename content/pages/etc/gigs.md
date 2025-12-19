@@ -20,14 +20,30 @@ h4 {
 
 ## 2025
 
+#### December
+
+Plattenbau + The Pleasure Magenta + Alienbaby Collective <span style="color:var(--default_dim_fg);">90mil</span>
+
+#### November
+
+Dyan Tai + Ixa <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Salò: Quade + Js Donny + Raisa K <span style="color:var(--default_dim_fg);">90mil</span>
+
+#### October
+
+Restless + Noj + Plattenbau <span style="color:var(--default_dim_fg);">Tommyhaus</span><br>
+Kee Avil + Channel Vessel + Nu Jazz <span style="color:var(--default_dim_fg);">Life World</span>
+
 #### August
 
+Takkak Takkak + Specimens PPP + Emil Palme  <span style="color:var(--default_dim_fg);">90mil</span><br>
 Oranssi Pazuzu + Insect Ark  <span style="color:var(--default_dim_fg);">Berghain</span><br>
-Takkak Takkak + Specimens PPP + Emil Palme  <span style="color:var(--default_dim_fg);">90mil</span>
+Otay Onii  <span style="color:var(--default_dim_fg);">Gropius Bau</span><br>
+Benzin + Boost + Double Life <span style="color:var(--default_dim_fg);">idvd.ogh</span>
 
 #### July
 
-Liiek + Überall Algen <span style="color:var(--default_dim_fg);">Greifswalder DIY</span><br>
+Liiek + Überall Algen <span style="color:var(--default_dim_fg);">Greifswalder DIY</span>
 
 #### June
 

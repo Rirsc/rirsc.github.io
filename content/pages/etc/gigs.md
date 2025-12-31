@@ -55,6 +55,7 @@ KOU + Andra Ljos <span style="color:var(--default_dim_fg);">Beikraut</span>
 #### May
 
 Astio + Traume + Lux + Industry <span style="color:var(--default_dim_fg);">idvd.ogh</span><br>
+Das Kinn + Noj + Splizz + Sisters of Sorcery + Alibi <span style="color:var(--default_dim_fg);">Neue Zukunft</span><br>
 Six Organs of Admittance <span style="color:var(--default_dim_fg);">PAS</span><br>
 Forma Norte + Respira + Alféizar + Mateo + Adrianna <span style="color:var(--default_dim_fg);">Pumarejo</span><br>
 

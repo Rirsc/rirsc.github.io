@@ -1734,7 +1734,15 @@ video {
     max-width: 100%; /* Ensure images are responsive */
     display: block; /* Center the image */
     //margin: auto;
-    padding: 0 10px; /* Not completely sure this is working RIRSC */
+    padding: 0 10px;
+}
+
+/* Apply different padding or margin to images */
+.project video {
+    max-width: 100%; /* Ensure images are responsive */
+    display: block; /* Center the image */
+    //margin: auto;
+    padding: 0 10px;
 }
 
 

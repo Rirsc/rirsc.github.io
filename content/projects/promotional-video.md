@@ -50,7 +50,4 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 </div>
 <div class="column column-3 empty"></div>
 
-
-
-
 </div>

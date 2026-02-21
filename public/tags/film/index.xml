@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Film on rirsc</title>
-    <link>http://192.168.2.8:1313/tags/film/</link>
+    <link>http://10.175.203.83:1313/tags/film/</link>
     <description>Recent content in Film on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.2.8:1313/tags/film/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.2.8:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://10.175.203.83:1313/tags/film/index.xml" rel="self" type="application/rss+xml" /><icon>http://10.175.203.83:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Droste effect</title>
-      <link>http://192.168.2.8:1313/posts/25/250324_droste-effect/</link>
+      <link>http://10.175.203.83:1313/posts/25/250324_droste-effect/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.2.8:1313/posts/25/250324_droste-effect/</guid>
+      <guid>http://10.175.203.83:1313/posts/25/250324_droste-effect/</guid>
       <description><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Droste_effect" target="_blank" rel="noopener">The droste effect&#8599;</a> is the effect of a picture recursively appearing within itself, in a place where a similar picture would realistically be expected to appear.</p>
 <p>Not to be confused with the <a href="https://letterboxd.com/film/beyond-the-infinite-two-minutes/" target="_blank" rel="noopener">Droste TV&#8599;</a>.</p>
 ]]></description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Puzzle to another world</title>
-      <link>http://192.168.2.8:1313/posts/25/250116_puzzle-to-another-world/</link>
+      <link>http://10.175.203.83:1313/posts/25/250116_puzzle-to-another-world/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.2.8:1313/posts/25/250116_puzzle-to-another-world/</guid>
+      <guid>http://10.175.203.83:1313/posts/25/250116_puzzle-to-another-world/</guid>
       <description><![CDATA[<blockquote>
 <p>[D] Twin Peaks is a world, and I love that world and I love that world. It&rsquo;s something that is like a magnet. It&rsquo;s to go back in there. <br>
 <br>

@@ -717,7 +717,7 @@ h6 {font-size: 1 * $base_font_size * $title_font_mult;}
 
 @media (max-width: 769px) {
     h1, h2, h3, h4, h5, h6 {
-      line-height: 1; /* Make empty columns visible on large screens */
+      //line-height: 1;
     }
   }
 
@@ -792,7 +792,7 @@ h6 {font-size: 1 * $base_font_size * $title_font_mult;}
             }
         {{ end }}
         h1 {
-         text-transform: uppercase;
+        // text-transform: uppercase;
 
         }
 

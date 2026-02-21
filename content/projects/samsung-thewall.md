@@ -90,16 +90,12 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 <div class="separator-small"></div>
 
-<!-- <div id="contentContainer"> -->
  <div id="content">
         <h1>Credits</h1>
         <p><strong><a href="https://onformative.com/">onformative↗</a></strong></p>
-        <ul>
-            <li>Creative Direction: Cedric Kiefer.</li>
-            <li>Art Direction: Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.</li>
-            <li>Production: Julia Laub.</li>
-            <li>Technical Direction: Henryk Wollik.</li>           
-            <li>Code: Henryk Wollik, Ryan Alexander.</li>
-        </ul>
-    </div>
-<!-- </div> -->
+        <strong>Creative Direction:</strong> Cedric Kiefer.<br>
+        <strong>Art Direction: </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+        <strong>Production: </strong>Julia Laub.<br>
+        <strong>Technical Direction: </strong>Henryk Wollik.<br>
+        <strong>Code: </strong>Henryk Wollik, Ryan Alexander.
+</div>

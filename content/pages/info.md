@@ -45,7 +45,7 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
     </thead>
     <tbody>
       <tr>
-        <td>2022–2025</td>
+        <td>2022–2026</td>
         <td>Senior Designer</td>
         <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
       </tr>
@@ -87,7 +87,7 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
     <tbody class="entry">
       <tr>
         <th>Years</th>
-        <td>2022–2025</td>
+        <td>2022–2026</td>
       </tr>
       <tr>
         <th>Role</th>

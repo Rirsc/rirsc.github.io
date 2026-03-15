@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+{{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+
+<section class="quotes">
+
+{{ range $i, $page := $paginator.Pages }}
+
+<article class="quote color-{{ mod $i 8 }}">
+    {{ $page.Content }}
+
+    <div class="quote-footer">
+    — {{ .Params.author }}
+    {{ if .Params.source }}
+        <span class="source">{{ .Params.source }}</span>
+    {{ end }}
+    </div>
+
+</article>
+
+{{ end }}
+
+</section>
+
+{{ partial "paginator.html" . }}
+
+{{ end }}
+
+
+
+
+

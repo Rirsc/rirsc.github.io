@@ -59,6 +59,26 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
         --default_sidebar_bg: #{$dark_sidebar_bg};
         --default_sidebar_fg: #{$dark_sidebar_fg};
     {{ end }}
+
+
+    // Color Quotes
+        --quote-1: #E4574F;   /* coral red */
+        --quote-2: #3C2A35;   /* dark plum */
+        --quote-3: #4F6F7A;   /* blue gray */
+        --quote-4: #E3C357;   /* mustard */
+        --quote-5: #2E4B3F;   /* deep green */
+        --quote-6: #F2D4C9;   /* pale peach */
+        --quote-7: #DCD6CF;   /* warm gray */
+        --quote-8: #D36B4E;   /* clay orange */
+
+
+
+
+
+
+
+
+
 }
 
 {{ if ($colors.auto_switch | default false) }}
@@ -112,17 +132,14 @@ html[data-theme="light"] {
 }
 
 
- $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
- $title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
- $mono_font: {{ .Site.Params.monospaceFontFamily | default "Courier New" }};
+   $main_font: {{ .Site.Params.fontFamily | default "Arial" }};
+  $title_font: {{ .Site.Params.titleFontFamily | default "Arial" }};
+   $mono_font: {{ .Site.Params.monospaceFontFamily | default "Courier New" }};
+
+  
 
 
-/* $main_font: {{ .Site.Params.fontFamily | default "JetBrains Mono" }};
-$title_font: {{ .Site.Params.titleFontFamily | default "$main_font" }};
-$mono_font: {{ .Site.Params.monospaceFontFamily | default "JetBrains Mono" }}; */
-
-
- $symbols_font: {{ .Site.Params.fontFamily | default "Arial" }};
+$symbols_font: {{ .Site.Params.fontFamily | default "Arial" }};
 $content_width: {{ .Site.Params.contentWidth | default "800px" }};
 $border_radius: 0px;
 $margin: 12px;
@@ -596,21 +613,6 @@ table {
         width: 60%; /* Remaining space for the data */
     }
 }
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1925,20 +1927,14 @@ video {
     height: auto;
 }
 
-.intro {
-    //background-color:  var(--default_hl_bg);
-    
+.intro {    
     color: var(--default_dim_fg);
     margin: 0 0  (6 * $margin) 0;
-    
-    // border: 2px solid black;
-
     
     h1, h2, h3, h4, h5, h6 {
         line-height: 1;
         letter-spacing: -0.03em;
         text-align: center;
-
       }
     hr {
         margin-top: (6 * $margin);
@@ -1947,22 +1943,6 @@ video {
     }
 }
 
-@media (min-width: 769px) {
-    .intro {
-        //margin: 0 (2 * $margin)  (6 * $margin) (2 * $margin);
-       // margin: 0 0  (6 * $margin) 0;
-        padding: 0 (8 * $margin);
-    }
-  }
-
-        // @media (max-width: 769px) {
-        //   .intro {
-        //       h4 {
-        //          font-size: 1.05 * $base_font_size * $title_font_mult; 
-        //          color: var(--default_dim_fg);
-        //     }
-        //   }
-        // }
 
 
 // On mobile, add padding to the top and bottom of the .project section
@@ -1973,3 +1953,40 @@ video {
     padding-bottom: 12px;
   }
 }
+
+
+
+
+  /* ---------- QUOTES  --------------------*/
+.quotes {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    padding: $margin * 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+}
+
+
+.quote blockquote {
+    line-height: 1.3;
+}
+
+.quote-footer {
+    font-size: 1rem;
+    text-align: right;
+
+}
+
+.color-0 { background: var(--quote-1); color:white; }
+.color-1 { background: var(--quote-2); color:white; }
+.color-2 { background: var(--quote-3); color:white; }
+.color-3 { background: var(--quote-4); color:black; }
+.color-4 { background: var(--quote-5); color:white; }
+.color-5 { background: var(--quote-6); color:black; }
+.color-6 { background: var(--quote-7); color:black; }
+.color-7 { background: var(--quote-8); color:white; }

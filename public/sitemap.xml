@@ -143,6 +143,12 @@
     <loc>http://192.168.178.34:1313/posts/21/210821_zinefest-at-subaermarkt/</loc>
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/230216_gwern_educated-write-weekly-ideas/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/tags/blender/</loc>
     <lastmod>2023-02-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -167,8 +173,23 @@
     <loc>http://192.168.178.34:1313/posts/23/230103_flaaryr-and-the-loosers/</loc>
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/221025_tibor-kalman_consistency-not-sameness/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/220523_vangelis_invest-in-beauty/</loc>
+    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/posts/22/220109_22week01/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/211107_mike-watt_punk-is-a-state/</loc>
+    <lastmod>2021-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/210705_bruno-munari_tree-is-an-explosion/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/191210_fleabag_love-well-so-it/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/pages/about/</loc>
     <lastmod>2019-08-11T10:14:48+00:00</lastmod>
@@ -196,6 +217,18 @@
   </url><url>
     <loc>http://192.168.178.34:1313/pages/info/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/190403_melinda-melinda_keep-hopes-modest/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/160227_gumballl_eat-myself-double-or/</loc>
+    <lastmod>2016-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/150203_julio-verne_nothing-surprises-an-american/</loc>
+    <lastmod>2015-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/130702_saskia-sassen_powerless-make-history-slowly/</loc>
+    <lastmod>2013-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/projects/negroni/</loc>
   </url><url>

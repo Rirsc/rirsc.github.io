@@ -6,15 +6,20 @@
 
 {{ range $i, $page := $paginator.Pages }}
 
+{{/*  <article class="quote color-{{ mod $i 8 }}">  */}}
+    
+
 <article class="quote color-{{ mod $i 8 }}">
+
     {{ $page.Content }}
 
-    <div class="quote-footer">
-    — {{ .Params.author }}
+  <div class="quote-footer">
+     {{ .Params.author }}
     {{ if .Params.source }}
-        <span class="source">{{ .Params.source }}</span>
+    <br>
+      <span class="source"> {{ .Params.source }}</span>
     {{ end }}
-    </div>
+  </div>
 
 </article>
 

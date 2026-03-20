@@ -1,15 +1,13 @@
 {{ define "main" }}
 
-{{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+{{ $paginator := .Paginate (.Pages.ByWeight) }}
+{{ $colors := shuffle (seq 0 7) }}
 
 <section class="quotes">
 
-{{ range $i, $page := $paginator.Pages }}
+{{ range $i, $page := $paginator.Pages }}    
 
-{{/*  <article class="quote color-{{ mod $i 8 }}">  */}}
-    
-
-<article class="quote color-{{ mod $i 8 }}">
+<article class="quote color-{{ index $colors (mod $i (len $colors)) }}">
 
     {{ $page.Content }}
 

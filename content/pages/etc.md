@@ -11,6 +11,7 @@ A vault to store the remaining pages until I figure out a better way to organize
 
 <!-- [Lab](/projects/lab/)<br> -->
 <!-- [Log](/pages/etc/log)<br> -->
+[Quotes](/quotes)<br>
 [AI Generators](/posts/23/231129_ai-image-generators/)<br>
 [Digital Love](/pages/etc/digital-love)<br>
 [Gigs](/pages/etc/gigs)<br>
@@ -20,7 +21,6 @@ A vault to store the remaining pages until I figure out a better way to organize
 <span style="color:var(--default_dim_fg);">DIY&DIT</span><br>
 <span style="color:var(--default_dim_fg);">Favourites</span><br>
 <span style="color:var(--default_dim_fg);">Sketchs</span><br>
-<span style="color:var(--default_dim_fg);">Quotes</span><br>
 <span style="color:var(--default_dim_fg);">Philosophy</span><br>
 <span style="color:var(--default_dim_fg);">Bikes</span><br>
 <span style="color: var(--default_dim_fg);">Recipes </span>

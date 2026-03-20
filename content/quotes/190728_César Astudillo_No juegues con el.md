@@ -4,6 +4,7 @@ type: "Person"
 source: ""
 date: 2019-07-28
 notion_id: "108e09bb-44c6-453a-8bc3-9a015d5a25e4"
+weight: 50
 ---
 
 

@@ -61,17 +61,30 @@ $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
     {{ end }}
 
 
-    // Color Quotes
-        --quote-1: #E4574F;   /* coral red */
-        --quote-2: #3C2A35;   /* dark plum */
-        --quote-3: #4F6F7A;   /* blue gray */
-        --quote-4: #E3C357;   /* mustard */
-        --quote-5: #2E4B3F;   /* deep green */
-        --quote-6: #F2D4C9;   /* pale peach */
-        --quote-7: #DCD6CF;   /* warm gray */
-        --quote-8: #D36B4E;   /* clay orange */
+    {{ if eq .Site.Data.colors.default "light" }}
+--quote-1: #C58A9C;   /* dusty warm pink */
+--quote-2: #4A4446;   /* warm charcoal */
+--quote-3: #7FA6A4;   /* softened aqua */
+--quote-4: #BFA6AC;   /* warm gray with pink tint (replaces purple) */
+--quote-5: #5A6763;   /* muted green-gray */
+--quote-6: #EEDFE4;   /* pale pink */
+--quote-7: #E2DDDA;   /* warm light gray */
+--quote-8: #9BC9C6;   /* soft aqua highlight */
+    {{ else }}
+--quote-1: #B7658E;   /* muted magenta-pink */
+--quote-2: #3F3A3C;   /* warm charcoal */
+--quote-3: #6F8F8E;   /* darkened aqua-gray */
+--quote-4: #8F7F84;   /* dusty rose-gray (replaces purple) */
+--quote-5: #4F5C58;   /* deep green-gray */
+--quote-6: #D8C6CF;   /* soft dusty pink */
+--quote-7: #BEB7B4;   /* warm mid gray */
+--quote-8: #7FB7B3;   /* restrained aqua highlight */
+    {{ end }}
 
 }
+
+
+
 
 {{ if ($colors.auto_switch | default false) }}
 @media (prefers-color-scheme: dark) {
@@ -226,7 +239,7 @@ a:active {
     /* border-bottom: 1px solid; */
 
     text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+    text-decoration-thickness: 2px;
     text-decoration-color: var(--default_accent);
 
     &:hover, &:focus {
@@ -656,7 +669,7 @@ blockquote {
     a, span {
         // appropriately sized tap targets
         display: inline-block;
-        padding: 6px;
+        padding: 2px;
     }
     &.nav-circles {
         display: flex;
@@ -1959,12 +1972,15 @@ video {
     flex-direction: column;
     justify-content: center;
     text-indent: $margin * 3;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid transparent; /* Sets the width and style */
+    border: 2px solid transparent;
 }
 
+@media (min-width: 768px) {
+    .quote {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;    }
+}
 
 
 .quote-footer {
@@ -1975,24 +1991,6 @@ video {
 
 }
 
-// .color-0 { background: var(--quote-1); color:white; }
-// .color-1 { background: var(--quote-2); color:white; }
-// .color-2 { background: var(--quote-3); color:white; }
-// .color-3 { background: var(--quote-4); color:black; }
-// .color-4 { background: var(--quote-5); color:white; }
-// .color-5 { background: var(--quote-6); color:black; }
-// .color-6 { background: var(--quote-7); color:black; }
-// .color-7 { background: var(--quote-8); color:white; }
-
-
-// .color-0 { background: var(--quote-1);   }
-// .color-1 { background: var(--quote-2);   }
-// .color-2 { background: var(--quote-3);   }
-// .color-3 { background: var(--quote-4);   }
-// .color-4 { background: var(--quote-5);   }
-// .color-5 { background: var(--quote-6);   }
-// .color-6 { background: var(--quote-7);   }
-// .color-7 { background: var(--quote-8);   }    
 
 .color-0 { border-color: var(--quote-1);   }
  .color-1 { border-color: var(--quote-2);   }

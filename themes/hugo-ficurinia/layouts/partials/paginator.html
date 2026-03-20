@@ -24,6 +24,7 @@
         getNext(true);
     </script>
 {{ end }}
+
 {{ if .Site.Params.infiniteScrolling }}<noscript>{{ end }}
 {{ if gt .Paginator.TotalPages 1 }}
     {{ $navtype := .Site.Params.Navtype }}

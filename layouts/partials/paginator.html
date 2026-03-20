@@ -1,0 +1,88 @@
+{{ if .Site.Params.infiniteScrolling }}
+{{- partial "js_paginator.html" . -}}
+<script>
+    var nextPage = '/index.json';
+    function getNext(first=false) {
+        if (!nextPage) return;
+        fetch(nextPage).then(res => res.json())
+        .then(res => {
+            nextPage = res['next'];
+            if (first) {
+                document.getElementById('getNextBtnContainer').innerHTML += `
+                   <div class="loadMoreButton {{ if eq .Site.Params.navtype "circles"}}buttonLike{{ end }}">
+                        <a style="cursor: pointer" onclick="getNext();">
+                            Load more articles
+                        </a>
+                    </div>
+                `;
+                return;
+            }
+            if (!nextPage) document.getElementById('getNextBtnContainer').innerHTML = '';
+            renderArticles(res['articles']);
+        });
+    }
+    getNext(true);
+</script>
+{{ end }}
+
+{{ if .Site.Params.infiniteScrolling }}<noscript>{{ end }}
+
+{{ if gt .Paginator.TotalPages 1 }}
+
+{{ $navtype := .Site.Params.Navtype }}
+<div id="pageNavigation" class='{{ if eq $navtype "circles" }}nav-circles{{ end }}'>
+
+    <!-- PREV -->
+    {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}">
+            {{ if eq $navtype "circles" }}←{{ else }}&lt;{{ end }}
+        </a>
+    {{ end }}
+
+    {{ $total := .Paginator.TotalPages }}
+    {{ $current := .Paginator.PageNumber }}
+
+    {{ $window := 2 }} <!-- pages around current -->
+    {{ $edge := 1 }}   <!-- always show first & last -->
+
+    {{ $lastPrinted := 0 }}
+
+    {{ range seq 1 $total }}
+        {{ $i := . }}
+
+        {{ $show := or
+            (le $i $edge)
+            (gt $i (sub $total $edge))
+            (and (ge $i (sub $current $window)) (le $i (add $current $window)))
+        }}
+
+        {{ if $show }}
+
+            <!-- Insert ellipsis if gap -->
+            {{ if gt (sub $i $lastPrinted) 1 }}
+                <span>…</span>
+            {{ end }}
+
+            {{ if eq $i $current }}
+                <span>{{ $i }}</span>
+            {{ else }}
+                <a href="{{ (index $.Paginator.Pagers (sub $i 1)).URL }}">{{ $i }}</a>
+            {{ end }}
+
+            {{ $lastPrinted = $i }}
+
+        {{ end }}
+    {{ end }}
+
+    <!-- NEXT -->
+    {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}">
+            {{ if eq $navtype "circles" }}→{{ else }}&gt;{{ end }}
+        </a>
+    {{ end }}
+
+</div>
+
+{{ end }}
+
+{{ if .Site.Params.infiniteScrolling }}</noscript>{{ end }}

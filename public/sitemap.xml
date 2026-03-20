@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.178.34:1313/quotes/260313_fran-lebowitz_good-habits-wont-save/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+    <loc>http://192.168.178.34:1313/quotes/260128_yi-yi_half-truth/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/260123_siri-husdvet_vestir-es-invenci%C3%B3n-del/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251224_milan-kundera_memoria-contra-olvido/</loc>
+    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/251215_david-oreilly_art-for-not-being/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
@@ -17,17 +23,14 @@
     <loc>http://192.168.178.34:1313/quotes/220716_tolstoi_happy-families/</loc>
     <lastmod>2022-07-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/211214_li-po_the-mountain-and-i/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/191210_fleabag_love-well-so-it/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/190728_c%C3%A9sar-astudillo_no-juegues-con-el/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/140826_butters_butters-south-park/</loc>
-    <lastmod>2014-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/260313_philip-k.dick_jesucristo-maneja-ascensor/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/250122_adam_stranger-in-my-own/</loc>
     <lastmod>2025-01-22T00:00:00+00:00</lastmod>
@@ -35,13 +38,7 @@
     <loc>http://192.168.178.34:1313/quotes/220703_garry-nolan_speculation-creativity-beginning-hypothesis/</loc>
     <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/210628_nick-cave_words-on-getting-old/</loc>
-    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/210523_david-sedaris_perdedor-o-marginal/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/210523_kassa-overall_meaning-of-algorithms/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/200701_blaise-pascal_cannot-sit-alone-quietly/</loc>
@@ -61,6 +58,9 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/240412_jaron-lanier_sigue-el-dinero-y/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/231117_karl-ove-knausgard_childs-are-within-the/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/220523_vangelis_invest-in-beauty/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
@@ -101,9 +101,6 @@
     <loc>http://192.168.178.34:1313/quotes/131003_albert-einstein_expl%C3%ADcalo-a-tu-abuela/</loc>
     <lastmod>2013-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251224_milan-kundera_memoria-contra-olvido/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/251215_daniel-ausente_otorrinolaring%C3%B3logo-al-rev%C3%A9s/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -115,12 +112,6 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/240412_bill-murray_sign-language-while-driving/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/231117_karl-ove-knausgard_childs-are-within-the/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/211214_li-po_the-mountain-and-i/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/210710_arthur-c.-clarke_vida-inteligente/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
@@ -143,6 +134,24 @@
     <loc>http://192.168.178.34:1313/quotes/260308_irene-men%C3%A9ndez-hastings_no-pienses-tanto/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251215_freysa_die-for-the-right/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251124_novalis_ciencia-po%C3%A9tica/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251116_caroline-b%C3%B6hmer_exageradamente-feliz/</loc>
+    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251111_goethe_muebles-c%C3%B3modos-no-dejan/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251110_ordinary-things_easy-money/</loc>
+    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/250629_reddit_introverts-as-websites/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/250527_dem%C3%B3crito_el-sabio-tiene-tierras/</loc>
     <lastmod>2025-05-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -154,6 +163,9 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/221129_richard-feynman_knowledge-right-answers-intelligence/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/210628_nick-cave_words-on-getting-old/</loc>
+    <lastmod>2021-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/201217_matt-furie_cartoons-are-powerfull/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
@@ -218,9 +230,6 @@
     <loc>http://192.168.178.34:1313/quotes/260308_ed-catmull_creatividad-es-cambio/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/260123_siri-husdvet_vestir-es-invenci%C3%B3n-del/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/240412_albert-einstein_imaginaci%C3%B3n/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -278,17 +287,26 @@
     <loc>http://192.168.178.34:1313/quotes/160908_karen-blixen_cura-todo-siempre-agua/</loc>
     <lastmod>2016-09-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/260313_fran-lebowitz_good-habits-wont-save/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/260313_fran-lebowitz_smoking-and-plotting-revenge/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/260310_frank-zappa_el-marco-es-lo/</loc>
     <lastmod>2026-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251108_iris-murdoch_philosophy-clarifies-literature-mystifies/</loc>
+    <lastmod>2025-11-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/221108_albert-einstein_hombre-solitario-y-social/</loc>
     <lastmod>2022-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/201107_luis-bu%C3%B1uel_alguna-parte-azar-misterio/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/200825_stanley-crawford_you-must-never-despair/</loc>
+    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/191014_jose-mar%C3%ADa-cruz-novillo_dise%C3%B1ador-lanza-flecha-blanco/</loc>
     <lastmod>2019-10-14T00:00:00+00:00</lastmod>
@@ -301,6 +319,9 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/260313_quentin-crisp_optimista-coge-el-tel%C3%A9fono/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/251224_heinrich-heine_u%C3%B1as-brillantes/</loc>
+    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/211130_maxim-gorky_artist-man-who-digest/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
@@ -425,6 +446,9 @@
     <loc>http://192.168.178.34:1313/quotes/260313_john-berger_publicidad-objectivo-insatisfacci%C3%B3n/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/260313_philip-k.dick_jesucristo-maneja-ascensor/</loc>
+    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/250317_ian-mackaye_music-genre-is-bullshit/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -512,6 +536,9 @@
     <loc>http://192.168.178.34:1313/quotes/230216_gwern_educated-write-weekly-ideas/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/210523_kassa-overall_meaning-of-algorithms/</loc>
+    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/201107_john-berger_nunca-miramos-cosa-siempre/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -527,6 +554,9 @@
     <loc>http://192.168.178.34:1313/quotes/260313_leonardo-da-vinci_hombre-contiene-perfecciones/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://192.168.178.34:1313/quotes/260309_stanley-crawford_world-has-magic/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://192.168.178.34:1313/quotes/260124_oscar-wilde_superficiales-no-lo-son/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -541,6 +571,9 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/151225_anonymous_abanico-de-tablones/</loc>
     <lastmod>2015-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.178.34:1313/quotes/140826_butters_butters-south-park/</loc>
+    <lastmod>2014-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/240725_keanu-reeves_company-is-a-choice/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
@@ -568,9 +601,6 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/260309_max-schumacher_life-from-bugs-bunny/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251215_freysa_die-for-the-right/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/250215_ann-druyan_found-each-other-in/</loc>
     <lastmod>2025-02-15T00:00:00+00:00</lastmod>
@@ -662,9 +692,6 @@
     <loc>http://192.168.178.34:1313/quotes/260313_philip-k.dick_dar-vida-al-texto/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/260128_yi-yi_half-truth/</loc>
-    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/251127_taylor-coleridge_poes%C3%ADa-exige-filosof%C3%ADa/</loc>
     <lastmod>2025-11-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -688,9 +715,6 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/200908_jake_humans-invented-hope/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/200825_stanley-crawford_you-must-never-despair/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/200425_narrator_death-is-meaningless/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
@@ -893,9 +917,6 @@
     <loc>http://192.168.178.34:1313/quotes/260313_oliver-sacks_nostalgia-es-fantas%C3%ADa/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251124_novalis_ciencia-po%C3%A9tica/</loc>
-    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/241007_markus-gabriel_fear-losing-what-never/</loc>
     <lastmod>2024-10-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -953,14 +974,8 @@
     <loc>http://192.168.178.34:1313/quotes/260313_quentin-crisp_planeta-es-casa-de/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251224_heinrich-heine_u%C3%B1as-brillantes/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/251215_diane-nguyen_important-passing-people/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/250629_reddit_introverts-as-websites/</loc>
-    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/240203_jen-beagin_spent-lot-time-alone/</loc>
     <lastmod>2024-02-03T00:00:00+00:00</lastmod>
@@ -1012,9 +1027,6 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/160809_lynda-barry_key-eternal-happiness-low/</loc>
     <lastmod>2016-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/260309_stanley-crawford_world-has-magic/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/240412_bill-murray_so-much-water-just/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
@@ -1112,9 +1124,6 @@
     <loc>http://192.168.178.34:1313/quotes/260309_jake_nothing-is-memorable/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251116_caroline-b%C3%B6hmer_exageradamente-feliz/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.178.34:1313/quotes/250104_ursula-k.-le-guin_holding-doors-open/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -1132,12 +1141,6 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/190627_laura-freixas_quer%C3%ADa-tener-hijos-madre/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251110_ordinary-things_easy-money/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251108_iris-murdoch_philosophy-clarifies-literature-mystifies/</loc>
-    <lastmod>2025-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/240510_steve-albini_dumb-allies-mean-wrong/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
@@ -1234,9 +1237,6 @@
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/260308_daniel-sloss_facebook-vegans/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.178.34:1313/quotes/251111_goethe_muebles-c%C3%B3modos-no-dejan/</loc>
-    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://192.168.178.34:1313/quotes/250505_nathan-fielder_sincerity-is-overrated/</loc>
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>

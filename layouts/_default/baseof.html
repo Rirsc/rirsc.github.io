@@ -5,17 +5,11 @@
 
     {{- partial "head.html" . -}}
     {{- partial "build_assets.html" . -}}
-    <body>
-
- {{/*  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
-    <filter id="xerox">
-      <feTurbulence baseFrequency="2 1"/>
-      <feDisplacementMap in="SourceGraphic" scale="1"/>
-    </filter>
-  </svg>  */}}
+    <body class="{{ if or (eq .RelPermalink "/pages/works/") (hasPrefix .RelPermalink "/projects/") }}layout-wide{{ end }}">
 
         <div id="baseContainer">
             {{- partial "header.html" . -}}
+
 
             <div id="contentContainer">
                 <div id="content">

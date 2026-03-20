@@ -4,7 +4,7 @@ type: "Person"
 source: ""
 date: 2023-11-17
 notion_id: "abcdebd7-c96f-49c4-90e5-56571cf58cc7"
-weight: 54
+weight: 52
 ---
 
 

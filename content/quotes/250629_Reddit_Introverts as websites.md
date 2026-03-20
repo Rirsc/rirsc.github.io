@@ -4,7 +4,7 @@ type: "Internet"
 source: "Reddit"
 date: 2025-06-29
 notion_id: "221f7288-3039-8082-b548-c2b8c2eafdb6"
-weight: 85
+weight: 55
 ---
 
 

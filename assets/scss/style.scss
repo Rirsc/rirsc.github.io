@@ -203,6 +203,20 @@ body, html {
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#baseContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+#contentContainer {
+    flex: 1 0 auto;
 }
 
 p {
@@ -365,8 +379,6 @@ a.unstyledLink {
     }
 }
 
-
-
 .navbar-left {
     display: flex;
     align-items: center;
@@ -464,9 +476,11 @@ a.unstyledLink {
 
 footer {
     color: var(--default_dim_fg);
-    @include limitWidth;
-    padding: $margin;
     font-size: smaller;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
     a {
         color: var(--default_dim_fg);
         margin: 0 calc(0.5 * #{$margin});
@@ -477,9 +491,15 @@ footer {
         margin-top: (3 * $margin);
         border: none;           
         height: 1px;            
-        background-color: var(--default_stroke);  
+        background-color: var(--default_dim_fg);  
                 
         width: 100%;           
+    }
+
+    .footer-inner {
+        @include limitWidth;
+        padding: $margin;
+        width: 100%;
     }
 
     .footerContent {
@@ -488,6 +508,17 @@ footer {
         justify-content: space-between;
         align-items: center;
         padding: 1rem 0;
+    }
+
+    @media (min-width: 768px) {
+        .footer-inner {
+            width: 50%;
+        }
+    }
+    @media (min-width: 1024px) {
+        .footer-inner {
+            width: 50%;
+        }
     }
 }
 
@@ -1971,8 +2002,21 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-indent: $margin * 3;
     border: 2px solid transparent;
+}
+
+.quote p {
+    text-indent: $margin * 3;
+}
+
+.quote ul,
+.quote ol {
+    margin: 0 0 ($margin) 0;
+    padding-left: $margin * 2;
+}
+
+.quote li {
+    text-indent: 0;
 }
 
 @media (min-width: 768px) {

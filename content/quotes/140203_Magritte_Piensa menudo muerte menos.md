@@ -8,5 +8,5 @@ weight: 51
 ---
 
 
--Piensa a menudo en la muerte?\
--No, no con menos frecuencia que en la vida.
+- Piensa a menudo en la muerte?
+- No, no con menos frecuencia que en la vida.

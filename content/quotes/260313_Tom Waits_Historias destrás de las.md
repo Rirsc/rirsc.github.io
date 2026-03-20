@@ -8,4 +8,4 @@ weight: 52
 ---
 
 
-Es una canción - dijo-, y las historias que hay detrás de la mayoría de las canciones son menos interesantes que las canciones en sí.
+Es una canción, y las historias que hay detrás de la mayoría de las canciones son menos interesantes que las canciones en sí.

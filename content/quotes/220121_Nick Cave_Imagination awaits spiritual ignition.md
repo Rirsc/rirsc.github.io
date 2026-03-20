@@ -8,4 +8,4 @@ weight: 58
 ---
 
 
-Your imagination… is mostly an accidental dance between collected memory and influence… a construction that awaits spiritual ignition.
+Your imagination… is mostly an accidental dance between collected memory and influence…a construction that awaits spiritual ignition.

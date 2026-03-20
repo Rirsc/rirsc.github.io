@@ -4,12 +4,12 @@ type: "Person"
 source: ""
 date: 2021-06-28
 notion_id: "738e28e5-dc49-4e59-a3f0-138cee05b015"
-weight: 51
+weight: 55
 ---
 
 
-[About turning 40. What is your perspective on getting old?]
-REMKO, LANAKEN, BELGIUM
+[About turning 40. What is your perspective on getting old?
+Remko, Lanaken, Belgium]
 
 Dear Remko,
 

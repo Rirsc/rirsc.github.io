@@ -4,7 +4,7 @@ type: "Person"
 source: "El hombre en el Castillo"
 date: 2026-03-13
 notion_id: "322f7288-3039-80e8-bc2c-ea478f23c7a2"
-weight: 51
+weight: 65
 ---
 
 

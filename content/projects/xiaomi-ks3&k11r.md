@@ -7,12 +7,10 @@ images:
   - "/images/projects/xiaomi-ks3&k11r/XIA_03.webp"
 ---
 
-<div id="contentContainer">
-    <div id="content">
-        <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi’s cutting-edge 11T/Pro phone series.</p>
-        <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi’s flagship devices.</p>
+<div class="project-text">
+        <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi's cutting-edge 11T/Pro phone series.</p>
+        <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi's flagship devices.</p>
     </div>
-</div>
 
 
 
@@ -60,14 +58,12 @@ images:
 
 
 
-<div id="contentContainer">
-    <div id="content">
+<div class="project-text">
         <h2>R&D</h2>
         <h3>Visual development</h3>
         <p>During the research and development phase, we conducted a wide range of experiments and studies to explore various visual styles and techniques.</p>
         <p>The following is a small selection from the initial vast research, showcasing the most promising styleframes.</p>
     </div>
-</div>
 
 
 
@@ -120,10 +116,11 @@ images:
 
 <div class="separator-small"></div>
 
- <div id="content">
+ <div class="project-credits">
         <h1>Credits</h1>
-        <p><strong><a href="https://onformative.com/">onformative↗</a></strong></p>
+        <p><strong><a href="https://onformative.com/">onformative</a></strong></p>
         <strong>Creative Direction:</strong> Cedric Kiefer.<br>
         <strong>Art Direction: </strong>Bernd Marbach, Alex Hahn, Ricardo López.<br>
         <strong>Production: </strong>Julia Laub, Tobias Ziegler.  
 </div>
+

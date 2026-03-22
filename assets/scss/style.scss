@@ -86,6 +86,7 @@ $nav_footer_width: 1200px;
 
     --layout-width: #{$base_layout_width};
     --nav-footer-width: #{$nav_footer_width};
+    --narrow-width: #{$base_layout_width};
 }
 
 body.layout-wide {
@@ -337,6 +338,15 @@ a.unstyledLink {
 #content {
     @include limitWidth;
     padding: $margin;
+}
+
+// In wide project pages, keep the title/subtitle block aligned to navbar/footer width.
+body.layout-wide #contentContainer #content {
+    max-width: var(--narrow-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $margin;
+    padding-right: $margin;
 }
 
 
@@ -1772,29 +1782,40 @@ video {
     //padding: 0 $margin; 
 }
 
-
-
-
-/* Apply specific padding to the text inside .project */
-.project .project-text {
-    padding: 10px; /* Adjust padding for text content */
-    // color: #333; 
+/* Constrain project text to the site's narrow width */
+.project .project-text,
+.project #content {
+    max-width: var(--narrow-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $margin;
+    padding-right: $margin;
 }
 
-/* Apply different padding or margin to images */
-.project img {
-    max-width: 100%; /* Ensure images are responsive */
-    display: block; /* Center the image */
-    //margin: auto;
-    padding: 0 10px;
+/* Keep credits aligned to footer width */
+.project .project-credits {
+    max-width: var(--nav-footer-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $margin;
+    padding-right: $margin;
 }
 
-/* Apply different padding or margin to images */
+/* Full-width media + grids within project container */
+.project img,
+.project video,
+.project figure,
+.project .grid-layout {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project img,
 .project video {
-    max-width: 100%; /* Ensure images are responsive */
-    display: block; /* Center the image */
-    //margin: auto;
-    padding: 0 10px;
+    display: block;
 }
 
 

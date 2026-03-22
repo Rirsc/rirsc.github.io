@@ -5,12 +5,10 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div id="contentContainer">
-    <div id="content">
+<div class="project-text">
         <p>How it would look without all the noise? An experiment in embracing simplicity over excitement and resisting the urge for instant gratification.</p>
         <p>Navigating the unknown, daring to wander without a clear purpose, and allowing ourselves to momentarily let go of any expectations. In these moments of quiet reflection, we discover the value of being present, unburdened by the noise of the outside world (for a while).</p>
     </div>
-</div>
 
 
 
@@ -55,3 +53,4 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 </div>
+

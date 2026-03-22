@@ -5,11 +5,9 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div id="contentContainer">
-    <div id="content">
+<div class="project-text">
         <p>I was part of the 3D team in charge of the developtment of the <a href="https://play.google.com/store/apps/details?id=com.healthcoda.physera&hl=de&pli=1">Physera App</a> with guided exercises to reduce user pains. Mainly doing animations, a bit of rigging and a lot of back and forth at it early stages for correct implementation within ViroReact platform. Available now on the Apple Store and Google Play.</p>
     </div>
-</div>
 
 
 
@@ -52,3 +50,4 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 </div>
+

@@ -5,12 +5,10 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div id="contentContainer">
-    <div id="content">
+<div class="project-text">
         <p>These remnants offer a glimpse into a project that took a turn, capturing a brief exploration. As the creative journey unfolded, the project underwent a transformation, diverging from its original path.   </p>
         <p>With a touch of whimsy, these leftovers find themselves here.</p>
     </div>
-</div>
 
 
 
@@ -106,3 +104,4 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 </div>
+

@@ -5,12 +5,10 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div id="contentContainer">
-    <div id="content">
+<div class="project-text">
         <p>Polygonal Mind entrusted me with the creation of an Introductory Motion Graphics Course to augment their 3D programs. As the architect of this course, I curated a concise film that encapsulated the core lessons and exercises students will delve into under my guidance.</p>
         <p>This video offers a sneak peek into the well-rounded learning journey I crafted for a fulfilling educational experience.</p>
     </div>
-</div>
 
 
 
@@ -51,3 +49,4 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 <div class="column column-3 empty"></div>
 
 </div>
+

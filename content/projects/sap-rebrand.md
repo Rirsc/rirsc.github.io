@@ -5,12 +5,10 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div id="contentContainer">
-    <div id="content">
+<div class="project-text">
         <p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
         <p>The allure lies in transparency, with the crystalline composition subtly tinted to evoke a play of reflections and refractions.</p>
     </div>
-</div>
 
 
 
@@ -102,3 +100,4 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
     <img src="/images/projects/sap-rebrand/SAP_TeamWork_002_v010_0222.webp">
 </div>
 <div class="column column-1 empty"></div>
+

@@ -66,7 +66,7 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 **1/ Use it as it is** — Open [Krea](https://www.krea.ai/home) Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.
 
-**2/ Push the models** — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. [Boldtron](https://www.instagram.com/boldtron/?hl=en) approach is a good starting point as a reference. Personally, this has been my most used methodology so far. I use [ComfyUI](https://github.com/comfyanonymous/ComfyUI) with Stable Diffusion using some personal 3D renders as input and lots of trial and error.
+**2/ Push the models** — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. Personally, this has been my most used methodology so far. I use [ComfyUI](https://github.com/comfyanonymous/ComfyUI) with Stable Diffusion using some personal 3D renders as input and lots of trial and error.
 
 <div class="grid-layout">
   <div class="column column-12">

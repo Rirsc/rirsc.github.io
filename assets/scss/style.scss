@@ -18,7 +18,7 @@ $light_accent:     {{ $colors.light.accent     | default "#db5793" }};
 $light_sidebar_bg: {{ $colors.light.sidebar.bg | default "#e6e6e6" }};
 $light_sidebar_fg: {{ $colors.light.sidebar.fg | default "#121211" }};
 
-$base_layout_width: 800px;
+$base_layout_width: 700px;
 $content_width: {{ .Site.Params.contentWidth | default "1568px" }};
 $nav_footer_width: 1200px;
 

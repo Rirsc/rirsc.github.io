@@ -5,8 +5,52 @@ heroImage: ""
 layout: project
 ---
 
+
+
 <div class="grid-layout">
-    <div class="column column-1 empty"></div>
+
+<div class="column column-4">
+          <div class="separator"></div>
+          <img src="/images/projects/lab/Crayon Sketch_Square_260531140310.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-2 empty"></div>
+<div class="column column-4">
+          <img src="/images/projects/lab/Crayon Sketch_Square_260531140326.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-2 empty"></div>
+
+
+
+<div class="column column-4 empty"></div>
+<div class="column column-4">
+          <div class="separator"></div>
+          <img src="/images/projects/lab/Crayon Sketch_260531140452.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-4 empty"></div>
+
+
+<div class="column column-12"><div class="separator"></div></div>
+
+
+<div class="column column-3 empty"></div>
+<div class="column column-4">
+          <div class="separator"></div>
+          <img src="/images/projects/lab/Crayon Sketch_Square_260531140354.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-1 empty"></div>
+<div class="column column-4">
+          <img src="/images/projects/lab/Crayon Sketch_Square_260531140411.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-1 empty"></div>
+
+
+
+
+
+
+<div class="column column-12"><div class="separator"></div></div>
+
+  <div class="column column-1 empty"></div>
     <div class="column column-5">
       <img src="/images/projects/lab/12b7ce78-ab54-4baf-b26e-9f489dfc7e2f.webp" alt="Image 1">
     </div>

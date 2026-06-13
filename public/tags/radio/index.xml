@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Radio on rirsc</title>
+    <link>http://192.168.178.34:1313/tags/radio/</link>
+    <description>Recent content in Radio on rirsc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/radio/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>Droste effect</title>
+      <link>http://192.168.178.34:1313/posts/25/250410_adios-adios-nts/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.178.34:1313/posts/25/250410_adios-adios-nts/</guid>
+      <description><![CDATA[<p>Calm tunes selection from <a href="https://www.nts.live/shows/hegoa/episodes/hegoa-adios-adios-10th-april-2025" target="_blank" rel="noopener">Adios Adios w/ Hegoa&#8599;</a></p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

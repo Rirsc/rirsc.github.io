@@ -9,12 +9,9 @@ hideMenu: true
 ---
 
 <style>
-
 h4 {
       color: var(--default_fg);
 }
-
-
 </style>
 
 

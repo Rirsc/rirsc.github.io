@@ -73,6 +73,26 @@ I already posted some site that hugely influenced the creation of this site on t
 [Cashmere Radio](https://cashmereradio.com/)\
 [Hearing Things](https://www.hearingthings.co/)
 
+## Webrings and Collections
+
+[Webring xxiivv](https://webring.xxiivv.com/)\
+[Collection of digital gardens](https://github.com/lyz-code/best-of-digital-gardens)\
+[Ye Olde Blogroll](https://blogroll.org/)\
+[RSS Clubs](https://daverupert.com/rss-club/)\
+[Handmade club](https://gossipsweb.net/)\
+[Molly White Bolgroll](https://www.mollywhite.net/blogroll/)\
+[Geekring](https://geekring.net/)\
+[Tilde.club](https://tilde.club/~mikofigs/)\
+[Hotline Webring Club](https://hotlinewebring.club/)\
+[Nicole He friends](https://nicole.pizza/cool-people)\
+[Maya.land](https://maya.land/blogroll.opml)\
+[Erica Fustero Internet Amigas](https://www.ericafustero.com/project/internet-friends)\
+[Special.fish](https://special.fish/garden)\
+[Tiny Awards](https://tinyawards.net/)\
+[Ky webrings](https://ky.fyi/webrings)\
+[indieblog](https://indieblog.page/)\
+[The Forest](https://theforest.link/)\
+[CloudHiker](https://cloudhiker.net/)
 
 ## Misc
 

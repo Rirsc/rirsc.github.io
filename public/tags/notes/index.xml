@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Notes on rirsc</title>
-    <link>http://192.168.1.13:1313/tags/notes/</link>
+    <link>http://192.168.178.34:1313/tags/notes/</link>
     <description>Recent content in Notes on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.1.13:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.1.13:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>AI image generators</title>
-      <link>http://192.168.1.13:1313/posts/23/231129_ai-image-generators/</link>
+      <link>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.1.13:1313/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>
@@ -45,7 +45,7 @@
 <h2 id="it-can-and-must-be-used-as-a-tool">It can and must be used as a tool</h2>
 <p>As I am writing these words, I will reduce and categorise the workflows I know into these three approaches:</p>
 <p><strong>1/ Use it as it is</strong> — Open <a href="https://www.krea.ai/home" target="_blank" rel="noopener">Krea&#8599;</a> Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.</p>
-<p><strong>2/ Push the models</strong> — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. <a href="https://www.instagram.com/boldtron/?hl=en" target="_blank" rel="noopener">Boldtron&#8599;</a> approach is a good starting point as a reference. Personally, this has been my most used methodology so far. I use <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noopener">ComfyUI&#8599;</a> with Stable Diffusion using some personal 3D renders as input and lots of trial and error.</p>
+<p><strong>2/ Push the models</strong> — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. Personally, this has been my most used methodology so far. I use <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noopener">ComfyUI&#8599;</a> with Stable Diffusion using some personal 3D renders as input and lots of trial and error.</p>
 <div class="grid-layout">
   <div class="column column-12">
   

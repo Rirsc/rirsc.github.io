@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Song on rirsc</title>
+    <link>http://192.168.178.34:1313/tags/song/</link>
+    <description>Recent content in Song on rirsc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ricardo López</copyright>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/song/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    
+    
+    <item>
+      <title>25week16 - Brain texts, mapping universe, a golden hat</title>
+      <link>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
+      <description><![CDATA[<p>Lets play a game; enter here to <a href="https://fliparealcoin.com/" target="_blank" rel="noopener">flip a real coin&#8599;</a> <br>
+If tails, enter this <a href="https://labyrinthlocator.org/" target="_blank" rel="noopener">labyrinth locator&#8599;</a> site and lose yourself in the closest one to you.  <br>
+If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopener">the html review issue 3&#8599;</a></p>
+
+
+
+
+
+<center style="color:var(--default_dim_fg);"> ─ </center>
+
+
+
+
+<p>Listening: <strong>La Ola Interior - Spanish Ambient</strong></p>
+
+
+
+<div id="bandcamp-player-3275122274" class="bandcamp-player">
+    <div class="only-desktop">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless>
+            </iframe>
+
+        </div>
+    </div>
+    <div class="only-mobile">
+        <div style="display: flex; justify-content: center;">
+            <iframe style="border: 0; width: 700px; height: 230px;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                seamless>
+            </iframe>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- 
+<div class="only-desktop">
+  
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://lesdisquesbongojoe.bandcamp.com/album/la-ola-interior-spanish-ambient-acid-exoticism-1983-1990">LA OLA INTERIOR Spanish Ambient &amp; Acid Exoticism 1983-1990 by Various Artists</a></iframe>
+</div>
+
+</div>
+
+
+
+<div class="only-mobile">
+  
+<div style="display: flex; justify-content: center;">
+<iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://lesdisquesbongojoe.bandcamp.com/album/la-ola-interior-spanish-ambient-acid-exoticism-1983-1990">LA OLA INTERIOR Spanish Ambient &amp; Acid Exoticism 1983-1990 by Various Artists</a></iframe>
+</div>
+
+</div>
+ -->]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

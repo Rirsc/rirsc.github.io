@@ -89,7 +89,7 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 <div class="separator-small"></div>
 
  <div class="project-credits">
-        <h1>Credits</h1>
+        <h2>Credits</h2>
         <p><strong><a href="https://onformative.com/">onformative</a></strong></p>
         <strong>Creative Direction:</strong> Cedric Kiefer.<br>
         <strong>Art Direction: </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>

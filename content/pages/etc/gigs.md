@@ -19,40 +19,40 @@ h4 {
 #### July
 
 Able Noise + Dog Sneeze <span style="color:var(--default_dim_fg);">Westgermany</span>  
-Emma Goldman + Deshielo + Zhne <span style="color:var(--default_dim_fg);">OGH</span>
+Emma Goldman + Deshielo + Zhne <span style="color:var(--default_dim_fg);">idvd.ogh</span>
 
 #### June
 
 Drew McDowall & Pedro Maia + Antonina Nowacka + Qba Janicki <span style="color:var(--default_dim_fg);">Silent Green</span>  
-Dead Finks + Crashpad + Schnallo + Pink Stiletto + Schwund Dj set <span style="color:var(--default_dim_fg);">OGH</span>  
+Dead Finks + Crashpad + Schnallo + Pink Stiletto + Schwund Dj set <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
 Agriculture + Healing Wound <span style="color:var(--default_dim_fg);">Berghain</span>  
 SexyFest 8: Alba Calva y Pablo Esponja y Cecome + Marina Dominguez + Paramo y 100% + Falsonueve + El Gran Puzzle Cozmico <span style="color:var(--default_dim_fg);">Arrebato</span>
 
 #### May
 
 Salò x Flutgraben <span style="color:var(--default_dim_fg);">Flutgraben</span>  
-Neukollner Speed Dating Club + [Pretty Average] + [Left for please] <span style="color:var(--default_dim_fg);">OGH</span>  
+Neukollner Speed Dating Club + [Pretty Average] + [Left for please] <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
 Prelude 3 - Sinfonietta Cracovia plays Gavin Bryars and Aleksandra Słyż <span style="color:var(--default_dim_fg);">Kraftwerk</span>
 
 #### April
 
-Las Migrañas + Ultrabonus + Mercedes & Marxx <span style="color:var(--default_dim_fg);">OGH</span>  
+Las Migrañas + Ultrabonus + Mercedes & Marxx <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
 Deshielo + La Haine + Sorry Im Late <span style="color:var(--default_dim_fg);">Bethanien</span>  
-Cardboard + Bullneck Ballerina + Schwund + Fritz Ali Hansen <span style="color:var(--default_dim_fg);">OGH</span>  
-Anti-Corpos + Shimmers + Ratas <span style="color:var(--default_dim_fg);">OGH</span>  
-No Sun Rises + Frost Pisse Elend + Evöl Dead <span style="color:var(--default_dim_fg);">OGH</span>  
+Cardboard + Bullneck Ballerina + Schwund + Fritz Ali Hansen <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
+Anti-Corpos + Shimmers + Ratas <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
+No Sun Rises + Frost Pisse Elend + Evöl Dead <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
 Cum Stick + Las Migrañas + Steve Violence + Novoline + Zazie x Savic <span style="color:var(--default_dim_fg);">Villa Kuriosum</span>  
 Cruhda <span style="color:var(--default_dim_fg);">90mil</span>
 
 #### March
 
-Drama + Kultivator + Snow Trail + Noise Church <span style="color:var(--default_dim_fg);">OGH</span>  
-Deshielo <span style="color:var(--default_dim_fg);">OGH</span>  
+Drama + Kultivator + Snow Trail + Noise Church <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
+Deshielo <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
 Felicity J Lord + Sydenham High Road + Mitsubishi Suicide <span style="color:var(--default_dim_fg);">90mil</span>  
 Sound of Color #5 <span style="color:var(--default_dim_fg);">KET TV Control</span>  
-Tiny Doris + Knöpfe + Lost in Transition <span style="color:var(--default_dim_fg);">OGH</span>  
-Ahndy + Kelpy Cathedral + Flaary <span style="color:var(--default_dim_fg);">OGH</span>  
-Industry + Spixe + Ydeg + Fatigue <span style="color:var(--default_dim_fg);">OGH</span>
+Tiny Doris + Knöpfe + Lost in Transition <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
+Ahndy + Kelpy Cathedral + Flaary <span style="color:var(--default_dim_fg);">idvd.ogh</span>  
+Industry + Spixe + Ydeg + Fatigue <span style="color:var(--default_dim_fg);">idvd.ogh</span>
 
 #### February
 

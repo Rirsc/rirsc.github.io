@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Space on rirsc</title>
-    <link>http://localhost:1313/tags/space/</link>
+    <link>http://192.168.178.34:1313/tags/space/</link>
     <description>Recent content in Space on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/space/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/space/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>25week16 - Brain texts. Mapping universe. A golden hat</title>
-      <link>http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
+      <link>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
+      <guid>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
       <description><![CDATA[<p>This week I finally grabbed a sunny coffee at Cafe Finovo, located at the entrance of a little cemetery. It was sunny and the cherry blossom bloomed, so the experience forced us to grab a second one to elongate the nice time.</p>
 
 
@@ -118,13 +118,12 @@
     
     <item>
       <title>Arecibo Message and Poetica Vagina</title>
-      <link>http://localhost:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
+      <link>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
+      <guid>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
       <description><![CDATA[<p>Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.</p>
-<p><img src="/images/posts/arecibo-message.webp" alt="AreciboMessage" loading="lazy" />
-</p>
+<p><img src="/posts/24/241116_arecibo-message-and-poetica-vagina/arecibo-message.webp" alt="AreciboMessage" loading="lazy" /></p>
 <p>I love the idea and its aesthetics—I guess because it reminds me of my beloved <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener">Game of Life&#8599;</a> It makes me wonder: would it be possible to recreate that exact drawing from one of the initial configurations?</p>
 <p>From there, I did a quick search for various messages humanity has sent into space in hopes of finding life.Voyager Golden Record (1977), Cosmic Call (1999), the Teen Age Message (2008), and perhaps one of the oldest and most famous; the Pioneer Plaques. As many have pointed out, the Pioneer Plaques offered a vague representation of humanity’s cultural and racial diversity. The depiction of the woman’s body notably omits genitalia, making it feel incomplete. While searching for a more accurate or inclusive representation, somehow I ended learning about the project by <a href="https://ucsdvis159.wordpress.com/2015/02/02/joe-davis-poetica-vagina/" target="_blank" rel="noopener">Joe Davis: Poetica Vagina&#8599;</a></p>
 <blockquote>

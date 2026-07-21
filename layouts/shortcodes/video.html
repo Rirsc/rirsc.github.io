@@ -1,7 +1,14 @@
 {{ $h265 := .Get "h265" }}
+{{ if and $h265 (not (hasPrefix $h265 "/")) (not (hasPrefix $h265 "http")) }}{{ with .Page.Resources.GetMatch $h265 }}{{ $h265 = .RelPermalink }}{{ end }}{{ end }}
+
 {{ $h264 := .Get "h264" }}
+{{ if and $h264 (not (hasPrefix $h264 "/")) (not (hasPrefix $h264 "http")) }}{{ with .Page.Resources.GetMatch $h264 }}{{ $h264 = .RelPermalink }}{{ end }}{{ end }}
+
 {{ $vp9 := .Get "vp9" }}
+{{ if and $vp9 (not (hasPrefix $vp9 "/")) (not (hasPrefix $vp9 "http")) }}{{ with .Page.Resources.GetMatch $vp9 }}{{ $vp9 = .RelPermalink }}{{ end }}{{ end }}
+
 {{ $vp8 := .Get "vp8" }}
+{{ if and $vp8 (not (hasPrefix $vp8 "/")) (not (hasPrefix $vp8 "http")) }}{{ with .Page.Resources.GetMatch $vp8 }}{{ $vp8 = .RelPermalink }}{{ end }}{{ end }}
 {{ $caption := .Get "caption" }}
 {{ $attr := .Get "attr" }}
 {{ $attrlink := .Get "attrlink" }}

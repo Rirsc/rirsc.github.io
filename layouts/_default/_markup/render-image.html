@@ -1,1 +1,11 @@
-<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" />
+{{- $url := .Destination -}}
+{{- if or (hasPrefix $url "http") (hasPrefix $url "/") -}}
+  <img src="{{ $url | safeURL }}" alt="{{ .Text }}" loading="lazy" />
+{{- else -}}
+  {{- $res := .Page.Resources.GetMatch $url -}}
+  {{- if $res -}}
+    <img src="{{ $res.RelPermalink }}" alt="{{ .Text }}" loading="lazy" />
+  {{- else -}}
+    <img src="{{ $url | safeURL }}" alt="{{ .Text }}" loading="lazy" />
+  {{- end -}}
+{{- end -}}

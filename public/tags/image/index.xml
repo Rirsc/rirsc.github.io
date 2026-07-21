@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Image on rirsc</title>
-    <link>http://localhost:1313/tags/image/</link>
+    <link>http://192.168.178.34:1313/tags/image/</link>
     <description>Recent content in Image on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/image/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/image/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>AI image generators</title>
-      <link>http://localhost:1313/posts/23/231129_ai-image-generators/</link>
+      <link>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>
@@ -56,11 +56,18 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
   <div class="video-margin">
       <video autoplay loop controls style="max-width: 100%;" muted>
           
           
-              <source src='/videos/posts/231129_ai_image_generators/2024-01-14-14-53-54.mp4' type="video/mp4" />
+              <source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type="video/mp4" />
           
           
           
@@ -70,33 +77,33 @@
 
   </div>
   <div class="column column-6">
-    <img src="/images/posts/231129_ai_image_generators/Fassbar_007-1024x1280.webp">
+    <img src="Fassbar_007-1024x1280.webp">
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
   </div>
   <div class="column column-6">
-    <img src="/images/posts/231129_ai_image_generators/Blue-Spikes-01.webp">
+    <img src="Blue-Spikes-01.webp">
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
   </div>
 </div>
 <p><strong>3/ Train your models</strong> — There are already ‘clean’ models:<a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc" target="_blank" rel="noopener">Clean Diffusion 2.0 PoC&#8599;</a> or <a href="https://huggingface.co/Mitsua/mitsua-diffusion-one" target="_blank" rel="noopener">Mitsua&#8599;</a>They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, <a href="https://www.instagram.com/stories/highlights/18194394052224812/" target="_blank" rel="noopener">Chris&#8599;</a> is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_) My baby steps here have been merely for training using some of my hand sketches:</p>
 <div class="grid-layout">
   <div class="column column-6">
-    <img src="/images/posts/231129_ai_image_generators/Sketches-Training-1024x1024.webp">
+    <img src="Sketches-Training-1024x1024.webp">
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
     </div>
   <div class="column column-6">
-    <img src="/images/posts/231129_ai_image_generators/Sketches-Training_Output.webp">
+    <img src="Sketches-Training_Output.webp">
     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
   </div>
 </div>
 <p>And another attempt, this time with some random 3D unused style frames I have:</p>
 <div class="grid-layout">
     <div class="column column-6">
-        <img src="/images/posts/231129_ai_image_generators/3D-Training-1024x1024.webp" alt="3D Training Image">
+        <img src="3D-Training-1024x1024.webp" alt="3D Training Image">
         <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
     </div>
     <div class="column column-6">
-        <img src="/images/posts/231129_ai_image_generators/3D-Training_Output.webp" alt="3D Training Output">
+        <img src="3D-Training_Output.webp" alt="3D Training Output">
         <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
     </div>
 </div>

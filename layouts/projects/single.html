@@ -1,13 +1,14 @@
 {{- partial "head.html" . -}}
 {{- partial "build_assets.html" . -}}
 
+
 <body class="layout-wide">
   {{/* <div id="baseContainer"> */}}
     {{- partial "header.html" . -}}
 
     <div id="contentContainer">
       <div id="content">
-        {{ if ne .File.BaseFileName "lab" }} <!-- If the file name is not 'lab.md' -->
+        {{ if and (ne .File.BaseFileName "lab") (ne (.Params.showtitle | default true) false) }} <!-- If the file name is not 'lab.md' or showtitle is not false -->
         <h1>{{ .Title }}</h1>
         <h3>{{ .Params.subtitle }}</h3>
         {{ end }}

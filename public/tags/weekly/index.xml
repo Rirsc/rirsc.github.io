@@ -1,51 +1,100 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Weekly on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/weekly/</link>
+    <link>http://localhost:1313/tags/weekly/</link>
     <description>Recent content in Weekly on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
-      <title>25week17 - Absurdism before the Drugstore</title>
-      <link>http://192.168.178.34:1313/posts/25/250427_25week17---brain-texts-mapping-universe-a-golden-hat-copy/</link>
-      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <title>25week20 - Jabberwocky correlated</title>
+      <link>http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/</link>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250427_25week17---brain-texts-mapping-universe-a-golden-hat-copy/</guid>
-      <description><![CDATA[<p>The absurdism in the work of <a href="https://arambartholl.com/" target="_blank" rel="noopener">Aram Bartholl&#8599;</a> on how it shows our contradictions in digital lives.</p>
+      <guid>http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/</guid>
+      <description><![CDATA[<p>The first stanza to what would become <a href="https://en.wikipedia.org/wiki/Jabberwocky" target="_blank" rel="noopener">Jabberwocky&#8599;</a>: Stanza of Anglo-Saxon Poetry:</p>
+<blockquote>
+<p>Twas bryllyg, and þe slythy toves<br>
+Did gyre and gymble in þe wabe:<br>
+All mimsy were þe borogoves;<br>
+And þe mome raths outgrabe.</p>
+</blockquote>
 <p>
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
 
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
-What is a drugstore? <a href="https://linktr.ee/abelcuevas" target="_blank" rel="noopener">Abel Cuevas&#8599;</a> explains a bit more about it at <a href="https://eldrugstore.substack.com/" target="_blank" rel="noopener">El Drugstore&#8599;</a>, that gem of a newsletter full of cultural curiosities always worth keeping an eye on.</p>
+
+<a href="https://www.openculture.com/2025/05/the-world-record-for-the-shortest-math-article.html" target="_blank" rel="noopener">The World Record for the Shortest Math Article: 2 Words&#8599;</a> And John Conway was involved, of course he was.</p>
 <p>
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+Correlations are overused these days, primarily to reduce complex social problems into basic and extreme narratives. These are later transformed into political benefits for buffoons. Anyhow, this site is mostly for the lolz, and it does create some funny <a href="https://www.tylervigen.com/spurious-correlations" target="_blank" rel="noopener">spurious correlations&#8599;</a></p>
+<p>
 
 
 
 
-Listening: <strong>Airs by Mel Keane</strong>
 
 
 
-<div id="bandcamp-player-3769328050" class="bandcamp-player">
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+<a href="https://pointerpointer.com/" target="_blank" rel="noopener">Place your cursor anywhere and wait&#8599;</a></p>
+<p>
+
+
+
+
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+<a href="http://Neal.fun" target="_blank" rel="noopener">Neal.fun&#8599;</a> is probably one of the most famous people in creating these little games easy to share and equally fun and educational. In his internet artifacts, you can find an enormous amount of internet history facts, like <a href="https://neal.fun/internet-artifacts/earliest-lol/" target="_blank" rel="noopener">the earliest lol&#8599;</a></p>
+
+
+
+
+
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+<p>Listening: <strong>The Tree of the Left Hand by Arianne Churchman &amp; Benedict Drew</strong>
+
+
+
+<div id="bandcamp-player-494407371" class="bandcamp-player">
     <div class="only-desktop">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 700px; height: 230px;"
-                src="https://bandcamp.com/EmbeddedPlayer/album=3769328050/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                src="https://bandcamp.com/EmbeddedPlayer/album=494407371/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
                 seamless>
             </iframe>
 
@@ -54,7 +103,7 @@ Listening: <strong>Airs by Mel Keane</strong>
     <div class="only-mobile">
         <div style="display: flex; justify-content: center;">
             <iframe style="border: 0; width: 700px; height: 230px;"
-                src="https://bandcamp.com/EmbeddedPlayer/album=3769328050/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
+                src="https://bandcamp.com/EmbeddedPlayer/album=494407371/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/"
                 seamless>
             </iframe>
 
@@ -74,20 +123,89 @@ Listening: <strong>Airs by Mel Keane</strong>
     
     
     <item>
+      <title>25week19 - At full speed close the edge</title>
+      <link>http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</guid>
+      <description><![CDATA[<p><img src="/images/posts/A_Field_Guide_to_Roadside_Wildflowers_At_Full_Speed_framed.webp" alt="A Field Guide to Roadside Wildflowers At Full Speed" loading="lazy" />
+</p>
+<p><a href="https://prairieecologist.com/wp-content/uploads/2020/01/a-field-guide-to-roadside-wildflowers-at-full-speed_january2020-1.pdf" target="_blank" rel="noopener">A Field Guide to Roadside Wildflowers At Full Speed&#8599;</a> one of my favorite fanzines I’ve ever seen <em>onlinebecauseIhaveneverseenoutthere.</em></p>
+<p>
+
+
+
+
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+Yet another place that collects weird and interesting sites made by humans: <a href="https://cloudhiker.net/" target="_blank" rel="noopener">Cloudhiker&#8599;</a>. If you still need more of these collections, I have a bunch more in my Digital Love section.</p>
+<p>
+
+
+
+
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+Cool portfolio in pastel tones, funny digital and physical projects with a total hack ethos, run into <a href="https://friendola.com/" target="_blank" rel="noopener">the recreational software by Libbey White&#8599;</a></p>
+<p>
+
+
+
+
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+<a href="https://www.personalcanon.com/p/research-as-leisure-activity" target="_blank" rel="noopener">research as leisure activity&#8599;</a></p>
+<p>
+
+
+
+
+
+
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
+
+
+Really profound talk with Lorde accompanied by delicate photos by Martine Syms in <a href="https://www.documentjournal.com/2025/05/the-magic-lives-close-to-the-edge-lorde-and-artist-martine-syms-on-the-beauty-of-the-self/" target="_blank" rel="noopener">The magic lives close to the edge&#8599;</a></p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
       <title>25week16 - Brain texts. Mapping universe. A golden hat</title>
-      <link>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
+      <link>http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
+      <guid>http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
       <description><![CDATA[<p>This week I finally grabbed a sunny coffee at Cafe Finovo, located at the entrance of a little cemetery. It was sunny and the cherry blossom bloomed, so the experience forced us to grab a second one to elongate the nice time.</p>
 
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>I am not discovering anything  new here, but the newsletter from <a href="https://nesslabs.com/author/annelaure" target="_blank" rel="noopener">Anne-Laure Le Cunff&#8599;</a> has quite a collection of interesting notes about the brain and human behavior.</p>
@@ -96,9 +214,11 @@ Listening: <strong>Airs by Mel Keane</strong>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><a href="https://hypertext.tv/" target="_blank" rel="noopener">Hypertext TV&#8599;</a> is a ‘real’ TV channel where you can zap around media in the forms of games, music, poetry and more by <a href="https://ky.fyi/" target="_blank" rel="noopener">Ky Decker&#8599;</a>. You can make your <a href="https://hypertext.tv/ch/03" target="_blank" rel="noopener">boss dance&#8599;</a> or, you know, wonder about your entire existence and read about the <a href="https://hypertext.tv/ch/05" target="_blank" rel="noopener">fourth dimension&#8599;</a>. Go check the rest.</p>
@@ -107,9 +227,11 @@ Listening: <strong>Airs by Mel Keane</strong>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><a href="https://www.smithsonianmag.com/history/the-women-who-mapped-the-universe-and-still-couldnt-get-any-respect-9287444/" target="_blank" rel="noopener">The Women Who Mapped the Universe and Still Couldn’t Get Any Respect&#8599;</a>.</p>
@@ -118,9 +240,11 @@ Listening: <strong>Airs by Mel Keane</strong>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Lately I am reading a bit about Sky Atlas and how humans have approached stargazing. I discovered this <a href="https://en.wikipedia.org/wiki/Berlin_Gold_Hat" target="_blank" rel="noopener">golden hat&#8599;</a>, which apparently was used as a lunar and solar calendar. Imagining that being worn makes me wonder if its adding serenity or funny to the wizard. Anyhow, its kept at the Neues Museum; I will go see it one of these days.</p>
@@ -129,9 +253,11 @@ Listening: <strong>Airs by Mel Keane</strong>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Listening: <strong>Stander - Collapsing</strong> because I watched them this weekend:
@@ -172,10 +298,10 @@ Listening: <strong>Airs by Mel Keane</strong>
     
     <item>
       <title>25week09 - Flip a real coin, find a labyrinth, review the html</title>
-      <link>http://192.168.178.34:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
+      <link>http://localhost:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
+      <guid>http://localhost:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
       <description><![CDATA[<p>Lets play a game; enter here to <a href="https://fliparealcoin.com/" target="_blank" rel="noopener">flip a real coin&#8599;</a> <br>
 If tails, enter this <a href="https://labyrinthlocator.org/" target="_blank" rel="noopener">labyrinth locator&#8599;</a> site and lose yourself in the closest one to you.  <br>
 If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopener">the html review issue 3&#8599;</a></p>
@@ -184,9 +310,11 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Listening: <strong>La Ola Interior - Spanish Ambient</strong></p>
@@ -245,10 +373,10 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
     
     <item>
       <title>25week06 - Quantum foam and animated postcards</title>
-      <link>http://192.168.178.34:1313/posts/25/250209_quantum-foam-and-animated-postcards/</link>
+      <link>http://localhost:1313/posts/25/250209_quantum-foam-and-animated-postcards/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
+      <guid>http://localhost:1313/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
       <description><![CDATA[<p><img src="/images/posts/IMG20250207131943.webp" alt="Muybridge" loading="lazy" />
 </p>
 <p>Someone has a problem with animated postcards. And flip-books. Or any other physical approach to bring pictures to life.</p>
@@ -257,9 +385,11 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><a href="https://en.wikipedia.org/wiki/Quantum_foam" target="_blank" rel="noopener">Quantum foam&#8599;</a></p>
@@ -271,9 +401,11 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>I found <a href="https://www.noemamag.com/why-ai-is-a-philosophical-rupture/" target="_blank" rel="noopener">this interview&#8599;</a> with Tobias Rees by Nathan Gardels to be way too optimistic from my personal current AI views. Yet it has a lot of good points worth taking a look at.</p>
@@ -287,9 +419,11 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>If one wants to fall into an endless knowledge rabbithole, without the disgust sensation of doomscrolling, it is always good to visit the <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists" target="_blank" rel="noopener">List of lists of lists&#8599;</a></p>
@@ -298,9 +432,11 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><a href="https://thesoundof.love/" target="_blank" rel="noopener">The Sound of Love&#8599;</a> is a collection of love comments left on bright tunes across youtube.</p>
@@ -309,9 +445,11 @@ So in that sense, AI systems have a nascent sense of truth.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Listening: <strong>Parasite Jazz</strong></p>
@@ -370,10 +508,10 @@ So in that sense, AI systems have a nascent sense of truth.</p>
     
     <item>
       <title>25week05 - Knowledge distillation and animation recs</title>
-      <link>http://192.168.178.34:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
+      <link>http://localhost:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
+      <guid>http://localhost:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
       <description><![CDATA[<p>Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it.<br>
 Using the <a href="https://en.wikipedia.org/wiki/Knowledge_distillation" target="_blank" rel="noopener">knowledge distillation&#8599;</a> technique, <a href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/" target="_blank" rel="noopener">Company B sucked the entire knowledge from Company A&#8599;</a> and didnt pay a dime to Company A.<br>
 Company A complaint that Company B didnt pay to them.<br>
@@ -383,9 +521,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Anyway, let’s focus on one of my favourite magics in this world; <strong>animation:</strong></p>
@@ -408,9 +548,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Lately I was reading the <a href="https://grimgrains.com/site/nutrition.html" target="_blank" rel="noopener">Nutrition&#8599;</a> section from <strong>Grimgrains,</strong> this site populated by the wizards <a href="https://100r.co/site/home.html" target="_blank" rel="noopener">Hundred Rabbits&#8599;</a></p>
@@ -419,9 +561,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Out there, I visited the <a href="https://www.google.com/maps/place/Braun-Sammlung&#43;Ettel&#43;Museum&#43;f%C3%BCr&#43;Design/@52.527291,13.3199926,13.8z/data=!4m6!3m5!1s0x47a8510c23e4dfad:0xb07e7c91165d4d79!8m2!3d52.5241418!4d13.3363634!16s%2Fg%2F11byl684fj?entry=ttu&amp;g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Braun-Sammlung Ettel Museum für Design&#8599;</a> in Moabit. Apart from the vast collection of industrial design objects, my mind was blown by the idea behind it; just an individual collector who decided to open his studio to anyone interested in Braun products. When I visited it, I saw him having coffee in a small part of the studio with his friends while visitors were taking a look at the collection. <strong>Looks like a cool plan for retirement times.</strong></p>
@@ -430,9 +574,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Listening: <strong>kinoue 64</strong></p>
@@ -493,19 +639,21 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>25Week03 - Evil meta, k-punk and online countercoulture</title>
-      <link>http://192.168.178.34:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
+      <link>http://localhost:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
+      <guid>http://localhost:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
       <description><![CDATA[<p>After Meta announced that it will allow users call LGTBQ+ people “mentally ill”, now its deleting posts with links to the decentralized competitor Pixelfed. <strong>Siren Servers against humanity, once again.</strong></p>
 
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Found myself digging further about <a href="https://en.wikipedia.org/wiki/Mark_Fisher" target="_blank" rel="noopener">Mark Fisher&#8599;</a> and his acclaimed blog <a href="https://k-punk.org/" target="_blank" rel="noopener">k-punk&#8599;</a> Go for it if you find <strong>radical politics and music</strong> within your interests.</p>
@@ -514,9 +662,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>A vast collection of <a href="https://kaomoji.ru/en/" target="_blank" rel="noopener">Kaomojis&#8599;</a> (Japanese Emoticons); the best emojis.</p>
@@ -526,9 +676,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Alway a good time to remind that <a href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/" target="_blank" rel="noopener">The internet didn’t kill counterculture—you just won’t find it on Instagram&#8599;</a> Go look for those Discord channels you like, engange in communities, start your own site.</p>
@@ -537,9 +689,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Easy entry point for the most <strong>famous philophers</strong> and their theories: <a href="https://www.actionphilosophers.com/" target="_blank" rel="noopener">Action Philosophers&#8599;</a></p>
@@ -552,19 +706,21 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week44 - Free will &amp; Carcáscara</title>
-      <link>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
+      <link>http://localhost:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
+      <guid>http://localhost:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
       <description><![CDATA[<p><strong>Hack&amp;Tell #100</strong> at <a href="https://c-base.org/" target="_blank" rel="noopener">C-Base&#8599;</a> Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is <a href="https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11" target="_blank" rel="noopener">QR-DICE: 6-side QR-cube&#8599;</a> and it just blown our minds.</p>
 
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>The algo did its job cos I recently finished <a href="https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will" target="_blank" rel="noopener">Determined: A Science of Life Without Free Will by Robert Sapolsky&#8599;</a> and this conversation about free will between Robert and his love-hate nemesis, Daniel Dennet, appeared on my feed. Watch it <a href="https://youtu.be/aYzFH8xqhns?si=AyH4eAHs5cot8JYk" target="_blank" rel="noopener">here&#8599;</a></p>
@@ -573,9 +729,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Terrible weather and even worse politicians have devastated part of <em>Comunitat Valenciana.</em> All my love to the marvelous people that live in that beautiful part of the world. ♡</p>
@@ -584,9 +742,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Listening: <strong>Carcáscara - II</strong></p>
@@ -647,19 +807,21 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week39 - We will remember freedom 02b</title>
-      <link>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
+      <link>http://localhost:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
+      <guid>http://localhost:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
       <description><![CDATA[<p>These are definetly a worthy words put together by <a href="https://en.wikipedia.org/wiki/Margaret_Killjoy" target="_blank" rel="noopener">Margaret Killjoy&#8599;</a> about one of the sweetest, charmest and most brillante humans we had have so far; <strong>Ursuka K. Le Guin</strong>. <a href="https://blog.pmpress.org/2019/07/17/we-will-remember-freedom/" target="_blank" rel="noopener">We will remember freedom&#8599;</a></p>
 
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>On this new approach looking for a better web, <a href="https://matrix.org/docs/chat_basics/matrix-for-im/" target="_blank" rel="noopener">[matrix]&#8599;</a> cross my path. Im just leaving the link here for the future me to take a look at. I still need to study better the real differences from the protocols <strong>Activitypub</strong> (Mastodon) and <strong>Atproto</strong> (Bluesky).</p>
@@ -668,9 +830,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>After some time collecting and filtering throught some german youtube channels, I think <a href="https://www.youtube.com/@maithinkx" target="_blank" rel="noopener">Maithink X&#8599;</a> is one of my fav so far.</p>
@@ -679,9 +843,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><a href="https://en.wikipedia.org/wiki/2_B_R_0_2_B" target="_blank" rel="noopener">2 B R 0 2 B&#8599;</a></p>
@@ -693,10 +859,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week22 - Trholz zine and dep Albini</title>
-      <link>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
+      <link>http://localhost:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
+      <guid>http://localhost:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
       <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre" target="_blank" rel="noopener">Trholz&#8599;</a> at idvdogh, I bought them one <strong>fanzine.</strong> Cool drawings and it has the lyrics&amp;tabs of the songs; win-win.</p>
 <p><img src="/images/posts/IMG20240531114009.webp" alt="Trholz" loading="lazy" />
 <br>
@@ -707,9 +873,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>I have been playing the latest album from <strong>Shellac, To All Trains</strong> (snif, DEP Steve Albini) in order to keep his memory a bit more recent in my brain these days. Im also thinking on re-doing again his famous <a href="https://www.mashed.com/1580426/fluffy-coffee-steve-albini-drank-studio/" target="_blank" rel="noopener">‘Fluffy’&#8599;</a> coffe.</p>
@@ -718,9 +886,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>This is an authentic gem: <a href="https://jackrusher.com/classic-ux/" target="_blank" rel="noopener">A curated collection of HCI demo videos produced during the golden age from 1983-2002&#8599;</a></p>
@@ -729,9 +899,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Re-watching <strong>Serial Experiments Lain,</strong> because its so on point with how we communicate online and it doesnt matter when you read this.</p>
@@ -740,9 +912,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><strong>My favorite thing is Monsters II</strong> is finally out. I enjoyed the first one quite a lot, so now its time for a visit to the store :)</p>
@@ -751,9 +925,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Lately I was digging back into math rock, so this session <a href="https://www.nts.live/shows/loraine-james/episodes/loraine-james-7th-july-2022" target="_blank" rel="noopener">Math rock NTS session&#8599;</a> by Loraine James comes just perfect.</p>
@@ -762,9 +938,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p><a href="https://itch.io/b/2295/ttrpgs-for-palestine" target="_blank" rel="noopener">TTRPGs for Palestine&#8599;</a> is a cute project with a tons of interesting TTRPGs. I think I dont know even one though, wow.</p>
@@ -773,9 +951,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>I bought the volumen II from <a href="https://johnpowell-jones.bandcamp.com/album/web-wide-world-game-ost" target="_blank" rel="noopener">Web Wide World&#8599;</a> and I read it while listening to his OST. Go check <a href="https://www.johnpowell-jones.co.uk/" target="_blank" rel="noopener">John Powell-Jones&#8599;</a> art.</p>
@@ -784,9 +964,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Interesting <a href="https://www.marginalia.nu/" target="_blank" rel="noopener">marginalia.nu&#8599;</a></p>
@@ -795,9 +977,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Finished <strong>Animal Well</strong>; now the fun starts.</p>
@@ -809,19 +993,21 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>24week16 - sBach and the LatentScape</title>
-      <link>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
+      <link>http://localhost:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
+      <guid>http://localhost:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
       <description><![CDATA[<p>We went to the exposition <strong>Sound System Culture</strong> at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.</p>
 
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Entered the rabbit hole of <a href="https://en.wikipedia.org/wiki/Spencer_Seim" target="_blank" rel="noopener">Spencer Seim&#8599;</a> and I spent way too much time that I would admit looping at his <a href="https://sbach.bandcamp.com/album/sbach" target="_blank" rel="noopener">sBach&#8599;</a> project.</p>
@@ -830,9 +1016,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>I am also listening <a href="https://stillhouseplants.bandcamp.com/" target="_blank" rel="noopener">Still House Plants&#8599;</a> quite a lot these days.</p>
@@ -841,9 +1029,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>I dont remember how I ended up in this <a href="https://latentscape.com/#0,-10" target="_blank" rel="noopener">LantentScape&#8599;</a> nor that I care. Please explain me what its about.</p>
@@ -857,19 +1047,21 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>22week01 - Moravec and how to Forming</title>
-      <link>http://192.168.178.34:1313/posts/22/220109_22week01/</link>
+      <link>http://localhost:1313/posts/22/220109_22week01/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/22/220109_22week01/</guid>
+      <guid>http://localhost:1313/posts/22/220109_22week01/</guid>
       <description><![CDATA[<p>I discovered and read about the <a href="https://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank" rel="noopener">Moravec&rsquo;s paradox&#8599;</a> It put words into something that I learn while studiying character animation; basic human locomotive is extremely expensive and difficult to compute. I still dont get why we are triying to replicate our movements and lookalikes.</p>
 
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Just fall in love with <strong>John Wilson</strong> again as Im going trought the second season of his masterpiece ‘How to with John Wilson’. Btw, apart from his <a href="https://vimeo.com/johnsmovies" target="_blank" rel="noopener">official vimeo&#8599;</a> he also has this other account with even more content in case you need it: <a href="https://vimeo.com/datejohn" target="_blank" rel="noopener">DATES&#8599;</a></p>
@@ -878,9 +1070,11 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <p>Catching up with <a href="https://jessemoynihan.com/" target="_blank" rel="noopener">Forming&#8599;</a> by <strong>Jesse Moynihan</strong>. I cant wait to be finished and collected in a sweet printed edition. I mean, reading it on a screen is ok, but cant compete with a proper edition of it to grab whenever I need to be amazed with its colors, characters and story overall.</p>

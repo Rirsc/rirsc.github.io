@@ -1,51 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Fanzine on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/fanzine/</link>
+    <link>http://localhost:1313/tags/fanzine/</link>
     <description>Recent content in Fanzine on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/fanzine/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fanzine/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>25week19 - At full speed close the edge</title>
-      <link>http://192.168.178.34:1313/posts/25/250427_25week19---brain-texts-mapping-universe-a-golden-hat-copy/</link>
-      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250427_25week19---brain-texts-mapping-universe-a-golden-hat-copy/</guid>
-      <description><![CDATA[<p><a href="https://prairieecologist.com/wp-content/uploads/2020/01/a-field-guide-to-roadside-wildflowers-at-full-speed_january2020-1.pdf" target="_blank" rel="noopener">A Field Guide to Roadside Wildflowers At Full Speed One&#8599;</a> of my favorite fanzines I’ve ever seen <em>onlinebecauseIhaveneverseenoutthere.</em></p>
+      <guid>http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</guid>
+      <description><![CDATA[<p><img src="/images/posts/A_Field_Guide_to_Roadside_Wildflowers_At_Full_Speed_framed.webp" alt="A Field Guide to Roadside Wildflowers At Full Speed" loading="lazy" />
+</p>
+<p><a href="https://prairieecologist.com/wp-content/uploads/2020/01/a-field-guide-to-roadside-wildflowers-at-full-speed_january2020-1.pdf" target="_blank" rel="noopener">A Field Guide to Roadside Wildflowers At Full Speed&#8599;</a> one of my favorite fanzines I’ve ever seen <em>onlinebecauseIhaveneverseenoutthere.</em></p>
 <p>
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
 
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
-Yet another place that collects weird and interesting sites made by humans: <a href="https://cloudhiker.net/" target="_blank" rel="noopener">Cloudhiker&#8599;</a> If you still need more of these collections, I have a bunch more in my Digital Love section.</p>
+
+Yet another place that collects weird and interesting sites made by humans: <a href="https://cloudhiker.net/" target="_blank" rel="noopener">Cloudhiker&#8599;</a>. If you still need more of these collections, I have a bunch more in my Digital Love section.</p>
 <p>
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
 
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
-Cool portfolio in pastel tones, funny digital and physical projects with a total hack ethos, run into <a href="https://friendola.com/" target="_blank" rel="noopener">the recreational software by Libbey White.&#8599;</a></p>
+
+Cool portfolio in pastel tones, funny digital and physical projects with a total hack ethos, run into <a href="https://friendola.com/" target="_blank" rel="noopener">the recreational software by Libbey White&#8599;</a></p>
 <p>
 
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
+
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
 
 <a href="https://www.personalcanon.com/p/research-as-leisure-activity" target="_blank" rel="noopener">research as leisure activity&#8599;</a></p>
@@ -54,12 +62,14 @@ Cool portfolio in pastel tones, funny digital and physical projects with a total
 
 
 
-<center style="color:var(--default_dim_fg);"> ─ </center>
 
 
 
+<center style="color:var(--default_dim_fg);">˙</center>
+ 
 
-Really profound talk with Lorde accompanied by delicate photos by Martine Syms in this <a href="https://www.documentjournal.com/2025/05/the-magic-lives-close-to-the-edge-lorde-and-artist-martine-syms-on-the-beauty-of-the-self/" target="_blank" rel="noopener">The magic lives close to the edge&#8599;</a></p>
+
+Really profound talk with Lorde accompanied by delicate photos by Martine Syms in <a href="https://www.documentjournal.com/2025/05/the-magic-lives-close-to-the-edge-lorde-and-artist-martine-syms-on-the-beauty-of-the-self/" target="_blank" rel="noopener">The magic lives close to the edge&#8599;</a></p>
 ]]></description>
       
     </item>

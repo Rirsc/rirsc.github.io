@@ -2,7 +2,6 @@
 title: "Lab"
 showtitle: false
 subtitle: ""
-heroImage: ""
 layout: project
 ---
 

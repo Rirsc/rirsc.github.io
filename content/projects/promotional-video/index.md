@@ -1,7 +1,6 @@
 ---
 title: "Promotional Video"
 subtitle: "3D Motion Essentials"
-heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 

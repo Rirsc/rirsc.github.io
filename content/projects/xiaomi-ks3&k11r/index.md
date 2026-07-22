@@ -1,7 +1,6 @@
 ---
 title: "Xiaomi"
 subtitle: "KS3&K11R"
-heroImage: "XIA_01.webp"
 images:
 - "XIA_02.webp"
 - "XIA_03.webp"

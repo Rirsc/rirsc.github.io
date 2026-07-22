@@ -49,10 +49,9 @@
 <div class="grid-layout">
 <div class="column column-12">
 <div class="video-margin">
-    <video autoplay loop controls style="max-width: 100%;" muted>
-<pre><code>        &lt;source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type=&quot;video/mp4&quot; /&gt;
-<p>&lt;/video&gt;
-</code></pre></p>
+<video autoplay loop playsinline controls style="max-width: 100%;" muted>
+<source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type="video/mp4" />
+</video>
 </div>
 </div>
 <div class="column column-6">

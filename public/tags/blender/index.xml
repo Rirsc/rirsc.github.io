@@ -32,15 +32,15 @@
 
 
 <div class="video-margin">
-    <video autoplay loop controls style="max-width: 100%;" muted>
-        
-        
-            <source src='/posts/23/230207_continue-the-struggle/VID20230208001924.mp4' type="video/mp4" />
-        
-        
-        
-    </video>
-    
+<video autoplay loop playsinline controls style="max-width: 100%;" muted>
+
+
+<source src='/posts/23/230207_continue-the-struggle/VID20230208001924.mp4' type="video/mp4" />
+
+
+
+</video>
+
 </div>
 
 ]]></description>

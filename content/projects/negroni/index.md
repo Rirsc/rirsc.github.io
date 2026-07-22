@@ -1,7 +1,6 @@
 ---
 title: "Blissheer"
 subtitle: "Visual Language"
-heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 

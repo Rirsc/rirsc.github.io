@@ -1,7 +1,6 @@
 ---
 title: "Samsung"
 subtitle: "The Wall"
-heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 

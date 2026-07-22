@@ -87,11 +87,11 @@ As a contrast and complementation mutually, the content for the ‘ambient mode�
 {{% project-credits %}}
 <h2>Credits</h2>
 <p><strong><a href="https://onformative.com/">onformative</a></strong></p>
-<strong>Creative Direction:</strong> Cedric Kiefer.<br>
-<strong>Art Direction: </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
-<strong>Production: </strong>Julia Laub.<br>
-<strong>Technical Direction: </strong>Henryk Wollik.<br>
-<strong>Code: </strong>Henryk Wollik, Ryan Alexander.
+<strong>Creative Direction</strong> Cedric Kiefer.<br>
+<strong>Art Direction </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+<strong>Production </strong>Julia Laub.<br>
+<strong>Technical Direction </strong>Henryk Wollik.<br>
+<strong>Code </strong>Henryk Wollik, Ryan Alexander.
 {{% /project-credits %}}
 
 

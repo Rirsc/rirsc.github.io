@@ -9028,13 +9028,13 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     
     <item>
-      <title>Promotional Video</title>
-      <link>http://localhost:1313/projects/physera/</link>
+      <title>Omada</title>
+      <link>http://localhost:1313/projects/omada/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/physera/</guid>
+      <guid>http://localhost:1313/projects/omada/</guid>
       <description><![CDATA[<div class="project-text">
-<p>I was part of the 3D team in charge of the developtment of the <a href="https://play.google.com/store/apps/details?id=com.healthcoda.physera&hl=de&pli=1">Physera App</a> with guided exercises to reduce user pains. Mainly doing animations, a bit of rigging and a lot of back and forth at it early stages for correct implementation within ViroReact platform. Available now on the Apple Store and Google Play.</p>
+<p>I was part of the 3D team in charge of the developtment of the <a href="https://play.google.com/store/apps/details?id=com.healthcoda.physera&hl=de&pli=1">Joint & Muscle Health App</a> with guided exercises to reduce user pains. Mainly doing animations, a bit of rigging and a lot of back and forth at it early stages for correct implementation within ViroReact platform. Available now on the Apple Store and Google Play.</p>
 </div>
 <div class="grid-layout">
 <div class="column column-12">
@@ -9067,6 +9067,15 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
 <div class="column column-4">
 <img src="Physera_Male_27_Foam-Roll-Calf_purple.gif">
 </div>
+</div>
+<div class="separator-small"></div>
+
+<div class="project-credits">
+<h2>Credits</h2>
+<p><strong><a href="https://www.omadahealth.com/">Omada</a></strong></p>
+<strong>Art Direction </strong>Polygonal Mind<br>
+<strong>Modeling </strong>A. Daniel G.<br>
+<strong>Rigging and animation </strong>Diego S. Mezquiriz, Ricardo López.<br>
 </div>
 ]]></description>
       
@@ -9371,11 +9380,11 @@ As a contrast and complementation mutually, the content for the ‘ambient mode�
 <div class="project-credits">
 <h2>Credits</h2>
 <p><strong><a href="https://onformative.com/">onformative</a></strong></p>
-<strong>Creative Direction:</strong> Cedric Kiefer.<br>
-<strong>Art Direction: </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
-<strong>Production: </strong>Julia Laub.<br>
-<strong>Technical Direction: </strong>Henryk Wollik.<br>
-<strong>Code: </strong>Henryk Wollik, Ryan Alexander.
+<strong>Creative Direction</strong> Cedric Kiefer.<br>
+<strong>Art Direction </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+<strong>Production </strong>Julia Laub.<br>
+<strong>Technical Direction </strong>Henryk Wollik.<br>
+<strong>Code </strong>Henryk Wollik, Ryan Alexander.
 </div>
 ]]></description>
       
@@ -9493,9 +9502,9 @@ As a contrast and complementation mutually, the content for the ‘ambient mode�
 <div class="project-credits">
 <h2>Credits</h2>
 <p><strong><a href="https://onformative.com/">onformative</a></strong></p>
-<strong>Creative Direction:</strong> Cedric Kiefer.<br>
-<strong>Art Direction: </strong>Bernd Marbach, Alex Hahn, Ricardo López.<br>
-<strong>Production: </strong>Julia Laub, Tobias Ziegler.  
+<strong>Creative Direction</strong> Cedric Kiefer.<br>
+<strong>Art Direction </strong>Bernd Marbach, Alex Hahn, Ricardo López.<br>
+<strong>Production </strong>Julia Laub, Tobias Ziegler.  
 </div>
 ]]></description>
       

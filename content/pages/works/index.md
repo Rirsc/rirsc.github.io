@@ -21,6 +21,11 @@ color: var(--default_fg); /* Use the default foreground color */
 color: var(--default_fg);
 background-color: transparent; 
 }
+
+.grid-layout img {
+width: 100%;
+display: block;
+}
 </style>
 
 {{% grid %}}
@@ -111,9 +116,9 @@ background-color: transparent;
 
 {{< col 7 empty >}}{{< /col >}}
 {{% col 4 %}}
-<a href="/projects/physera">
+<a href="/projects/omada">
 <img src="Physera-cover_001-1536x1536.png" alt="Polygonal Mind">
-<h5 style="text-align: right;">Physera</h5></a>
+<h5 style="text-align: right;">Omada</h5></a>
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 

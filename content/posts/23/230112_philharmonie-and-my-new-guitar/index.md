@@ -3,8 +3,8 @@ title: "Philharmonie and my new guitar"
 date: 2023-01-12
 lastmod: 2024-05-29
 tags:
-  - music
-  - berlin
+- music
+- berlin
 ---
 
 The interior of the Philharmonie building looks like a spaceship from the 50s. We sit at the back, because is way ~~cheaper~~ cooler.

@@ -2,8 +2,8 @@
 title: Test style
 date: 2019-01-01T07:32:14+01:00
 tags:
-  - markdown
-  - terminal
+- markdown
+- terminal
 draft: true
 ---
 
@@ -28,15 +28,15 @@ draft: true
 
 ### Unordered List
 - Item 1
-  - Subitem 1
-  - Subitem 2
+- Subitem 1
+- Subitem 2
 - Item 2
 
 ### Ordered List
 1. First item
 2. Second item
-   1. Subitem 1
-   2. Subitem 2
+1. Subitem 1
+2. Subitem 2
 
 ### Task List
 - [x] Completed task
@@ -67,7 +67,7 @@ Use `print("Hello, World!")` to print a message.
 ### Fenced Code Block
 ```python
 def hello_world():
-    print("Hello, World!")
+print("Hello, World!")
 ```
 
 ## 8. Tables
@@ -150,11 +150,11 @@ You can use emoji like :smiley: :+1: :sparkles:
 </div>
 
 ### Bandcamp Song
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 700px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3943313878/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nzenze.bandcamp.com/album/adzi-akal">Adzi Akal by NZE NZE</a></iframe>
-</div>
+{{% /flex-center %}}
 
 ### Spotify Song
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/50UMCVCUJPAG1JMq2yfjEE?utm_source=generator" width="700px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div>
+{{% /flex-center %}}

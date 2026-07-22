@@ -2,7 +2,7 @@
 title: "25week06 - Quantum foam and animated postcards"
 date: 2025-02-09
 tags:
-  - weekly
+- weekly
 ---
 
 ![Muybridge](IMG20250207131943.webp)
@@ -41,14 +41,14 @@ Listening: **Parasite Jazz**
 
 <!-- 
 {{< only-desktop >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://groovedge.bandcamp.com/album/parasite-jazz">Parasite Jazz by Parasite Jazz</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-desktop >}}
 
 
 {{< only-mobile >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://groovedge.bandcamp.com/album/parasite-jazz">Parasite Jazz by Parasite Jazz</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-mobile >}} -->

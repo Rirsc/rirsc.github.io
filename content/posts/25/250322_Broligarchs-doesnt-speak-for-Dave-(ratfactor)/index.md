@@ -2,8 +2,8 @@
 title: "Broligarchs doesnt speak for Dave (ratfactor)"
 date: 2025-03-22
 tags:
-  - coding
-  - tech
+- coding
+- tech
 ---
 
 

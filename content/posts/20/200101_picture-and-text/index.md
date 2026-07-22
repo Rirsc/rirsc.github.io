@@ -2,8 +2,8 @@
 title: Picture and text
 date: 2020-01-01
 tags:
-  - bandcamp
-  - terminal
+- bandcamp
+- terminal
 draft: true
 ---
 

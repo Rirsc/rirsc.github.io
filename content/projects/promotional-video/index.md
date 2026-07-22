@@ -5,48 +5,48 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div class="project-text">
-        <p>Polygonal Mind entrusted me with the creation of an Introductory Motion Graphics Course to augment their 3D programs. As the architect of this course, I curated a concise film that encapsulated the core lessons and exercises students will delve into under my guidance.</p>
-        <p>This video offers a sneak peek into the well-rounded learning journey I crafted for a fulfilling educational experience.</p>
-    </div>
+{{% project-text %}}
+<p>Polygonal Mind entrusted me with the creation of an Introductory Motion Graphics Course to augment their 3D programs. As the architect of this course, I curated a concise film that encapsulated the core lessons and exercises students will delve into under my guidance.</p>
+<p>This video offers a sneak peek into the well-rounded learning journey I crafted for a fulfilling educational experience.</p>
+{{% /project-text %}}
 
 
 
-<div class="grid-layout">
+{{% grid %}}
 
-<div class="column column-1 empty"> </div>
-<div class="column column-10">
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
 {{< video h264="Promotional-video-NoSound.mp4" title="Title" muted="true" >}}
-</div>
-<div class="column column-1 empty"> </div>
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
 
 
-<div class="column column-10">
-    <img src="Promotional-Video_Poster.webp">
-</div>
-<div class="column column-2 empty"></div>
+{{% col 10 %}}
+<img src="Promotional-Video_Poster.webp">
+{{% /col %}}
+{{< col 2 empty >}}{{< /col >}}
 
 
 
-<div class="column column-3 empty"></div>
-<div class="column column-8    ">
-    <img src="polygonal_B-1024x576.webp">
-</div>
-<div class="column column-1 empty"></div>
+{{< col 3 empty >}}{{< /col >}}
+{{% col 8 %}}
+<img src="polygonal_B-1024x576.webp">
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
 
-<div class="column column-2 empty"></div>
-<div class="column column-8    ">
-    <img src="Promotional-Video_A.webp">
-</div>
-<div class="column column-2 empty"></div>
+{{< col 2 empty >}}{{< /col >}}
+{{% col 8 %}}
+<img src="Promotional-Video_A.webp">
+{{% /col %}}
+{{< col 2 empty >}}{{< /col >}}
 
 
-<div class="column column-9">
-    <img src="Promotional-Video_C.webp">
-</div>
-<div class="column column-3 empty"></div>
+{{% col 9 %}}
+<img src="Promotional-Video_C.webp">
+{{% /col %}}
+{{< col 3 empty >}}{{< /col >}}
 
-</div>
+{{% /grid %}}
 

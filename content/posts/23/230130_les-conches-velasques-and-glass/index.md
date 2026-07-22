@@ -14,17 +14,17 @@ Finished **Atlanta season 4** and enjoyed it a lot. It keeps the surealism of th
 <!-- 
 
 {{< only-desktop >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://lesconchesvelasques.bandcamp.com/album/sitio-y-lacer-a-lp">sitio y lacería - lp by les conches velasques</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-desktop >}}
 
 
 
 {{< only-mobile >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/" seamless><a href="https://lesconchesvelasques.bandcamp.com/album/sitio-y-lacer-a-lp">sitio y lacería - lp by les conches velasques</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-mobile >}} -->
 
 

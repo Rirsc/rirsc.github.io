@@ -2,8 +2,8 @@
 title: "Experimental comics"
 date: 2025-03-23
 tags:
-  - comics
-  - music
+- comics
+- music
 ---
 
 ![CF comics](cf_comics.webp)

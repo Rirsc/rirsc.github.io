@@ -14,28 +14,28 @@
 {{ $attrlink := .Get "attrlink" }}
 {{ $muted := .Get "muted" }}
 <div class="video-margin">
-    <video autoplay loop controls style="max-width: 100%;" {{ if eq $muted "true" }}muted{{ end }}>
-        {{ if $h265 }}
-            <source src='{{ $h265 }}' type="video/mp4" />
-        {{ end }}
-        {{ if $h264 }}
-            <source src='{{ $h264 }}' type="video/mp4" />
-        {{ end }}
-        {{ if $vp9 }}
-            <source src='{{ $vp9 }}' type="video/webm" />
-        {{ end }}
-        {{ if $vp8 }}
-            <source src='{{ $vp8 }}' type="video/webm" />
-        {{ end }}
-    </video>
-    {{ if or $caption $attr }}
-        <figcaption>
-            {{ if $caption }}
-                <p>{{ . }}</p>
-            {{ end }}
-            <p>
-                {{ if $attrlink }}<a href="{{ $attrlink }}">{{ end }}{{ $attr }}{{ if $attrlink }}</a>{{ end }}
-            </p>
-        </figcaption>
-    {{ end }}
+<video autoplay loop playsinline controls style="max-width: 100%;" {{ if ne $muted "false" }}muted{{ end }}>
+{{ if $h265 }}
+<source src='{{ $h265 }}' type="video/mp4" />
+{{ end }}
+{{ if $h264 }}
+<source src='{{ $h264 }}' type="video/mp4" />
+{{ end }}
+{{ if $vp9 }}
+<source src='{{ $vp9 }}' type="video/webm" />
+{{ end }}
+{{ if $vp8 }}
+<source src='{{ $vp8 }}' type="video/webm" />
+{{ end }}
+</video>
+{{ if or $caption $attr }}
+<figcaption>
+{{ if $caption }}
+<p>{{ . }}</p>
+{{ end }}
+<p>
+{{ if $attrlink }}<a href="{{ $attrlink }}">{{ end }}{{ $attr }}{{ if $attrlink }}</a>{{ end }}
+</p>
+</figcaption>
+{{ end }}
 </div>

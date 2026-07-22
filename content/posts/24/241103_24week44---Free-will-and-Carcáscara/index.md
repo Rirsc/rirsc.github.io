@@ -2,7 +2,7 @@
 title: "24week44 - Free will & Carcáscara"
 date: 2024-11-03
 tags:
-  - weekly
+- weekly
 ---
 
 **Hack&Tell #100** at [C-Base](https://c-base.org/) Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is [QR-DICE: 6-side QR-cube](https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11) and it just blown our minds.
@@ -22,18 +22,18 @@ Listening: **Carcáscara - II**
 {{< bandcamp album="227837001" >}}
 
 <!-- {{< only-desktop >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-desktop >}}
 
 
 
 
 {{< only-mobile >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-mobile >}} -->
 
 

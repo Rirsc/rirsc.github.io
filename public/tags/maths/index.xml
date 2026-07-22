@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Maths on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/maths/</link>
+    <link>http://localhost:1313/tags/maths/</link>
     <description>Recent content in Maths on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/maths/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/maths/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>25week20 - Jabberwocky correlated</title>
-      <link>http://192.168.178.34:1313/posts/25/250518_25week20---jabberwocky-correlated/</link>
+      <link>http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250518_25week20---jabberwocky-correlated/</guid>
+      <guid>http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/</guid>
       <description><![CDATA[<p>The first stanza to what would become <a href="https://en.wikipedia.org/wiki/Jabberwocky" target="_blank" rel="noopener">Jabberwocky&#8599;</a>: Stanza of Anglo-Saxon Poetry:</p>
 <blockquote>
 <p>Twas bryllyg, and þe slythy toves<br>

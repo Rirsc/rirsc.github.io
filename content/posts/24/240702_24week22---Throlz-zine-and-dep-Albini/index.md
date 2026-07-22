@@ -2,9 +2,9 @@
 title: 24week22 - Trholz zine and dep Albini
 date: 2024-07-02
 tags:
-  - weekly
-  - music
-  - ricrecs
+- weekly
+- music
+- ricrecs
 ---
 
 After seeing [Trholz](https://trholzriot.bandcamp.com/album/premi-re-pierre) at idvdogh, I bought them one **fanzine.** Cool drawings and it has the lyrics&tabs of the songs; win-win.

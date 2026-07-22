@@ -2,8 +2,8 @@
 title: "Lucas Pope is back"
 date: 2024-03-12
 tags:
-  - games
-  - design
+- games
+- design
 ---
 
 ![Mars After Midnight](mars-after-midnight.webp)

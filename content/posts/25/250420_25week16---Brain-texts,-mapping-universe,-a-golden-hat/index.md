@@ -2,9 +2,9 @@
 title: "25week16 - Brain texts. Mapping universe. A golden hat"
 date: 2025-04-20
 tags:
-  - weekly
-  - song
-  - space
+- weekly
+- song
+- space
 ---
 
 This week I finally grabbed a sunny coffee at Cafe Finovo, located at the entrance of a little cemetery. It was sunny and the cherry blossom bloomed, so the experience forced us to grab a second one to elongate the nice time.

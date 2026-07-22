@@ -8,11 +8,11 @@ showdate: false
 ---
 
 .data-table {
-    width: 100%;
-    table-layout: fixed;
-    text-align: left;
-    border-collapse: collapse;
-    margin-bottom: 96px
+width: 100%;
+table-layout: fixed;
+text-align: left;
+border-collapse: collapse;
+margin-bottom: 96px
 }
 
 

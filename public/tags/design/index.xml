@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Design on rirsc</title>
-    <link>http://192.168.178.34:1313/tags/design/</link>
+    <link>http://localhost:1313/tags/design/</link>
     <description>Recent content in Design on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/tags/design/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Webcams suck, so f4mi built her own</title>
-      <link>http://192.168.178.34:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
+      <link>http://localhost:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
+      <guid>http://localhost:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
       <description><![CDATA[<p><a href="https://bsky.app/profile/f4mi.bsky.social" target="_blank" rel="noopener">f4mi&#8599;</a> is this creative mind throwing absolutely gems to the internet. Probably most known by her videos usually related to <strong>00’s tech and hacking vibes projects.</strong> The entry title is from this time <a href="https://www.youtube.com/watch?v=K1T1eMyPIC4" target="_blank" rel="noopener">she built her own webcam&#8599;</a> but just make sure to follow her brain. Highly recommend joining her <a href="https://discord.gg/q8aAqQRn" target="_blank" rel="noopener">Discord server&#8599;</a> as well.</p>
 ]]></description>
       
@@ -24,10 +24,10 @@
     
     <item>
       <title>Lucas Pope is back</title>
-      <link>http://192.168.178.34:1313/posts/24/240312_lucas-pope-is-back/</link>
+      <link>http://localhost:1313/posts/24/240312_lucas-pope-is-back/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240312_lucas-pope-is-back/</guid>
+      <guid>http://localhost:1313/posts/24/240312_lucas-pope-is-back/</guid>
       <description><![CDATA[<p><img src="/posts/24/240312_lucas-pope-is-back/mars-after-midnight.webp" alt="Mars After Midnight" loading="lazy" /></p>
 <p><a href="https://obradinn.com/" target="_blank" rel="noopener">Return of the Obra Dinn&#8599;</a> is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. <strong>Nothing better than struggling with other brains.</strong></p>
 <p>Anyway, I wrote this post to mention the new game from <a href="https://en.wikipedia.org/wiki/Lucas_Pope" target="_blank" rel="noopener">Lucas Pope&#8599;</a> the creator of the Obra. Its called <a href="https://play.date/games/mars-after-midnight/" target="_blank" rel="noopener">Mars After Midnight&#8599;</a> I dont own a <a href="https://play.date/" target="_blank" rel="noopener">Playdate&#8599;</a> so I wont be able to play it. But the art looks awesome and the approach sounds <em>(too)</em> similar to another of his gems; <a href="https://papersplea.se/" target="_blank" rel="noopener">Papers Please&#8599;</a></p>
@@ -39,10 +39,10 @@
     
     <item>
       <title>AI image generators</title>
-      <link>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</link>
+      <link>http://localhost:1313/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://localhost:1313/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>
@@ -75,65 +75,44 @@
 <p><strong>1/ Use it as it is</strong> — Open <a href="https://www.krea.ai/home" target="_blank" rel="noopener">Krea&#8599;</a> Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.</p>
 <p><strong>2/ Push the models</strong> — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. Personally, this has been my most used methodology so far. I use <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noopener">ComfyUI&#8599;</a> with Stable Diffusion using some personal 3D renders as input and lots of trial and error.</p>
 <div class="grid-layout">
-  <div class="column column-12">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <div class="video-margin">
-      <video autoplay loop controls style="max-width: 100%;" muted>
-          
-          
-              <source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type="video/mp4" />
-          
-          
-          
-      </video>
-      
-  </div>
-
-  </div>
-  <div class="column column-6">
-    <img src="Fassbar_007-1024x1280.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
-  </div>
-  <div class="column column-6">
-    <img src="Blue-Spikes-01.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
-  </div>
+<div class="column column-12">
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+<pre><code>        &lt;source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type=&quot;video/mp4&quot; /&gt;
+<p>&lt;/video&gt;
+</code></pre></p>
+</div>
+</div>
+<div class="column column-6">
+<img src="Fassbar_007-1024x1280.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
+</div>
+<div class="column column-6">
+<img src="Blue-Spikes-01.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+</div>
 </div>
 <p><strong>3/ Train your models</strong> — There are already ‘clean’ models:<a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc" target="_blank" rel="noopener">Clean Diffusion 2.0 PoC&#8599;</a> or <a href="https://huggingface.co/Mitsua/mitsua-diffusion-one" target="_blank" rel="noopener">Mitsua&#8599;</a>They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, <a href="https://www.instagram.com/stories/highlights/18194394052224812/" target="_blank" rel="noopener">Chris&#8599;</a> is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_) My baby steps here have been merely for training using some of my hand sketches:</p>
 <div class="grid-layout">
-  <div class="column column-6">
-    <img src="Sketches-Training-1024x1024.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
-    </div>
-  <div class="column column-6">
-    <img src="Sketches-Training_Output.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
-  </div>
+<div class="column column-6">
+<img src="Sketches-Training-1024x1024.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
+</div>
+<div class="column column-6">
+<img src="Sketches-Training_Output.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+</div>
 </div>
 <p>And another attempt, this time with some random 3D unused style frames I have:</p>
 <div class="grid-layout">
-    <div class="column column-6">
-        <img src="3D-Training-1024x1024.webp" alt="3D Training Image">
-        <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
-    </div>
-    <div class="column column-6">
-        <img src="3D-Training_Output.webp" alt="3D Training Output">
-        <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
-    </div>
+<div class="column column-6">
+<img src="3D-Training-1024x1024.webp" alt="3D Training Image">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
+</div>
+<div class="column column-6">
+<img src="3D-Training_Output.webp" alt="3D Training Output">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+</div>
 </div>
 <p>Quite far away from a polished output, yet I find some of them appealing as they look from a different realm.</p>
 <p>Definitely the most powerful approach as you can fine-tune and obtain exactly what you have in mind, fairly similar to any other tool.</p>

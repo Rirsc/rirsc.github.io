@@ -2,7 +2,7 @@
 title: "Arecibo Message and Poetica Vagina"
 date: 2024-11-16
 tags:
-  - space
+- space
 ---
 
 Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.

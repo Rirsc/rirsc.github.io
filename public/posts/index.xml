@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Posts on rirsc</title>
-    <link>http://192.168.178.34:1313/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Ricardo López</copyright>
-    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.178.34:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://192.168.178.34:1313/icons/risc_logo.svg</icon>
+    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>25week20 - Jabberwocky correlated</title>
-      <link>http://192.168.178.34:1313/posts/25/250518_25week20---jabberwocky-correlated/</link>
+      <link>http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250518_25week20---jabberwocky-correlated/</guid>
+      <guid>http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/</guid>
       <description><![CDATA[<p>The first stanza to what would become <a href="https://en.wikipedia.org/wiki/Jabberwocky" target="_blank" rel="noopener">Jabberwocky&#8599;</a>: Stanza of Anglo-Saxon Poetry:</p>
 <blockquote>
 <p>Twas bryllyg, and þe slythy toves<br>
@@ -124,10 +124,10 @@ Correlations are overused these days, primarily to reduce complex social problem
     
     <item>
       <title>25week19 - At full speed close the edge</title>
-      <link>http://192.168.178.34:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</link>
+      <link>http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</guid>
+      <guid>http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/</guid>
       <description><![CDATA[<p><img src="/posts/25/250511_25week19---at-full-speed-close-the-edge/A_Field_Guide_to_Roadside_Wildflowers_At_Full_Speed_framed.webp" alt="A Field Guide to Roadside Wildflowers At Full Speed" loading="lazy" /></p>
 <p><a href="https://prairieecologist.com/wp-content/uploads/2020/01/a-field-guide-to-roadside-wildflowers-at-full-speed_january2020-1.pdf" target="_blank" rel="noopener">A Field Guide to Roadside Wildflowers At Full Speed&#8599;</a> one of my favorite fanzines I’ve ever seen <em>onlinebecauseIhaveneverseenoutthere.</em></p>
 <p>
@@ -190,10 +190,10 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
     
     <item>
       <title>25week16 - Brain texts. Mapping universe. A golden hat</title>
-      <link>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
+      <link>http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
+      <guid>http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/</guid>
       <description><![CDATA[<p>This week I finally grabbed a sunny coffee at Cafe Finovo, located at the entrance of a little cemetery. It was sunny and the cherry blossom bloomed, so the experience forced us to grab a second one to elongate the nice time.</p>
 
 
@@ -297,10 +297,10 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
     
     <item>
       <title>Droste effect</title>
-      <link>http://192.168.178.34:1313/posts/25/250324_droste-effect/</link>
+      <link>http://localhost:1313/posts/25/250324_droste-effect/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250324_droste-effect/</guid>
+      <guid>http://localhost:1313/posts/25/250324_droste-effect/</guid>
       <description><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Droste_effect" target="_blank" rel="noopener">The droste effect&#8599;</a> is the effect of a picture recursively appearing within itself, in a place where a similar picture would realistically be expected to appear.</p>
 <p>Not to be confused with the <a href="https://letterboxd.com/film/beyond-the-infinite-two-minutes/" target="_blank" rel="noopener">Droste TV&#8599;</a>.</p>
 ]]></description>
@@ -311,10 +311,10 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
     
     <item>
       <title>Experimental comics</title>
-      <link>http://192.168.178.34:1313/posts/25/250323_experimental-comics/</link>
+      <link>http://localhost:1313/posts/25/250323_experimental-comics/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250323_experimental-comics/</guid>
+      <guid>http://localhost:1313/posts/25/250323_experimental-comics/</guid>
       <description><![CDATA[<p><img src="/posts/25/250323_experimental-comics/cf_comics.webp" alt="CF comics" loading="lazy" /></p>
 <p>Cool comic panels in this ArtReview text. <a href="https://artreview.com/how-cf-brought-the-weird-to-underground-comics/" target="_blank" rel="noopener">How CF Brought the Weird to Underground Comics&#8599;</a></p>
 
@@ -367,10 +367,10 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
     
     <item>
       <title>Broligarchs doesnt speak for Dave (ratfactor)</title>
-      <link>http://192.168.178.34:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</link>
+      <link>http://localhost:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</guid>
+      <guid>http://localhost:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/</guid>
       <description><![CDATA[<p>I stick up heavily for Dave <a href="https://ratfactor.com/" target="_blank" rel="noopener">(ratfactor)&#8599;</a> and his profound defence on why <a href="https://ratfactor.com/tech-nope" target="_blank" rel="noopener">‘broligarchs’ doesnt speak for him&#8599;</a></p>
 <p>These are the types of words that I save and revisit constantly. It represents my view in 99%. Full of truths and explains in detail a lot of the current tech problems. Here I selected a few quotes, but please make some time to <a href="https://ratfactor.com/tech-nope" target="_blank" rel="noopener">read the entire text&#8599;</a></p>
 <blockquote>
@@ -411,10 +411,10 @@ The broligarchs are not techie culture. They are not our leaders. They have noth
     
     <item>
       <title>25week09 - Flip a real coin, find a labyrinth, review the html</title>
-      <link>http://192.168.178.34:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
+      <link>http://localhost:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
+      <guid>http://localhost:1313/posts/25/250302_25week09---flip-a-real-coin-find-a-labyrinth-review-the-html/</guid>
       <description><![CDATA[<p>Lets play a game; enter here to <a href="https://fliparealcoin.com/" target="_blank" rel="noopener">flip a real coin&#8599;</a> <br>
 If tails, enter this <a href="https://labyrinthlocator.org/" target="_blank" rel="noopener">labyrinth locator&#8599;</a> site and lose yourself in the closest one to you.  <br>
 If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopener">the html review issue 3&#8599;</a></p>
@@ -465,7 +465,9 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://lesdisquesbongojoe.bandcamp.com/album/la-ola-interior-spanish-ambient-acid-exoticism-1983-1990">LA OLA INTERIOR Spanish Ambient &amp; Acid Exoticism 1983-1990 by Various Artists</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -475,7 +477,9 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://lesdisquesbongojoe.bandcamp.com/album/la-ola-interior-spanish-ambient-acid-exoticism-1983-1990">LA OLA INTERIOR Spanish Ambient &amp; Acid Exoticism 1983-1990 by Various Artists</a></iframe>
+
 </div>
+
 
 </div>
  -->]]></description>
@@ -486,10 +490,10 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
     
     <item>
       <title>Clásicas y oscuras</title>
-      <link>http://192.168.178.34:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</link>
+      <link>http://localhost:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</guid>
+      <guid>http://localhost:1313/posts/25/250213_cl%C3%A1sicas-y-oscuras/</guid>
       <description><![CDATA[<p><img src="/posts/25/250213_cl%C3%A1sicas-y-oscuras/clasicas_y_oscuras.webp" alt="Clásicas y oscuras" loading="lazy" /></p>
 <p><a href="https://clasicasyoscuras.com/" target="_blank" rel="noopener"><em>Clásicas y oscuras</em>&#8599;</a> is such an incredibly cool website with a collection of female characters in literature, cinema and music.</p>
 ]]></description>
@@ -500,10 +504,10 @@ If heads, visit <a href="https://thehtml.review/03/" target="_blank" rel="noopen
     
     <item>
       <title>25week06 - Quantum foam and animated postcards</title>
-      <link>http://192.168.178.34:1313/posts/25/250209_quantum-foam-and-animated-postcards/</link>
+      <link>http://localhost:1313/posts/25/250209_quantum-foam-and-animated-postcards/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
+      <guid>http://localhost:1313/posts/25/250209_quantum-foam-and-animated-postcards/</guid>
       <description><![CDATA[<p><img src="/posts/25/250209_quantum-foam-and-animated-postcards/IMG20250207131943.webp" alt="Muybridge" loading="lazy" /></p>
 <p>Someone has a problem with animated postcards. And flip-books. Or any other physical approach to bring pictures to life.</p>
 
@@ -613,7 +617,9 @@ So in that sense, AI systems have a nascent sense of truth.</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://groovedge.bandcamp.com/album/parasite-jazz">Parasite Jazz by Parasite Jazz</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -623,7 +629,9 @@ So in that sense, AI systems have a nascent sense of truth.</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=424056718/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://groovedge.bandcamp.com/album/parasite-jazz">Parasite Jazz by Parasite Jazz</a></iframe>
+
 </div>
+
 
 </div>
  -->]]></description>
@@ -634,10 +642,10 @@ So in that sense, AI systems have a nascent sense of truth.</p>
     
     <item>
       <title>25week05 - Knowledge distillation and animation recs</title>
-      <link>http://192.168.178.34:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
+      <link>http://localhost:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
+      <guid>http://localhost:1313/posts/25/250202_knowledge-distillation-and-animation-recs/</guid>
       <description><![CDATA[<p>Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it.<br>
 Using the <a href="https://en.wikipedia.org/wiki/Knowledge_distillation" target="_blank" rel="noopener">knowledge distillation&#8599;</a> technique, <a href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/" target="_blank" rel="noopener">Company B sucked the entire knowledge from Company A&#8599;</a> and didnt pay a dime to Company A.<br>
 Company A complaint that Company B didnt pay to them.<br>
@@ -742,7 +750,9 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://kinoue64.bandcamp.com/album/--33">空間、事情、時間、事象。 by kinoue64</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -754,7 +764,9 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://kinoue64.bandcamp.com/album/--33">空間、事情、時間、事象。 by kinoue64</a></iframe>
+
 </div>
+
 
 </div>
  -->]]></description>
@@ -765,10 +777,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>Webcams suck, so f4mi built her own</title>
-      <link>http://192.168.178.34:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
+      <link>http://localhost:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
+      <guid>http://localhost:1313/posts/25/250126_webcams-suck-so-f4mi-built-her-own/</guid>
       <description><![CDATA[<p><a href="https://bsky.app/profile/f4mi.bsky.social" target="_blank" rel="noopener">f4mi&#8599;</a> is this creative mind throwing absolutely gems to the internet. Probably most known by her videos usually related to <strong>00’s tech and hacking vibes projects.</strong> The entry title is from this time <a href="https://www.youtube.com/watch?v=K1T1eMyPIC4" target="_blank" rel="noopener">she built her own webcam&#8599;</a> but just make sure to follow her brain. Highly recommend joining her <a href="https://discord.gg/q8aAqQRn" target="_blank" rel="noopener">Discord server&#8599;</a> as well.</p>
 ]]></description>
       
@@ -778,10 +790,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>25Week03 - Evil meta, k-punk and online countercoulture</title>
-      <link>http://192.168.178.34:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
+      <link>http://localhost:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
+      <guid>http://localhost:1313/posts/25/250119_25week03---evil-meta-k-punk-and-online-countercoulture/</guid>
       <description><![CDATA[<p>After Meta announced that it will allow users call LGTBQ+ people “mentally ill”, now its deleting posts with links to the decentralized competitor Pixelfed. <strong>Siren Servers against humanity, once again.</strong></p>
 
 
@@ -845,10 +857,10 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
     
     <item>
       <title>Puzzle to another world</title>
-      <link>http://192.168.178.34:1313/posts/25/250116_puzzle-to-another-world/</link>
+      <link>http://localhost:1313/posts/25/250116_puzzle-to-another-world/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/25/250116_puzzle-to-another-world/</guid>
+      <guid>http://localhost:1313/posts/25/250116_puzzle-to-another-world/</guid>
       <description><![CDATA[<blockquote>
 <p>[D] Twin Peaks is a world, and I love that world and I love that world. It&rsquo;s something that is like a magnet. It&rsquo;s to go back in there. <br>
 <br>
@@ -864,36 +876,18 @@ We all should grab a big pack of popcorn and enjoy it at least for today.</p>
 David Lynch + Patti Smith</p>
 </blockquote>
 <div class="grid-layout">
-<div class="column column-2 empty"></div>
+<div class="column column-2 empty">
+</div>
 <div class="column column-8">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="video-margin">
     <video autoplay loop controls style="max-width: 100%;" muted>
-        
-        
-            <source src='/posts/25/250116_puzzle-to-another-world/david_lynch&#43;patti_smith.mp4' type="video/mp4" />
-        
-        
-        
-    </video>
-    
+<pre><code>        &lt;source src='/posts/25/250116_puzzle-to-another-world/david_lynch&amp;#43;patti_smith.mp4' type=&quot;video/mp4&quot; /&gt;
+<p>&lt;/video&gt;
+</code></pre></p>
 </div>
 </div>
-<div class="column column-2 empty"></div>
+<div class="column column-2 empty">
+</div>
 </div>
 ]]></description>
       
@@ -903,10 +897,10 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>Arecibo Message and Poetica Vagina</title>
-      <link>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
+      <link>http://localhost:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
+      <guid>http://localhost:1313/posts/24/241116_arecibo-message-and-poetica-vagina/</guid>
       <description><![CDATA[<p>Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.</p>
 <p><img src="/posts/24/241116_arecibo-message-and-poetica-vagina/arecibo-message.webp" alt="AreciboMessage" loading="lazy" /></p>
 <p>I love the idea and its aesthetics—I guess because it reminds me of my beloved <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener">Game of Life&#8599;</a> It makes me wonder: would it be possible to recreate that exact drawing from one of the initial configurations?</p>
@@ -923,10 +917,10 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>24week44 - Free will &amp; Carcáscara</title>
-      <link>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
+      <link>http://localhost:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
+      <guid>http://localhost:1313/posts/24/241103_24week44---free-will-and-carc%C3%A1scara/</guid>
       <description><![CDATA[<p><strong>Hack&amp;Tell #100</strong> at <a href="https://c-base.org/" target="_blank" rel="noopener">C-Base&#8599;</a> Its cool because its as informal as the past editions, just slighty longer due to some delay in the pause. They are doing some printings to whoever brings a t-shirt, so its totally understandable. At the beginning there is also a nice recap with photos from the very early editions, and some memorables moments that are shared from fixed attendes. The project that won is <a href="https://medium.com/altsoph/qr-dice-6-sided-qr-cube-c21be8f0ca11" target="_blank" rel="noopener">QR-DICE: 6-side QR-cube&#8599;</a> and it just blown our minds.</p>
 
 
@@ -1000,7 +994,9 @@ David Lynch + Patti Smith</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -1012,7 +1008,9 @@ David Lynch + Patti Smith</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=227837001/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://hegoadiskak.bandcamp.com/album/carcascara-ii">Carcascara II by Carcascara</a></iframe>
+
 </div>
+
 
 </div>
  -->
@@ -1024,10 +1022,10 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>24week39 - We will remember freedom 02b</title>
-      <link>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
+      <link>http://localhost:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
+      <guid>http://localhost:1313/posts/24/240929_24week39---we-will-remember-freedom-02b/</guid>
       <description><![CDATA[<p>These are definetly a worthy words put together by <a href="https://en.wikipedia.org/wiki/Margaret_Killjoy" target="_blank" rel="noopener">Margaret Killjoy&#8599;</a> about one of the sweetest, charmest and most brillante humans we had have so far; <strong>Ursuka K. Le Guin</strong>. <a href="https://blog.pmpress.org/2019/07/17/we-will-remember-freedom/" target="_blank" rel="noopener">We will remember freedom&#8599;</a></p>
 
 
@@ -1076,10 +1074,10 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>spectral cartography</title>
-      <link>http://192.168.178.34:1313/posts/24/240712_spectral-cartography/</link>
+      <link>http://localhost:1313/posts/24/240712_spectral-cartography/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240712_spectral-cartography/</guid>
+      <guid>http://localhost:1313/posts/24/240712_spectral-cartography/</guid>
       <description><![CDATA[<p>In this house we adore anything that <a href="https://www.instagram.com/uglystupidhonest/" target="_blank" rel="noopener">Chris&#8599;</a> makes. His approach to music is as clever and beautiful as the rest of his art. For his latest project he has built a music label, <a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race?from=search&amp;logged_in_menubar=true&amp;search_item_id=1132279508&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726377253&amp;search_page_no=0&amp;search_rank=1" target="_blank" rel="noopener">spectral cartography&#8599;</a> and it even have a couple of tracks mixed by Andi Toma, from the marvelous <a href="https://mouseonmars.bandcamp.com/?from=search&amp;search_item_id=2381589351&amp;search_item_type=b&amp;search_match_part=%3F&amp;search_page_id=3726385384&amp;search_page_no=0&amp;search_rank=1&amp;logged_in_menubar=true" target="_blank" rel="noopener">Mouse on Mars&#8599;</a></p>
 
 
@@ -1114,7 +1112,9 @@ David Lynch + Patti Smith</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038730673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race">15|40 - Relay Race by C/H</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -1125,7 +1125,9 @@ David Lynch + Patti Smith</p>
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038730673/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/" seamless><a href="https://spectralcartography.bandcamp.com/album/15-40-relay-race">15|40 - Relay Race by C/H</a></iframe>
+
 </div>
+
 
 </div>
  -->]]></description>
@@ -1136,10 +1138,10 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>24week22 - Trholz zine and dep Albini</title>
-      <link>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
+      <link>http://localhost:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
+      <guid>http://localhost:1313/posts/24/240702_24week22---throlz-zine-and-dep-albini/</guid>
       <description><![CDATA[<p>After seeing <a href="https://trholzriot.bandcamp.com/album/premi-re-pierre" target="_blank" rel="noopener">Trholz&#8599;</a> at idvdogh, I bought them one <strong>fanzine.</strong> Cool drawings and it has the lyrics&amp;tabs of the songs; win-win.</p>
 <p><img src="/posts/24/240702_24week22---throlz-zine-and-dep-albini/IMG20240531114009.webp" alt="Trholz" loading="lazy" /><br>
 <img src="/posts/24/240702_24week22---throlz-zine-and-dep-albini/IMG20240531114002.webp" alt="Trholz" loading="lazy" /></p>
@@ -1268,10 +1270,10 @@ David Lynch + Patti Smith</p>
     
     <item>
       <title>Buch der tage</title>
-      <link>http://192.168.178.34:1313/posts/24/240612_buch-der-tage/</link>
+      <link>http://localhost:1313/posts/24/240612_buch-der-tage/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240612_buch-der-tage/</guid>
+      <guid>http://localhost:1313/posts/24/240612_buch-der-tage/</guid>
       <description><![CDATA[<p>By chance, I discovered the bookshop <strong>langer blomqvist</strong>, which is full of discounted and second-hand books. I bought the gem <strong><em>Buch der Tage</em>, by Patti Smith</strong>. It consists of a daily photo with a small description covering 2018.</p>
 <p><img src="/posts/24/240612_buch-der-tage/IMG20240612124046.webp" alt="Buch der tage" loading="lazy" /></p>
 <p>Its in German, so I decided it could be cool to force me to read and translate the accordance day.
@@ -1285,10 +1287,10 @@ Today, 12 of June, says as follows: ‘Lighted candles in memory of the deceases
     
     <item>
       <title>Game of life by oimo.io</title>
-      <link>http://192.168.178.34:1313/posts/24/240526_game-of-life-by-oimo.io/</link>
+      <link>http://localhost:1313/posts/24/240526_game-of-life-by-oimo.io/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240526_game-of-life-by-oimo.io/</guid>
+      <guid>http://localhost:1313/posts/24/240526_game-of-life-by-oimo.io/</guid>
       <description><![CDATA[<p>Forever in love with anything related with the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener">game of life&#8599;</a><br>
 This particular approach from oimo is mesmerizing as it allows the user to zoom in and out achieving a totally wizardly effect.<a href="https://oimo.io/works/life/" target="_blank" rel="noopener">Here&#8599;</a> you can see what I mean.
 I highly recommend you to take a look to the rest of his otherworldly <a href="https://oimo.io/works" target="_blank" rel="noopener">projects&#8599;</a></p>
@@ -1301,10 +1303,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Cindy Lee and Realistik website</title>
-      <link>http://192.168.178.34:1313/posts/24/240523_cindy-lee-and-realistik-website/</link>
+      <link>http://localhost:1313/posts/24/240523_cindy-lee-and-realistik-website/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240523_cindy-lee-and-realistik-website/</guid>
+      <guid>http://localhost:1313/posts/24/240523_cindy-lee-and-realistik-website/</guid>
       <description><![CDATA[<p>The new album from Cindy Lee, <em><a href="https://www.youtube.com/watch?si=6bVn2BwB_PnWvbb2&amp;v=_LJi5na897Y&amp;feature=youtu.be" target="_blank" rel="noopener">Diamond Jubilee&#8599;</a></em> is an absolute treasure from start to finish—a captivating blend of raw emotion and haunting beauty. What is as good as the album is the website from the studio behind it, <a href="https://www.geocities.ws/ccqsk/" target="_blank" rel="noopener">Realistik Studios&#8599;</a></p>
 <p><img src="/posts/24/240523_cindy-lee-and-realistik-website/realistik_studios.webp" alt="RealistikStudios" loading="lazy" /></p>
 ]]></description>
@@ -1315,10 +1317,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>24week16 - sBach and the LatentScape</title>
-      <link>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
+      <link>http://localhost:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
+      <guid>http://localhost:1313/posts/24/240421_24week16---sbach-and-the-latentscape/</guid>
       <description><![CDATA[<p>We went to the exposition <strong>Sound System Culture</strong> at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.</p>
 
 
@@ -1368,10 +1370,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Lucas Pope is back</title>
-      <link>http://192.168.178.34:1313/posts/24/240312_lucas-pope-is-back/</link>
+      <link>http://localhost:1313/posts/24/240312_lucas-pope-is-back/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240312_lucas-pope-is-back/</guid>
+      <guid>http://localhost:1313/posts/24/240312_lucas-pope-is-back/</guid>
       <description><![CDATA[<p><img src="/posts/24/240312_lucas-pope-is-back/mars-after-midnight.webp" alt="Mars After Midnight" loading="lazy" /></p>
 <p><a href="https://obradinn.com/" target="_blank" rel="noopener">Return of the Obra Dinn&#8599;</a> is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. <strong>Nothing better than struggling with other brains.</strong></p>
 <p>Anyway, I wrote this post to mention the new game from <a href="https://en.wikipedia.org/wiki/Lucas_Pope" target="_blank" rel="noopener">Lucas Pope&#8599;</a> the creator of the Obra. Its called <a href="https://play.date/games/mars-after-midnight/" target="_blank" rel="noopener">Mars After Midnight&#8599;</a> I dont own a <a href="https://play.date/" target="_blank" rel="noopener">Playdate&#8599;</a> so I wont be able to play it. But the art looks awesome and the approach sounds <em>(too)</em> similar to another of his gems; <a href="https://papersplea.se/" target="_blank" rel="noopener">Papers Please&#8599;</a></p>
@@ -1383,10 +1385,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Contemporánea - Un diccionario sonoro</title>
-      <link>http://192.168.178.34:1313/posts/24/240310_contemporanea/</link>
+      <link>http://localhost:1313/posts/24/240310_contemporanea/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/24/240310_contemporanea/</guid>
+      <guid>http://localhost:1313/posts/24/240310_contemporanea/</guid>
       <description><![CDATA[<p>A so-called ‘sound dictionary’ that dives deep into the most relevant names shaping contemporary music. You can feel the passion and dedication poured into this project. It’s an inspiring resource, perfect for discovering new ideas or revisiting familiar ones. Definitely saving this to explore it bit by bit.</p>
 <p><a href="https://contemporanea.march.es/" target="_blank" rel="noopener">Contemporánea - Un diccionario sonoro&#8599;</a></p>
 
@@ -1424,10 +1426,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>AI image generators</title>
-      <link>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</link>
+      <link>http://localhost:1313/posts/23/231129_ai-image-generators/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/231129_ai-image-generators/</guid>
+      <guid>http://localhost:1313/posts/23/231129_ai-image-generators/</guid>
       <description><![CDATA[<p>Here comes another opinion on using or not these generators, but most importantly, on how we should take advantage of them. Nevertheless, I’m still struggling to create a solid opinion, so hopefully, this text helps position me better and clarify my thoughts.</p>
 <p>First and sadly, I support the current overall rejection as <strong>the main use is focused on lazy replicating rather than creating.</strong> The widespread use of these generators is horrendous in both ethical and aesthetic terms.</p>
 <p>Let’s go for the big ‘buts’.</p>
@@ -1460,65 +1462,44 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
 <p><strong>1/ Use it as it is</strong> — Open <a href="https://www.krea.ai/home" target="_blank" rel="noopener">Krea&#8599;</a> Midjourney, or whatever app you found and start writing vague prompts. Extra points if you add established artists to the mix and perfectly canonised human styles. Obviously, this was irony; sorry but this is quite horrendous, unethical, lazy and barely adding any worthy rather than spending some time and learning the basic uses of it. This should be mostly for personal use, at most, and to get to know the apps.</p>
 <p><strong>2/ Push the models</strong> — Look for new outcomes that don’t rely heavily on other’s art. Use LORA’s and/or IPA’s with your personal art for mixing ideas and arriving at new places. Be honest, visually educate yourself and discard those images that are a wrap-up from another human style. Personally, this has been my most used methodology so far. I use <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noopener">ComfyUI&#8599;</a> with Stable Diffusion using some personal 3D renders as input and lots of trial and error.</p>
 <div class="grid-layout">
-  <div class="column column-12">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <div class="video-margin">
-      <video autoplay loop controls style="max-width: 100%;" muted>
-          
-          
-              <source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type="video/mp4" />
-          
-          
-          
-      </video>
-      
-  </div>
-
-  </div>
-  <div class="column column-6">
-    <img src="Fassbar_007-1024x1280.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
-  </div>
-  <div class="column column-6">
-    <img src="Blue-Spikes-01.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
-  </div>
+<div class="column column-12">
+<div class="video-margin">
+    <video autoplay loop controls style="max-width: 100%;" muted>
+<pre><code>        &lt;source src='/posts/23/231129_ai-image-generators/2024-01-14-14-53-54.mp4' type=&quot;video/mp4&quot; /&gt;
+<p>&lt;/video&gt;
+</code></pre></p>
+</div>
+</div>
+<div class="column column-6">
+<img src="Fassbar_007-1024x1280.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
+</div>
+<div class="column column-6">
+<img src="Blue-Spikes-01.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+</div>
 </div>
 <p><strong>3/ Train your models</strong> — There are already ‘clean’ models:<a href="https://huggingface.co/aipicasso/clean-diffusion-2-0-poc" target="_blank" rel="noopener">Clean Diffusion 2.0 PoC&#8599;</a> or <a href="https://huggingface.co/Mitsua/mitsua-diffusion-one" target="_blank" rel="noopener">Mitsua&#8599;</a>They are made of public-domain images. Go further and add your own art to the mix. Use it as a little helper. This is the most ideal scenario as well as the most technically challenged. As always, <a href="https://www.instagram.com/stories/highlights/18194394052224812/" target="_blank" rel="noopener">Chris&#8599;</a> is doing an incredible job and it’s the perfect example of an ethical and awesome approach to the use of AI as a tool. Role Model at its best :_) My baby steps here have been merely for training using some of my hand sketches:</p>
 <div class="grid-layout">
-  <div class="column column-6">
-    <img src="Sketches-Training-1024x1024.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
-    </div>
-  <div class="column column-6">
-    <img src="Sketches-Training_Output.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
-  </div>
+<div class="column column-6">
+<img src="Sketches-Training-1024x1024.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
+</div>
+<div class="column column-6">
+<img src="Sketches-Training_Output.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+</div>
 </div>
 <p>And another attempt, this time with some random 3D unused style frames I have:</p>
 <div class="grid-layout">
-    <div class="column column-6">
-        <img src="3D-Training-1024x1024.webp" alt="3D Training Image">
-        <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
-    </div>
-    <div class="column column-6">
-        <img src="3D-Training_Output.webp" alt="3D Training Output">
-        <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
-    </div>
+<div class="column column-6">
+<img src="3D-Training-1024x1024.webp" alt="3D Training Image">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
+</div>
+<div class="column column-6">
+<img src="3D-Training_Output.webp" alt="3D Training Output">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
+</div>
 </div>
 <p>Quite far away from a polished output, yet I find some of them appealing as they look from a different realm.</p>
 <p>Definitely the most powerful approach as you can fine-tune and obtain exactly what you have in mind, fairly similar to any other tool.</p>
@@ -1532,10 +1513,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>ZineFest at Subaermarkt</title>
-      <link>http://192.168.178.34:1313/posts/21/210821_zinefest-at-subaermarkt/</link>
+      <link>http://localhost:1313/posts/21/210821_zinefest-at-subaermarkt/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/21/210821_zinefest-at-subaermarkt/</guid>
+      <guid>http://localhost:1313/posts/21/210821_zinefest-at-subaermarkt/</guid>
       <description><![CDATA[<p>I visited for the first time this sweet fest at Subaemarkt where artists and illustrators show and sell their gems.</p>
 <p>This is my loot; a magazine, some cool illustrations and toon of stickers. I will definetily keep an eye on it for further editions.</p>
 <p><img src="/posts/21/210821_zinefest-at-subaermarkt/IMG_20210821_191129.webp" alt="ZineFest" loading="lazy" /></p>
@@ -1547,10 +1528,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Continue the struggle</title>
-      <link>http://192.168.178.34:1313/posts/23/230207_continue-the-struggle/</link>
+      <link>http://localhost:1313/posts/23/230207_continue-the-struggle/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/230207_continue-the-struggle/</guid>
+      <guid>http://localhost:1313/posts/23/230207_continue-the-struggle/</guid>
       <description><![CDATA[<p>Just a blooper from a quick thing for testing the Blender-Unity workflow without exporting to .fbx. Please continue, nothing to see here.</p>
 
 
@@ -1587,10 +1568,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Les Conches and Glaas and Atlanta</title>
-      <link>http://192.168.178.34:1313/posts/23/230130_les-conches-velasques-and-glass/</link>
+      <link>http://localhost:1313/posts/23/230130_les-conches-velasques-and-glass/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/230130_les-conches-velasques-and-glass/</guid>
+      <guid>http://localhost:1313/posts/23/230130_les-conches-velasques-and-glass/</guid>
       <description><![CDATA[<p>Finished <strong>Atlanta season 4</strong> and enjoyed it a lot. It keeps the surealism of the previous seasons and the atmosphere puts me on a dreamy mood which I love.</p>
 
 
@@ -1640,7 +1621,9 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://lesconchesvelasques.bandcamp.com/album/sitio-y-lacer-a-lp">sitio y lacería - lp by les conches velasques</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -1651,7 +1634,9 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2672090613/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/" seamless><a href="https://lesconchesvelasques.bandcamp.com/album/sitio-y-lacer-a-lp">sitio y lacería - lp by les conches velasques</a></iframe>
+
 </div>
+
 
 </div>
  -->
@@ -1676,10 +1661,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Philharmonie and my new guitar</title>
-      <link>http://192.168.178.34:1313/posts/23/230112_philharmonie-and-my-new-guitar/</link>
+      <link>http://localhost:1313/posts/23/230112_philharmonie-and-my-new-guitar/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/230112_philharmonie-and-my-new-guitar/</guid>
+      <guid>http://localhost:1313/posts/23/230112_philharmonie-and-my-new-guitar/</guid>
       <description><![CDATA[<p>The interior of the Philharmonie building looks like a spaceship from the 50s. We sit at the back, because is way <del>cheaper</del> cooler.</p>
 
 
@@ -1715,10 +1700,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>Flaaryr and the loosers</title>
-      <link>http://192.168.178.34:1313/posts/23/230103_flaaryr-and-the-loosers/</link>
+      <link>http://localhost:1313/posts/23/230103_flaaryr-and-the-loosers/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/23/230103_flaaryr-and-the-loosers/</guid>
+      <guid>http://localhost:1313/posts/23/230103_flaaryr-and-the-loosers/</guid>
       <description><![CDATA[<p>I discovered <a href="https://flaaryr.bandcamp.com/" target="_blank" rel="noopener">Flaaryr&#8599;</a> and his previous band, <a href="https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas" target="_blank" rel="noopener">Hungría&#8599;</a> His setup is quite nice, make sure to check his social media for a deeper look at the equipment he has to achieve the alien noises he creates.</p>
 
 
@@ -1753,7 +1738,9 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2940750360/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas">Cumbre de Nieves Perpetuas by Hungría</a></iframe>
+
 </div>
+
 
 </div>
 
@@ -1762,7 +1749,9 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
   
 <div style="display: flex; justify-content: center;">
 <iframe style="border: 0; width: 700px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2940750360/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/transparent=true/" seamless><a href="https://hungria.bandcamp.com/album/cumbre-de-nieves-perpetuas">Cumbre de Nieves Perpetuas by Hungría</a></iframe>
+
 </div>
+
 
 </div>
  -->
@@ -1787,10 +1776,10 @@ I highly recommend you to take a look to the rest of his otherworldly <a href="h
     
     <item>
       <title>22week01 - Moravec and how to Forming</title>
-      <link>http://192.168.178.34:1313/posts/22/220109_22week01/</link>
+      <link>http://localhost:1313/posts/22/220109_22week01/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.178.34:1313/posts/22/220109_22week01/</guid>
+      <guid>http://localhost:1313/posts/22/220109_22week01/</guid>
       <description><![CDATA[<p>I discovered and read about the <a href="https://en.wikipedia.org/wiki/Moravec%27s_paradox" target="_blank" rel="noopener">Moravec&rsquo;s paradox&#8599;</a> It put words into something that I learn while studiying character animation; basic human locomotive is extremely expensive and difficult to compute. I still dont get why we are triying to replicate our movements and lookalikes.</p>
 
 

@@ -2,7 +2,7 @@
 title: "22week01 - Moravec and how to Forming"
 date: 2022-01-09
 tags:
-  - weekly
+- weekly
 ---
 
 I discovered and read about the [Moravec's paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox) It put words into something that I learn while studiying character animation; basic human locomotive is extremely expensive and difficult to compute. I still dont get why we are triying to replicate our movements and lookalikes.

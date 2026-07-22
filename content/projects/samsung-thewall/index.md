@@ -6,96 +6,93 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 
 
 
-<div class="project-text">
-        <p>In 2019 onformative was commissioned to develop another collection of exclusive digital real-time artworks for Samsung’s latest TV lineup.
-        As a contrast and complementation mutually, the content for the ‘ambient mode’ focuses on kinetic concepts to bring a dynamic dimension to the room.</p>
-        <p>I had the pleasure of working on this project with the outstanding team at onformative, my role was mostly focused in the creation of the shortfilm for document the project.</p>
-    </div>
+{{% project-text %}}
+<p>In 2019 onformative was commissioned to develop another collection of exclusive digital real-time artworks for Samsung’s latest TV lineup.
+As a contrast and complementation mutually, the content for the ‘ambient mode’ focuses on kinetic concepts to bring a dynamic dimension to the room.</p>
+<p>I had the pleasure of working on this project with the outstanding team at onformative, my role was mostly focused in the creation of the shortfilm for document the project.</p>
+{{% /project-text %}}
 
 
 
 <div style="padding:56.25% 0 30 0;position:relative;"><iframe src="https://player.vimeo.com/video/524928384?h=38dd1e8fe2&#038;autoplay=1&#038;muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-<!-- <div class="separator-small"></div> -->
+<!-- {{< separator-small >}} -->
 
-<div class="grid-layout">
-    <div class="column column-6">
-        <img src="Samsung_TheWall_003.webp">
-    </div>
-    <div class="column column-6">
-    <img src="Samsung_TheWall_004.webp">
-    </div>
+{{% grid %}}
+{{% col 6 %}}
+<img src="Samsung_TheWall_003.webp">
+{{% /col %}}
+{{% col 6 %}}
+<img src="Samsung_TheWall_004.webp">
+{{% /col %}}
 
 
-<div class="column column-12">
+{{% col 12 %}}
 {{< video h264="Samsung_TheWall_002.mp4" title="Title" muted="true" >}}
-</div>
+{{% /col %}}
 
-<div class="column column-8">
-        <img src="Samsung_TheWall_007.webp">
-</div>
-<div class="column column-4">
-    <img src="Samsung_TheWall_006.webp">
+{{% col 8 %}}
+<img src="Samsung_TheWall_007.webp">
+{{% /col %}}
+{{% col 4 %}}
+<img src="Samsung_TheWall_006.webp">
 
-</div>
-
-
-<div class="column column-12">
-    <img src="Samsung_TheWall_008.webp">
-</div>
+{{% /col %}}
 
 
-<div class="column column-4 empty">
-</div>
-<div class="column column-8">
-    <img src="Samsung_TheWall_009.webp">
-</div>
+{{% col 12 %}}
+<img src="Samsung_TheWall_008.webp">
+{{% /col %}}
 
 
-<div class="column column-12">
-    <img src="Samsung_TheWall_011.webp">
-</div>
-
-<div class="column column-4 empty">
-</div>
-<div class="column column-8">
-    <img src="Samsung_TheWall_012.webp">
-</div>
-
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-{{< video h264="Samsung_TheWall_014.mp4" title="Title" muted="true" >}}</div>
-<div class="column column-1 empty"></div>
-
-<div class="column column-4 empty">
-</div>
-<div class="column column-8">
-    <img src="Samsung_TheWall_016.webp">
-</div>
+{{< col 4 empty >}}{{< /col >}}
+{{% col 8 %}}
+<img src="Samsung_TheWall_009.webp">
+{{% /col %}}
 
 
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-{{< video h264="Samsung_TheWall_017.mp4" title="Title" muted="true" >}}</div>
-<div class="column column-1 empty"></div>
+{{% col 12 %}}
+<img src="Samsung_TheWall_011.webp">
+{{% /col %}}
+
+{{< col 4 empty >}}{{< /col >}}
+{{% col 8 %}}
+<img src="Samsung_TheWall_012.webp">
+{{% /col %}}
+
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+{{< video h264="Samsung_TheWall_014.mp4" title="Title" muted="true" >}}{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
+
+{{< col 4 empty >}}{{< /col >}}
+{{% col 8 %}}
+<img src="Samsung_TheWall_016.webp">
+{{% /col %}}
+
+
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+{{< video h264="Samsung_TheWall_017.mp4" title="Title" muted="true" >}}{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
 
 
-</div> <!-- Grid ends here -->
+{{% /grid %}} <!-- Grid ends here -->
 
 
 
 
-<div class="separator-small"></div>
+{{< separator-small >}}
 
- <div class="project-credits">
-        <h2>Credits</h2>
-        <p><strong><a href="https://onformative.com/">onformative</a></strong></p>
-        <strong>Creative Direction:</strong> Cedric Kiefer.<br>
-        <strong>Art Direction: </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
-        <strong>Production: </strong>Julia Laub.<br>
-        <strong>Technical Direction: </strong>Henryk Wollik.<br>
-        <strong>Code: </strong>Henryk Wollik, Ryan Alexander.
-</div>
+{{% project-credits %}}
+<h2>Credits</h2>
+<p><strong><a href="https://onformative.com/">onformative</a></strong></p>
+<strong>Creative Direction:</strong> Cedric Kiefer.<br>
+<strong>Art Direction: </strong>Bernd Marbach, Lena Steinkühler, Vincent Schwenk, Dmitry Zakharov, Misha Shyukin, Ricardo López.<br>
+<strong>Production: </strong>Julia Laub.<br>
+<strong>Technical Direction: </strong>Henryk Wollik.<br>
+<strong>Code: </strong>Henryk Wollik, Ryan Alexander.
+{{% /project-credits %}}
 
 

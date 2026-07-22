@@ -2,8 +2,8 @@
 title: "If I see you somewhere else, I don’t know"
 date: 2024-10-22
 tags:
-  - music
-  - song
+- music
+- song
 draft: true
 ---
 

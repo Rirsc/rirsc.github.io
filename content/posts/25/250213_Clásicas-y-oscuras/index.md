@@ -2,9 +2,9 @@
 title: "Clásicas y oscuras"
 date: 2025-02-13
 tags:
-  - books
-  - cinema
-  - music
+- books
+- cinema
+- music
 ---
 
 ![Clásicas y oscuras](clasicas_y_oscuras.webp)

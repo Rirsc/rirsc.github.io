@@ -15,187 +15,187 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
 **Beyond work,** I find joy in  [music,](/pages/etc/gigs/) boardgames&rolegames, comix, design, films and riding my bike around forests. Playing with technology and exploring creative ideas keeps me inspired and always ready for new ways to expand my knowledge.
 
 
- <!-- <div class="grid-layout">
-  <div class="column column-4"> <img src="Rirsc-Pet.webp">
-  <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online</figcaption>
-  </div>
+<!-- {{% grid %}}
+{{% col 4 %}} <img src="Rirsc-Pet.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online</figcaption>
+{{% /col %}}
 
-   <div class="column column-4"> <img src="Rirsc-LinkedIn.webp">
-     <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen on LinkedIn</figcaption>
-  </div>
-  <div class="column column-4"> <img src="Rirsc-Bluesky.webp">
-    <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online II</figcaption>
-  </div>
-  </div> -->
+{{% col 4 %}} <img src="Rirsc-LinkedIn.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen on LinkedIn</figcaption>
+{{% /col %}}
+{{% col 4 %}} <img src="Rirsc-Bluesky.webp">
+<figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online II</figcaption>
+{{% /col %}}
+{{% /grid %}} -->
 
 
 
 
 ## Experience
 
-<div class="work-history">
-  <!-- Desktop View -->
-  <table class="desktop-view">
-    <thead>
-      <tr>
-        <th>Years</th>
-        <th>Role</th>
-        <th>Employer</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2022–2026</td>
-        <td>Senior Designer</td>
-        <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
-      </tr>
-      <tr>
-        <td>2020–2022</td>
-        <td>3D Designer</td>
-        <td><a href="https://onformative.com/">onformative↗</a></td>
-      </tr>
-      <tr>
-        <td>2019</td>
-        <td>Freelance</td>
-        <td>Freelance</td>
-      </tr>
-      <tr>
-        <td>2014–2018</td>
-        <td>Art Director</td>
-        <td><a href="https://www.aimsport.com/">AIM Sport↗</a></td>
-      </tr>
-      <tr>
-        <td>2013</td>
-        <td>3D Animator</td>
-        <td>Unusual Wonder</td>
-      </tr>
-      <tr>
-        <td>2012–2014</td>
-        <td>Design Engineer</td>
-        <td><a href="https://www.theleisureway.com/">theleisureway↗</a></td>
-      </tr>
-      <tr>
-        <td>2011</td>
-        <td>Web development</td>
-        <td><a href="https://vgst.net/">vgs↗</a></td>
-      </tr>
-    </tbody>
-  </table>
+{{% work-history %}}
+<!-- Desktop View -->
+<table class="desktop-view">
+<thead>
+<tr>
+<th>Years</th>
+<th>Role</th>
+<th>Employer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022–2026</td>
+<td>Senior Designer</td>
+<td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
+</tr>
+<tr>
+<td>2020–2022</td>
+<td>3D Designer</td>
+<td><a href="https://onformative.com/">onformative↗</a></td>
+</tr>
+<tr>
+<td>2019</td>
+<td>Freelance</td>
+<td>Freelance</td>
+</tr>
+<tr>
+<td>2014–2018</td>
+<td>Art Director</td>
+<td><a href="https://www.aimsport.com/">AIM Sport↗</a></td>
+</tr>
+<tr>
+<td>2013</td>
+<td>3D Animator</td>
+<td>Unusual Wonder</td>
+</tr>
+<tr>
+<td>2012–2014</td>
+<td>Design Engineer</td>
+<td><a href="https://www.theleisureway.com/">theleisureway↗</a></td>
+</tr>
+<tr>
+<td>2011</td>
+<td>Web development</td>
+<td><a href="https://vgst.net/">vgs↗</a></td>
+</tr>
+</tbody>
+</table>
 
-  <!-- Mobile View -->
-  <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2022–2026</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>Senior Designer</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
-      </tr>
-    </tbody>
-  </table>
-    <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2020–2022</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>3D Designer</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td><a href="https://onformative.com/">onformative↗</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2019</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>Freelance</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td>Freelance</td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2014–2018</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>Art Director</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td><a href="https://www.aimsport.com/">AIM Sport↗</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2013</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>3D Animator</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td>Unusual Wonder</td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2012–2014</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>Design Engineer</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td><a href="https://www.theleisureway.com/">theleisureway↗</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <table class="mobile-view">
-    <tbody class="entry">
-      <tr>
-        <th>Years</th>
-        <td>2011</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>Web development</td>
-      </tr>
-      <tr>
-        <th>Employer</th>
-        <td><a href="https://vgst.net/">vgs↗</a></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<!-- Mobile View -->
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2022–2026</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>Senior Designer</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2020–2022</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>3D Designer</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td><a href="https://onformative.com/">onformative↗</a></td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2019</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>Freelance</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td>Freelance</td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2014–2018</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>Art Director</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td><a href="https://www.aimsport.com/">AIM Sport↗</a></td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2013</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>3D Animator</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td>Unusual Wonder</td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2012–2014</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>Design Engineer</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td><a href="https://www.theleisureway.com/">theleisureway↗</a></td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2011</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>Web development</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td><a href="https://vgst.net/">vgs↗</a></td>
+</tr>
+</tbody>
+</table>
+{{% /work-history %}}
 
 
 

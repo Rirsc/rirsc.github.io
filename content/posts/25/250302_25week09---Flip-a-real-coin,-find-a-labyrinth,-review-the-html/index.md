@@ -2,7 +2,7 @@
 title: "25week09 - Flip a real coin, find a labyrinth, review the html"
 date: 2025-03-02
 tags:
-  - weekly
+- weekly
 ---
 
 
@@ -20,14 +20,14 @@ Listening: **La Ola Interior - Spanish Ambient**
 
 <!-- 
 {{< only-desktop >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://lesdisquesbongojoe.bandcamp.com/album/la-ola-interior-spanish-ambient-acid-exoticism-1983-1990">LA OLA INTERIOR Spanish Ambient &amp; Acid Exoticism 1983-1990 by Various Artists</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-desktop >}}
 
 
 {{< only-mobile >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=3275122274/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://lesdisquesbongojoe.bandcamp.com/album/la-ola-interior-spanish-ambient-acid-exoticism-1983-1990">LA OLA INTERIOR Spanish Ambient &amp; Acid Exoticism 1983-1990 by Various Artists</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-mobile >}} -->

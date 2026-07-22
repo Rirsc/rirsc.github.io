@@ -2,9 +2,9 @@
 title: 24week16 - sBach and the LatentScape
 date: 2024-04-21
 tags:
-  - weekly
-  - music
-  - ricrecs
+- weekly
+- music
+- ricrecs
 ---
 
 We went to the exposition **Sound System Culture** at Bethanien. Saw a noisy performance which almost destroyed our ears, but it was worth it.

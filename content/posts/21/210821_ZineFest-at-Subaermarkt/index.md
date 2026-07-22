@@ -2,8 +2,8 @@
 title: "ZineFest at Subaermarkt"
 date: 2023-08-21
 tags:
-  - books
-  - comix
+- books
+- comix
 ---
 
 I visited for the first time this sweet fest at Subaemarkt where artists and illustrators show and sell their gems.

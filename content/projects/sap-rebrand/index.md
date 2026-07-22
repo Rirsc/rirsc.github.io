@@ -5,99 +5,99 @@ heroImage: "/images/projects/samsung/Samsung_TheWall_001.webp"
 ---
 
 
-<div class="project-text">
-        <p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
-        <p>The allure lies in transparency, with the crystalline composition subtly tinted to evoke a play of reflections and refractions.</p>
-    </div>
+{{% project-text %}}
+<p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
+<p>The allure lies in transparency, with the crystalline composition subtly tinted to evoke a play of reflections and refractions.</p>
+{{% /project-text %}}
 
 
 
-<div class="grid-layout">
-    <div class="column column-4 empty"></div>
-    <div class="column column-8">
-    <img src="SAP_Data_006_TK_001.webp">
-    </div>
+{{% grid %}}
+{{< col 4 empty >}}{{< /col >}}
+{{% col 8 %}}
+<img src="SAP_Data_006_TK_001.webp">
+{{% /col %}}
 
 
-<div class="column column-6">
-    <img src="SAP_Data_006_TK_003.webp">
-</div>
-<div class="column column-6 empty"></div>
-
-
-
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-        <img src="SAP_Data_006_TK_002.webp">
-</div>
-<div class="column column-1 empty"></div>
+{{% col 6 %}}
+<img src="SAP_Data_006_TK_003.webp">
+{{% /col %}}
+{{< col 6 empty >}}{{< /col >}}
 
 
 
-
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-    <img src="SAP_Mist_004_TK_001.webp">
-</div>
-<div class="column column-1 empty"></div>
-
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+<img src="SAP_Data_006_TK_002.webp">
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
 
-<div class="column column-2 empty"></div>
-<div class="column column-5">
-    <img src="SAP_Mist_004_TK_004.webp">
-</div>
-<div class="column column-5">    
+
+
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+<img src="SAP_Mist_004_TK_001.webp">
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
+
+
+
+{{< col 2 empty >}}{{< /col >}}
+{{% col 5 %}}
+<img src="SAP_Mist_004_TK_004.webp">
+{{% /col %}}
+{{% col 5 %}}    
 <img src="SAP_Mist_004_TK_003.webp">
-</div>
+{{% /col %}}
 
 
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-    <img src="SAP_Mist_004_TK_002.webp">
-</div>
-<div class="column column-1 empty"></div>
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+<img src="SAP_Mist_004_TK_002.webp">
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
 
-<div class="column column-8">
+{{% col 8 %}}
 {{< video h264="SAP_TeamWork_007_Edit.mp4" muted="true" >}}
-</div>
-<div class="column column-4">
-</div>
+{{% /col %}}
+{{< col 4 >}}{{< /col >}}
 
 
-<div class="column column-1 empty"></div>
-<div class="column column-11">
-    <img src="SAP_TeamWork_002_v002_SF_003_0166.webp">
-</div>
+{{< col 1 empty >}}{{< /col >}}
+{{% col 11 %}}
+<img src="SAP_TeamWork_002_v002_SF_003_0166.webp">
+{{% /col %}}
 
 
 
 
-<div class="column column-6">
-        <img src="SAP_TeamWork_007_0044.webp">
-</div>
-<div class="column column-6">
-    <img src="SAP_TeamWork_002_v010_0207.webp">
-</div>
+{{% col 6 %}}
+<img src="SAP_TeamWork_007_0044.webp">
+{{% /col %}}
+{{% col 6 %}}
+<img src="SAP_TeamWork_002_v010_0207.webp">
+{{% /col %}}
 
 
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-    <img src="SAP_TeamWork_006_0195_CC.webp">
-</div>
-<div class="column column-1 empty"></div>
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+<img src="SAP_TeamWork_006_0195_CC.webp">
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
 
-<div class="column column-2 empty"></div>
-<div class="column column-10">
+{{< col 2 empty >}}{{< /col >}}
+{{% col 10 %}}
 {{< video h264="SAP_TeamWork_002_v010_Edit.mp4" muted="true" class="video-margin" >}}
-</div>
+{{% /col %}}
 
 
-<div class="column column-1 empty"></div>
-<div class="column column-10">
-    <img src="SAP_TeamWork_002_v010_0222.webp">
-</div>
-<div class="column column-1 empty"></div>
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+<img src="SAP_TeamWork_002_v010_0222.webp">
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
 
+{{% /grid %}}

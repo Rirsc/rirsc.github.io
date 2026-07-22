@@ -2,9 +2,9 @@
 title: Buch der tage
 date: 2024-06-12
 tags:
-  - books
-  - music
-  - photo
+- books
+- music
+- photo
 ---
 
 By chance, I discovered the bookshop **langer blomqvist**, which is full of discounted and second-hand books. I bought the gem ***Buch der Tage*, by Patti Smith**. It consists of a daily photo with a small description covering 2018.

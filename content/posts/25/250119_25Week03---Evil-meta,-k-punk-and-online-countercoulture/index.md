@@ -2,7 +2,7 @@
 title: "25Week03 - Evil meta, k-punk and online countercoulture"
 date: 2025-01-19
 tags:
-  - weekly
+- weekly
 ---
 
 After Meta announced that it will allow users call LGTBQ+ people “mentally ill”, now its deleting posts with links to the decentralized competitor Pixelfed. **Siren Servers against humanity, once again.**

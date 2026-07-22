@@ -2,7 +2,7 @@
 title: "Game of life by oimo.io"
 date: 2024-05-26
 tags:
-  - coding
+- coding
 ---
 
 Forever in love with anything related with the [game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)\

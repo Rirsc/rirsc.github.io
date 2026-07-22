@@ -2,7 +2,7 @@
 title: "25week05 - Knowledge distillation and animation recs"
 date: 2025-02-02
 tags:
-  - weekly
+- weekly
 ---
 
 Company A sucked the entire human knowledge without paying a dime to its creators, and built its wealth with it.\
@@ -38,16 +38,16 @@ Listening: **kinoue 64**
 
 <!-- 
 {{< only-desktop >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 700px; height: 230px;" src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://kinoue64.bandcamp.com/album/--33">空間、事情、時間、事象。 by kinoue64</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-desktop >}}
 
 
 
 
 {{< only-mobile >}}
-<div style="display: flex; justify-content: center;">
+{{% flex-center %}}
 <iframe style="border: 0; width: 350px; height: 550px;" src="https://bandcamp.com/EmbeddedPlayer/album=2198154650/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://kinoue64.bandcamp.com/album/--33">空間、事情、時間、事象。 by kinoue64</a></iframe>
-</div>
+{{% /flex-center %}}
 {{< /only-mobile >}} -->

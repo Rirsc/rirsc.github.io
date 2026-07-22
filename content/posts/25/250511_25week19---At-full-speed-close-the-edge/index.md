@@ -2,9 +2,9 @@
 title: "25week19 - At full speed close the edge"
 date: 2025-05-11
 tags:
-  - weekly
-  - fanzine
-  - interview
+- weekly
+- fanzine
+- interview
 ---
 
 ![A Field Guide to Roadside Wildflowers At Full Speed](A_Field_Guide_to_Roadside_Wildflowers_At_Full_Speed_framed.webp)

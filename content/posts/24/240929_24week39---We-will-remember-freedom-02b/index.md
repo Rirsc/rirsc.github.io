@@ -2,7 +2,7 @@
 title: "24week39 - We will remember freedom 02b"
 date: 2024-09-29
 tags:
-  - weekly
+- weekly
 ---
 
 These are definetly a worthy words put together by [Margaret Killjoy](https://en.wikipedia.org/wiki/Margaret_Killjoy) about one of the sweetest, charmest and most brillante humans we had have so far; **Ursuka K. Le Guin**. [We will remember freedom](https://blog.pmpress.org/2019/07/17/we-will-remember-freedom/)

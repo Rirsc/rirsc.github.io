@@ -2,10 +2,10 @@
 title: "25week20 - Jabberwocky correlated"
 date: 2025-05-18
 tags:
-  - weekly
-  - games
-  - maths
-  - poetry
+- weekly
+- games
+- maths
+- poetry
 ---
 The first stanza to what would become [Jabberwocky](https://en.wikipedia.org/wiki/Jabberwocky): Stanza of Anglo-Saxon Poetry:
 

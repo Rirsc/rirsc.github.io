@@ -3,7 +3,7 @@
 
 
 <body class="layout-wide">
-  {{/* <div id="baseContainer"> */}}
+  <div id="baseContainer">
     {{- partial "header.html" . -}}
 
     <div id="contentContainer">
@@ -12,20 +12,17 @@
         <h1>{{ .Title }}</h1>
         <h3>{{ .Params.subtitle }}</h3>
         {{ end }}
-        
       </div>
+
+      <section class="project">
+        <div class="project-content">
+          {{ .Content }}
+        </div>
+      </section> 
+
+      {{- partial "footer.html" . -}}
     </div>
-
-    <section class="project">
-      <div class="project-content">
-        {{ .Content }}
-      </div>
-    </section> 
-
-    
-    
-        {{- partial "footer.html" . -}}
-
+  </div>
 
   {{- partial "plausible.html" . -}}
   {{- partial "umami.html" . -}}

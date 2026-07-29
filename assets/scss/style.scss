@@ -91,6 +91,10 @@ $nav_footer_width: 1200px;
 
 body.layout-wide {
     --layout-width: #{$content_width};
+    
+    footer .footer-inner {
+        max-width: 1200px;
+    }
 }
 
 
@@ -342,7 +346,7 @@ a.unstyledLink {
 
 // In wide project pages, keep the title/subtitle block aligned to navbar/footer width.
 body.layout-wide #contentContainer #content {
-    max-width: var(--narrow-width);
+    max-width: var(--nav-footer-width);
     margin-left: auto;
     margin-right: auto;
     padding-left: $margin;
@@ -376,15 +380,12 @@ body.layout-wide #contentContainer #content {
     width: 100%; /* Ensure it spans the entire width */
     z-index: 1000; /* Make sure it appears above other content */
     padding: 5px 0; /* Adjust padding as needed */
+    // Blur bg (Restored for mobile)
+    background-color: rgba(var(--default_bg), 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(3px);
+    background-blend-mode: overlay;
     
-    // Blur bg
-      background-color: rgba(var(--default_bg), 0.5);
-      backdrop-filter: blur(10px); /* Apply the blur effect */
-      -webkit-backdrop-filter: blur(3px); /* Safari support */
-      background-blend-mode: overlay;
-
-    // Text with effect - For Dark mode
-    //mix-blend-mode: difference;
     // Text with effect - For Light mode
     mix-blend-mode: luminosity;
 
@@ -426,11 +427,12 @@ body.layout-wide #contentContainer #content {
 /* Ensure SVG icons inside the theme toggle are properly centered */
 #theme-toggle, #theme-toggle-icon {
     /* make the toggle a small flex container so the svg centers vertically */
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 1em; /* match font-size so the icon aligns with text */
     line-height: 1;
+    width: 100%;
 }
 #theme-toggle-icon svg {
     display: block; /* remove inline baseline quirks */
@@ -459,20 +461,27 @@ body.layout-wide #contentContainer #content {
 }
 
 .navbar a {
-    //color: var(--default_dim_fg);
     text-decoration: none;
-    margin: $margin;
+    margin: ($margin / 2) $margin;
+    font-size: 0.85em;
 }
 
-.navbar a.active {
-    //color: var(--default_fg);
-    font-weight: bold;
+.navbar-left a {
+    color: var(--default_dim_fg);
+}
+
+#main-nav a {
+    color: var(--default_dim_fg);
+}
+
+.navbar a.active, #main-nav a.active {
+    color: var(--default_fg);
+    /* font-weight removed to avoid jitter */
 }
 
 .navbar a:hover {
     color: var(--default_fg);
     background-color: transparent; 
-    font-weight: bold;
      // background-color: var(--default_bg); 
 }
 
@@ -494,6 +503,109 @@ body.layout-wide #contentContainer #content {
 
 
 
+
+/* Desktop Lateral Menu Additions */
+@media (min-width: 1024px) {
+    .navbar {
+        width: 250px;
+        height: 100vh;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 24px;
+        /* border-right removed as requested */
+        
+        /* Remove blur for desktop */
+        background-color: var(--default_bg);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background-blend-mode: normal;
+        mix-blend-mode: normal;
+    }
+    
+    .navbar-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .navbar-left {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px; /* Space between title and nav */
+        
+        a {
+            padding-left: 0;
+        }
+    }
+    
+    .navbar-right {
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    #main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    #main-nav > li {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navbar a {
+        display: block;
+        margin: 2px 0;
+        font-size: 0.8em; /* Reduced base size and tighter vertical margins */
+    }
+
+    #contentContainer {
+        margin-left: 250px;
+        width: calc(100% - 250px);
+    }
+    
+    /* Layout-wide pages should center naturally inside #contentContainer just like blog pages */
+}
+
+@media (max-width: 1023px) {
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .mobile-only {
+        display: none !important;
+    }
+    
+    .sub-nav {
+        list-style-type: decimal;
+        padding-left: 12px; /* Reduced indentation */
+        margin-top: 2px;
+        margin-bottom: 6px;
+        width: 100%;
+    }
+    
+    .sub-nav li {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .sub-nav li a {
+        margin: 0;
+        color: var(--default_dim_fg);
+        font-weight: normal;
+        text-decoration: none;
+        display: inline;
+    }
+    .sub-nav li a:hover {
+        color: var(--default_fg);
+    }
+}
 
 footer {
     color: var(--default_dim_fg);
@@ -1775,11 +1887,16 @@ video {
 
 //Ric added. Projects styles
 .project {
-    max-width: 1568px;
+    max-width: 1200px;
     margin: 0 auto;
     display: block;
     // SO THIS IS WHERE THE PROBLEM IS RIRSC. MAYBE ONLY ON MOBILE?
     //padding: 0 $margin; 
+}
+
+.project .project-content {
+    padding-left: $margin;
+    padding-right: $margin;
 }
 
 /* Constrain project text to the site's narrow width */

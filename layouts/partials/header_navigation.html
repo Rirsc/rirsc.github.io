@@ -5,19 +5,50 @@
 
     <div class="navbar-wrapper">
         <div class="navbar-left">
-                <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">RIRSC</a>
+                <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}" style="margin-bottom: 12px; display: inline-block;">RIRSC</a>
+                <div class="desktop-only" style="color: var(--default_dim_fg); font-size: 0.8em; line-height: 1.4; font-style: italic; margin-top: 4px; white-space: nowrap;">
+                    Ricardo López Cabañero<br/>
+                    Industrial Design Engineer<br/>
+                    Visual / 3D / UI / UX / Motion
+                </div>
         </div>
         <div class="navbar-right">
             <ul id="main-nav">
+                <li class="mobile-only"><a href="/pages/works" class="{{ if eq $.RelPermalink "/pages/works/" }}active{{ end }}">WORK</a></li>
+                <li class="mobile-only"><a href="/projects/lab" class="{{ if eq $.RelPermalink "/projects/lab/" }}active{{ end }}">LAB</a></li>
+                <li class="mobile-only"><a href="/pages/etc" class="{{ if eq $.RelPermalink "/pages/etc/" }}active{{ end }}">ETC</a></li>
+                <li class="mobile-only"><a href="/pages/info" class="{{ if eq $.RelPermalink "/pages/info/" }}active{{ end }}">INFO</a></li>
+                
+                <li class="desktop-only"><a href="/" class="{{ if eq $.RelPermalink "/" }}active{{ end }}">BLOG</a></li>
+                <li class="desktop-only">
+                    <a href="/pages/works" class="{{ if eq $.RelPermalink "/pages/works/" }}active{{ end }}">WORKS</a>
+                    <ol class="sub-nav">
+                        <li><a href="/projects/ml-brand-guidelines" class="{{ if eq $.RelPermalink "/projects/ml-brand-guidelines/" }}active{{ end }}">ML Brand Guidelines</a></li>
+                        <li><a href="/projects/xiaomi-ks3k11r" class="{{ if eq $.RelPermalink "/projects/xiaomi-ks3k11r/" }}active{{ end }}">Xiaomi KS3 & K11R</a></li>
+                        <li><a href="/projects/samsung-thewall" class="{{ if eq $.RelPermalink "/projects/samsung-thewall/" }}active{{ end }}">Samsung The Wall</a></li>
+                        <li><a href="https://onformative.com/work/samsung-sero/" class="{{ if eq $.RelPermalink "https://onformative.com/work/samsung-sero/" }}active{{ end }}">Samsung Sero &#8599;</a></li>
+                        <li><a href="/projects/sap-rebrand" class="{{ if eq $.RelPermalink "/projects/sap-rebrand/" }}active{{ end }}">Re:Brand</a></li>
+                        <li><a href="/projects/oneplus-8t" class="{{ if eq $.RelPermalink "/projects/oneplus-8t/" }}active{{ end }}">Live Wallpaper</a></li>
+                        <li><a href="/projects/diageo" class="{{ if eq $.RelPermalink "/projects/diageo/" }}active{{ end }}">Lqd Crystllzd</a></li>
+                        <li><a href="/projects/negroni" class="{{ if eq $.RelPermalink "/projects/negroni/" }}active{{ end }}">Blissheer</a></li>
+                        <li><a href="/projects/quiet-orography" class="{{ if eq $.RelPermalink "/projects/quiet-orography/" }}active{{ end }}">Quiet Orography</a></li>
+                        <li><a href="/projects/promotional-video" class="{{ if eq $.RelPermalink "/projects/promotional-video/" }}active{{ end }}">Promotional Video</a></li>
+                        <li><a href="/projects/omada" class="{{ if eq $.RelPermalink "/projects/omada/" }}active{{ end }}">Omada</a></li>
+                    </ol>
+                </li>
+                <li class="desktop-only">
+                    <a style="pointer-events: none; cursor: default;" class="{{ if eq $.RelPermalink "/pages/etc/" }}active{{ end }}">ETC</a>
+                    <ol class="sub-nav">
+                        <li><a href="/quotes" class="{{ if eq $.RelPermalink "/quotes/" }}active{{ end }}">Quotes</a></li>
+                        <li><a href="/posts/23/231129_ai-image-generators/" class="{{ if eq $.RelPermalink "/posts/23/231129_ai-image-generators/" }}active{{ end }}">AI Generators</a></li>
+                        <li><a href="/pages/etc/digital-love" class="{{ if eq $.RelPermalink "/pages/etc/digital-love/" }}active{{ end }}">Digital Love</a></li>
+                        <li><a href="/pages/etc/gigs" class="{{ if eq $.RelPermalink "/pages/etc/gigs/" }}active{{ end }}">Gigs</a></li>
+                    </ol>
+                </li>
+                <li class="desktop-only"><a href="/projects/lab" class="{{ if eq $.RelPermalink "/projects/lab/" }}active{{ end }}">LAB</a></li>
+                <li class="desktop-only"><a href="/pages/info" class="{{ if eq $.RelPermalink "/pages/info/" }}active{{ end }}">INFO</a></li>
                 <li>
-                    <a href="/pages/works" class="{{ if eq $.RelPermalink "/pages/works/" }}active{{ end }}">WORK</a>
-                    <a href="/projects/lab" class="{{ if eq $.RelPermalink "/projects/lab/" }}active{{ end }}">LAB</a>
-                    <a href="/pages/etc" class="{{ if eq $.RelPermalink "/pages/etc/" }}active{{ end }}">ETC</a>
-                    <a href="/pages/info" class="{{ if eq $.RelPermalink "/pages/info/" }}active{{ end }}">INFO</a>         
-                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">
-                          ✸
-                    </a> 
-                  
+                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">✸</a> 
                 </li>
             </ul>
         </div>

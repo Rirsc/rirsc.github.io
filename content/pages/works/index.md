@@ -9,17 +9,17 @@ type: "works"
 
 <style>
 .grid-layout h5 {
-margin-top: 10px;
+/* margin-top: 10px; */
 }
 /* For links inside the grid layout */
 .grid-layout a {
-text-decoration: none; 
+text-decoration: none;
 color: var(--default_fg); /* Use the default foreground color */
 }
 
 .grid-layout a:hover, .grid-layout a:focus, .grid-layout a:active {
 color: var(--default_fg);
-background-color: transparent; 
+background-color: transparent;
 }
 
 .grid-layout img {
@@ -30,6 +30,7 @@ display: block;
 
 {{% grid %}}
 
+
 {{% col 6 %}}
 {{< separator >}}
 <a href="/projects/xiaomi-ks3k11r"><img src="XIA_05_Square.webp" alt="XIA 5"><h5 style="text-align: right;">Xiaomi KS3 & K11R</h5></a>
@@ -38,9 +39,9 @@ display: block;
 {{< col  empty >}}{{< /col >}}
 
 {{% col 5 %}}
-{{< separator-small >}}
+<!-- <a href="/projects/ml-brand-guidelines"> -->
 <img src="ML_Optics_Stack_Bottom_Collapsed_Meteorite-80.png" alt="Magic Leap">
-<h5 style="text-align: right; color: lightgray;">Magic Leap (Soon)</h5>
+<h5 style="text-align: right;">Magic Leap Branding</h5>
 {{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
@@ -55,8 +56,8 @@ display: block;
 
 {{% col 12 empty %}}{{< separator >}}{{% /col %}}
 
-{{< col 7 empty >}}{{< /col >}}
-{{% col 5 %}}
+{{< col 5 empty >}}{{< /col >}}
+{{% col 7 %}}
 <a href="https://onformative.com/work/samsung-sero/" target="_blank">
 <img src="samsung_sero_hero.webp" alt="Samsung Sero">
 <h5 style="text-align: right;">Samsung Sero</h5></a>

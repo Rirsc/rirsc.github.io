@@ -5,7 +5,9 @@
 
     <div class="navbar-wrapper">
         <div class="navbar-left">
-                <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}" style="margin-bottom: 12px; display: inline-block;">RIRSC</a>
+                <h1 style="margin: 0; padding: 0; margin-bottom: 12px; line-height: 1;">
+                    <a href="/" class="rirsc-logo {{ if eq .RelPermalink "/" }}active{{ end }}" style="display: inline-block;">RIRSC</a>
+                </h1>
                 <div class="desktop-only" style="color: var(--default_dim_fg); font-size: 0.8em; line-height: 1.4; font-style: italic; margin-top: 4px; white-space: nowrap;">
                     Ricardo López Cabañero<br/>
                     Industrial Design Engineer<br/>
@@ -21,9 +23,9 @@
                 
                 <li class="desktop-only"><a href="/" class="{{ if eq $.RelPermalink "/" }}active{{ end }}">BLOG</a></li>
                 <li class="desktop-only">
-                    <a href="/pages/works" class="{{ if eq $.RelPermalink "/pages/works/" }}active{{ end }}">WORKS</a>
+                    <a href="/pages/works" class="{{ if eq $.RelPermalink "/pages/works/" }}active{{ end }}">WORK</a>
                     <ol class="sub-nav">
-                        <li><a href="/projects/ml-brand-guidelines" class="{{ if eq $.RelPermalink "/projects/ml-brand-guidelines/" }}active{{ end }}">ML Brand Guidelines</a></li>
+                        <!-- <li><a href="/projects/ml-brand-guidelines" class="{{ if eq $.RelPermalink "/projects/ml-brand-guidelines/" }}active{{ end }}">ML Brand Guidelines</a></li> -->
                         <li><a href="/projects/xiaomi-ks3k11r" class="{{ if eq $.RelPermalink "/projects/xiaomi-ks3k11r/" }}active{{ end }}">Xiaomi KS3 & K11R</a></li>
                         <li><a href="/projects/samsung-thewall" class="{{ if eq $.RelPermalink "/projects/samsung-thewall/" }}active{{ end }}">Samsung The Wall</a></li>
                         <li><a href="https://onformative.com/work/samsung-sero/" class="{{ if eq $.RelPermalink "https://onformative.com/work/samsung-sero/" }}active{{ end }}">Samsung Sero &#8599;</a></li>

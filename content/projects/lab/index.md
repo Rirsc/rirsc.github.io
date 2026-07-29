@@ -8,16 +8,17 @@ layout: project
 
 
 {{% grid %}}
-
+{{< col 3 empty >}}{{< /col >}}
 {{% col 4 %}}
 {{< separator >}}
-<img src="Crayon Sketch_Square_260531140310.webp" alt="Crayon Sketch">
+<img src="Crayon Sketch_Square_260531140354.webp" alt="Crayon Sketch">
 {{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
+{{< col 1 empty >}}{{< /col >}}
 {{% col 4 %}}
-<img src="Crayon Sketch_Square_260531140326.webp" alt="Crayon Sketch">
+<img src="Crayon Sketch_Square_260531140411.webp" alt="Crayon Sketch">
 {{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
+{{< col 1 empty >}}{{< /col >}}
+
 
 
 
@@ -32,17 +33,17 @@ layout: project
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
-{{< col 3 empty >}}{{< /col >}}
+
+
 {{% col 4 %}}
 {{< separator >}}
-<img src="Crayon Sketch_Square_260531140354.webp" alt="Crayon Sketch">
+<img src="Crayon Sketch_Square_260531140310.webp" alt="Crayon Sketch">
 {{% /col %}}
-{{< col 1 empty >}}{{< /col >}}
+{{< col 2 empty >}}{{< /col >}}
 {{% col 4 %}}
-<img src="Crayon Sketch_Square_260531140411.webp" alt="Crayon Sketch">
+<img src="Crayon Sketch_Square_260531140326.webp" alt="Crayon Sketch">
 {{% /col %}}
-{{< col 1 empty >}}{{< /col >}}
-
+{{< col 2 empty >}}{{< /col >}}
 
 
 

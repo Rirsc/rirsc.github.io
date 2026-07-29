@@ -237,6 +237,8 @@ body {
 
 #contentContainer {
     flex: 1 0 auto;
+    /* Ric added: default padding-top to clear the horizontal fixed .navbar on mobile */
+    padding-top: 80px;
 }
 
 p {
@@ -341,7 +343,7 @@ a.unstyledLink {
 
 #content {
     @include limitWidth;
-    padding: $margin;
+    padding: 0 $margin $margin $margin; /* Removed top padding to rely purely on #contentContainer for vertical alignment */
 }
 
 // In wide project pages, keep the title/subtitle block aligned to navbar/footer width.
@@ -358,8 +360,25 @@ body.layout-wide #contentContainer #content {
 
 // Ric Increase top margin on desktop
 @media (min-width: 1024px) {
+    #contentContainer {
+        padding-top: 40px; /* Aligned exactly with the 40px padding of the sidebar .navbar */
+    }
+    
     #content {
-        margin-top: $margin * 3;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    #content:empty {
+        display: none; /* Prevent empty content blocks from adding unwanted padding/margins */
+    }
+    
+    #content > *:first-child,
+    #content main > *:first-child,
+    #content .card > *:first-child,
+    .project-content > *:first-child,
+    .project-content > .grid-layout > *:first-child {
+        margin-top: 0 !important;
     }
 }
 
@@ -881,12 +900,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-h1 {font-size: 2 * $base_font_size * $title_font_mult; line-height: 1; }
-h2 {font-size: 1.8 * $base_font_size * $title_font_mult;  margin-top: $margin * 5; line-height: 1;  }
-h3 {font-size: 1.5 * $base_font_size * $title_font_mult;  margin-top: $margin * 3;  }
-h4 {font-size: 1.3 * $base_font_size * $title_font_mult; color: var(--default_dim_fg);}
+h1 {font-size: 1.5 * $base_font_size * $title_font_mult; line-height: 1; }
+h2 {font-size: 1.4 * $base_font_size * $title_font_mult;  margin-top: $margin * 5; line-height: 1;  }
+h3 {font-size: 1.3 * $base_font_size * $title_font_mult;  margin-top: $margin * 3;  }
+h4 {font-size: 1.2 * $base_font_size * $title_font_mult; color: var(--default_dim_fg);}
 h5 {font-size: 1.1 * $base_font_size * $title_font_mult;}
-h6 {font-size: 1 * $base_font_size * $title_font_mult;}
+h6 {font-size: 1.0 * $base_font_size * $title_font_mult;}
 
 
 @media (max-width: 769px) {
@@ -1211,8 +1230,14 @@ nav:not(#TableOfContents), #links {
 
 
 header {
-    @include limitWidth;
-    padding: $margin * 2;
+    /* @include limitWidth; */
+    /* padding: $margin * 2; */
+    /* Completely remove header from document flow to prevent pushing #contentContainer down by 48px, since .navbar is fixed */
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
     //margin-bottom: $margin;
     // Ric added. Alternative to only extend menu to 1568px, dont like it
    // width: 100%; // Ensure the header takes up the full width of the viewport.
@@ -2198,3 +2223,77 @@ video {
  .color-5 { border-color: var(--quote-6);   }
  .color-6 { border-color: var(--quote-7);   }
  .color-7 { border-color: var(--quote-8);   }    
+
+/* Project Header Distribution */
+@media (min-width: 769px) {
+    body.layout-wide .project-content {
+        display: grid;
+        grid-template-columns: 
+            minmax(0, 1fr) 
+            minmax(auto, 280px) 
+            minmax(auto, var(--narrow-width)) 
+            minmax(0, 1fr);
+        column-gap: $margin * 2;
+    }
+    body.layout-wide .project-content > * {
+        grid-column: 1 / -1;
+    }
+    body.layout-wide .project-content > .project-title-col {
+        grid-column: 2 / 3;
+    }
+    body.layout-wide .project-content > .project-text {
+        grid-column: 3 / 4;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0;
+    }
+    body.layout-wide .project-content > .project-credits {
+        grid-column: 1 / -1;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body.layout-wide .project-content > .project-title-col > *:first-child,
+    body.layout-wide .project-content > .project-text:nth-child(2) > *:first-child {
+        margin-top: 0 !important;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .navbar .navbar-left h1 {
+        font-size: 1rem !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+
+@media (min-width: 770px) {
+    a.rirsc-logo {
+        pointer-events: none;
+        cursor: default;
+    }
+}
+
+
+/* Tighter vertical spacing for sidebar menu */
+nav:not(#TableOfContents) ul li {
+    margin: 0 !important; /* Decrease from 2px */
+    line-height: 1.2;
+}
+.sub-nav {
+    margin-top: 0 !important;
+    margin-bottom: 3px !important;
+}
+
+
+/* Force RIRSC logo to always be the primary color */
+a.rirsc-logo {
+    color: var(--default_dim_fg) !important;
+}
+

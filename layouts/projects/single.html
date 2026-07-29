@@ -7,15 +7,14 @@
     {{- partial "header.html" . -}}
 
     <div id="contentContainer">
-      <div id="content">
-        {{ if and (ne .File.BaseFileName "lab") (ne (.Params.showtitle | default true) false) }} <!-- If the file name is not 'lab.md' or showtitle is not false -->
-        <h1>{{ .Title }}</h1>
-        <h3>{{ .Params.subtitle }}</h3>
-        {{ end }}
-      </div>
-
       <section class="project">
         <div class="project-content">
+          <div class="project-title-col">
+            {{ if and (ne .File.BaseFileName "lab") (ne (.Params.showtitle | default true) false) }} <!-- If the file name is not 'lab.md' or showtitle is not false -->
+            <h1>{{ .Title }}</h1>
+            <h5>{{ .Params.subtitle }}</h5>
+            {{ end }}
+          </div>
           {{ .Content }}
         </div>
       </section> 

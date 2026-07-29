@@ -38,14 +38,19 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
 <table class="desktop-view">
 <thead>
 <tr>
-<th>Years</th>
-<th>Role</th>
-<th>Employer</th>
+<th style="width: 25%;">Years</th>
+<th style="width: 30%;">Role</th>
+<th style="width: 45%;">Employer</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2022–2026</td>
+<td>2025–Present</td>
+<td>Senior Designer</td>
+<td><a href="https://arvr.google.com/">Google through Magic Leap↗</a></td>
+</tr>
+<tr>
+<td>2022–2024</td>
 <td>Senior Designer</td>
 <td><a href="https://www.magicleap.com/">Magic Leap↗</a></td>
 </tr>
@@ -87,7 +92,23 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
 <tbody class="entry">
 <tr>
 <th>Years</th>
-<td>2022–2026</td>
+<td>2025–Present</td>
+</tr>
+<tr>
+<th>Role</th>
+<td>Senior Designer</td>
+</tr>
+<tr>
+<th>Employer</th>
+<td><a href="https://arvr.google.com/">Google through Magic Leap↗</a></td>
+</tr>
+</tbody>
+</table>
+<table class="mobile-view">
+<tbody class="entry">
+<tr>
+<th>Years</th>
+<td>2022–2024</td>
 </tr>
 <tr>
 <th>Role</th>

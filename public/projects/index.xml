@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
   <channel>
     <title>Projects on rirsc</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://rirsc.github.io/projects/</link>
     <description>Recent content in Projects on rirsc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Ricardo López</copyright><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/icons/risc_logo.svg</icon>
+    <copyright>Ricardo López</copyright><atom:link href="https://rirsc.github.io/projects/index.xml" rel="self" type="application/rss+xml" /><icon>https://rirsc.github.io/icons/risc_logo.svg</icon>
     
     
     <item>
       <title>Blissheer</title>
-      <link>http://localhost:1313/projects/negroni/</link>
+      <link>https://rirsc.github.io/projects/negroni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/negroni/</guid>
+      <guid>https://rirsc.github.io/projects/negroni/</guid>
       <description><![CDATA[<div class="project-text">
 <p>These remnants offer a glimpse into a project that took a turn, capturing a brief exploration. As the creative journey unfolded, the project underwent a transformation, diverging from its original path.   </p>
 <p>With a touch of whimsy, these leftovers find themselves here.</p>
@@ -99,33 +99,11 @@
     
     <item>
       <title>Lab</title>
-      <link>http://localhost:1313/projects/lab/</link>
+      <link>https://rirsc.github.io/projects/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/lab/</guid>
+      <guid>https://rirsc.github.io/projects/lab/</guid>
       <description><![CDATA[<div class="grid-layout">
-<div class="column column-4">
-<div class="separator"></div>
-<img src="Crayon Sketch_Square_260531140310.webp" alt="Crayon Sketch">
-</div>
-<div class="column column-2 empty">
-</div>
-<div class="column column-4">
-<img src="Crayon Sketch_Square_260531140326.webp" alt="Crayon Sketch">
-</div>
-<div class="column column-2 empty">
-</div>
-<div class="column column-4 empty">
-</div>
-<div class="column column-4">
-<div class="separator"></div>
-<img src="Crayon Sketch_260531140452.webp" alt="Crayon Sketch">
-</div>
-<div class="column column-4 empty">
-</div>
-<div class="column column-12">
-<div class="separator"></div>
-</div>
 <div class="column column-3 empty">
 </div>
 <div class="column column-4">
@@ -138,6 +116,28 @@
 <img src="Crayon Sketch_Square_260531140411.webp" alt="Crayon Sketch">
 </div>
 <div class="column column-1 empty">
+</div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-4">
+<div class="separator"></div>
+<img src="Crayon Sketch_260531140452.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-4 empty">
+</div>
+<div class="column column-12">
+<div class="separator"></div>
+</div>
+<div class="column column-4">
+<div class="separator"></div>
+<img src="Crayon Sketch_Square_260531140310.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-4">
+<img src="Crayon Sketch_Square_260531140326.webp" alt="Crayon Sketch">
+</div>
+<div class="column column-2 empty">
 </div>
 <div class="column column-12">
 <div class="separator"></div>
@@ -535,10 +535,10 @@
     
     <item>
       <title>Live Wallpaper</title>
-      <link>http://localhost:1313/projects/oneplus-8t/</link>
+      <link>https://rirsc.github.io/projects/oneplus-8t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/oneplus-8t/</guid>
+      <guid>https://rirsc.github.io/projects/oneplus-8t/</guid>
       <description><![CDATA[<div class="project-text">
 <p>During a preliminary exploration phase in early 2020, a series of abstract 3D shapes were meticulously crafted as part of a research endeavor for a Live Wallpaper project.</p>
 <p>These investigations delved into the interplay of gradients and vibrant colors, incorporating subtle hints of refractions to enhance the visual depth and allure of the designs.</p>
@@ -669,10 +669,10 @@
     
     <item>
       <title>Lqd | Crystllzd</title>
-      <link>http://localhost:1313/projects/diageo/</link>
+      <link>https://rirsc.github.io/projects/diageo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/diageo/</guid>
+      <guid>https://rirsc.github.io/projects/diageo/</guid>
       <description><![CDATA[<div class="project-text">
 <p>Proposal to define a visual language for a beverage brand, accentuating the dynamic interplay between liquid and crystallized forms to vividly depict the transformative essence of matter.</p>
 </div>
@@ -785,17 +785,190 @@
     
     
     <item>
-      <title>Omada</title>
-      <link>http://localhost:1313/projects/omada/</link>
+      <title>Magic Leap Brand Guidelines</title>
+      <link>https://rirsc.github.io/projects/ml-brand-guidelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/omada/</guid>
+      <guid>https://rirsc.github.io/projects/ml-brand-guidelines/</guid>
+      <description><![CDATA[<div class="project-text">
+<p>During a preliminary exploration phase in early 2020, a series of abstract 3D shapes were meticulously crafted as part of a research endeavor for a Live Wallpaper project.</p>
+<p>These investigations delved into the interplay of gradients and vibrant colors, incorporating subtle hints of refractions to enhance the visual depth and allure of the designs.</p>
+</div>
+<div class="grid-layout">
+<div class="column column-12">
+<div class="project-credits">
+<h2>LOGO</h2>
+</div>
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-4">
+<img src="Logo 1.webp">
+</div>
+<div class="column column-4">
+<img src="Logo 2.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-12">
+<div class="project-credits">
+<h2>TYPOGRAPHY</h2>
+</div>
+</div>
+<div class="column column-4">
+<img src="Typography 2.webp">
+</div>
+<div class="column column-4">
+<img src="Typography 3.webp">
+</div>
+<div class="column column-4">
+<img src="Typography 4.webp">
+</div>
+<div class="column column-12">
+<div class="project-credits">
+<h2>ICONOGRAPHY</h2>
+</div>
+</div>
+<div class="column column-6">
+<img src="Iconography 1.webp">
+</div>
+<div class="column column-6">
+<img src="Iconography 4.webp">
+</div>
+<div class="column column-6">
+<img src="Iconography 3.webp">
+</div>
+<div class="column column-6">
+<img src="Iconography 5.webp">
+</div>
+<div class="column column-12">
+<div class="project-credits">
+<h2>COLOR</h2>
+</div>
+</div>
+<div class="column column-6">
+<img src="Color 1.webp">
+</div>
+<div class="column column-6">
+<img src="Color 4.webp">
+</div>
+<div class="column column-6">
+<img src="Color 3.webp">
+</div>
+<div class="column column-6">
+<img src="Color 2.webp">
+</div>
+<div class="column column-12">
+<div class="project-credits">
+<h2>INFORMATION DESIGN</h2>
+</div>
+</div>
+<div class="column column-6">
+<img src="Information Design 2.webp">
+</div>
+<div class="column column-6">
+<img src="Information Design 3.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Information Design 1.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-12">
+<div class="project-credits">
+<h2>ILLUSTRATION</h2>
+</div>
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Illustration 3.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Illustration 4.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Illustration 5.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-1 empty">
+</div>
+<div class="column column-10">
+<img src="Illustration 6.webp">
+</div>
+<div class="column column-1 empty">
+</div>
+<div class="column column-12">
+<div class="project-credits">
+<h2>BUILT ENVIRONMENTS</h2>
+</div>
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Built Environments 1.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Built Environments 2.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-2 empty">
+</div>
+<div class="column column-8">
+<img src="Built Environments 3.webp">
+</div>
+<div class="column column-2 empty">
+</div>
+</div>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Omada</title>
+      <link>https://rirsc.github.io/projects/omada/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rirsc.github.io/projects/omada/</guid>
       <description><![CDATA[<div class="project-text">
 <p>I was part of the 3D team in charge of the developtment of the <a href="https://play.google.com/store/apps/details?id=com.healthcoda.physera&hl=de&pli=1">Joint & Muscle Health App</a> with guided exercises to reduce user pains. Mainly doing animations, a bit of rigging and a lot of back and forth at it early stages for correct implementation within ViroReact platform. Available now on the Apple Store and Google Play.</p>
 </div>
 <div class="grid-layout">
-<div class="column column-12">
-<img src="Physera-header_001.webp">
+<div class="column column-2">
+<img src="omada app.webp">
+</div>
+<div class="column column-2">
+<img src="omada app 2.webp">
+</div>
+<div class="column column-2">
+<img src="omada app 3.webp">
+</div>
+<div class="column column-2">
+<img src="omada app 4.webp">
+</div>
+<div class="column column-2">
+<img src="omada app 5.webp">
+</div>
+<div class="column column-2">
+<img src="omada app 6.webp">
 </div>
 <div class="column column-4">
 <img src="Physera_Male_09_Row_purple.gif">
@@ -842,10 +1015,10 @@
     
     <item>
       <title>Promotional Video</title>
-      <link>http://localhost:1313/projects/promotional-video/</link>
+      <link>https://rirsc.github.io/projects/promotional-video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/promotional-video/</guid>
+      <guid>https://rirsc.github.io/projects/promotional-video/</guid>
       <description><![CDATA[<div class="project-text">
 <p>Polygonal Mind entrusted me with the creation of an Introductory Motion Graphics Course to augment their 3D programs. As the architect of this course, I curated a concise film that encapsulated the core lessons and exercises students will delve into under my guidance.</p>
 <p>This video offers a sneak peek into the well-rounded learning journey I crafted for a fulfilling educational experience.</p>
@@ -895,10 +1068,10 @@
     
     <item>
       <title>Quiet Orography</title>
-      <link>http://localhost:1313/projects/quiet-orography/</link>
+      <link>https://rirsc.github.io/projects/quiet-orography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/quiet-orography/</guid>
+      <guid>https://rirsc.github.io/projects/quiet-orography/</guid>
       <description><![CDATA[<div class="project-text">
 <p>How it would look without all the noise? An experiment in embracing simplicity over excitement and resisting the urge for instant gratification.</p>
 <p>Navigating the unknown, daring to wander without a clear purpose, and allowing ourselves to momentarily let go of any expectations. In these moments of quiet reflection, we discover the value of being present, unburdened by the noise of the outside world (for a while).</p>
@@ -955,10 +1128,10 @@
     
     <item>
       <title>RE: Brand</title>
-      <link>http://localhost:1313/projects/sap-rebrand/</link>
+      <link>https://rirsc.github.io/projects/sap-rebrand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/sap-rebrand/</guid>
+      <guid>https://rirsc.github.io/projects/sap-rebrand/</guid>
       <description><![CDATA[<div class="project-text">
 <p>Rebrand concept through a series of captivating frames and animations. A singular core shape unfolds, generating intricate modules as it seamlessly combines with others.</p>
 <p>The allure lies in transparency, with the crystalline composition subtly tinted to evoke a play of reflections and refractions.</p>
@@ -1055,10 +1228,10 @@
     
     <item>
       <title>Samsung</title>
-      <link>http://localhost:1313/projects/samsung-thewall/</link>
+      <link>https://rirsc.github.io/projects/samsung-thewall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/samsung-thewall/</guid>
+      <guid>https://rirsc.github.io/projects/samsung-thewall/</guid>
       <description><![CDATA[<div class="project-text">
 <p>In 2019 onformative was commissioned to develop another collection of exclusive digital real-time artworks for Samsung’s latest TV lineup.
 As a contrast and complementation mutually, the content for the ‘ambient mode’ focuses on kinetic concepts to bring a dynamic dimension to the room.</p>
@@ -1151,10 +1324,10 @@ As a contrast and complementation mutually, the content for the ‘ambient mode�
     
     <item>
       <title>Xiaomi</title>
-      <link>http://localhost:1313/projects/xiaomi-ks3k11r/</link>
+      <link>https://rirsc.github.io/projects/xiaomi-ks3k11r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/xiaomi-ks3k11r/</guid>
+      <guid>https://rirsc.github.io/projects/xiaomi-ks3k11r/</guid>
       <description><![CDATA[<div class="project-text">
 <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi's cutting-edge 11T/Pro phone series.</p>
 <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi's flagship devices.</p>

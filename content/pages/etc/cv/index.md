@@ -28,6 +28,11 @@ vertical-align: top; /* Optional: adjust based on content */
 <table>
 <tr>
 <td style="border: none;">Senior Designer </td>
+<td style="border: none;">&nbsp;&nbsp;&nbsp;<a href="https://arvr.google.com/">Google through Magic Leap↗</a></td>
+<td style="border: none;">&nbsp;&nbsp;25-Present</td>
+</tr>
+<tr>
+<td style="border: none;">Senior Designer </td>
 <td style="border: none;">&nbsp;&nbsp;&nbsp;<a href="https://www.magicleap.com/">Magic Leap↗</a></td>
 <td style="border: none;">&nbsp;&nbsp;22-24</td>
 </tr>

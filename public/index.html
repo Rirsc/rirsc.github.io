@@ -9,8 +9,8 @@
 
     
         
-          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="rirsc" />
-          <link href="http://localhost:1313/index.xml" rel="feed" type="application/rss+xml" title="rirsc" />
+          <link href="http://192.168.178.34:1313/index.xml" rel="alternate" type="application/rss+xml" title="rirsc" />
+          <link href="http://192.168.178.34:1313/index.xml" rel="feed" type="application/rss+xml" title="rirsc" />
         
     <link
     rel="icon"
@@ -43,7 +43,7 @@
 
     
     
-    <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/styles.e68d1b026234a9dd4864eef63117ea3c3c73ef51fc93a5fe22d888d5d6fa5708dc5bc9788aae69c5ff4735a039bfbc82b149e2f8ad94431e37f80f67c1ece2b1.css" integrity="sha512-5o0bAmI0qd1IZO72MRfqPDxz71H8k6X&#43;ItiI1db6VwjcW8l4iq5pxf9HNaA5v7yCsUni&#43;K2UQx43&#43;A9nwezisQ==" /><script src="/js/theme-toggle.js?v=1784737366"></script>
+    <link type="text/css" rel="stylesheet" href="http://192.168.178.34:1313/css/styles.1af07723d4d45c56c11113756767391f1ec1e90e65ffa87161af2a20d46ad2c6a2debbdd979fa2c743cf948f6f8e4838f77e1b4870ffb4d91486153ebb2ff1eb.css" integrity="sha512-GvB3I9TUXFbBERN1Z2c5Hx7B6Q5l/6hxYa8qINRq0sai3rvdl5&#43;ix0PPlI9vjkg4934bSHD/tNkUhhU&#43;uy/x6w==" /><script src="/js/theme-toggle.js?v=1785366363"></script>
 <meta name="author" content="Ricardo López" />
 
     
@@ -60,13 +60,13 @@
     
     <meta property="og:type" content="blog" />
     <meta property="og:image"
-        content='http://localhost:1313/icons/rirsc_chrome_512.png' />
+        content='http://192.168.178.34:1313/icons/rirsc_chrome_512.png' />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:domain"
-      content='localhost:1313'
+      content='192.168.178.34:1313'
 />
-<meta property="twitter:url" content="http://localhost:1313/" />
+<meta property="twitter:url" content="http://192.168.178.34:1313/" />
 
 
     <meta name="twitter:title"
@@ -75,7 +75,7 @@
         <meta name="twitter:description" content="Ricardo López&#39;s blog about 3d and personal stuff" />
     
     <meta name="twitter:image"
-        content='http://localhost:1313/icons/rirsc_chrome_512.png' />
+        content='http://192.168.178.34:1313/icons/rirsc_chrome_512.png' />
 
 <link rel="manifest" href="/manifest/index.json" />
 </head>
@@ -94,19 +94,52 @@
 
     <div class="navbar-wrapper">
         <div class="navbar-left">
-                <a href="/" class="active">RIRSC</a>
+                <h1 style="margin: 0; padding: 0; margin-bottom: 12px; line-height: 1;">
+                    <a href="/" class="rirsc-logo active" style="display: inline-block;">RIRSC</a>
+                </h1>
+                <div class="desktop-only" style="color: var(--default_dim_fg); font-size: 0.8em; line-height: 1.4; font-style: italic; margin-top: 4px; white-space: nowrap;">
+                    Ricardo López Cabañero<br/>
+                    Industrial Design Engineer<br/>
+                    Visual / 3D / UI / UX / Motion
+                </div>
         </div>
         <div class="navbar-right">
             <ul id="main-nav">
-                <li>
+                <li class="mobile-only"><a href="/pages/works" class="">WORK</a></li>
+                <li class="mobile-only"><a href="/projects/lab" class="">LAB</a></li>
+                <li class="mobile-only"><a href="/pages/etc" class="">ETC</a></li>
+                <li class="mobile-only"><a href="/pages/info" class="">INFO</a></li>
+                
+                <li class="desktop-only"><a href="/" class="active">BLOG</a></li>
+                <li class="desktop-only">
                     <a href="/pages/works" class="">WORK</a>
-                    <a href="/projects/lab" class="">LAB</a>
-                    <a href="/pages/etc" class="">ETC</a>
-                    <a href="/pages/info" class="">INFO</a>         
-                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">
-                          ✸
-                    </a> 
-                  
+                    <ol class="sub-nav">
+                        
+                        <li><a href="/projects/xiaomi-ks3k11r" class="">Xiaomi KS3 & K11R</a></li>
+                        <li><a href="/projects/samsung-thewall" class="">Samsung The Wall</a></li>
+                        <li><a href="https://onformative.com/work/samsung-sero/" class="">Samsung Sero &#8599;</a></li>
+                        <li><a href="/projects/sap-rebrand" class="">Re:Brand</a></li>
+                        <li><a href="/projects/oneplus-8t" class="">Live Wallpaper</a></li>
+                        <li><a href="/projects/diageo" class="">Lqd Crystllzd</a></li>
+                        <li><a href="/projects/negroni" class="">Blissheer</a></li>
+                        <li><a href="/projects/quiet-orography" class="">Quiet Orography</a></li>
+                        <li><a href="/projects/promotional-video" class="">Promotional Video</a></li>
+                        <li><a href="/projects/omada" class="">Omada</a></li>
+                    </ol>
+                </li>
+                <li class="desktop-only">
+                    <a style="pointer-events: none; cursor: default;" class="">ETC</a>
+                    <ol class="sub-nav">
+                        <li><a href="/quotes" class="">Quotes</a></li>
+                        <li><a href="/posts/23/231129_ai-image-generators/" class="">AI Generators</a></li>
+                        <li><a href="/pages/etc/digital-love" class="">Digital Love</a></li>
+                        <li><a href="/pages/etc/gigs" class="">Gigs</a></li>
+                    </ol>
+                </li>
+                <li class="desktop-only"><a href="/projects/lab" class="">LAB</a></li>
+                <li class="desktop-only"><a href="/pages/info" class="">INFO</a></li>
+                <li>
+                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">✸</a> 
                 </li>
             </ul>
         </div>
@@ -129,32 +162,12 @@
         
 
 
-<div class="intro">
-  
-  <h4 class="only-mobile">
-    Ricardo is an industrial design engineer
-    focused on digital and interactive environments.
-    <br />
-    More about it <a href="/pages/info">here.</a>
-  </h4>
-
-
-  <h4 class="only-desktop">
-    Ricardo is an industrial design engineer<br />
-    focused on digital and interactive environments.
-    <br />
-    More about it <a href="/pages/info">here.</a>
-  </h4>
-
-
-</div>
-
 
 
 
 <div class="list-expanded-block">
   <h4 class="list-expanded-title">
-    <a class="list-expanded-title" href="http://localhost:1313/posts/25/250518_25week20---jabberwocky-correlated/">25week20 - Jabberwocky correlated</a>
+    <a class="list-expanded-title" href="http://192.168.178.34:1313/posts/25/250518_25week20---jabberwocky-correlated/">25week20 - Jabberwocky correlated</a>
   </h4>
   
   <h5 class="date">
@@ -281,7 +294,7 @@ Correlations are overused these days, primarily to reduce complex social problem
 
 <div class="list-expanded-block">
   <h4 class="list-expanded-title">
-    <a class="list-expanded-title" href="http://localhost:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/">25week19 - At full speed close the edge</a>
+    <a class="list-expanded-title" href="http://192.168.178.34:1313/posts/25/250511_25week19---at-full-speed-close-the-edge/">25week19 - At full speed close the edge</a>
   </h4>
   
   <h5 class="date">
@@ -361,7 +374,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
 <div class="list-expanded-block">
   <h4 class="list-expanded-title">
-    <a class="list-expanded-title" href="http://localhost:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/">25week16 - Brain texts. Mapping universe. A golden hat</a>
+    <a class="list-expanded-title" href="http://192.168.178.34:1313/posts/25/250420_25week16---brain-texts-mapping-universe-a-golden-hat/">25week16 - Brain texts. Mapping universe. A golden hat</a>
   </h4>
   
   <h5 class="date">
@@ -482,7 +495,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
 <div class="list-expanded-block">
   <h4 class="list-expanded-title">
-    <a class="list-expanded-title" href="http://localhost:1313/posts/25/250324_droste-effect/">Droste effect</a>
+    <a class="list-expanded-title" href="http://192.168.178.34:1313/posts/25/250324_droste-effect/">Droste effect</a>
   </h4>
   
   <h5 class="date">
@@ -510,7 +523,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
 <div class="list-expanded-block">
   <h4 class="list-expanded-title">
-    <a class="list-expanded-title" href="http://localhost:1313/posts/25/250323_experimental-comics/">Experimental comics</a>
+    <a class="list-expanded-title" href="http://192.168.178.34:1313/posts/25/250323_experimental-comics/">Experimental comics</a>
   </h4>
   
   <h5 class="date">
@@ -580,7 +593,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
 <div class="list-expanded-block">
   <h4 class="list-expanded-title">
-    <a class="list-expanded-title" href="http://localhost:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/">Broligarchs doesnt speak for Dave (ratfactor)</a>
+    <a class="list-expanded-title" href="http://192.168.178.34:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/">Broligarchs doesnt speak for Dave (ratfactor)</a>
   </h4>
   
   <h5 class="date">
@@ -599,7 +612,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
   
   <article class="article-content">
-    <a href="http://localhost:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/" class="read-more">Read More</a>
+    <a href="http://192.168.178.34:1313/posts/25/250322_broligarchs-doesnt-speak-for-dave-ratfactor/" class="read-more">Read More</a>
   </article>
   
 </div>
@@ -724,8 +737,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
 
                     </main>
-                </div>
-            </div><footer>
+                </div><footer>
     <div class="footer-inner">
         <hr/>
 <div class="footerContent">
@@ -745,6 +757,7 @@ Really profound talk with Lorde accompanied by delicate photos by Martine Syms i
 
 
 </div>
+        </div>
 
 
 </body>

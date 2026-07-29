@@ -38,7 +38,7 @@
 
     
     
-    <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/styles.e68d1b026234a9dd4864eef63117ea3c3c73ef51fc93a5fe22d888d5d6fa5708dc5bc9788aae69c5ff4735a039bfbc82b149e2f8ad94431e37f80f67c1ece2b1.css" integrity="sha512-5o0bAmI0qd1IZO72MRfqPDxz71H8k6X&#43;ItiI1db6VwjcW8l4iq5pxf9HNaA5v7yCsUni&#43;K2UQx43&#43;A9nwezisQ==" /><script src="/js/theme-toggle.js?v=1784739512"></script>
+    <link type="text/css" rel="stylesheet" href="http://192.168.178.34:1313/css/styles.1af07723d4d45c56c11113756767391f1ec1e90e65ffa87161af2a20d46ad2c6a2debbdd979fa2c743cf948f6f8e4838f77e1b4870ffb4d91486153ebb2ff1eb.css" integrity="sha512-GvB3I9TUXFbBERN1Z2c5Hx7B6Q5l/6hxYa8qINRq0sai3rvdl5&#43;ix0PPlI9vjkg4934bSHD/tNkUhhU&#43;uy/x6w==" /><script src="/js/theme-toggle.js?v=1785366363"></script>
 <meta name="author" content="Ricardo López" />
 
     
@@ -65,20 +65,20 @@ Production Julia Laub, Tobias Ziegler. " />
         property="article:published_time"
         content='0001-01-01T00:00:00Z&#43;0000' />
     
-    <meta property="og:url" content="http://localhost:1313/projects/xiaomi-ks3k11r/" />
+    <meta property="og:url" content="http://192.168.178.34:1313/projects/xiaomi-ks3k11r/" />
     
     
     <meta property="og:image"
-        content="http://localhost:1313/icons/rirsc_chrome_512.png" />
+        content="http://192.168.178.34:1313/icons/rirsc_chrome_512.png" />
     
         <meta property="og:description" content="Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed " />
     
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:domain"
-      content='localhost:1313'
+      content='192.168.178.34:1313'
 />
-<meta property="twitter:url" content="http://localhost:1313/projects/xiaomi-ks3k11r/" />
+<meta property="twitter:url" content="http://192.168.178.34:1313/projects/xiaomi-ks3k11r/" />
 
 
     <meta name="twitter:title" content="Xiaomi" />
@@ -86,7 +86,7 @@ Production Julia Laub, Tobias Ziegler. " />
     
     
     <meta name="twitter:image"
-        content="http://localhost:1313/icons/rirsc_chrome_512.png" />
+        content="http://192.168.178.34:1313/icons/rirsc_chrome_512.png" />
     
         <meta name="twitter:description" content="Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed " />
     
@@ -96,26 +96,59 @@ Production Julia Laub, Tobias Ziegler. " />
 
 
 <body class="layout-wide">
-  <header class="">
+  <div id="baseContainer"><header class="">
 <div class="titleAndSearchContainer">
         <div id="wide_nav"><nav class="navbar">
     
 
     <div class="navbar-wrapper">
         <div class="navbar-left">
-                <a href="/" class="">RIRSC</a>
+                <h1 style="margin: 0; padding: 0; margin-bottom: 12px; line-height: 1;">
+                    <a href="/" class="rirsc-logo " style="display: inline-block;">RIRSC</a>
+                </h1>
+                <div class="desktop-only" style="color: var(--default_dim_fg); font-size: 0.8em; line-height: 1.4; font-style: italic; margin-top: 4px; white-space: nowrap;">
+                    Ricardo López Cabañero<br/>
+                    Industrial Design Engineer<br/>
+                    Visual / 3D / UI / UX / Motion
+                </div>
         </div>
         <div class="navbar-right">
             <ul id="main-nav">
-                <li>
+                <li class="mobile-only"><a href="/pages/works" class="">WORK</a></li>
+                <li class="mobile-only"><a href="/projects/lab" class="">LAB</a></li>
+                <li class="mobile-only"><a href="/pages/etc" class="">ETC</a></li>
+                <li class="mobile-only"><a href="/pages/info" class="">INFO</a></li>
+                
+                <li class="desktop-only"><a href="/" class="">BLOG</a></li>
+                <li class="desktop-only">
                     <a href="/pages/works" class="">WORK</a>
-                    <a href="/projects/lab" class="">LAB</a>
-                    <a href="/pages/etc" class="">ETC</a>
-                    <a href="/pages/info" class="">INFO</a>         
-                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">
-                          ✸
-                    </a> 
-                  
+                    <ol class="sub-nav">
+                        
+                        <li><a href="/projects/xiaomi-ks3k11r" class="active">Xiaomi KS3 & K11R</a></li>
+                        <li><a href="/projects/samsung-thewall" class="">Samsung The Wall</a></li>
+                        <li><a href="https://onformative.com/work/samsung-sero/" class="">Samsung Sero &#8599;</a></li>
+                        <li><a href="/projects/sap-rebrand" class="">Re:Brand</a></li>
+                        <li><a href="/projects/oneplus-8t" class="">Live Wallpaper</a></li>
+                        <li><a href="/projects/diageo" class="">Lqd Crystllzd</a></li>
+                        <li><a href="/projects/negroni" class="">Blissheer</a></li>
+                        <li><a href="/projects/quiet-orography" class="">Quiet Orography</a></li>
+                        <li><a href="/projects/promotional-video" class="">Promotional Video</a></li>
+                        <li><a href="/projects/omada" class="">Omada</a></li>
+                    </ol>
+                </li>
+                <li class="desktop-only">
+                    <a style="pointer-events: none; cursor: default;" class="">ETC</a>
+                    <ol class="sub-nav">
+                        <li><a href="/quotes" class="">Quotes</a></li>
+                        <li><a href="/posts/23/231129_ai-image-generators/" class="">AI Generators</a></li>
+                        <li><a href="/pages/etc/digital-love" class="">Digital Love</a></li>
+                        <li><a href="/pages/etc/gigs" class="">Gigs</a></li>
+                    </ol>
+                </li>
+                <li class="desktop-only"><a href="/projects/lab" class="">LAB</a></li>
+                <li class="desktop-only"><a href="/pages/info" class="">INFO</a></li>
+                <li>
+                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">✸</a> 
                 </li>
             </ul>
         </div>
@@ -129,18 +162,15 @@ Production Julia Laub, Tobias Ziegler. " />
     
 </header>
 <div id="contentContainer">
-      <div id="content">
-         
-        <h1>Xiaomi</h1>
-        <h3>KS3&amp;K11R</h3>
-        
-        
-      </div>
-    </div>
-
-    <section class="project">
-      <div class="project-content">
-        <div class="project-text">
+      <section class="project">
+        <div class="project-content">
+          <div class="project-title-col">
+             
+            <h1>Xiaomi</h1>
+            <h5>KS3&amp;K11R</h5>
+            
+          </div>
+          <div class="project-text">
 <p>Live Wallpaper and Keyvisuals developed at onformative for Xiaomi and their latest 11T/Pro phone series. These captivating visuals were meticulously developed for Xiaomi's cutting-edge 11T/Pro phone series.</p>
 <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi's flagship devices.</p>
 </div>
@@ -245,8 +275,8 @@ Production Julia Laub, Tobias Ziegler. " />
 <strong>Production </strong>Julia Laub, Tobias Ziegler.  
 </div>
 
-      </div>
-    </section><footer>
+        </div>
+      </section><footer>
     <div class="footer-inner">
         <hr/>
 <div class="footerContent">
@@ -265,7 +295,8 @@ Production Julia Laub, Tobias Ziegler. " />
 </footer>
 
 
-
+</div>
+  </div>
 
 
 </body>

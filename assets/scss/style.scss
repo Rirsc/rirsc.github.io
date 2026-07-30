@@ -2301,7 +2301,8 @@ a.rirsc-logo {
 /* Temporarily hide footer on desktop */
 @media (min-width: 769px) {
     footer {
-        display: none !important;
+        visibility: hidden !important;
+        pointer-events: none;
     }
 }
 

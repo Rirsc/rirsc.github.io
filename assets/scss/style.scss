@@ -362,6 +362,7 @@ body.layout-wide #contentContainer #content {
 @media (min-width: 1024px) {
     #contentContainer {
         padding-top: 40px; /* Aligned exactly with the 40px padding of the sidebar .navbar */
+        padding-bottom: 80px; /* Replaces the space previously occupied by the footer */
     }
     
     #content {
@@ -2298,11 +2299,81 @@ a.rirsc-logo, .navbar a.rirsc-logo.active, #main-nav a.rirsc-logo.active {
 }
 
 
-/* Temporarily hide footer on desktop */
-@media (min-width: 769px) {
+/* Desktop fixed footer in bottom-left */
+@media (min-width: 1024px) {
     footer {
-        visibility: hidden !important;
-        pointer-events: none;
+        position: fixed !important;
+        bottom: 13px !important; /* 3 times closer than 40px */
+        left: 24px !important;
+        width: 202px !important; /* 250px minus left/right 24px padding */
+        z-index: 1000;
+        visibility: visible !important;
+        display: block !important;
+        pointer-events: auto !important;
+        background: transparent !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    footer .footer-inner {
+        padding: 0 !important;
+        max-width: none !important;
+        margin: 0 !important;
+    }
+    
+    footer hr {
+        display: none !important;
+    }
+    
+    footer .footerContent {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    
+    footer .footer-left, footer .footer-right {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        font-size: 0.9em !important;
+        width: 100% !important;
+        color: var(--default_dim_fg) !important;
+        margin: 0 !important;
+    }
+    
+    footer .footer-left a {
+        font-weight: normal !important;
+        margin: -2px 0 !important; /* Negative margin to tightly pack them */
+        padding: 0 !important;
+        line-height: 1 !important; /* Smallest natural line-height */
+        color: var(--default_dim_fg) !important;
+        text-decoration: none !important;
+        opacity: 1 !important;
+    }
+    
+    footer .footer-left a:hover {
+        color: var(--default_dim_fg) !important; /* Remove hover state */
+        text-decoration: none !important;
+        opacity: 1 !important;
+        background: transparent !important;
+        filter: none !important;
+    }
+    footer .footer-right {
+        margin-top: 6px !important; /* Halved (previously 12px) */
+    }
+}
+
+/* Move theme toggle to top right on desktop */
+@media (min-width: 1024px) {
+    #theme-toggle {
+        position: fixed !important;
+        top: 40px !important;
+        right: 24px !important;
+        z-index: 9999 !important;
+        line-height: 1 !important;
+        width: 1em !important;
+        height: 1em !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 }
 

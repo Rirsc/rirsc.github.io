@@ -2297,3 +2297,11 @@ a.rirsc-logo {
     color: var(--default_dim_fg) !important;
 }
 
+
+/* Temporarily hide footer on desktop */
+@media (min-width: 769px) {
+    footer {
+        display: none !important;
+    }
+}
+

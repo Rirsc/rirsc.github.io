@@ -540,6 +540,22 @@ body.layout-wide #contentContainer #content {
         -webkit-backdrop-filter: none;
         background-blend-mode: normal;
         mix-blend-mode: normal;
+
+        /* Fluid typography scale for the sidebar */
+        font-size: clamp(12px, 1.6vh, 16px);
+        
+        /* Allow sidebar scrolling on extremely short screens */
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 13px; /* 3 times closer than 40px */
+
+        /* Hide scrollbar while keeping it scrollable */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    
+    .navbar::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */
     }
     
     .navbar-wrapper {
@@ -2299,14 +2315,16 @@ a.rirsc-logo, .navbar a.rirsc-logo.active, #main-nav a.rirsc-logo.active {
 }
 
 
-/* Desktop fixed footer in bottom-left */
+/* Desktop footer inside sidebar */
 @media (min-width: 1024px) {
-    footer {
-        position: fixed !important;
-        bottom: 13px !important; /* 3 times closer than 40px */
-        left: 24px !important;
-        width: 202px !important; /* 250px minus left/right 24px padding */
-        z-index: 1000;
+    /* Hide the global Ficurinia footer injected at the end of the main content column */
+    #contentContainer > footer {
+        display: none !important;
+    }
+
+    /* Style the footer that lives inside the sidebar */
+    .sidebar-footer footer {
+        width: 100% !important;
         visibility: visible !important;
         display: block !important;
         pointer-events: auto !important;

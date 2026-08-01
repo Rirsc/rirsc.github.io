@@ -67,13 +67,13 @@ display: block;
 
 {{% col 6 %}}
 <a href="/projects/sap-rebrand">
-<img src="/images/projects/sap-rebrand/SAP_Mist_004_TK_004.webp" alt="Sap">
+<img src="/projects/sap-rebrand/SAP_Mist_004_TK_004.webp" alt="Sap">
 <h5 style="text-align: right;">Re:Brand</h5></a>
 {{% /col %}}
 {{% col 6 %}}
 {{< separator >}}
 <a href="/projects/oneplus-8t">
-<img src="/images/projects/one-plus-8t/OP8T_Mockup-01_06_Squared_SG.webp" alt="One Plus 8T">
+<img src="/projects/oneplus-8t/OP8T_Mockup-01_06_Squared_SG.webp" alt="One Plus 8T">
 <h5 style="text-align: right;">Live Wallpaper</h5></a>
 {{% /col %}}
 
@@ -92,7 +92,7 @@ display: block;
 {{< col 1 empty >}}{{< /col >}}
 {{% col 5 %}}
 <a href="/projects/negroni">
-<img src="/images/projects/negroni/Negroni_Shapes_008_TK-2.webp" alt="Blissheer">
+<img src="/projects/negroni/Negroni_Shapes_008_TK-2.webp" alt="Blissheer">
 <h5 style="text-align: right;">Blissheer</h5></a>
 {{% /col %}}
 {{% col 4 %}}
@@ -108,7 +108,7 @@ display: block;
 {{< col 3 empty >}}{{< /col >}}
 {{% col 6 %}}
 <a href="/projects/promotional-video">
-<img src="/images/projects/promotional-video/polygonal_B-1024x576.webp" alt="Polygonal Mind">
+<img src="/projects/promotional-video/polygonal_B-1024x576.webp" alt="Polygonal Mind">
 <h5 style="text-align: right;">Promotional Video</h5></a>
 {{% /col %}}
 {{< col 3 empty >}}{{< /col >}}

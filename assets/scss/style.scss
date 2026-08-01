@@ -2364,6 +2364,7 @@ a.rirsc-logo, .navbar a.rirsc-logo.active, #main-nav a.rirsc-logo.active {
         color: var(--default_dim_fg) !important;
         text-decoration: none !important;
         opacity: 1 !important;
+        font-size: 1em !important; /* Match the size of footer-right text */
     }
     
     footer .footer-left a:hover {

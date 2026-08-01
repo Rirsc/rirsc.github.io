@@ -5,7 +5,7 @@
 
     {{- partial "head.html" . -}}
     {{- partial "build_assets.html" . -}}
-    <body class="{{ if or (eq .RelPermalink "/pages/works/") (hasPrefix .RelPermalink "/projects/") }}layout-wide{{ end }}">
+    <body class="{{ if or (eq .RelPermalink "/pages/works/") (hasPrefix .RelPermalink "/projects/") (hasPrefix .RelPermalink "/quotes/") }}layout-wide{{ end }}">
 
         <div id="baseContainer">
             {{- partial "header.html" . -}}

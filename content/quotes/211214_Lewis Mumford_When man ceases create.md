@@ -8,4 +8,4 @@ weight: 79
 ---
 
 
-When man ceases to create
+When man ceases to create he ceases to live.

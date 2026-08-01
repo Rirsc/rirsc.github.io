@@ -8,4 +8,4 @@ weight: 79
 ---
 
 
-[Sobre la siesta] Para que un hombre esté despierto», decía, «debe despertarse dos veces.
+[Sobre la siesta] Para que un hombre esté despierto, debe despertarse dos veces.

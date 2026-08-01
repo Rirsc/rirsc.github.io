@@ -2189,8 +2189,7 @@ video {
 
   /* ---------- QUOTES  --------------------*/
 .quotes {
-    display: flex;
-    flex-direction: column;
+    /* Flex removed for grid layout */
 }
 
 .quote {
@@ -2217,9 +2216,8 @@ video {
 
 @media (min-width: 768px) {
     .quote {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;    }
+        /* Fixed width removed for grid layout */
+    }
 }
 
 

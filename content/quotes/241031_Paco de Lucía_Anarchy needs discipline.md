@@ -9,4 +9,4 @@ weight: 79
 
 
 - ¿Es usted anárquico o disciplinado?
--Totalmente anárquico. Por eso me someto a una disciplina.
+- Totalmente anárquico. Por eso me someto a una disciplina.

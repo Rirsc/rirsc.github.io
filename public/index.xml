@@ -434,19 +434,6 @@
     
     <item>
       <title></title>
-      <link>http://192.168.178.34:1313/quotes/140629_cartman_im-half-bisexual/</link>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://192.168.178.34:1313/quotes/140629_cartman_im-half-bisexual/</guid>
-      <description><![CDATA[<p>So, I&rsquo;m half bisexual</p>
-]]></description>
-      
-    </item>
-    
-    
-    
-    <item>
-      <title></title>
       <link>http://192.168.178.34:1313/quotes/131003_albert-einstein_expl%C3%ADcalo-a-tu-abuela/</link>
       <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
       
@@ -3591,8 +3578,8 @@ That sounds like a better marriage than most.</p>
       
       <guid>http://192.168.178.34:1313/quotes/241031_paco-de-luc%C3%ADa_anarchy-needs-discipline/</guid>
       <description><![CDATA[<ul>
-<li>¿Es usted anárquico o disciplinado?
--Totalmente anárquico. Por eso me someto a una disciplina.</li>
+<li>¿Es usted anárquico o disciplinado?</li>
+<li>Totalmente anárquico. Por eso me someto a una disciplina.</li>
 </ul>
 ]]></description>
       
@@ -3611,8 +3598,13 @@ Altes Kochrezept für Glücklichkeit (Old Recipe for Happiness)
 Man nehme: 12 Monate, putze sie ganz sauber von Bitterkeit, Geiz, Pedanterie und Angst und zerlege jeden Monat in 30 oder 31 Teile, so dass der Vorrat genau für ein Jahr reicht.
 Es wird jeden Tag einzeln angerichtet aus: 1 Teil Arbeit und 2 Teilen Frohsinn und Humor.
 Man füge 3 gehäufte Esslöffel Optimismus hinzu, 1 Teelöffel Toleranz, 1 Körnchen Ironie und 1 Prise Takt. Dann wird die I I Masse sehr reichlich mit Liebe übergossen.
-Das fertige Gericht schmücke man mit Sträußchen kleiner Aufmerksamkeiten und serviere es täglich mit Heiterkeit und mit einer guten erquickenden Tasse Tee &hellip;</p>
-<p>[ENG]</p>
+Das fertige Gericht schmücke man mit Sträußchen kleiner Aufmerksamkeiten und serviere es täglich mit Heiterkeit und mit einer guten erquickenden Tasse Tee&hellip;</p>
+<p>[ENG]
+Ancient Recipe for Happiness (Receta antigua para la felicidad)
+Take 12 months, brush them clean of bitterness, avarice, pedantry, and fear, and divide each month into 30 or 31 parts, so that the supply lasts exactly for a year.
+It&rsquo;s split up every day: 1 part work and 2 parts cheerfulness and humour.
+Add 3 heaping tablespoons of optimism, 1 teaspoon of tolerance, 1 grain of irony, and 1 prize tact. Then the I I mass is very generously poured with love.
+Decorate the finished dish with bouquets of small gifts and serve it cheerfully every day with a good, refreshing cup of tea&hellip;</p>
 ]]></description>
       
     </item>
@@ -3625,7 +3617,7 @@ Das fertige Gericht schmücke man mit Sträußchen kleiner Aufmerksamkeiten und 
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>http://192.168.178.34:1313/quotes/211214_lewis-mumford_when-man-ceases-create/</guid>
-      <description><![CDATA[<p>When man ceases to create</p>
+      <description><![CDATA[<p>When man ceases to create he ceases to live.</p>
 ]]></description>
       
     </item>
@@ -3651,7 +3643,7 @@ Das fertige Gericht schmücke man mit Sträußchen kleiner Aufmerksamkeiten und 
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://192.168.178.34:1313/quotes/190117_mingote_mingote/</guid>
-      <description><![CDATA[<p>[Sobre la siesta] Para que un hombre esté despierto», decía, «debe despertarse dos veces.</p>
+      <description><![CDATA[<p>[Sobre la siesta] Para que un hombre esté despierto, debe despertarse dos veces.</p>
 ]]></description>
       
     </item>
@@ -5037,6 +5029,19 @@ Note, from me to you, don&rsquo;t ever lose that, cause it keeps you alive.</p>
       
       <guid>http://192.168.178.34:1313/quotes/190627_laura-freixas_quer%C3%ADa-tener-hijos-madre/</guid>
       <description><![CDATA[<p>Yo quería tener hijos, pero no quería ser madre, quería ser padre.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title></title>
+      <link>http://192.168.178.34:1313/quotes/140629_cartman_im-half-bisexual/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.178.34:1313/quotes/140629_cartman_im-half-bisexual/</guid>
+      <description><![CDATA[<p>So, I&rsquo;m half bisexual</p>
 ]]></description>
       
     </item>

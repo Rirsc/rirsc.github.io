@@ -1,25 +1,83 @@
 {{ define "main" }}
 
-{{ $paginator := .Paginate (.Pages.ByWeight) }}
+{{ $paginator := .Paginate .Pages.ByWeight 60 }}
 {{ $colors := shuffle (seq 0 7) }}
 
-<section class="quotes">
+<section class="quotes grid-layout">
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "pairCount" 0 }}
 
 {{ range $i, $page := $paginator.Pages }}    
 
-<article class="quote color-{{ index $colors (mod $i (len $colors)) }}">
+{{ $isFullRow := index (shuffle (slice true false false false)) 0 }}
+{{ $marginTop := 0 }}
 
-    {{ $page.Content }}
+{{ $width := 5 }}
+{{ $offset := 0 }}
+{{ $remainder := 0 }}
 
-  <div class="quote-footer">
-     {{ .Params.author }}
-    {{ if .Params.source }}
-    <br>
-      <span class="source"> {{ .Params.source }}</span>
+{{ if $isFullRow }}
+    {{ $marginTop = index (shuffle (slice 0 4 8 12)) 0 }}
+    {{ $scratch.Set "pairCount" 0 }}
+    {{ $offset = index (shuffle (slice 1 2 3 4 5 6)) 0 }}
+    {{ $remainder = sub 12 (add $width $offset) }}
+{{ else }}
+    {{ $pairCount := $scratch.Get "pairCount" }}
+    {{ if eq $pairCount 0 }}
+        {{ $leftIsHigher := index (shuffle (slice true false)) 0 }}
+        {{ $scratch.Set "leftIsHigher" $leftIsHigher }}
+        {{ if $leftIsHigher }}
+            {{ $marginTop = index (shuffle (slice 0 2 4)) 0 }}
+        {{ else }}
+            {{ $marginTop = index (shuffle (slice 10 12 14)) 0 }}
+        {{ end }}
+        {{ $offset = index (shuffle (slice 0 1 2)) 0 }}
+        {{ $scratch.Set "firstOffset" $offset }}
+        {{ $scratch.Set "pairCount" 1 }}
+    {{ else }}
+        {{ $leftIsHigher := $scratch.Get "leftIsHigher" }}
+        {{ if $leftIsHigher }}
+            {{ $marginTop = index (shuffle (slice 10 12 14)) 0 }}
+        {{ else }}
+            {{ $marginTop = index (shuffle (slice 0 2 4)) 0 }}
+        {{ end }}
+        {{ $firstOffset := $scratch.Get "firstOffset" }}
+        {{ if eq $firstOffset 0 }}
+            {{ $offset = index (shuffle (slice 0 1 2)) 0 }}
+        {{ else if eq $firstOffset 1 }}
+            {{ $offset = index (shuffle (slice 0 1)) 0 }}
+        {{ else }}
+            {{ $offset = 0 }}
+        {{ end }}
+        {{ $scratch.Set "pairCount" 0 }}
     {{ end }}
-  </div>
+    {{ $remainder = 0 }}
+{{ end }}
 
-</article>
+{{ if gt $offset 0 }}
+<div class="column column-{{ $offset }} empty"></div>
+{{ end }}
+
+<div class="column column-{{ $width }}">
+    <article class="quote color-{{ index $colors (mod $i (len $colors)) }}" style="margin-top: {{ $marginTop }}rem;">
+
+        {{ $page.Content }}
+
+      <div class="quote-footer">
+         {{ .Params.author }}
+        {{ if .Params.source }}
+        <br>
+          <span class="source"> {{ .Params.source }}</span>
+        {{ end }}
+      </div>
+
+    </article>
+</div>
+
+{{ if gt $remainder 0 }}
+<div class="column column-{{ $remainder }} empty"></div>
+{{ end }}
 
 {{ end }}
 

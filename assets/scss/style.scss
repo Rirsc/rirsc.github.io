@@ -499,7 +499,7 @@ body.layout-wide #contentContainer #content {
     /* font-weight removed to avoid jitter */
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a:focus, .navbar a:active {
     color: var(--default_fg);
     background-color: transparent; 
      // background-color: var(--default_bg); 

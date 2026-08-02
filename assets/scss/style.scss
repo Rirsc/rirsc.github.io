@@ -429,8 +429,7 @@ body.layout-wide #contentContainer #content {
         display: inline-flex; /* allow centering of inline SVGs or icons */
         align-items: center;
         line-height: 1;
-        padding: 0 $margin / 3;
-        margin: 0; /* remove default margins that can shift baseline */
+        padding: 0; /* removed horizontal padding to align with interior */
     }
 }
 
@@ -453,6 +452,7 @@ body.layout-wide #contentContainer #content {
     height: 1em; /* match font-size so the icon aligns with text */
     line-height: 1;
     width: 100%;
+    margin-right: 0 !important; /* flush to the right edge */
 }
 #theme-toggle-icon svg {
     display: block; /* remove inline baseline quirks */
@@ -488,6 +488,7 @@ body.layout-wide #contentContainer #content {
 
 .navbar-left a {
     color: var(--default_dim_fg);
+    margin: 0;
 }
 
 #main-nav a {
@@ -1947,8 +1948,7 @@ video {
     max-width: var(--narrow-width);
     margin-left: auto;
     margin-right: auto;
-    padding-left: $margin;
-    padding-right: $margin;
+    /* padding-left/right removed to align with .project-title-col */
 }
 
 /* Keep credits aligned to footer width */

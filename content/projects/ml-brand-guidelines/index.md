@@ -15,171 +15,115 @@ subtitle: "Brand Guidelines"
 
 {{% grid %}}
 
-<!-- {{% col 12 %}}
-{{% project-credits %}}
-<h2>LOGO</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
-
-{{< col 2 empty >}}{{< /col >}}
-{{% col 4 %}}
-<img src="Logo 1.webp">
-{{% /col %}}
-
-{{% col 4 %}}
-<img src="Logo 2.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
-
-
-<!-- {{% col 12 %}}
-{{% project-credits %}}
-<h2>TYPOGRAPHY</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
-
-
-
-{{% col 4 %}}
-<img src="Typography 2.webp">
-{{% /col %}}
-
-{{% col 4 %}}
-<img src="Typography 3.webp">
-{{% /col %}}
-
-
-{{% col 4 %}}
-<img src="Typography 4.webp">
-{{% /col %}}
-
-
-
-<!-- {{% col 12 %}}
-{{% project-credits %}}
-<h2>ICONOGRAPHY</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
-
-{{% col 6 %}}
-<img src="Iconography 1.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Iconography 4.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Iconography 3.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Iconography 5.webp">
-{{% /col %}}
-
-
-<!-- {{% col 12 %}}
-{{% project-credits %}}
-<h2>COLOR</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
-
-{{% col 6 %}}
-<img src="Color 1.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Color 4.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Color 3.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Color 2.webp">
-{{% /col %}}
-
-
-<!-- {{% col 12 %}}
-{{% project-credits %}}
-<h2>INFORMATION DESIGN</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
-
-{{% col 6 %}}
-<img src="Information Design 2.webp">
-{{% /col %}}
-
-{{% col 6 %}}
-<img src="Information Design 3.webp">
-{{% /col %}}
-
-
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Information Design 1.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
-
-
-<!-- 
-{{% col 12 %}}
-{{% project-credits %}}
-<h2>ILLUSTRATION</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
-
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Illustration 3.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
-
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Illustration 4.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
-
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Illustration 5.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
-
-
 {{< col 1 empty >}}{{< /col >}}
-{{% col 10 %}}
-<img src="Illustration 6.webp">
-{{% /col %}}
+{{% col 10 %}} <img src="ml-brand-renders-01.webp"> {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
+{{% col 12 %}}{{< separator >}}{{% /col %}}
 
-<!-- {{% col 12 %}}
-{{% project-credits %}}
-<h2>BUILT ENVIRONMENTS</h2>
-{{% /project-credits %}}
-{{% /col %}} -->
+{{% col 6 %}} <img src="ml-brand-renders-02.webp"> {{% /col %}}
+{{% col 6 %}}{{< separator >}} <img src="ml-brand-renders-03.webp"> {{% /col %}}
 
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Built Environments 1.webp">
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+{{% col 6 %}}{{< separator >}} <img src="ml-brand-renders-04.webp"> {{% /col %}}
+{{% col 6 %}} <img src="ml-brand-renders-05.webp"> {{% /col %}}
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+{{< col 3 empty >}}{{< /col >}}
+{{% col 6 %}}
+{{< video h264="ml-brand-renders-06.mp4" muted="true" >}}
 {{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
+{{< col 3 empty >}}{{< /col >}}
 
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Built Environments 2.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
 
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-<img src="Built Environments 3.webp">
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+{{% col 8 %}} <img src="ml-brand-typography-01.webp"> {{% /col %}}
+{{< col 4 empty >}}{{< /col >}}
+
+
+{{% col 4 %}} <img src="ml-brand-typography-02.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-brand-typography-03.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-brand-typography-07.webp"> {{% /col %}}
+
+
+
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+{{% col 8 %}} <img src="ml-brand-color-01.webp"> {{% /col %}}
+{{< col 4 empty >}}{{< /col >}}
+
+
+{{% col 4 %}} <img src="ml-brand-color-02.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-brand-color-03.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-brand-color-04.webp"> {{% /col %}}
+
+{{< col 6 empty >}}{{< /col >}}
+{{% col 6 %}} <img src="ml-brand-color-05.webp"> {{% /col %}}
+
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+
+
+{{% col 8 %}} <img src="ml-brand-information-01.webp"> {{% /col %}}
+{{< col 4 empty >}}{{< /col >}}
+
+
+{{% col 6 %}} <img src="ml-brand-information-02.webp"> {{% /col %}}
+{{% col 6 %}} <img src="ml-brand-information-03.webp"> {{% /col %}}
+
+{{< col 3 empty >}}{{< /col >}}
+{{% col 6 %}} <img src="ml-brand-information-04.webp"> {{% /col %}}
+{{< col 3 empty >}}{{< /col >}}
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+
+{{% col 8 %}} <img src="ml-brand-information-01.webp"> {{% /col %}}
+{{< col 4 empty >}}{{< /col >}}
+
+
+{{% col 6 %}} <img src="ml-brand-information-02.webp"> {{% /col %}}
+{{% col 6 %}} <img src="ml-brand-information-03.webp"> {{% /col %}}
+
+{{< col 3 empty >}}{{< /col >}}
+{{% col 6 %}} <img src="ml-brand-information-04.webp"> {{% /col %}}
+{{< col 3 empty >}}{{< /col >}}
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+
+
+
+# DONE
+
+# ILLUSTRATION IS WRONG IN FIGMA I THIIIIIIIIIIIIIIIIIIIIINK
+
+
+
 
 
 

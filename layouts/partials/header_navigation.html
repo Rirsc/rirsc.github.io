@@ -16,11 +16,11 @@
         </div>
         <div class="navbar-right">
             <ul id="main-nav">
-                <li class="mobile-only"><a href="/" class="{{ if or (eq $.RelPermalink "/") (hasPrefix $.RelPermalink "/posts/") }}active{{ end }}">BLOG</a></li>
-                <li class="mobile-only"><a href="/pages/works" class="{{ if or (eq $.RelPermalink "/pages/works/") (and (hasPrefix $.RelPermalink "/projects/") (not (hasPrefix $.RelPermalink "/projects/lab/"))) }}active{{ end }}">WORK</a></li>
-                <li class="mobile-only"><a href="/projects/lab" class="{{ if hasPrefix $.RelPermalink "/projects/lab/" }}active{{ end }}">LAB</a></li>
-                <li class="mobile-only"><a href="/pages/etc" class="{{ if or (hasPrefix $.RelPermalink "/pages/etc/") (hasPrefix $.RelPermalink "/quotes/") }}active{{ end }}">ETC</a></li>
-                <li class="mobile-only"><a href="/pages/info" class="{{ if hasPrefix $.RelPermalink "/pages/info/" }}active{{ end }}">INFO</a></li>
+                <li class="mobile-only"><a href="/" class="{{ if or (eq $.RelPermalink "/") (in $.RelPermalink "posts") }}active{{ end }}">BLOG</a></li>
+                <li class="mobile-only"><a href="/pages/works" class="{{ if and (or (in $.RelPermalink "works") (in $.RelPermalink "projects")) (not (in $.RelPermalink "lab")) }}active{{ end }}">WORK</a></li>
+                <li class="mobile-only"><a href="/projects/lab" class="{{ if in $.RelPermalink "lab" }}active{{ end }}">LAB</a></li>
+                <li class="mobile-only"><a href="/pages/etc" class="{{ if or (in $.RelPermalink "etc") (in $.RelPermalink "quotes") }}active{{ end }}">ETC</a></li>
+                <li class="mobile-only"><a href="/pages/info" class="{{ if in $.RelPermalink "info" }}active{{ end }}">INFO</a></li>
                 
                 <li class="desktop-only"><a href="/" class="{{ if eq $.RelPermalink "/" }}active{{ end }}">BLOG</a></li>
                 <li class="desktop-only">

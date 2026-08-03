@@ -407,8 +407,8 @@ body.layout-wide #contentContainer #content {
     background-blend-mode: overlay;
     
     // Text with effect - For Light mode
-    mix-blend-mode: luminosity;
-
+    // mix-blend-mode: luminosity;
+    
 }
 
 .navbar-wrapper {
@@ -495,7 +495,7 @@ body.layout-wide #contentContainer #content {
     color: var(--default_dim_fg);
 }
 
-.navbar a.active, #main-nav a.active {
+.navbar a.active, #main-nav a.active, .mobile-only a.active, .desktop-only a.active {
     color: var(--default_accent) !important;
     /* font-weight removed to avoid jitter */
 }
@@ -915,12 +915,6 @@ h1, h2, h3, h4, h5, h6 {
         {{ if not (.Site.Params.underlineTitleLinks | default false) }}
             border-bottom: none;
         {{ end }}
-    }
-}
-
-@media (max-width: 1023px) {
-    h1 {
-        color: var(--default_accent) !important;
     }
 }
 

@@ -40,7 +40,7 @@
   }
 
   function toggleTheme() {
-    var current = document.documentElement.getAttribute('data-theme') || 'dark';
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
     var next = current === 'dark' ? 'light' : 'dark';
     setTheme(next);
   }
@@ -48,19 +48,19 @@
   window.toggleTheme = toggleTheme;
 
   // Immediately apply the theme to prevent flash of incorrect theme
-  var initialTheme = storageGet() || 'dark';
+  var initialTheme = storageGet() || 'light';
   document.documentElement.setAttribute('data-theme', initialTheme);
   storageSet(initialTheme);
 
   // Initialize icon and rest of the theme state on DOMContentLoaded.
   document.addEventListener('DOMContentLoaded', function () {
-    setTheme(storageGet() || 'dark');
+    setTheme(storageGet() || 'light');
   });
 
   // Optional: roll localStorage back to dark when the user leaves the page.
   if (rollbackLocalOnUnload) {
     window.addEventListener('beforeunload', function () {
-      try { localStorage.setItem('theme', 'dark'); } catch (e) { }
+      try { localStorage.setItem('theme', 'light'); } catch (e) { }
     });
   }
 

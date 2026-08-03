@@ -21,13 +21,13 @@
                 <li class="mobile-only"><a href="/projects/lab" class="{{ if in $.RelPermalink "lab" }}active{{ end }}">LAB</a></li>
                 <li class="mobile-only"><a href="/pages/etc" class="{{ if or (in $.RelPermalink "etc") (in $.RelPermalink "quotes") }}active{{ end }}">ETC</a></li>
                 <li class="mobile-only"><a href="/pages/info" class="{{ if in $.RelPermalink "info" }}active{{ end }}">INFO</a></li>
-                
+
                 <li class="desktop-only"><a href="/" class="{{ if eq $.RelPermalink "/" }}active{{ end }}">BLOG</a></li>
                 <li class="desktop-only">
                     <a href="/pages/works" class="{{ if eq $.RelPermalink "/pages/works/" }}active{{ end }}">WORK</a>
                     <ol class="sub-nav">
-                        <li><a href="/projects/ml-brand" class="{{ if eq $.RelPermalink "/projects/ml-brand/" }}active{{ end }}">ML Brand</a></li>
-                        <li><a href="/projects/ml-ces-featuredemo" class="{{ if eq $.RelPermalink "/projects/ml-ces-featuredemo/" }}active{{ end }}">ML Feature Demo</a></li>
+                        <!-- <li><a href="/projects/ml-brand" class="{{ if eq $.RelPermalink "/projects/ml-brand/" }}active{{ end }}">ML Brand</a></li>
+                        <li><a href="/projects/ml-ces-featuredemo" class="{{ if eq $.RelPermalink "/projects/ml-ces-featuredemo/" }}active{{ end }}">ML Feature Demo</a></li> -->
                         <li><a href="/projects/xiaomi-ks3k11r" class="{{ if eq $.RelPermalink "/projects/xiaomi-ks3k11r/" }}active{{ end }}">Xiaomi KS3 & K11R</a></li>
                         <li><a href="/projects/samsung-thewall" class="{{ if eq $.RelPermalink "/projects/samsung-thewall/" }}active{{ end }}">Samsung The Wall</a></li>
                         <li><a href="https://onformative.com/work/samsung-sero/" class="{{ if eq $.RelPermalink "https://onformative.com/work/samsung-sero/" }}active{{ end }}">Samsung Sero &#8599;</a></li>
@@ -52,7 +52,7 @@
                 <li class="desktop-only"><a href="/projects/lab" class="{{ if eq $.RelPermalink "/projects/lab/" }}active{{ end }}">LAB</a></li>
                 <li class="desktop-only"><a href="/pages/info" class="{{ if eq $.RelPermalink "/pages/info/" }}active{{ end }}">INFO</a></li>
                 <li>
-                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">✸</a> 
+                    <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme" onclick="if(window.toggleTheme) window.toggleTheme(); this.blur(); return false;">✸</a>
                 </li>
             </ul>
         </div>

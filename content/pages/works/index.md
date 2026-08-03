@@ -39,7 +39,7 @@ display: block;
 {{< col  empty >}}{{< /col >}}
 
 {{% col 5 %}}
-<a href="/projects/ml-brand">
+<!-- <a href="/projects/ml-brand"> -->
 <img src="ML_Optics_Stack_Bottom_Collapsed_Meteorite-80.png" alt="Magic Leap">
 <h5 style="text-align: right;">Magic Leap Branding</h5>
 {{% /col %}}

@@ -40,11 +40,12 @@ display: block;
 <a href="/projects/ml-brand">
 <img src="ML_Optics_Stack_Bottom_Collapsed_Meteorite-80.png" alt="Magic Leap">
 <h5 style="text-align: right;">Magic Leap Brand</h5></a>
+{{< separator >}} {{< separator >}}   
 {{% /col %}}
 
 
 {{% col 6 %}}
-{{< separator >}}  
+
 <a href="/projects/xiaomi-ks3k11r"><img src="XIA_05_Square.webp" alt="XIA 5"><h5 style="text-align: right;">Xiaomi KS3 & K11R</h5></a>
 {{% /col %}}
 

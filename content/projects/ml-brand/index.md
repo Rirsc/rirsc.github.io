@@ -183,6 +183,6 @@ subtitle: "Brand"
 <h2>Credits</h2>
 <p><strong><a href="https://magicleap.com/">Magic Leap</a></strong></p>
 <strong>Creative Direction</strong> Jodi Terwilliger, Nicholas Samendinger.<br>
-<strong>Art Direction </strong>Jack Roizental, Ricardo López.<br>
+<strong>Art Direction & Design </strong>Jack Roizental, Ricardo López.<br>
 <strong>Production </strong>Lauren Lindstrom.  
 {{% /project-credits %}}

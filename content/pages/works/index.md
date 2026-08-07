@@ -28,23 +28,45 @@ display: block;
 }
 </style>
 
+
+
+<!-- <a href="/projects/ml-ces-featuredemo"><h5 style="text-align: right;">CES Feature Demo</h5></a>
+ -->
+
 {{% grid %}}
 
 
 {{% col 6 %}}
-{{< separator >}}
+<a href="/projects/ml-brand">
+<img src="ML_Optics_Stack_Bottom_Collapsed_Meteorite-80.png" alt="Magic Leap">
+<h5 style="text-align: right;">Magic Leap Brand</h5></a>
+{{% /col %}}
+
+
+{{% col 6 %}}
+{{< separator >}}  
 <a href="/projects/xiaomi-ks3k11r"><img src="XIA_05_Square.webp" alt="XIA 5"><h5 style="text-align: right;">Xiaomi KS3 & K11R</h5></a>
 {{% /col %}}
 
-{{< col  empty >}}{{< /col >}}
-
-{{% col 5 %}}
-<!-- <a href="/projects/ml-brand"> -->
-<img src="ML_Optics_Stack_Bottom_Collapsed_Meteorite-80.png" alt="Magic Leap">
-<h5 style="text-align: right;">Magic Leap Branding</h5>
-{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+<!-- {{< col 3 empty >}}{{< /col >}}
+{{% col 6 %}}
+<a href="/projects/ml-ces-featuredemo">
+<img src="ml-ces-featuredemo-01-02-square.png" alt="Magic Leap CES Feature Demo">
+<h5 style="text-align: right;">Magic Leap CES Feature Demo</h5></a>
+{{% /col %}}
+{{< col 3 empty >}}{{< /col >}}
+
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}} -->
+
+
+
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
@@ -105,7 +127,7 @@ display: block;
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
-{{< col 3 empty >}}{{< /col >}}
+<!-- {{< col 3 empty >}}{{< /col >}}
 {{% col 6 %}}
 <a href="/projects/promotional-video">
 <img src="/projects/promotional-video/polygonal_B-1024x576.webp" alt="Polygonal Mind">
@@ -113,7 +135,7 @@ display: block;
 {{% /col %}}
 {{< col 3 empty >}}{{< /col >}}
 
-{{% col 12 %}}{{< separator >}}{{% /col %}}
+{{% col 12 %}}{{< separator >}}{{% /col %}} -->
 
 {{< col 7 empty >}}{{< /col >}}
 {{% col 4 %}}

@@ -11,42 +11,50 @@ subtitle: "CES Feature Demo"
 
 {{% grid %}}
 
-{{< col 1 empty >}}{{< /col >}}
-{{% col 10 %}} <img src="ml-ces-featuredemo-01.webp"> {{% /col %}}
-{{< col 1 empty >}}{{< /col >}}
+ {{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}} <img src="ml-ces-featuredemo-01-02.webp"> {{% /col %}}
+{{< col 1 empty >}}{{< /col >}} 
 
-{{% col 12 %}}{{< separator >}}{{% /col %}}
-
-{{< col 2 empty >}}{{< /col >}}
-{{% col 8 %}}
-{{< video h264="ml-ces-featuredemo-01.mp4" muted="true" >}}
-{{% /col %}}
-{{< col 2 empty >}}{{< /col >}}
-
-{{% col 12 %}}{{< separator >}}{{% /col %}}
-<!-- 
-{{% col 4 %}} <img src="ml-ces-featuredemo-03.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-ces-featuredemo-04.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-ces-featuredemo-05.webp"> {{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 {{< col 3 empty >}}{{< /col >}}
-{{% col 6 %}} <img src="ml-ces-featuredemo-06.webp"> {{% /col %}}
-{{< col 3 empty >}}{{< /col >}} -->
+{{% col 6 %}}
+{{< video h264="ml-ces-featuredemo-01.mp4" muted="true" >}}
+{{% /col %}}
+{{< col 3 empty >}}{{< /col >}}
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
+
+{{% col 4 %}} <img src="ml-ces-featuredemo-03.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-ces-featuredemo-04.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-ces-featuredemo-05.webp"> {{% /col %}}
+
+
+{{< col 2 empty >}}{{< /col >}}
+{{% col 4 %}} <img src="ml-ces-featuredemo-06.webp"> {{% /col %}}
+{{% col 4 %}} <img src="ml-ces-featuredemo-07.webp"> {{% /col %}}
+{{< col 2 empty >}}{{< /col >}}
+
+
+
+
+{{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
 {{% col 6 %}} <img src="ml-ces-featuredemo-08.webp"> {{% /col %}}
 {{% col 6 %}} <img src="ml-ces-featuredemo-09.webp"> {{% /col %}}
 
-
-
 {{% col 6 %}} <img src="ml-ces-featuredemo-10.webp"> {{% /col %}}
-{{% col 6 %}} <img src="ml-ces-featuredemo-11.webp"> {{% /col %}}
+{{% col 6 %}} <img src="ml-ces-featuredemo-11.webp"> {{% /col %}} 
 
+<!-- {{% col 3 %}} <img src="ml-ces-featuredemo-08.webp"> {{% /col %}}
+{{% col 3 %}} <img src="ml-ces-featuredemo-09.webp"> {{% /col %}}
 
+{{% col 3 %}} <img src="ml-ces-featuredemo-10.webp"> {{% /col %}}
+{{% col 3 %}} <img src="ml-ces-featuredemo-11.webp"> {{% /col %}} -->
 
 
 {{% /grid %}}

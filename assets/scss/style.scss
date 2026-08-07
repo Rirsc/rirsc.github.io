@@ -401,10 +401,10 @@ body.layout-wide #contentContainer #content {
     z-index: 1000; /* Make sure it appears above other content */
     padding: 5px 0; /* Adjust padding as needed */
     // Blur bg (Restored for mobile)
-    background-color: rgba(var(--default_bg), 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(3px);
-    background-blend-mode: overlay;
+    // background-color: rgba(var(--default_bg), 0.5);
+    // backdrop-filter: blur(10px);
+    // -webkit-backdrop-filter: blur(3px);
+    // background-blend-mode: overlay;
     
     // Text with effect - For Light mode
     // mix-blend-mode: luminosity;
@@ -479,6 +479,7 @@ body.layout-wide #contentContainer #content {
 
 .navbar a {
     text-decoration: none;
+    text-transform: uppercase;
     margin: ($margin / 2) $margin;
     font-size: 0.85em;
     @media (max-width: 400px) {
@@ -500,10 +501,10 @@ body.layout-wide #contentContainer #content {
     /* font-weight removed to avoid jitter */
 }
 
-.navbar a:hover, .navbar a:focus, .navbar a:active {
+.navbar a:hover, .navbar a:focus, .navbar a:active,
+#main-nav a:hover, #main-nav a:focus, #main-nav a:active {
     color: var(--default_fg);
     background-color: transparent; 
-     // background-color: var(--default_bg); 
 }
 
 
@@ -638,9 +639,14 @@ body.layout-wide #contentContainer #content {
         font-weight: normal;
         text-decoration: none;
         display: inline;
+        font-size: 0.68em; /* 0.8x the size of the main links */
     }
     .sub-nav li a:hover {
         color: var(--default_fg);
+    }
+    
+    .sub-nav li a[href^="http"]:hover::after {
+        content: " ↗";
     }
 }
 
@@ -1930,11 +1936,14 @@ video {
 
 //Ric added. Projects styles
 .project {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     display: block;
-    // SO THIS IS WHERE THE PROBLEM IS RIRSC. MAYBE ONLY ON MOBILE?
-    //padding: 0 $margin; 
+
+    /* Desktop only: preserve the 12px gap on the edges before hitting max-width */
+    @media (min-width: 1024px) {
+        width: calc(100% - 2 * #{$margin});
+    }
 }
 
 .project .project-content {
@@ -1990,6 +1999,7 @@ video {
     display: grid;
     grid-template-columns: repeat(12, 1fr); /* 12-column grid system */
     gap: 20px; /* Optional: add space between grid items */
+    align-items: center; /* Vertically center all items in the row */
   }
   
   .column { 
@@ -2368,11 +2378,15 @@ a.rirsc-logo, .navbar a.rirsc-logo.active, #main-nav a.rirsc-logo.active {
     }
     
     footer .footer-left a:hover {
-        color: var(--default_dim_fg) !important; /* Remove hover state */
+        color: var(--default_fg) !important;
         text-decoration: none !important;
         opacity: 1 !important;
         background: transparent !important;
         filter: none !important;
+    }
+
+    footer .footer-left a:hover::after {
+        content: " ↗";
     }
     footer .footer-right {
         margin-top: 6px !important; /* Halved (previously 12px) */

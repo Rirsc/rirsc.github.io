@@ -5,12 +5,11 @@ subtitle: "Brand"
 
 
 {{% project-text %}}
-<p>During a preliminary exploration phase in early 2020, a series of abstract 3D shapes were meticulously crafted as part of a research endeavor for a Live Wallpaper project.</p>
-<p>These investigations delved into the interplay of gradients and vibrant colors, incorporating subtle hints of refractions to enhance the visual depth and allure of the designs.</p>
+<p>At Magic Leap, my work spans two disciplines: Product Design and Brand. I designed spatial interfaces and 3D experiences for AR glasses as well as worked on identity, art direction, editorial or web design.</p>
+
+<p>As Senior Designer, this page brings together a selection of the brand work created: visual systems, brand assets and materials designed to give the company a clear and consistent presence, in print and online.</p>
+
 {{% /project-text %}}
-
-
-
 
 
 {{% grid %}}
@@ -31,10 +30,33 @@ subtitle: "Brand"
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
-{{% col 6 %}} <img src="ml-brand-renders-02.webp"> {{% /col %}}
+<!-- {{% col 6 %}} <img src="ml-brand-renders-02.webp"> {{% /col %}}
 {{% col 6 %}}{{< separator >}} <img src="ml-brand-renders-03.webp"> {{% /col %}}
 
+{{% col 12 %}}{{< separator >}}{{% /col %}} -->
+
+
+
+
+{{% col 12 %}} <img src="ml-brand-renders-02.webp"> {{% /col %}}
+{{% col 12 %}}{{< separator >}} <img src="ml-brand-renders-03.webp"> {{% /col %}}
+
 {{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {{% col 6 %}}{{< separator >}} <img src="ml-brand-renders-04.webp"> {{% /col %}}
 {{% col 6 %}} <img src="ml-brand-renders-05.webp"> {{% /col %}}

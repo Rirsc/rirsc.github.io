@@ -400,15 +400,28 @@ body.layout-wide #contentContainer #content {
     width: 100%; /* Ensure it spans the entire width */
     z-index: 1000; /* Make sure it appears above other content */
     padding: 5px 0; /* Adjust padding as needed */
-    // Blur bg (Restored for mobile)
-    // background-color: rgba(var(--default_bg), 0.5);
-    // backdrop-filter: blur(10px);
-    // -webkit-backdrop-filter: blur(3px);
-    // background-blend-mode: overlay;
-    
-    // Text with effect - For Light mode
-    // mix-blend-mode: luminosity;
-    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300%; /* Drop shadow extending 3x the height of the navbar */
+        
+        /* The Glass */
+        /* Lowered opacity to 30% so the blur isn't hidden behind a solid color! */
+        background: color-mix(in srgb, var(--default_bg) 30%, transparent);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        transform: translate3d(0, 0, 0); /* Force hardware acceleration for Chrome on Android */
+        
+        /* The Mask (fades out both the background color AND the blur!) */
+        -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 100%);
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 100%);
+        
+        z-index: -1;
+        pointer-events: none;
+    }
 }
 
 .navbar-wrapper {

@@ -45,9 +45,12 @@ display: block;
 
 
 {{% col 6 %}}
-
-<a href="/projects/xiaomi-ks3k11r"><img src="XIA_05_Square.webp" alt="XIA 5"><h5 style="text-align: right;">Xiaomi KS3 & K11R</h5></a>
+<a href="/projects/xiaomi-ks3k11r">
+<img src="XIA_05_Square.webp" alt="Xiaomi KS3 & K11R">
+<h5 style="text-align: right;">Xiaomi KS3 & K11R</h5></a>
 {{% /col %}}
+
+
 
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}

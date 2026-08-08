@@ -251,6 +251,12 @@ p {
 a {
         color: var(--default_fg);
         background-color: transparent;
+        -webkit-tap-highlight-color: transparent;
+        
+        &:active {
+          opacity: 0.7;
+          transition: opacity 0.1s ease-out;
+        }
       }
 
 a:hover, 

@@ -9,8 +9,10 @@ tags:
 
 After seeing [Trholz](https://trholzriot.bandcamp.com/album/premi-re-pierre) at idvdogh, I bought them one **fanzine.** Cool drawings and it has the lyrics&tabs of the songs; win-win.
 
-![Trholz](IMG20240531114009.webp)\
-![Trholz](IMG20240531114002.webp)
+
+{{< image src="IMG20240531114009.webp" alt="Trholz" >}}\
+
+{{< image src="IMG20240531114002.webp" alt="Trholz" >}}
 
 {{< smalldivider  >}}
 

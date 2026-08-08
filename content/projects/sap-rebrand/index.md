@@ -14,12 +14,16 @@ subtitle: "Visal Language"
 {{% grid %}}
 {{< col 4 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="SAP_Data_006_TK_001.webp">
+
+{{< image src="SAP_Data_006_TK_001.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{% col 6 %}}
-<img src="SAP_Data_006_TK_003.webp">
+
+{{< image src="SAP_Data_006_TK_003.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 6 empty >}}{{< /col >}}
 
@@ -27,7 +31,9 @@ subtitle: "Visal Language"
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="SAP_Data_006_TK_002.webp">
+
+{{< image src="SAP_Data_006_TK_002.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -36,7 +42,9 @@ subtitle: "Visal Language"
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="SAP_Mist_004_TK_001.webp">
+
+{{< image src="SAP_Mist_004_TK_001.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -44,16 +52,22 @@ subtitle: "Visal Language"
 
 {{< col 2 empty >}}{{< /col >}}
 {{% col 5 %}}
-<img src="SAP_Mist_004_TK_004.webp">
+
+{{< image src="SAP_Mist_004_TK_004.webp" alt="" >}}
+
 {{% /col %}}
-{{% col 5 %}}    
-<img src="SAP_Mist_004_TK_003.webp">
+{{% col 5 %}}
+
+{{< image src="SAP_Mist_004_TK_003.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="SAP_Mist_004_TK_002.webp">
+
+{{< image src="SAP_Mist_004_TK_002.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -66,23 +80,31 @@ subtitle: "Visal Language"
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 11 %}}
-<img src="SAP_TeamWork_002_v002_SF_003_0166.webp">
+
+{{< image src="SAP_TeamWork_002_v002_SF_003_0166.webp" alt="" >}}
+
 {{% /col %}}
 
 
 
 
 {{% col 6 %}}
-<img src="SAP_TeamWork_007_0044.webp">
+
+{{< image src="SAP_TeamWork_007_0044.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 6 %}}
-<img src="SAP_TeamWork_002_v010_0207.webp">
+
+{{< image src="SAP_TeamWork_002_v010_0207.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="SAP_TeamWork_006_0195_CC.webp">
+
+{{< image src="SAP_TeamWork_006_0195_CC.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -95,7 +117,9 @@ subtitle: "Visal Language"
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="SAP_TeamWork_002_v010_0222.webp">
+
+{{< image src="SAP_TeamWork_002_v010_0222.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 

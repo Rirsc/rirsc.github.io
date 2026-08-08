@@ -15,10 +15,13 @@ subtitle: "Brand"
 {{% grid %}}
 
 {{< col 1 empty >}}{{< /col >}}
-{{% col 10 %}} <img src="ml-brand-renders-01.webp"> {{% /col %}}
+{{% col 10 %}}
+{{< image src="ml-brand-renders-01.webp" alt="" >}}
+{{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
+
 
 
 {{< col 3 empty >}}{{< /col >}}
@@ -30,16 +33,32 @@ subtitle: "Brand"
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
-<!-- {{% col 6 %}} <img src="ml-brand-renders-02.webp"> {{% /col %}}
-{{% col 6 %}}{{< separator >}} <img src="ml-brand-renders-03.webp"> {{% /col %}}
+<!-- {{% col 6 %}}
+
+{{< image src="ml-brand-renders-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 6 %}}{{< separator >}}
+
+{{< image src="ml-brand-renders-03.webp" alt="" >}}
+
+{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}} -->
 
 
 
 
-{{% col 12 %}} <img src="ml-brand-renders-02.webp"> {{% /col %}}
-{{% col 12 %}}{{< separator >}} <img src="ml-brand-renders-03.webp"> {{% /col %}}
+{{% col 12 %}}
+
+{{< image src="ml-brand-renders-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 12 %}}{{< separator >}}
+
+{{< image src="ml-brand-renders-03.webp" alt="" >}}
+
+{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
@@ -58,8 +77,16 @@ subtitle: "Brand"
 
 
 
-{{% col 6 %}}{{< separator >}} <img src="ml-brand-renders-04.webp"> {{% /col %}}
-{{% col 6 %}} <img src="ml-brand-renders-05.webp"> {{% /col %}}
+{{% col 6 %}}{{< separator >}}
+
+{{< image src="ml-brand-renders-04.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-renders-05.webp" alt="" >}}
+
+{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
@@ -67,16 +94,36 @@ subtitle: "Brand"
 
 
 
-{{% col 8 %}} <img src="ml-brand-typography-01.webp"> {{% /col %}}
+{{% col 8 %}}
+
+{{< image src="ml-brand-typography-01.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
 
-{{% col 4 %}} <img src="ml-brand-typography-02.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-brand-typography-03.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-brand-typography-06.webp"> {{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-typography-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-typography-03.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-typography-06.webp" alt="" >}}
+
+{{% /col %}}
 
 {{< col 5 empty >}}{{< /col >}}
-{{% col 7 %}} <img src="ml-brand-typography-07.webp"> {{% /col %}}
+{{% col 7 %}}
+
+{{< image src="ml-brand-typography-07.webp" alt="" >}}
+
+{{% /col %}}
 
 
 
@@ -84,16 +131,36 @@ subtitle: "Brand"
 
 
 
-{{% col 8 %}} <img src="ml-brand-color-01.webp"> {{% /col %}}
+{{% col 8 %}}
+
+{{< image src="ml-brand-color-01.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
 
-{{% col 4 %}} <img src="ml-brand-color-02.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-brand-color-03.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-brand-color-05.webp"> {{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-color-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-color-03.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-color-05.webp" alt="" >}}
+
+{{% /col %}}
 
 {{< col 6 empty >}}{{< /col >}}
-{{% col 6 %}} <img src="ml-brand-color-04.webp"> {{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-color-04.webp" alt="" >}}
+
+{{% /col %}}
 
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
@@ -101,59 +168,127 @@ subtitle: "Brand"
 
 
 
-{{% col 8 %}} <img src="ml-brand-information-01.webp"> {{% /col %}}
+{{% col 8 %}}
+
+{{< image src="ml-brand-information-01.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
 
-{{% col 4 %}} <img src="ml-brand-information-02.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-brand-information-03.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-brand-information-04.webp"> {{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-information-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-information-03.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-brand-information-04.webp" alt="" >}}
+
+{{% /col %}}
 
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
-{{% col 8 %}} <img src="ml-brand-illustration-01.webp"> {{% /col %}}
+{{% col 8 %}}
+
+{{< image src="ml-brand-illustration-01.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
 
-{{% col 6 %}} <img src="ml-brand-illustration-02.webp"> {{% /col %}}
-{{% col 6 %}} <img src="ml-brand-illustration-03.webp"> {{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-illustration-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-illustration-03.webp" alt="" >}}
+
+{{% /col %}}
 
 
 {{< col 5 empty >}}{{< /col >}}
-{{% col 7 %}} <img src="ml-brand-illustration-04.webp"> {{% /col %}}
+{{% col 7 %}}
+
+{{< image src="ml-brand-illustration-04.webp" alt="" >}}
+
+{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
 
-{{% col 8 %}} <img src="ml-brand-environments-01.webp"> {{% /col %}}
+{{% col 8 %}}
+
+{{< image src="ml-brand-environments-01.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
 
-{{% col 6 %}} <img src="ml-brand-environments-02.webp"> {{% /col %}}
-{{% col 6 %}} <img src="ml-brand-environments-03.webp"> {{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-environments-02.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-environments-03.webp" alt="" >}}
+
+{{% /col %}}
 
 
 {{< col 5 empty >}}{{< /col >}}
-{{% col 7 %}} <img src="ml-brand-environments-04.webp"> {{% /col %}}
+{{% col 7 %}}
+
+{{< image src="ml-brand-environments-04.webp" alt="" >}}
+
+{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
 
 
-{{% col 6 %}} <img src="ml-brand-photodesigners-01.webp"> {{% /col %}}
-{{% col 6 %}}{{< separator >}} <img src="ml-brand-photodesigners-02.webp"> {{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-photodesigners-01.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 6 %}}{{< separator >}}
+
+{{< image src="ml-brand-photodesigners-02.webp" alt="" >}}
+
+{{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
+
+
+
+
+<!-- {{% col 12 %}}
+{{< video h264="ml-brand-hub3.mp4" muted="true" >}}
+{{% /col %}}
+{{% col 12 %}}{{< separator >}}{{% /col %}} -->
 
 
 
 
 {{< col 6 empty >}}{{< /col >}}
-{{% col 6 %}} <img src="ml-brand-optics-01.webp"> {{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-brand-optics-01.webp" alt="" >}}
+
+{{% /col %}}
 
 
 
@@ -161,11 +296,19 @@ subtitle: "Brand"
 
 
 
-{{% col 8 %}} <img src="ml-brand-optics-02.webp"> {{% /col %}}
+{{% col 8 %}}
+
+{{< image src="ml-brand-optics-02.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
 {{< col 1 empty >}}{{< /col >}}
-{{% col 10 %}} <img src="ml-brand-optics-03.webp"> {{% /col %}}
+{{% col 10 %}}
+
+{{< image src="ml-brand-optics-03.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 

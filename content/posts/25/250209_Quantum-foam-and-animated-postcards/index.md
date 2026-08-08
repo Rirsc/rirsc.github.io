@@ -5,7 +5,8 @@ tags:
 - weekly
 ---
 
-![Muybridge](IMG20250207131943.webp)
+
+{{< image src="IMG20250207131943.webp" alt="Muybridge" >}}
 
 Someone has a problem with animated postcards. And flip-books. Or any other physical approach to bring pictures to life.
 

@@ -6,7 +6,8 @@ tags:
 - design
 ---
 
-![Mars After Midnight](mars-after-midnight.webp)
+
+{{< image src="mars-after-midnight.webp" alt="Mars After Midnight" >}}
 
 [Return of the Obra Dinn](https://obradinn.com/) is probably one of the best experiences I had ever have playing a videogame. The art style, the hard puzzles and all the secrets that the history hides. It was also nice cos I played this solo game with friends, so the experience was even cooler. **Nothing better than struggling with other brains.**
 

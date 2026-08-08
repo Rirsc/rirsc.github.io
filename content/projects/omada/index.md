@@ -13,27 +13,39 @@ subtitle: "Joint & Muscle Health App"
 
 
 {{% col 2 %}}
-<img src="omada app.webp">
+
+{{< image src="omada app.webp" alt="" >}}
+
 {{% /col %}}
 
 {{% col 2 %}}
-<img src="omada app 2.webp">
+
+{{< image src="omada app 2.webp" alt="" >}}
+
 {{% /col %}}
 
 {{% col 2 %}}
-<img src="omada app 3.webp">
+
+{{< image src="omada app 3.webp" alt="" >}}
+
 {{% /col %}}
 
 {{% col 2 %}}
-<img src="omada app 4.webp">
+
+{{< image src="omada app 4.webp" alt="" >}}
+
 {{% /col %}}
 
 {{% col 2 %}}
-<img src="omada app 5.webp">
+
+{{< image src="omada app 5.webp" alt="" >}}
+
 {{% /col %}}
 
 {{% col 2 %}}
-<img src="omada app 6.webp">
+
+{{< image src="omada app 6.webp" alt="" >}}
+
 {{% /col %}}
 
 
@@ -41,32 +53,50 @@ subtitle: "Joint & Muscle Health App"
 
 
 {{% col 4 %}}
-<img src="Physera_Male_09_Row_purple.gif">
+
+{{< image src="Physera_Male_09_Row_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Male_06_Lateral-walk_purple.gif">
+
+{{< image src="Physera_Male_06_Lateral-walk_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Male_00_Box-jump_purple.gif">
+
+{{< image src="Physera_Male_00_Box-jump_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Female_Single-leg-single-arm-plank_purple.gif">
+
+{{< image src="Physera_Female_Single-leg-single-arm-plank_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Female_04_Dipping-bird_purple.gif">
+
+{{< image src="Physera_Female_04_Dipping-bird_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Male_23_Dead-bug_purple.gif">
+
+{{< image src="Physera_Male_23_Dead-bug_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Male_48_Shoulder-pendulum_purple.gif">
+
+{{< image src="Physera_Male_48_Shoulder-pendulum_purple.gif" alt="" >}}
+
 {{% /col %}}
 
 {{% col 4 %}}
-<img src="Physera_Male_15_Supine-bridge_purple.gif">
+
+{{< image src="Physera_Male_15_Supine-bridge_purple.gif" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Physera_Male_27_Foam-Roll-Calf_purple.gif">
+
+{{< image src="Physera_Male_27_Foam-Roll-Calf_purple.gif" alt="" >}}
+
 {{% /col %}}
 
 

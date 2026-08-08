@@ -12,7 +12,11 @@ subtitle: "CES Feature Demo"
 {{% grid %}}
 
  {{< col 1 empty >}}{{< /col >}}
-{{% col 10 %}} <img src="ml-ces-featuredemo-01-02.webp"> {{% /col %}}
+{{% col 10 %}}
+
+{{< image src="ml-ces-featuredemo-01-02.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 1 empty >}}{{< /col >}} 
 
 
@@ -28,14 +32,34 @@ subtitle: "CES Feature Demo"
 
 
 
-{{% col 4 %}} <img src="ml-ces-featuredemo-03.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-ces-featuredemo-04.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-ces-featuredemo-05.webp"> {{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-ces-featuredemo-03.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-ces-featuredemo-04.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-ces-featuredemo-05.webp" alt="" >}}
+
+{{% /col %}}
 
 
 {{< col 2 empty >}}{{< /col >}}
-{{% col 4 %}} <img src="ml-ces-featuredemo-06.webp"> {{% /col %}}
-{{% col 4 %}} <img src="ml-ces-featuredemo-07.webp"> {{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-ces-featuredemo-06.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="ml-ces-featuredemo-07.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 
 
@@ -44,17 +68,49 @@ subtitle: "CES Feature Demo"
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 
-{{% col 6 %}} <img src="ml-ces-featuredemo-08.webp"> {{% /col %}}
-{{% col 6 %}} <img src="ml-ces-featuredemo-09.webp"> {{% /col %}}
+{{% col 6 %}}
 
-{{% col 6 %}} <img src="ml-ces-featuredemo-10.webp"> {{% /col %}}
-{{% col 6 %}} <img src="ml-ces-featuredemo-11.webp"> {{% /col %}} 
+{{< image src="ml-ces-featuredemo-08.webp" alt="" >}}
 
-<!-- {{% col 3 %}} <img src="ml-ces-featuredemo-08.webp"> {{% /col %}}
-{{% col 3 %}} <img src="ml-ces-featuredemo-09.webp"> {{% /col %}}
+{{% /col %}}
+{{% col 6 %}}
 
-{{% col 3 %}} <img src="ml-ces-featuredemo-10.webp"> {{% /col %}}
-{{% col 3 %}} <img src="ml-ces-featuredemo-11.webp"> {{% /col %}} -->
+{{< image src="ml-ces-featuredemo-09.webp" alt="" >}}
+
+{{% /col %}}
+
+{{% col 6 %}}
+
+{{< image src="ml-ces-featuredemo-10.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 6 %}}
+
+{{< image src="ml-ces-featuredemo-11.webp" alt="" >}}
+
+{{% /col %}} 
+
+<!-- {{% col 3 %}}
+
+{{< image src="ml-ces-featuredemo-08.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 3 %}}
+
+{{< image src="ml-ces-featuredemo-09.webp" alt="" >}}
+
+{{% /col %}}
+
+{{% col 3 %}}
+
+{{< image src="ml-ces-featuredemo-10.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 3 %}}
+
+{{< image src="ml-ces-featuredemo-11.webp" alt="" >}}
+
+{{% /col %}} -->
 
 
 {{% /grid %}}

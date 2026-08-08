@@ -6,7 +6,8 @@ tags:
 - music
 ---
 
-![CF comics](cf_comics.webp)
+
+{{< image src="cf_comics.webp" alt="CF comics" >}}
 
 Cool comic panels in this ArtReview text. [How CF Brought the Weird to Underground Comics](https://artreview.com/how-cf-brought-the-weird-to-underground-comics/)
 

@@ -49,7 +49,9 @@ draft: true
 
 ## 5. Images
 
-![alt text](<240522_picture and text.webp> "Optional title")
+
+{{< image src="240522_picture and text.webp" alt="alt text" >}}
+
 *This is the caption*
 
 ## 6. Blockquotes

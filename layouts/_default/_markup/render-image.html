@@ -1,11 +1,13 @@
-{{- $url := .Destination -}}
-{{- if or (hasPrefix $url "http") (hasPrefix $url "/") -}}
-  <img src="{{ $url | safeURL }}" alt="{{ .Text }}" loading="lazy" />
-{{- else -}}
-  {{- $res := .Page.Resources.GetMatch $url -}}
-  {{- if $res -}}
-    <img src="{{ $res.RelPermalink }}" alt="{{ .Text }}" loading="lazy" />
-  {{- else -}}
-    <img src="{{ $url | safeURL }}" alt="{{ .Text }}" loading="lazy" />
-  {{- end -}}
-{{- end -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{ if not $u.IsAbs }}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{ with or (.Page.Resources.GetMatch $path) (resources.GetMatch $path) }}
+    {{- $src = .RelPermalink -}}
+    <span class="img-placeholder"><img src="{{ $src }}"{{ if .Width }} width="{{ .Width }}"{{ end }}{{ if .Height }} height="{{ .Height }}"{{ end }}{{ with $.Text }} alt="{{ . }}"{{ end }}{{ with $.Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" onload="this.classList.add('loaded')" style="height: auto; max-width: 100%;" /></span>
+  {{ else }}
+    <span class="img-placeholder"><img src="{{ $src }}"{{ with $.Text }} alt="{{ . }}"{{ end }}{{ with $.Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" onload="this.classList.add('loaded')" style="height: auto; max-width: 100%;" /></span>
+  {{ end }}
+{{ else }}
+  <span class="img-placeholder"><img src="{{ $src }}"{{ with $.Text }} alt="{{ . }}"{{ end }}{{ with $.Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" onload="this.classList.add('loaded')" style="height: auto; max-width: 100%;" /></span>
+{{ end }}

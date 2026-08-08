@@ -22,7 +22,9 @@ subtitle: "3D Motion Essentials"
 
 
 {{% col 10 %}}
-<img src="Promotional-Video_Poster.webp">
+
+{{< image src="Promotional-Video_Poster.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 
@@ -30,20 +32,26 @@ subtitle: "3D Motion Essentials"
 
 {{< col 3 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="polygonal_B-1024x576.webp">
+
+{{< image src="polygonal_B-1024x576.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
 {{< col 2 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Promotional-Video_A.webp">
+
+{{< image src="Promotional-Video_A.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 
 
 {{% col 9 %}}
-<img src="Promotional-Video_C.webp">
+
+{{< image src="Promotional-Video_C.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 3 empty >}}{{< /col >}}
 

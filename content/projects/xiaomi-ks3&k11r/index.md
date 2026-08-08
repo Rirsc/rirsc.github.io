@@ -11,18 +11,20 @@ images:
 <p>Our focus centered on the mesmerizing interplay of slow, supercooled liquid movements, creating a dynamic and visually immersive experience that complements the sleek design and advanced features of Xiaomi's flagship devices.</p>
 {{% /project-text %}}
 
-
-
-![alt text](XIA_01.webp)
+{{< image src="XIA_01.webp" alt="alt text" >}}
 
 {{% grid %}}
 {{< col 1 empty >}}{{< /col >}}
 {{% col 5 %}}
-<img src="XIA_02.webp" alt="XIA 1">
+
+{{< image src="XIA_02.webp" alt="XIA 1" >}}
+
 {{% /col %}}
 {{% col 5 %}}
 {{< separator >}}
-<img src="XIA_03.webp" alt="XIA 2">
+
+{{< image src="XIA_03.webp" alt="XIA 2" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -31,11 +33,15 @@ images:
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 5 %}}
-<img src="XIA_04.webp" alt="XIA 4">
+
+{{< image src="XIA_04.webp" alt="XIA 4" >}}
+
 {{% /col %}}
 {{% col 5 %}}
 {{< separator >}}
-<img src="XIA_05.webp" alt="XIA 5">
+
+{{< image src="XIA_05.webp" alt="XIA 5" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -70,17 +76,23 @@ images:
 
 {{% col 6 %}}
 {{< separator >}}
-<img src="XIA_07.webp" alt="XIA 7">
+
+{{< image src="XIA_07.webp" alt="XIA 7" >}}
+
 {{% /col %}}
 {{% col 6 %}}
-<img src="XIA_06.webp" alt="XIA 6">
+
+{{< image src="XIA_06.webp" alt="XIA 6" >}}
+
 {{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="XIA_08.webp" alt="XIA 8">
+
+{{< image src="XIA_08.webp" alt="XIA 8" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
@@ -89,17 +101,23 @@ images:
 {{< col 1 empty >}}{{< /col >}}
 {{% col 5 %}}
 {{< separator >}}
-<img src="XIA_09.webp" alt="XIA 09">
+
+{{< image src="XIA_09.webp" alt="XIA 09" >}}
+
 {{% /col %}}
 {{% col 6 %}}
-<img src="XIA_10.webp" alt="XIA 10">
+
+{{< image src="XIA_10.webp" alt="XIA 10" >}}
+
 {{% /col %}}
 
 {{% col 12 %}}{{< separator >}}{{% /col %}}
 
 {{< col 2 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="XIA_12.webp" alt="XIA 12">
+
+{{< image src="XIA_12.webp" alt="XIA 12" >}}
+
 {{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 

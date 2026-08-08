@@ -2422,3 +2422,39 @@ img, video, .quote {
     border-radius: 4px;
 }
 
+/* Image Placeholder & Fade-in */
+.img-placeholder {
+    display: inline-block;
+    background-color: var(--default_hl_bg);
+    line-height: 0;
+    border-radius: 4px; /* match img border-radius */
+    overflow: hidden;
+}
+
+/* Video Placeholder & Fade-in */
+.video-placeholder {
+    display: block;
+    background-color: var(--default_hl_bg);
+    line-height: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.video-placeholder video {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    width: 100%;
+}
+
+.video-placeholder video.loaded {
+    opacity: 1;
+}
+
+.img-placeholder img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.img-placeholder img.loaded {
+    opacity: 1;
+}

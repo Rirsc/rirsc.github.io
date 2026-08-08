@@ -16,14 +16,23 @@ I’m an industrial design engineer with a focus on 3D digital and interactive w
 
 
 <!-- {{% grid %}}
-{{% col 4 %}} <img src="Rirsc-Pet.webp">
+{{% col 4 %}}
+
+{{< image src="Rirsc-Pet.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online</figcaption>
 {{% /col %}}
 
-{{% col 4 %}} <img src="Rirsc-LinkedIn.webp">
+{{% col 4 %}}
+
+{{< image src="Rirsc-LinkedIn.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen on LinkedIn</figcaption>
 {{% /col %}}
-{{% col 4 %}} <img src="Rirsc-Bluesky.webp">
+{{% col 4 %}}
+
+{{< image src="Rirsc-Bluesky.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">As seen online II</figcaption>
 {{% /col %}}
 {{% /grid %}} -->

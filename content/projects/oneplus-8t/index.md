@@ -16,94 +16,135 @@ subtitle: "Visual Language"
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="OP8T_Mockup-03_01_BlackBG_SG.webp">
+
+{{< image src="OP8T_Mockup-03_01_BlackBG_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="OP8T_Mockup-03_02_SG.webp">
+
+{{< image src="OP8T_Mockup-03_02_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
 {{% col 4 %}}
-<img src="OP8T_Mockup-02_05_SG.webp">
+
+{{< image src="OP8T_Mockup-02_05_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-02_04_BlackBG_SG.webp">
+
+{{< image src="OP8T_Mockup-02_04_BlackBG_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-02_01_SG.webp">
+
+{{< image src="OP8T_Mockup-02_01_SG.webp" alt="" >}}
+
 {{% /col %}}
 
 
-
-{{< col 1 empty >}}{{< /col >}}
-{{% col 10 %}}
-<img src="OP8T_Mockup-07_1800.webp">
-{{% /col %}}
-{{< col 1 empty >}}{{< /col >}}
-
-
-{{% col 3 %}}
-<img src="OP8T_Mockup-01_25_BlackBG_Squared_SG.webp">
-{{% /col %}}
-{{% col 3 %}}
-<img src="OP8T_Mockup-01_26_Squared.webp">
-{{% /col %}}
-{{% col 3 %}}
-<img src="OP8T_Mockup-01_27_Squared_SG.webp">
-{{% /col %}}
-{{% col 3 %}}
-<img src="OP8T_Mockup-01_24_BlackBG_Squared_SG.webp">
-{{% /col %}}
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="OP8T_Mockup-01_09_SG.webp">
+
+{{< image src="OP8T_Mockup-07_1800.webp" alt="" >}}
+
+{{% /col %}}
+{{< col 1 empty >}}{{< /col >}}
+
+
+{{% col 3 %}}
+
+{{< image src="OP8T_Mockup-01_25_BlackBG_Squared_SG.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 3 %}}
+
+{{< image src="OP8T_Mockup-01_26_Squared.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 3 %}}
+
+{{< image src="OP8T_Mockup-01_27_Squared_SG.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 3 %}}
+
+{{< image src="OP8T_Mockup-01_24_BlackBG_Squared_SG.webp" alt="" >}}
+
+{{% /col %}}
+
+{{< col 1 empty >}}{{< /col >}}
+{{% col 10 %}}
+
+{{< image src="OP8T_Mockup-01_09_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
 {{% col 4 %}}
-<img src="OP8T_Mockup-01_18_BlackBG_Squared_SG.webp">
+
+{{< image src="OP8T_Mockup-01_18_BlackBG_Squared_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-01_20_BlackBG_Squared_SG.webp">
+
+{{< image src="OP8T_Mockup-01_20_BlackBG_Squared_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-01_11_BlackBG_Squared_SG.webp">
+
+{{< image src="OP8T_Mockup-01_11_BlackBG_Squared_SG.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{< col 4 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="OP8T_Mockup-01_23_BlackBG_SG.webp">
+
+{{< image src="OP8T_Mockup-01_23_BlackBG_SG.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="OP8T_Mockup-01_06_Squared_SG.webp">{{% /col %}}
+
+{{< image src="OP8T_Mockup-01_06_Squared_SG.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 3 empty >}}{{< /col >}}
 
 
 {{< col 4 empty >}}{{< /col >}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-05_03.webp">
+
+{{< image src="OP8T_Mockup-05_03.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-05_02.webp">
+
+{{< image src="OP8T_Mockup-05_02.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{% col 4 %}}
-<img src="OP8T_Mockup-05_01.webp">
+
+{{< image src="OP8T_Mockup-05_01.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-05_04.webp">
+
+{{< image src="OP8T_Mockup-05_04.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 4 empty >}}{{< /col >}}
 
@@ -111,31 +152,45 @@ subtitle: "Visual Language"
 
 {{< col 3 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="OP8T_Mockup-01_05_Squared_SG.webp">{{% /col %}}
+
+{{< image src="OP8T_Mockup-01_05_Squared_SG.webp" alt="" >}}
+
+{{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
 
 {{% col 4 %}}
-<img src="OP8T_Mockup-01_14_BlackBG_640_SG.webp">{{% /col %}}
-{{% col 4 %}}
-<img src="OP8T_Mockup-01_15_BlackBG_640_SG.webp">
+
+{{< image src="OP8T_Mockup-01_14_BlackBG_640_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="OP8T_Mockup-01_21_BlackBG_640_SG.webp">
+
+{{< image src="OP8T_Mockup-01_15_BlackBG_640_SG.webp" alt="" >}}
+
+{{% /col %}}
+{{% col 4 %}}
+
+{{< image src="OP8T_Mockup-01_21_BlackBG_640_SG.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="OP8T_Mockup-01_10_BlackBG_SG.webp">
+
+{{< image src="OP8T_Mockup-01_10_BlackBG_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 
 
 {{< col 1 empty >}}{{< /col >}}
 {{% col 10 %}}
-<img src="OP8T_Mockup-01_19_BlackBG_SG.webp">
+
+{{< image src="OP8T_Mockup-01_19_BlackBG_SG.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 1 empty >}}{{< /col >}}
 

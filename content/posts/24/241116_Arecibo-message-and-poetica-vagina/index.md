@@ -7,7 +7,8 @@ tags:
 
 Fifty years ago, the Arecibo Message was sent—a human attempt to contact whatever might be out there, potentially listening in space. It consisted of numbers, formulas, and representations of ourselves, as well as a depiction of the telescope from which it was sent, located in Arecibo.
 
-![AreciboMessage](arecibo-message.webp)
+
+{{< image src="arecibo-message.webp" alt="AreciboMessage" >}}
 
 I love the idea and its aesthetics—I guess because it reminds me of my beloved [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) It makes me wonder: would it be possible to recreate that exact drawing from one of the initial configurations?
 

@@ -7,7 +7,8 @@ tags:
 - interview
 ---
 
-![A Field Guide to Roadside Wildflowers At Full Speed](A_Field_Guide_to_Roadside_Wildflowers_At_Full_Speed_framed.webp)
+
+{{< image src="A_Field_Guide_to_Roadside_Wildflowers_At_Full_Speed_framed.webp" alt="A Field Guide to Roadside Wildflowers At Full Speed" >}}
 
 [A Field Guide to Roadside Wildflowers At Full Speed](https://prairieecologist.com/wp-content/uploads/2020/01/a-field-guide-to-roadside-wildflowers-at-full-speed_january2020-1.pdf) one of my favorite fanzines I’ve ever seen *onlinebecauseIhaveneverseenoutthere.*
 

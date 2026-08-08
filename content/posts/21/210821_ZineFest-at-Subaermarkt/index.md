@@ -10,4 +10,5 @@ I visited for the first time this sweet fest at Subaemarkt where artists and ill
 
 This is my loot; a magazine, some cool illustrations and toon of stickers. I will definetily keep an eye on it for further editions.
 
-![ZineFest](IMG_20210821_191129.webp)
+
+{{< image src="IMG_20210821_191129.webp" alt="ZineFest" >}}

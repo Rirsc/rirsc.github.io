@@ -7,6 +7,7 @@ tags:
 - music
 ---
 
-![Clásicas y oscuras](clasicas_y_oscuras.webp)
+
+{{< image src="clasicas_y_oscuras.webp" alt="Clásicas y oscuras" >}}
 
 [*Clásicas y oscuras*](https://clasicasyoscuras.com/) is such an incredibly cool website with a collection of female characters in literature, cinema and music.

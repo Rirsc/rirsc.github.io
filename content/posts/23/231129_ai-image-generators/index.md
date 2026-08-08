@@ -75,11 +75,15 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 {{% /col %}}
 {{% col 6 %}}
-<img src="Fassbar_007-1024x1280.webp">
+
+{{< image src="Fassbar_007-1024x1280.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D renders)</figcaption>
 {{% /col %}}
 {{% col 6 %}}
-<img src="Blue-Spikes-01.webp">
+
+{{< image src="Blue-Spikes-01.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
 {{% /col %}}
 {{% /grid %}}
@@ -91,11 +95,15 @@ As I am writing these words, I will reduce and categorise the workflows I know i
 
 {{% grid %}}
 {{% col 6 %}}
-<img src="Sketches-Training-1024x1024.webp">
+
+{{< image src="Sketches-Training-1024x1024.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal sketches)</figcaption>
 {{% /col %}}
 {{% col 6 %}}
-<img src="Sketches-Training_Output.webp">
+
+{{< image src="Sketches-Training_Output.webp" alt="" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
 {{% /col %}}
 {{% /grid %}}
@@ -105,11 +113,15 @@ And another attempt, this time with some random 3D unused style frames I have:
 
 {{% grid %}}
 {{% col 6 %}}
-<img src="3D-Training-1024x1024.webp" alt="3D Training Image">
+
+{{< image src="3D-Training-1024x1024.webp" alt="3D Training Image" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Input (personal 3D Render)</figcaption>
 {{% /col %}}
 {{% col 6 %}}
-<img src="3D-Training_Output.webp" alt="3D Training Output">
+
+{{< image src="3D-Training_Output.webp" alt="3D Training Output" >}}
+
 <figcaption style="text-align: center; font-size: 0.875em; margin-top: 0.5em;">Output</figcaption>
 {{% /col %}}
 {{% /grid %}}
@@ -122,3 +134,4 @@ Definitely the most powerful approach as you can fine-tune and obtain exactly wh
 ## Don’t hate the tech
 
 So yeah, with all that said, please enjoy the imagery on this site. The vast majority has been done using 3D packages, but some have been generated with the help of AI models. So far only as a personal exploration and are only spread into the LAB section of this site.
+

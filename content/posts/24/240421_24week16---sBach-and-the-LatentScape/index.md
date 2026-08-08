@@ -21,4 +21,5 @@ I am also listening [Still House Plants](https://stillhouseplants.bandcamp.com/)
 
 I dont remember how I ended up in this [LantentScape](https://latentscape.com/#0,-10) nor that I care. Please explain me what its about.
 
-![LatentSpace](latentspace.webp)
+
+{{< image src="latentspace.webp" alt="LatentSpace" >}}

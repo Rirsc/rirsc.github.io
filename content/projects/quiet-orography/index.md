@@ -16,7 +16,9 @@ subtitle: "Visual Language"
 
 {{< col 2 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Quiet-orography_SiG_Cb.webp">
+
+{{< image src="Quiet-orography_SiG_Cb.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 
@@ -24,7 +26,9 @@ subtitle: "Visual Language"
 
 {{< col 2 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Quiet-orography_SiG_Ca-1.webp">
+
+{{< image src="Quiet-orography_SiG_Ca-1.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 
@@ -32,7 +36,9 @@ subtitle: "Visual Language"
 
 {{< col 2 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Quiet-orography_SiG_Cc.webp">
+
+{{< image src="Quiet-orography_SiG_Cc.webp" alt="" >}}
+
 {{% /col %}}
 {{< col 2 empty >}}{{< /col >}}
 

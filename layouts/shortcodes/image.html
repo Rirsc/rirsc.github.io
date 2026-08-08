@@ -1,0 +1,9 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $path := strings.TrimPrefix "./" $src -}}
+{{- with or (.Page.Resources.GetMatch $path) (resources.GetMatch $path) -}}
+  {{- $src = .RelPermalink -}}
+  <span class="img-placeholder"><img src="{{ $src }}"{{ if .Width }} width="{{ .Width }}"{{ end }}{{ if .Height }} height="{{ .Height }}"{{ end }}{{ if $alt }} alt="{{ $alt }}"{{ end }} loading="lazy" decoding="async" onload="this.classList.add('loaded')" style="height: auto; max-width: 100%;" /></span>
+{{- else -}}
+  <span class="img-placeholder"><img src="{{ $src }}"{{ if $alt }} alt="{{ $alt }}"{{ end }} loading="lazy" decoding="async" onload="this.classList.add('loaded')" style="height: auto; max-width: 100%;" /></span>
+{{- end -}}

@@ -19,10 +19,14 @@ As a contrast and complementation mutually, the content for the â€˜ambient modeâ
 
 {{% grid %}}
 {{% col 6 %}}
-<img src="Samsung_TheWall_003.webp">
+
+{{< image src="Samsung_TheWall_003.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 6 %}}
-<img src="Samsung_TheWall_004.webp">
+
+{{< image src="Samsung_TheWall_004.webp" alt="" >}}
+
 {{% /col %}}
 
 
@@ -31,32 +35,43 @@ As a contrast and complementation mutually, the content for the â€˜ambient modeâ
 {{% /col %}}
 
 {{% col 8 %}}
-<img src="Samsung_TheWall_007.webp">
+
+{{< image src="Samsung_TheWall_007.webp" alt="" >}}
+
 {{% /col %}}
 {{% col 4 %}}
-<img src="Samsung_TheWall_006.webp">
+
+{{< image src="Samsung_TheWall_006.webp" alt="" >}}
 
 {{% /col %}}
 
 
 {{% col 12 %}}
-<img src="Samsung_TheWall_008.webp">
+
+{{< image src="Samsung_TheWall_008.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{< col 4 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Samsung_TheWall_009.webp">
+
+{{< image src="Samsung_TheWall_009.webp" alt="" >}}
+
 {{% /col %}}
 
 
 {{% col 12 %}}
-<img src="Samsung_TheWall_011.webp">
+
+{{< image src="Samsung_TheWall_011.webp" alt="" >}}
+
 {{% /col %}}
 
 {{< col 4 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Samsung_TheWall_012.webp">
+
+{{< image src="Samsung_TheWall_012.webp" alt="" >}}
+
 {{% /col %}}
 
 {{< col 1 empty >}}{{< /col >}}
@@ -66,7 +81,9 @@ As a contrast and complementation mutually, the content for the â€˜ambient modeâ
 
 {{< col 4 empty >}}{{< /col >}}
 {{% col 8 %}}
-<img src="Samsung_TheWall_016.webp">
+
+{{< image src="Samsung_TheWall_016.webp" alt="" >}}
+
 {{% /col %}}
 
 
